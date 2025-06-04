@@ -1,0 +1,508 @@
+{
+  "uid" : "25c60cea8d840115",
+  "name" : "tc6413_editRemoveNoteOnCustomerProfile",
+  "title" : "Test6413_14",
+  "time" : {
+    "start" : 1554827560983,
+    "stop" : 1554827664016,
+    "duration" : 103033
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 31
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Customer Profile_Edit ,view and Remove Notes ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554827565530,
+      "stop" : 1554827565531,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554827566358,
+      "stop" : 1554827566359,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554827566851,
+      "stop" : 1554827566852,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554827593841,
+      "stop" : 1554827593842,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554827594357,
+      "stop" : 1554827594358,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1554827596833,
+      "stop" : 1554827596834,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554827597552,
+      "stop" : 1554827597554,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify , Notes, true, false]",
+    "title" : "verify  - Notes",
+    "time" : {
+      "start" : 1554827601681,
+      "stop" : 1554827601682,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on, Notes, true, false]",
+    "title" : "Click on - Notes",
+    "time" : {
+      "start" : 1554827603464,
+      "stop" : 1554827603465,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Active, true, false]",
+    "title" : "Verify Active",
+    "time" : {
+      "start" : 1554827609784,
+      "stop" : 1554827609787,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Deleted, true, false]",
+    "title" : "Verify Deleted",
+    "time" : {
+      "start" : 1554827610032,
+      "stop" : 1554827610033,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify All, true, false]",
+    "title" : "Verify All",
+    "time" : {
+      "start" : 1554827610308,
+      "stop" : 1554827610309,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on edit, true, false]",
+    "title" : "Click on edit",
+    "time" : {
+      "start" : 1554827610515,
+      "stop" : 1554827610516,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on edit, true, false]",
+    "title" : "Click on edit",
+    "time" : {
+      "start" : 1554827611119,
+      "stop" : 1554827611120,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Customer Note', true, false]",
+    "title" : "verify page header displayed as 'Customer Note'",
+    "time" : {
+      "start" : 1554827612107,
+      "stop" : 1554827612108,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Type Dropdown Displayed, true, false]",
+    "title" : "Verify Type Dropdown Displayed",
+    "time" : {
+      "start" : 1554827612354,
+      "stop" : 1554827612355,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Applications, true, false]",
+    "title" : "Verify Applications",
+    "time" : {
+      "start" : 1554827615633,
+      "stop" : 1554827615634,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify applicationInputBox Displayed, true, false]",
+    "title" : "Verify applicationInputBox Displayed",
+    "time" : {
+      "start" : 1554827615890,
+      "stop" : 1554827615892,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify GamingDate, true, false]",
+    "title" : "Verify GamingDate",
+    "time" : {
+      "start" : 1554827619135,
+      "stop" : 1554827619136,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Actual Date / Time, true, false]",
+    "title" : "Verify Actual Date / Time",
+    "time" : {
+      "start" : 1554827622364,
+      "stop" : 1554827622365,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Date Deleted, true, false]",
+    "title" : "Verify Date Deleted",
+    "time" : {
+      "start" : 1554827625590,
+      "stop" : 1554827625591,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Created At, true, false]",
+    "title" : "Verify Created At",
+    "time" : {
+      "start" : 1554827628825,
+      "stop" : 1554827628826,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Created By, true, false]",
+    "title" : "Verify Created By",
+    "time" : {
+      "start" : 1554827632049,
+      "stop" : 1554827632050,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Details, true, false]",
+    "title" : "Enter Details",
+    "time" : {
+      "start" : 1554827634341,
+      "stop" : 1554827634342,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click OK, true, false]",
+    "title" : "Click OK",
+    "time" : {
+      "start" : 1554827635045,
+      "stop" : 1554827635046,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify applicationInputBox Displayed, true, false]",
+    "title" : "Verify applicationInputBox Displayed",
+    "time" : {
+      "start" : 1554827651349,
+      "stop" : 1554827651350,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify , Delete, true, false]",
+    "title" : "Verify  - Delete",
+    "time" : {
+      "start" : 1554827651574,
+      "stop" : 1554827651575,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on , Delete, true, false]",
+    "title" : "Click on  - Delete",
+    "time" : {
+      "start" : 1554827652188,
+      "stop" : 1554827652189,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Deleted, true, false]",
+    "title" : "Verify Deleted",
+    "time" : {
+      "start" : 1554827662457,
+      "stop" : 1554827662458,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Deleted, true, false]",
+    "title" : "Verify Deleted",
+    "time" : {
+      "start" : 1554827663758,
+      "stop" : 1554827663759,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify , Undelete, true, false]",
+    "title" : "Verify  - Undelete",
+    "time" : {
+      "start" : 1554827664015,
+      "stop" : 1554827664016,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

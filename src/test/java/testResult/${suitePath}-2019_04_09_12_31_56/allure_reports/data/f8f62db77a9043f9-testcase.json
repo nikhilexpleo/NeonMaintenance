@@ -1,0 +1,265 @@
+{
+  "uid" : "f8f62db77a9043f9",
+  "name" : "verifyViewAddInterestsNPrefernces",
+  "title" : "Verify view add interests N prefernces",
+  "time" : {
+    "start" : 1554826424641,
+    "stop" : 1554826536250,
+    "duration" : 111609
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 15
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554826430245,
+      "stop" : 1554826430246,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554826431183,
+      "stop" : 1554826431185,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554826431745,
+      "stop" : 1554826431746,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554826451139,
+      "stop" : 1554826451140,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554826459739,
+      "stop" : 1554826459740,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1554826462331,
+      "stop" : 1554826462333,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554826463108,
+      "stop" : 1554826463109,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Action Button, true, false]",
+    "title" : "Click on Action Button",
+    "time" : {
+      "start" : 1554826471072,
+      "stop" : 1554826471073,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on InterestsNPreferncesTab, true, false]",
+    "title" : "Click on InterestsNPreferncesTab",
+    "time" : {
+      "start" : 1554826476914,
+      "stop" : 1554826476916,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554826478690,
+      "stop" : 1554826478691,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554826479427,
+      "stop" : 1554826479428,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554826524507,
+      "stop" : 1554826524508,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554826525184,
+      "stop" : 1554826525185,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554826529069,
+      "stop" : 1554826529070,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554826535713,
+      "stop" : 1554826535714,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

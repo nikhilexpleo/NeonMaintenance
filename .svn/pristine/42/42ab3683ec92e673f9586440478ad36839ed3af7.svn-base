@@ -1,0 +1,265 @@
+{
+  "uid" : "fd34036b41fd4075",
+  "name" : "viewGamingDetails",
+  "title" : "View gaming details",
+  "time" : {
+    "start" : 1554826936628,
+    "stop" : 1554827106711,
+    "duration" : 170083
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 15
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554826941276,
+      "stop" : 1554826941277,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554826942100,
+      "stop" : 1554826942101,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554826942567,
+      "stop" : 1554826942568,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554826961622,
+      "stop" : 1554826961624,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554826962160,
+      "stop" : 1554826962161,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1554826964284,
+      "stop" : 1554826964285,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554826964987,
+      "stop" : 1554826964988,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Collpased button , true, false]",
+    "title" : "Click on Collpased button ",
+    "time" : {
+      "start" : 1554826972101,
+      "stop" : 1554826972102,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Start date , true, false]",
+    "title" : "Click on Start date ",
+    "time" : {
+      "start" : 1554826972787,
+      "stop" : 1554826972788,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[set start date, true, false]",
+    "title" : "set start date",
+    "time" : {
+      "start" : 1554826973489,
+      "stop" : 1554826973491,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on find button , true, false]",
+    "title" : "Click on find button ",
+    "time" : {
+      "start" : 1554826974142,
+      "stop" : 1554826974143,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554827096457,
+      "stop" : 1554827096458,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554827097043,
+      "stop" : 1554827097044,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554827100835,
+      "stop" : 1554827100836,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554827106165,
+      "stop" : 1554827106168,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

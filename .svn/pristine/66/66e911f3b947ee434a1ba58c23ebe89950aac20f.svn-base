@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1530095519179" stop="1530095618974" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1530095520915" stop="1530095618936" status="passed">
+            <name>tc14231_filterEDDRecordsByComplete[Run1,{Loss Value=1, CustomerNumber=1955155548, Reason=Periodic Review, TestCaseID=TC14231}]</name>
+            <title>Test 14234</title>
+            <description type="text">Users should be able to filter EDD's on Complete</description>
+            <steps>
+                <step start="1530095528722" stop="1530095528734" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095529620" stop="1530095529622" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095536283" stop="1530095536289" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095595079" stop="1530095595081" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095596094" stop="1530095596097" status="passed">
+                    <name>logReporter[Click on dueDiligence tab, true, false]</name>
+                    <title>Click on dueDiligence tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597596" stop="1530095597599" status="passed">
+                    <name>logReporter[Verify 'Casino' display on page , true, false]</name>
+                    <title>Verify 'Casino' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597728" stop="1530095597730" status="passed">
+                    <name>logReporter[Verify 'Date Range' display on page , true, false]</name>
+                    <title>Verify 'Date Range' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597866" stop="1530095597872" status="passed">
+                    <name>logReporter[Verify 'From' display on page , true, false]</name>
+                    <title>Verify 'From' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598005" stop="1530095598007" status="passed">
+                    <name>logReporter[Verify 'To' display on page , true, false]</name>
+                    <title>Verify 'To' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598132" stop="1530095598136" status="passed">
+                    <name>logReporter[Verify 'Number' display on page , true, false]</name>
+                    <title>Verify 'Number' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598260" stop="1530095598262" status="passed">
+                    <name>logReporter[Verify 'State' display on page , true, false]</name>
+                    <title>Verify 'State' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598411" stop="1530095598413" status="passed">
+                    <name>logReporter[Verify 'Status' display on page , true, false]</name>
+                    <title>Verify 'Status' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598557" stop="1530095598559" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095599025" stop="1530095599027" status="passed">
+                    <name>logReporter[Click on Date Range dropdown , true, false]</name>
+                    <title>Click on Date Range dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095599742" stop="1530095599744" status="passed">
+                    <name>logReporter[Select DateRange, true, false]</name>
+                    <title>Select DateRange</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095600393" stop="1530095600395" status="passed">
+                    <name>logReporter[Click on statusFilter dropdown, true, false]</name>
+                    <title>Click on statusFilter dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095600928" stop="1530095600930" status="passed">
+                    <name>logReporter[Click on statusFilter dropdown, true, false]</name>
+                    <title>Click on statusFilter dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095601635" stop="1530095601637" status="passed">
+                    <name>logReporter[Click on filter button, true, false]</name>
+                    <title>Click on filter button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095604724" stop="1530095604726" status="passed">
+                    <name>logReporter[ verifyDueDiligenceFilterTableHeaders , true, false]</name>
+                    <title> verifyDueDiligenceFilterTableHeaders </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095618926" stop="1530095618931" status="passed">
+                    <name>logReporter[ Verify Results  , true, false]</name>
+                    <title> Verify Results  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9040@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1530095520915" stop="1530095618936" status="passed">
+            <name>tc14231_filterEDDRecordsByComplete[Run1,{Loss Value=1, CustomerNumber=1955155548, Reason=Periodic Review, TestCaseID=TC14231}]</name>
+            <title>Test 14234</title>
+            <description type="text">Users should be able to filter EDD's on Complete</description>
+            <steps>
+                <step start="1530095528722" stop="1530095528734" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095529620" stop="1530095529622" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095536283" stop="1530095536289" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095595079" stop="1530095595081" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095596094" stop="1530095596097" status="passed">
+                    <name>logReporter[Click on dueDiligence tab, true, false]</name>
+                    <title>Click on dueDiligence tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597596" stop="1530095597599" status="passed">
+                    <name>logReporter[Verify 'Casino' display on page , true, false]</name>
+                    <title>Verify 'Casino' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597728" stop="1530095597730" status="passed">
+                    <name>logReporter[Verify 'Date Range' display on page , true, false]</name>
+                    <title>Verify 'Date Range' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095597866" stop="1530095597872" status="passed">
+                    <name>logReporter[Verify 'From' display on page , true, false]</name>
+                    <title>Verify 'From' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598005" stop="1530095598007" status="passed">
+                    <name>logReporter[Verify 'To' display on page , true, false]</name>
+                    <title>Verify 'To' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598132" stop="1530095598136" status="passed">
+                    <name>logReporter[Verify 'Number' display on page , true, false]</name>
+                    <title>Verify 'Number' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598260" stop="1530095598262" status="passed">
+                    <name>logReporter[Verify 'State' display on page , true, false]</name>
+                    <title>Verify 'State' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598411" stop="1530095598413" status="passed">
+                    <name>logReporter[Verify 'Status' display on page , true, false]</name>
+                    <title>Verify 'Status' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095598557" stop="1530095598559" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095599025" stop="1530095599027" status="passed">
+                    <name>logReporter[Click on Date Range dropdown , true, false]</name>
+                    <title>Click on Date Range dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095599742" stop="1530095599744" status="passed">
+                    <name>logReporter[Select DateRange, true, false]</name>
+                    <title>Select DateRange</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095600393" stop="1530095600395" status="passed">
+                    <name>logReporter[Click on statusFilter dropdown, true, false]</name>
+                    <title>Click on statusFilter dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095600928" stop="1530095600930" status="passed">
+                    <name>logReporter[Click on statusFilter dropdown, true, false]</name>
+                    <title>Click on statusFilter dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095601635" stop="1530095601637" status="passed">
+                    <name>logReporter[Click on filter button, true, false]</name>
+                    <title>Click on filter button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095604724" stop="1530095604726" status="passed">
+                    <name>logReporter[ verifyDueDiligenceFilterTableHeaders , true, false]</name>
+                    <title> verifyDueDiligenceFilterTableHeaders </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530095618926" stop="1530095618931" status="passed">
+                    <name>logReporter[ Verify Results  , true, false]</name>
+                    <title> Verify Results  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9040@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

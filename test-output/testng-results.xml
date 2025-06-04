@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers Menu tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Action Button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify setPin button display]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on SetPin button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Name label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify CustomerName Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Number label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify CustomerNumber Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify PinNumber label]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify confirm PinNumber label]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Set PinNumber ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Set ConfirmPinNumber ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on save button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify error message displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on OK button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Set PinNumber ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Set ConfirmPinNumber ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on save button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115587" started-at="2023-11-29T16:14:03Z" finished-at="2023-11-29T16:15:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115587" started-at="2023-11-29T16:14:03Z" finished-at="2023-11-29T16:15:58Z">
+      <class name="com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber">
+        <test-method status="PASS" signature="setPinNumber()[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber@450f0235]" name="setPinNumber" duration-ms="115509" started-at="2023-11-29T21:44:03Z" finished-at="2023-11-29T21:45:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers Menu tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Action Button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify setPin button display]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on SetPin button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Name label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify CustomerName Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Number label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify CustomerNumber Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify PinNumber label]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify confirm PinNumber label]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Set PinNumber ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Set ConfirmPinNumber ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on save button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify error message displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on OK button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Set PinNumber ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Set ConfirmPinNumber ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on save button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setPinNumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber@450f0235]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-11-29T21:45:58Z" finished-at="2023-11-29T21:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

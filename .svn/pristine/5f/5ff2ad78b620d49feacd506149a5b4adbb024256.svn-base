@@ -1,0 +1,1159 @@
+<h2>Reporter output</h2><table><tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Credit Accounts form Credit</td></tr>
+<tr><td>Step >> Click on Create New</td></tr>
+<tr><td>Step >> Enter Acc Number</td></tr>
+<tr><td>Step >> Click on LowerLimit </td></tr>
+<tr><td>Step >> Verify Date of birth display</td></tr>
+<tr><td>Step >> Click on LowerLimit</td></tr>
+<tr><td>Step >> Enter Lower Limit</td></tr>
+<tr><td>Step >> Enter Upper Limit</td></tr>
+<tr><td>Step >> Click on  save</td></tr>
+<tr><td>Step >> Select manager from the list </td></tr>
+<tr><td>Step >> Click on OK</td></tr>
+<tr><td>Step >> Verify successfull message display</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Debit Card Menu </td></tr>
+<tr><td>Step >> Click on Add Debit Card </td></tr>
+<tr><td>Step >> Enter First two letters of Surname and Last 4 digit of Debit card</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Label displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Debit Card Menu </td></tr>
+<tr><td>Step >> Click on Add Debit Card </td></tr>
+<tr><td>Step >> Enter First two letters of Surname and Last 4 digit of Debit card</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Label displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Manual radioButton</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> verify same card button </td></tr>
+<tr><td>Step >> click on same card button </td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on view Debit card menu </td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find </td></tr>
+<tr><td>Step >> verify view debit card screen displayed </td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Cheque Menu</td></tr>
+<tr><td>Step >> Click on Add Cheque </td></tr>
+<tr><td>Step >> Enter Bank Acc Number</td></tr>
+<tr><td>Step >> Select cheque type</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Select clearance type</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Global Cash </td></tr>
+<tr><td>Step >> Click on Add Global Cash </td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on view Global Cash </td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find </td></tr>
+<tr><td>Step >> verify details </td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on Void </td></tr>
+<tr><td>Step >> Verify voidConfirmationMsg displayed</td></tr>
+<tr><td>Step >> Click on yes </td></tr>
+<tr><td>Step >> Verify voidSuccessMsg displayed</td></tr>
+<tr><td>Step >> Click on ok </td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on view Global Cash </td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find </td></tr>
+<tr><td>Step >> verify details </td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on CreditDetailsTab</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on Delete Tab</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Click Groupwide radiobutton </td></tr>
+<tr><td>Step >> verify Reception ApplicationCheckBox </td></tr>
+<tr><td>Step >> Click Reception ApplicationCheckBox </td></tr>
+<tr><td>Step >> Enter details'</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click on customer Profile_MessageTab</td></tr>
+<tr><td>Step >> Click on Customer tab</td></tr>
+<tr><td>Step >> Click on Reception tab</td></tr>
+<tr><td>Step >> Enter CustomerNumber</td></tr>
+<tr><td>Step >> Click on Delete</td></tr>
+<tr><td>Step >> Click on cancel</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> verify page header displayed as 'Customer Message'</td></tr>
+<tr><td>Step >> verify Local radiobutton </td></tr>
+<tr><td>Step >> verify Groupwide radiobutton </td></tr>
+<tr><td>Step >> verify page header displayed as 'Reception'</td></tr>
+<tr><td>Step >> verify page header displayed as 'Table Manager'</td></tr>
+<tr><td>Step >> verify page header displayed as 'Neon Touch (Inbox)'</td></tr>
+<tr><td>Step >> verify page header displayed as 'Managers App'</td></tr>
+<tr><td>Step >> verify page header displayed as 'Cash Desk'</td></tr>
+<tr><td>Step >> verify Reception ApplicationCheckBox </td></tr>
+<tr><td>Step >> Click Reception ApplicationCheckBox </td></tr>
+<tr><td>Step >> Enter details'</td></tr>
+<tr><td>Step >> Click OK</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on view Tab</td></tr>
+<tr><td>Step >> Click on Balance Tab</td></tr>
+<tr><td>Step >> Click on view button</td></tr>
+<tr><td>Step >> select float type </td></tr>
+<tr><td>Step >> Click on view button</td></tr>
+<tr><td>Step >> Enter quantity </td></tr>
+<tr><td>Step >> Click on save button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on view Tab</td></tr>
+<tr><td>Step >> Click on Balance Tab</td></tr>
+<tr><td>Step >> Click on RefreshBalance Button </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Cash Desk  tab</td></tr>
+<tr><td>Step >> Click on Deposit tab</td></tr>
+<tr><td>Step >> Click on Deposit On tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on ok btn</td></tr>
+<tr><td>Step >> Click on amount textbox</td></tr>
+<tr><td>Step >> Click on amount textbox</td></tr>
+<tr><td>Step >> Enter amount</td></tr>
+<tr><td>Step >> Enter comment</td></tr>
+<tr><td>Step >> Click on cashCheckbox</td></tr>
+<tr><td>Step >> Click on Save btn</td></tr>
+<tr><td>Step >>  click on yesBtn</td></tr>
+<tr><td>Step >> Click on ok btn</td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on Cash Desk  tab</td></tr>
+<tr><td>Step >> Click on Deposit tab</td></tr>
+<tr><td>Step >> Click on Cash Desk  tab</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customer tab</td></tr>
+<tr><td>Step >> Click on Reception tab</td></tr>
+<tr><td>Step >> Enter CustomerNumber</td></tr>
+<tr><td>Step >> Click on ok btn</td></tr>
+<tr><td>Step >> Click on Cancel button</td></tr>
+<tr><td>Step >> Click onNo</td></tr>
+<tr><td>Step >> Enter CustomerNumber</td></tr>
+<tr><td>Step >> Click on ok btn</td></tr>
+<tr><td>Step >> Enter Reference </td></tr>
+<tr><td>Step >> Enter details</td></tr>
+<tr><td>Step >> Click on 'Commit' button</td></tr>
+<tr><td>Step >> Click onYes</td></tr>
+<tr><td>Step >> Click on findInputBox</td></tr>
+<tr><td>Step >> Enter surName</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> select sub account</td></tr>
+<tr><td>Step >> Verify Account type dispalyed as SUNDRY INCOME</td></tr>
+<tr><td>Step >> Enter Amount Number</td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on Yes</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> verify New Button </td></tr>
+<tr><td>Step >> Click on New </td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> select sub account</td></tr>
+<tr><td>Step >> Verify Account type dispalyed as SUNDRY INCOME</td></tr>
+<tr><td>Step >> Enter Amount Number</td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on Yes</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> verify New Button </td></tr>
+<tr><td>Step >> Click on New </td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> select sub account</td></tr>
+<tr><td>Step >> Enter Amount Number</td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on Yes</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> verify New Button </td></tr>
+<tr><td>Step >> Click on New </td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> select sub account</td></tr>
+<tr><td>Step >> Enter Amount Number</td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on Yes</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> verify New Button </td></tr>
+<tr><td>Step >> Click on New </td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> select table</td></tr>
+<tr><td>Step >> Enter quantity </td></tr>
+<tr><td>Step >> Enter quantity </td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on yes Btn</td></tr>
+<tr><td>Step >> Click on ok button </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on transaction Tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> select table</td></tr>
+<tr><td>Step >> Enter Amount Number</td></tr>
+<tr><td>Step >> Enter Comment Number</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Click on Ok</td></tr>
+<tr><td>Step >> Verify New button present</td></tr>
+<tr><td>Step >> Click on New</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top navigation Table Accounting</td></tr>
+<tr><td>Step >> Click on Top navigation Table fill</td></tr>
+<tr><td>Step >> Select  table</td></tr>
+<tr><td>Step >> Select Asset</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on Top navigation Table Accounting</td></tr>
+<tr><td>Step >> Click on Top navigation Table Credit</td></tr>
+<tr><td>Step >> Select  table</td></tr>
+<tr><td>Step >> Select Asset</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Nav Customers</td></tr>
+<tr><td>Step >> Click on Top Intelligent database</td></tr>
+<tr><td>Step >> Select type</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on Address</td></tr>
+<tr><td>Step >> Click on Audit</td></tr>
+<tr><td>Step >> Click on identification</td></tr>
+<tr><td>Step >> Click on Images</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top nav Machines</td></tr>
+<tr><td>Step >> Click on Machines</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Verify Machine label displayed</td></tr>
+<tr><td>Step >> Verify Location label displayed</td></tr>
+<tr><td>Step >> Verify Game label displayed</td></tr>
+<tr><td>Step >> Verify status label displayed</td></tr>
+<tr><td>Step >> Verify MoneyAcceptors label displayed</td></tr>
+<tr><td>Step >> Verify OtherDetails displayed</td></tr>
+<tr><td>Step >> Verify CustomFields label displayed</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on view tab</td></tr>
+<tr><td>Step >> Click on Balance Menu</td></tr>
+<tr><td>Step >> Click on View Button on balance Page</td></tr>
+<tr><td>Step >> Click on collpse button </td></tr>
+<tr><td>Step >> Click on DateRange dropdown </td></tr>
+<tr><td>Step >> select This Calendar Quarter option </td></tr>
+<tr><td>Step >> Click on find button </td></tr>
+<tr><td>Step >> Click on View Button on balance Page</td></tr>
+<tr><td>Step >> verify gaming date label presence</td></tr>
+<tr><td>Step >> verify Transaction Type label presence</td></tr>
+<tr><td>Step >> verify Account label presence</td></tr>
+<tr><td>Step >> verify  ActualDateTime label presence</td></tr>
+<tr><td>Step >> verify status label presence</td></tr>
+<tr><td>Step >> verify Reference label presence</td></tr>
+<tr><td>Step >> verify OtherDetails label presence</td></tr>
+<tr><td>Step >> verify Asset label presence</td></tr>
+<tr><td>Step >> verify Quantity label presence</td></tr>
+<tr><td>Step >> verify Value label presence</td></tr>
+<tr><td>Step >> Click on ok Button on balance Page</td></tr>
+<tr><td>Step >> Click on closeBtn</td></tr>
+<tr><td>Step >> Click on view tab</td></tr>
+<tr><td>Step >> Click on Balance Menu</td></tr>
+<tr><td>Step >> Click on View Button on balance Page</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on view tab</td></tr>
+<tr><td>Step >> Click on Balance Menu</td></tr>
+<tr><td>Step >> Verify View Balance text</td></tr>
+<tr><td>Step >> Verify Refresh button displayed</td></tr>
+<tr><td>Step >> Verify View Details text</td></tr>
+<tr><td>Step >> Verify  Opening section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  opening balance amount displayed  for the cash</td></tr>
+<tr><td>Step >> Verify  Opening section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  opening balance amount displayed  for the chips</td></tr>
+<tr><td>Step >> Verify  Opening section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  opening balance amount displayed  for the cash</td></tr>
+<tr><td>Step >> Verify  Opening section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  opening balance amount displayed  for the credit</td></tr>
+<tr><td>Step >> Verify  Transcation section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions cash section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions balance amount displayed  for the cash</td></tr>
+<tr><td>Step >> Verify  Transactions chips section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions balance amount displayed  for the chips</td></tr>
+<tr><td>Step >> Verify  Transactions Table section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions balance amount displayed  for the Table</td></tr>
+<tr><td>Step >> Verify  Transactions Machine section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions balance amount displayed  for the Machine </td></tr>
+<tr><td>Step >> Verify  Transactions Tips section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Transactions balance amount displayed  for the Tips</td></tr>
+<tr><td>Step >> Verify  Closing Section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Closing  balance amount displayed  for the cash</td></tr>
+<tr><td>Step >> Verify  Closing  balance amount displayed  for the chips</td></tr>
+<tr><td>Step >> Verify  Closing Section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Closing  balance amount displayed  for the ForeignCurrency</td></tr>
+<tr><td>Step >> Verify  Closing Section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  Closing  balance amount displayed  for the Credit</td></tr>
+<tr><td>Step >> Verify  Summary Section is present on Balance details page</td></tr>
+<tr><td>Step >> Verify  status Section is present on Balance details page</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on view tab</td></tr>
+<tr><td>Step >> Click on view-Transactions </td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on View Button on balance Page</td></tr>
+<tr><td>Step >> Click on Void Button on details Page</td></tr>
+<tr><td>Step >> Click on Void - No Button on details Page</td></tr>
+<tr><td>Step >> Click on Void Button on details Page</td></tr>
+<tr><td>Step >> Click on Void - Yes Button on details Page</td></tr>
+<tr><td>Step >> Click on Void - OK Button on details Page</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on top Third Party Account form Credit</td></tr>
+<tr><td>Step >> Click on Create New</td></tr>
+<tr><td>Step >> Enter Acc Number</td></tr>
+<tr><td>Step >> Enter Acc Name</td></tr>
+<tr><td>Step >> Enter Bank Number</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on top Third Party Account form Credit</td></tr>
+<tr><td>Step >> Enter Acc number to find</td></tr>
+<tr><td>Step >> Click on Find Details</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on sidebar transaction</td></tr>
+<tr><td>Step >> Click on Poker Voucher ON</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Add comment</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on yesButton</td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on Poker Voucher OFF</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Add comment</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Click on yesButton</td></tr>
+<tr><td>Step >> Click on 'x' </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on sidebar transaction</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Select sub-Account</td></tr>
+<tr><td>Step >> Enter amount</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on yesButton</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_payWinners</td></tr>
+<tr><td>Step >> Click on cashDesk_payWinners Issue Cheque</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on okButton</td></tr>
+<tr><td>Step >> Enter Cheque number</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_payWinners Issue Cheque</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on okButton</td></tr>
+<tr><td>Step >> Enter Cheque number</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Click on Replacement chequebox</td></tr>
+<tr><td>Step >> Enter Cheque number</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_payWinners Issue Cheque</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on okButton</td></tr>
+<tr><td>Step >> Enter Cheque number</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_payWinners Redeem Chque</td></tr>
+<tr><td>Step >> Enter Cheque number</td></tr>
+<tr><td>Step >> Click on okButton</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on Currency Transaction</td></tr>
+<tr><td>Step >> Click on Exchange Travellers Cheque</td></tr>
+<tr><td>Step >> Enter Name</td></tr>
+<tr><td>Step >> Select currency type</td></tr>
+<tr><td>Step >> Enter Foreign Value</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on Authorization</td></tr>
+<tr><td>Step >> Select record to confirm</td></tr>
+<tr><td>Step >> Click on Confirm</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on Alerts</td></tr>
+<tr><td>Step >> Select clearance type</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customer tab</td></tr>
+<tr><td>Step >> Click on dueDiligence tab</td></tr>
+<tr><td>Step >> Click on stateFilter dropdown</td></tr>
+<tr><td>Step >> Click on casino dropdown</td></tr>
+<tr><td>Step >> Click on casino dropdown</td></tr>
+<tr><td>Step >> Click on filter button</td></tr>
+<tr><td>Step >> Click on Details Button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customer tab</td></tr>
+<tr><td>Step >> Click on dueDiligence tab</td></tr>
+<tr><td>Step >> Click on stateFilter dropdown</td></tr>
+<tr><td>Step >> Click on casino dropdown</td></tr>
+<tr><td>Step >> Click on casino dropdown</td></tr>
+<tr><td>Step >> Click on filter button</td></tr>
+<tr><td>Step >> Click on Details Button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Select suspension type as Suspended</td></tr>
+<tr><td>Step >> Set Expiry date</td></tr>
+<tr><td>Step >> Enter Notes</td></tr>
+<tr><td>Step >> Enter Message</td></tr>
+<tr><td>Step >> Click on commit </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Select suspension type as Suspended</td></tr>
+<tr><td>Step >> Set Expiry date</td></tr>
+<tr><td>Step >> Enter Notes</td></tr>
+<tr><td>Step >> Enter Message</td></tr>
+<tr><td>Step >> Click on commit </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> search Customer Number '1955208459'</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> search Customer Number '1955208459'</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Select Customer Type </td></tr>
+<tr><td>Step >> Set Customer Number </td></tr>
+<tr><td>Step >> Select Associate Type</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click on customer Profile_AssociatesTab</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Select Customer Type </td></tr>
+<tr><td>Step >> Set Customer Number </td></tr>
+<tr><td>Step >> Select Associate Type</td></tr>
+<tr><td>Step >> Enter Comment</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click on customer Profile_AssociatesTab</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on issue card</td></tr>
+<tr><td>Step >> Click on Lost card</td></tr>
+<tr><td>Step >> Enter New Card Number</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on issue card</td></tr>
+<tr><td>Step >> Click on Replacement Card</td></tr>
+<tr><td>Step >> Enter New Card Number</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on InterestsNPreferncesTab</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top nav player tracking</td></tr>
+<tr><td>Step >> Click on Hospitality transaction entry</td></tr>
+<tr><td>Step >> Select Authority</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Collpased button </td></tr>
+<tr><td>Step >> Click on Start date </td></tr>
+<tr><td>Step >> set start date</td></tr>
+<tr><td>Step >> Click on find button </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Collpased button </td></tr>
+<tr><td>Step >> Click on Start date </td></tr>
+<tr><td>Step >> set start date</td></tr>
+<tr><td>Step >> Click on find button </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Verify 'Due Diligence'</td></tr>
+<tr><td>Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Due Diligence')]'</td></tr>
+<tr><td>Step >>  verifyDueDiligenceFilterTableHeaders </td></tr>
+<tr><td>Step >> Click on Add button</td></tr>
+<tr><td>Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display</td></tr>
+<tr><td>Step >> Verify 'Reason For Creation' display on page </td></tr>
+<tr><td>Step >> Verify 'Reason' display on page </td></tr>
+<tr><td>Step >> Verify 'Loss Value' display on page </td></tr>
+<tr><td>Step >> Click on reson for dropdown </td></tr>
+<tr><td>Step >> Verify option 'Black Card Customer' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Periodic Review' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Other' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Third Party Information / C6' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Select reason</td></tr>
+<tr><td>Step >> Enter Reason</td></tr>
+<tr><td>Step >> Enter Loss value</td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >> loss value displayed correctly</td></tr>
+<tr><td>Step >> Set Business Relationship StartDate</td></tr>
+<tr><td>Step >> Enter Occupation</td></tr>
+<tr><td>Step >> Enter Position held</td></tr>
+<tr><td>Step >> Enter Employer details</td></tr>
+<tr><td>Step >> Enter Business Address</td></tr>
+<tr><td>Step >> Enter Property Market Value</td></tr>
+<tr><td>Step >> Select PropertyType</td></tr>
+<tr><td>Step >> Enter source of funds</td></tr>
+<tr><td>Step >> Enter source of information</td></tr>
+<tr><td>Step >> Enter Evidence to support source of funds</td></tr>
+<tr><td>Step >>  verify Conversation Table Headers </td></tr>
+<tr><td>Step >> Click on Add Attachment Button</td></tr>
+<tr><td>Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display</td></tr>
+<tr><td>Step >> Verify 'Type' display on page </td></tr>
+<tr><td>Step >> Verify 'File Name' display on page </td></tr>
+<tr><td>Step >> Click on type dropdown </td></tr>
+<tr><td>Step >> Verify option 'Document' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Image' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'Media File' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Verify option 'URL' display in Reason for creation dropdown</td></tr>
+<tr><td>Step >> Select Type as Image</td></tr>
+<tr><td>Step >> Enter Description</td></tr>
+<tr><td>Step >> Click on Browse Button </td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >>  verify NextStepHeaders </td></tr>
+<tr><td>Step >> Click on AddNextStep button</td></tr>
+<tr><td>Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Next Step')]' display</td></tr>
+<tr><td>Step >> Verify 'Next Step' display on page </td></tr>
+<tr><td>Step >> Verify 'Casino' display on page </td></tr>
+<tr><td>Step >> Verify 'As At Date' display on page </td></tr>
+<tr><td>Step >> Enter Next Step details</td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >>  verify Conversation Table Headers </td></tr>
+<tr><td>Step >> Click on AddConversation button</td></tr>
+<tr><td>Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Conversation')]' display</td></tr>
+<tr><td>Step >> Verify 'User' display on page </td></tr>
+<tr><td>Step >> Verify 'Casino' display on page </td></tr>
+<tr><td>Step >> Verify 'As At Date' display on page </td></tr>
+<tr><td>Step >> Enter RecordOfConversation details</td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >> Click on Save button</td></tr>
+<tr><td>Step >> Verify 'This record has been saved successfully.' display  </td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on dueDiligence tab</td></tr>
+<tr><td>Step >> Enter Number</td></tr>
+<tr><td>Step >> Click on stateFilter dropdown</td></tr>
+<tr><td>Step >> Click on stateFilter dropdown</td></tr>
+<tr><td>Step >> Click on filter button</td></tr>
+<tr><td>Step >> Verify AddOutCome button</td></tr>
+<tr><td>Step >> Click on AddOutCome button</td></tr>
+<tr><td>Step >> Select Reason For Review</td></tr>
+<tr><td>Step >> Select decision as 'End Relationship' </td></tr>
+<tr><td>Step >> Enter Rationale for decision details</td></tr>
+<tr><td>Step >> Select customer RiskAssessment </td></tr>
+<tr><td>Step >> Click on Save button</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Click on Ok button</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> verify || Input Value : Notes</td></tr>
+<tr><td>Step >> Click on|| Input Value : Notes</td></tr>
+<tr><td>Step >> Verify Active</td></tr>
+<tr><td>Step >> Verify Deleted</td></tr>
+<tr><td>Step >> Verify All</td></tr>
+<tr><td>Step >> Verify applicationInputBox Displayed</td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> verify page header displayed as 'Customer Note'</td></tr>
+<tr><td>Step >> Verify Type Dropdown Displayed</td></tr>
+<tr><td>Step >> Verify Applications</td></tr>
+<tr><td>Step >> Verify applicationInputBox Displayed</td></tr>
+<tr><td>Step >> Verify GamingDate</td></tr>
+<tr><td>Step >> Verify Actual Date / Time</td></tr>
+<tr><td>Step >> Verify Date Deleted</td></tr>
+<tr><td>Step >> Verify Created At</td></tr>
+<tr><td>Step >> Verify Created By</td></tr>
+<tr><td>Step >> Enter Details</td></tr>
+<tr><td>Step >> Click OK</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Click OK</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> verify || Input Value : Notes</td></tr>
+<tr><td>Step >> Click on|| Input Value : Notes</td></tr>
+<tr><td>Step >> Verify Active</td></tr>
+<tr><td>Step >> Verify Deleted</td></tr>
+<tr><td>Step >> Verify All</td></tr>
+<tr><td>Step >> Click on edit</td></tr>
+<tr><td>Step >> Click on edit</td></tr>
+<tr><td>Step >> verify page header displayed as 'Customer Note'</td></tr>
+<tr><td>Step >> Verify Type Dropdown Displayed</td></tr>
+<tr><td>Step >> Verify Applications</td></tr>
+<tr><td>Step >> Verify applicationInputBox Displayed</td></tr>
+<tr><td>Step >> Verify GamingDate</td></tr>
+<tr><td>Step >> Verify Actual Date / Time</td></tr>
+<tr><td>Step >> Verify Date Deleted</td></tr>
+<tr><td>Step >> Verify Created At</td></tr>
+<tr><td>Step >> Verify Created By</td></tr>
+<tr><td>Step >> Enter Details</td></tr>
+<tr><td>Step >> Click OK</td></tr>
+<tr><td>Step >> Verify applicationInputBox Displayed</td></tr>
+<tr><td>Step >> Verify || Input Value : Delete</td></tr>
+<tr><td>Step >> Click on || Input Value : Delete</td></tr>
+<tr><td>Step >> Verify Deleted</td></tr>
+<tr><td>Step >> Verify Deleted</td></tr>
+<tr><td>Step >> Verify || Input Value : Undelete</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation customers</td></tr>
+<tr><td>Step >> Click on Top Navigation customers > Customres</td></tr>
+<tr><td>Step >> Enter Customer NuMber</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Click on Identifications</td></tr>
+<tr><td>Step >> Click on Remove Address</td></tr>
+<tr><td>Step >> Click on Add </td></tr>
+<tr><td>Step >> Enter Reference</td></tr>
+<tr><td>Step >> Select type</td></tr>
+<tr><td>Step >> Enter IssueDate</td></tr>
+<tr><td>Step >> Enter Expiry Date</td></tr>
+<tr><td>Step >> Enter Details</td></tr>
+<tr><td>Step >> Click on Save Address</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation customers</td></tr>
+<tr><td>Step >> Click on Top Navigation customers > Customres</td></tr>
+<tr><td>Step >> Enter Customer NuMber</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Click on Addresses</td></tr>
+<tr><td>Step >> Click on Remove Address</td></tr>
+<tr><td>Step >> Click on Add Address</td></tr>
+<tr><td>Step >> Enter Street</td></tr>
+<tr><td>Step >> Enter Postcode</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on Save Address</td></tr>
+<tr><td>Step >> Click on Save Address</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation customers</td></tr>
+<tr><td>Step >> Click on Top Navigation customers > Customres</td></tr>
+<tr><td>Step >> Enter Customer NuMber</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Click on All transactions</td></tr>
+<tr><td>Step >> Click on Expand</td></tr>
+<tr><td>Step >> Select Duration</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on currency Transactions</td></tr>
+<tr><td>Step >> Click on exchange currency Transactions</td></tr>
+<tr><td>Step >> Enter Name</td></tr>
+<tr><td>Step >> Select currency type</td></tr>
+<tr><td>Step >> Enter foreign Value</td></tr>
+<tr><td>Step >> Click on save</td></tr>
+<tr><td>Step >> Click on View</td></tr>
+<tr><td>Step >> Click on currency Transactions</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on currency Transactions</td></tr>
+<tr><td>Step >> Click on redeem currency Transactions</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify Customer Number label displayed</td></tr>
+<tr><td>Step >> Enter number</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Staus label displayed</td></tr>
+<tr><td>Step >> Verify Staus Value displayed</td></tr>
+<tr><td>Step >> Verify Currency label displayed</td></tr>
+<tr><td>Step >> Verify Currency Value displayed</td></tr>
+<tr><td>Step >> Verify Original Foreign Value label displayed</td></tr>
+<tr><td>Step >> Verify Original Foreign Value Value displayed</td></tr>
+<tr><td>Step >> Verify ExchangeRate label displayed</td></tr>
+<tr><td>Step >> Verify Exchange Rate Value displayed</td></tr>
+<tr><td>Step >> Verify Payment Amount label displayed</td></tr>
+<tr><td>Step >> Verify Payment Amount Value displayed</td></tr>
+<tr><td>Step >> Verify Foreign Already Redeemed label displayed</td></tr>
+<tr><td>Step >> Verify Foreign Already Redeemed Value displayed</td></tr>
+<tr><td>Step >> Verify Already Redeemed label displayed</td></tr>
+<tr><td>Step >> Verify Already Redeemed Value displayed</td></tr>
+<tr><td>Step >> Enter foreign currency to redeem</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_currencyRate</td></tr>
+<tr><td>Step >> Click on cashDesk_currencyRate_importRates</td></tr>
+<tr><td>Step >> Verify message display as  </td></tr>
+<tr><td>Step >> Click on apply rates</td></tr>
+<tr><td>Step >> Verify message display as  </td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top Navigation Cash Desk</td></tr>
+<tr><td>Step >> Click on cashDesk_currencyRate</td></tr>
+<tr><td>Step >> Click on cashDesk_currencyRate_importRates</td></tr>
+<tr><td>Step >> Verify message display as  </td></tr>
+<tr><td>Step >> Click on apply rates</td></tr>
+<tr><td>Step >> Verify message display as  </td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> verify setPin button display</td></tr>
+<tr><td>Step >> Click on SetPin button</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number label displayed</td></tr>
+<tr><td>Step >> Verify CustomerNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Customer DOB label displayed</td></tr>
+<tr><td>Step >> Verify Customer DOB Value displayed</td></tr>
+<tr><td>Step >> verify PinNumber label</td></tr>
+<tr><td>Step >> verify confirm PinNumber label</td></tr>
+<tr><td>Step >> Set PinNumber </td></tr>
+<tr><td>Step >> Set ConfirmPinNumber </td></tr>
+<tr><td>Step >> Click on save button</td></tr>
+<tr><td>Step >> verify error message displayed</td></tr>
+<tr><td>Step >> Click on OK button</td></tr>
+<tr><td>Step >> Set PinNumber </td></tr>
+<tr><td>Step >> Set ConfirmPinNumber </td></tr>
+<tr><td>Step >> Click on save button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Top navigation Table Accounting</td></tr>
+<tr><td>Step >> Click on tableDevices</td></tr>
+<tr><td>Step >> Click on findBtn </td></tr>
+<tr><td>Step >> verify device details</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+</table>

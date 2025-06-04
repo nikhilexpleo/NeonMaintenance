@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1528200223058" stop="1528200313038" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1528200223294" stop="1528200313008" status="passed">
+            <name>AddViewDeleteMessage</name>
+            <steps>
+                <step start="1528200231714" stop="1528200231750" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200232379" stop="1528200232381" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200232775" stop="1528200232777" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200251553" stop="1528200251555" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200252930" stop="1528200252932" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200256222" stop="1528200256224" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200257296" stop="1528200257298" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200267235" stop="1528200267237" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="1148@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528200223294" stop="1528200313008" status="passed">
+            <name>AddViewDeleteMessage</name>
+            <steps>
+                <step start="1528200231714" stop="1528200231750" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200232379" stop="1528200232381" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200232775" stop="1528200232777" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200251553" stop="1528200251555" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200252930" stop="1528200252932" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200256222" stop="1528200256224" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200257296" stop="1528200257298" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528200267235" stop="1528200267237" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="1148@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

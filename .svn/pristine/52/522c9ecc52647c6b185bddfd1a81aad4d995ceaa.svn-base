@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529951494095" stop="1529951635687" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529951496420" stop="1529951635464" status="passed">
+            <name>tc14252_createIncidentAsPositiveAssessments[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155546, Authorised User=Gadekar, TestCaseID=TC14252}]</name>
+            <title>Test 14242</title>
+            <description type="text"> Ensure an Incident can be created as a Positive Assessments </description>
+            <steps>
+                <step start="1529951526810" stop="1529951526860" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951527793" stop="1529951527795" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951548400" stop="1529951548402" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951567927" stop="1529951567930" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951572803" stop="1529951572805" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951576200" stop="1529951576202" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951577473" stop="1529951577475" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951584017" stop="1529951584019" status="passed">
+                    <name>logReporter[Verify 'Incidents', true, false]</name>
+                    <title>Verify 'Incidents'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951584470" stop="1529951584473" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951592475" stop="1529951612950" status="passed">
+                    <name>createIncident[Positive Assessment]</name>
+                    <title>Create incident</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529951593282" stop="1529951593284" status="passed">
+                            <name>logReporter[Click on customerProfile_Incident_AddButton , true, false]</name>
+                            <title>Click on customerProfile_Incident_AddButton </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951593863" stop="1529951593865" status="passed">
+                            <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display, true, fal...]</name>
+                            <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951593996" stop="1529951593998" status="passed">
+                            <name>logReporter[Verify 'Group' display on page , true, false]</name>
+                            <title>Verify 'Group' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951594704" stop="1529951594706" status="passed">
+                            <name>logReporter[Click on Group dropdown , true, false]</name>
+                            <title>Click on Group dropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951594889" stop="1529951594891" status="passed">
+                            <name>logReporter[Verify 'Datafix' display on page , true, false]</name>
+                            <title>Verify 'Datafix' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951595131" stop="1529951595133" status="passed">
+                            <name>logReporter[Verify 'Machines' display on page , true, false]</name>
+                            <title>Verify 'Machines' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951595840" stop="1529951595842" status="passed">
+                            <name>logReporter[Select Group as Responsible Gambling, true, false]</name>
+                            <title>Select Group as Responsible Gambling</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596423" stop="1529951596425" status="passed">
+                            <name>logReporter[Verify 'Enforced Exclusion' display on page , true, false]</name>
+                            <title>Verify 'Enforced Exclusion' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596597" stop="1529951596599" status="passed">
+                            <name>logReporter[Verify 'Positive Assessment' display on page , true, false]</name>
+                            <title>Verify 'Positive Assessment' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596829" stop="1529951596831" status="passed">
+                            <name>logReporter[Verify 'Problem Gambling Conversation' display on page , true, false]</name>
+                            <title>Verify 'Problem Gambling Conversation' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597040" stop="1529951597044" status="passed">
+                            <name>logReporter[Verify 'Problem Gambling Reinstatement Request' display on page , true, false]</name>
+                            <title>Verify 'Problem Gambling Reinstatement Request' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597222" stop="1529951597224" status="passed">
+                            <name>logReporter[Verify 'Self Exclusion' display on page , true, false]</name>
+                            <title>Verify 'Self Exclusion' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597401" stop="1529951597403" status="passed">
+                            <name>logReporter[Verify 'xTEST RG Checklist' display on page , true, false]</name>
+                            <title>Verify 'xTEST RG Checklist' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951604227" stop="1529951604229" status="passed">
+                            <name>logReporter[Select Group as Responsible Gambling, true, false]</name>
+                            <title>Select Group as Responsible Gambling</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951608554" stop="1529951608560" status="passed">
+                            <name>logReporter[Click on Ok button, true, false]</name>
+                            <title>Click on Ok button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951612945" stop="1529951612950" status="passed">
+                            <name>logReporter[Verify Incident header display on page , true, false]</name>
+                            <title>Verify Incident header display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529951613199" stop="1529951613201" status="passed">
+                    <name>logReporter[Verify 'Associated Incidents', true, false]</name>
+                    <title>Verify 'Associated Incidents'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613464" stop="1529951613466" status="passed">
+                    <name>logReporter[Verify 'Audit', true, false]</name>
+                    <title>Verify 'Audit'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613713" stop="1529951613715" status="passed">
+                    <name>logReporter[Verify 'Evidence', true, false]</name>
+                    <title>Verify 'Evidence'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613972" stop="1529951613974" status="passed">
+                    <name>logReporter[Verify 'Incident Number' display on page , true, false]</name>
+                    <title>Verify 'Incident Number' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614272" stop="1529951614274" status="passed">
+                    <name>logReporter[Verify 'Actual Date / Time' display on page , true, false]</name>
+                    <title>Verify 'Actual Date / Time' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614499" stop="1529951614502" status="passed">
+                    <name>logReporter[Verify 'Gaming Date' display on page , true, false]</name>
+                    <title>Verify 'Gaming Date' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614797" stop="1529951614799" status="passed">
+                    <name>logReporter[Verify 'Category' display on page , true, false]</name>
+                    <title>Verify 'Category' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951615025" stop="1529951615027" status="passed">
+                    <name>logReporter[Verify 'Status' display on page , true, false]</name>
+                    <title>Verify 'Status' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951615244" stop="1529951615246" status="passed">
+                    <name>logReporter[Verify 'Date Closed' display on page , true, false]</name>
+                    <title>Verify 'Date Closed' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951616342" stop="1529951616344" status="passed">
+                    <name>logReporter[Click on Casino dropdown , true, false]</name>
+                    <title>Click on Casino dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617292" stop="1529951617294" status="passed">
+                    <name>logReporter[Select Casino as '_SAW 1', true, false]</name>
+                    <title>Select Casino as '_SAW 1'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617503" stop="1529951617505" status="passed">
+                    <name>logReporter[Verify 'Details' display on page , true, false]</name>
+                    <title>Verify 'Details' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617644" stop="1529951617647" status="passed">
+                    <name>logReporter[Verify 'Notes' display on page , true, false]</name>
+                    <title>Verify 'Notes' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620147" stop="1529951620149" status="passed">
+                    <name>logReporter[Enter notes  , true, false]</name>
+                    <title>Enter notes  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620517" stop="1529951620519" status="passed">
+                    <name>logReporter[Verify 'User' display on page , true, false]</name>
+                    <title>Verify 'User' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620790" stop="1529951620792" status="passed">
+                    <name>logReporter[Verify 'Participants' display on page , true, false]</name>
+                    <title>Verify 'Participants' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951623641" stop="1529951623644" status="passed">
+                    <name>logReporter[Verify participant table headers  , true, false]</name>
+                    <title>Verify participant table headers  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951625644" stop="1529951625646" status="passed">
+                    <name>logReporter[Verify content dispaly in table against column , true, false]</name>
+                    <title>Verify content dispaly in table against column </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951625960" stop="1529951625962" status="passed">
+                    <name>logReporter[Verify 'Additional Info' display on page , true, false]</name>
+                    <title>Verify 'Additional Info' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951626195" stop="1529951626197" status="passed">
+                    <name>logReporter[Verify 'Action Taken' display on page , true, false]</name>
+                    <title>Verify 'Action Taken' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627075" stop="1529951627078" status="passed">
+                    <name>logReporter[Click on Action Taken , true, false]</name>
+                    <title>Click on Action Taken </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627398" stop="1529951627405" status="passed">
+                    <name>logReporter[Verify 'Commence Monitoring' display on page , true, false]</name>
+                    <title>Verify 'Commence Monitoring' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627615" stop="1529951627617" status="passed">
+                    <name>logReporter[Verify 'Continue to Monitor' display on page , true, false]</name>
+                    <title>Verify 'Continue to Monitor' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627902" stop="1529951627905" status="passed">
+                    <name>logReporter[Verify 'Held Conversation' display on page , true, false]</name>
+                    <title>Verify 'Held Conversation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951628158" stop="1529951628160" status="passed">
+                    <name>logReporter[Verify 'No Action as no Gambling Concerns Identified' display on page , true, false]</name>
+                    <title>Verify 'No Action as no Gambling Concerns Identified' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951629069" stop="1529951629071" status="passed">
+                    <name>logReporter[Select Commence Monitoring , true, false]</name>
+                    <title>Select Commence Monitoring </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951629323" stop="1529951629325" status="passed">
+                    <name>logReporter[Verify 'Player Type' display on page , true, false]</name>
+                    <title>Verify 'Player Type' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630263" stop="1529951630265" status="passed">
+                    <name>logReporter[Click on incident_playerTypeDropdown , true, false]</name>
+                    <title>Click on incident_playerTypeDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630606" stop="1529951630607" status="passed">
+                    <name>logReporter[Verify 'Electronic Gaming' display on page , true, false]</name>
+                    <title>Verify 'Electronic Gaming' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630857" stop="1529951630859" status="passed">
+                    <name>logReporter[Verify 'Poker Room' display on page , true, false]</name>
+                    <title>Verify 'Poker Room' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631152" stop="1529951631153" status="passed">
+                    <name>logReporter[Verify 'Slot Machines' display on page , true, false]</name>
+                    <title>Verify 'Slot Machines' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631389" stop="1529951631391" status="passed">
+                    <name>logReporter[Verify 'Tables' display on page , true, false]</name>
+                    <title>Verify 'Tables' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631611" stop="1529951631615" status="passed">
+                    <name>logReporter[Verify 'Unspecified/Other' display on page , true, false]</name>
+                    <title>Verify 'Unspecified/Other' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951632503" stop="1529951632505" status="passed">
+                    <name>logReporter[Select Unspecified/Other , true, false]</name>
+                    <title>Select Unspecified/Other </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951632841" stop="1529951632843" status="passed">
+                    <name>logReporter[Verify 'Risk Rating' display on page , true, false]</name>
+                    <title>Verify 'Risk Rating' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951633717" stop="1529951633719" status="passed">
+                    <name>logReporter[Click on incident_RiskRatingDropdown , true, false]</name>
+                    <title>Click on incident_RiskRatingDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634088" stop="1529951634090" status="passed">
+                    <name>logReporter[Verify 'High' display on page , true, false]</name>
+                    <title>Verify 'High' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634318" stop="1529951634320" status="passed">
+                    <name>logReporter[Verify 'Low' display on page , true, false]</name>
+                    <title>Verify 'Low' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634585" stop="1529951634586" status="passed">
+                    <name>logReporter[Verify 'Medium' display on page , true, false]</name>
+                    <title>Verify 'Medium' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951635458" stop="1529951635460" status="passed">
+                    <name>logReporter[Select Unspecified/Other , true, false]</name>
+                    <title>Select Unspecified/Other </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9348@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529951496420" stop="1529951635464" status="passed">
+            <name>tc14252_createIncidentAsPositiveAssessments[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155546, Authorised User=Gadekar, TestCaseID=TC14252}]</name>
+            <title>Test 14242</title>
+            <description type="text"> Ensure an Incident can be created as a Positive Assessments </description>
+            <steps>
+                <step start="1529951526810" stop="1529951526860" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951527793" stop="1529951527795" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951548400" stop="1529951548402" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951567927" stop="1529951567930" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951572803" stop="1529951572805" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951576200" stop="1529951576202" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951577473" stop="1529951577475" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951584017" stop="1529951584019" status="passed">
+                    <name>logReporter[Verify 'Incidents', true, false]</name>
+                    <title>Verify 'Incidents'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951584470" stop="1529951584473" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951592475" stop="1529951612950" status="passed">
+                    <name>createIncident[Positive Assessment]</name>
+                    <title>Create incident</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529951593282" stop="1529951593284" status="passed">
+                            <name>logReporter[Click on customerProfile_Incident_AddButton , true, false]</name>
+                            <title>Click on customerProfile_Incident_AddButton </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951593863" stop="1529951593865" status="passed">
+                            <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display, true, fal...]</name>
+                            <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951593996" stop="1529951593998" status="passed">
+                            <name>logReporter[Verify 'Group' display on page , true, false]</name>
+                            <title>Verify 'Group' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951594704" stop="1529951594706" status="passed">
+                            <name>logReporter[Click on Group dropdown , true, false]</name>
+                            <title>Click on Group dropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951594889" stop="1529951594891" status="passed">
+                            <name>logReporter[Verify 'Datafix' display on page , true, false]</name>
+                            <title>Verify 'Datafix' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951595131" stop="1529951595133" status="passed">
+                            <name>logReporter[Verify 'Machines' display on page , true, false]</name>
+                            <title>Verify 'Machines' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951595840" stop="1529951595842" status="passed">
+                            <name>logReporter[Select Group as Responsible Gambling, true, false]</name>
+                            <title>Select Group as Responsible Gambling</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596423" stop="1529951596425" status="passed">
+                            <name>logReporter[Verify 'Enforced Exclusion' display on page , true, false]</name>
+                            <title>Verify 'Enforced Exclusion' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596597" stop="1529951596599" status="passed">
+                            <name>logReporter[Verify 'Positive Assessment' display on page , true, false]</name>
+                            <title>Verify 'Positive Assessment' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951596829" stop="1529951596831" status="passed">
+                            <name>logReporter[Verify 'Problem Gambling Conversation' display on page , true, false]</name>
+                            <title>Verify 'Problem Gambling Conversation' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597040" stop="1529951597044" status="passed">
+                            <name>logReporter[Verify 'Problem Gambling Reinstatement Request' display on page , true, false]</name>
+                            <title>Verify 'Problem Gambling Reinstatement Request' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597222" stop="1529951597224" status="passed">
+                            <name>logReporter[Verify 'Self Exclusion' display on page , true, false]</name>
+                            <title>Verify 'Self Exclusion' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951597401" stop="1529951597403" status="passed">
+                            <name>logReporter[Verify 'xTEST RG Checklist' display on page , true, false]</name>
+                            <title>Verify 'xTEST RG Checklist' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951604227" stop="1529951604229" status="passed">
+                            <name>logReporter[Select Group as Responsible Gambling, true, false]</name>
+                            <title>Select Group as Responsible Gambling</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951608554" stop="1529951608560" status="passed">
+                            <name>logReporter[Click on Ok button, true, false]</name>
+                            <title>Click on Ok button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529951612945" stop="1529951612950" status="passed">
+                            <name>logReporter[Verify Incident header display on page , true, false]</name>
+                            <title>Verify Incident header display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529951613199" stop="1529951613201" status="passed">
+                    <name>logReporter[Verify 'Associated Incidents', true, false]</name>
+                    <title>Verify 'Associated Incidents'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613464" stop="1529951613466" status="passed">
+                    <name>logReporter[Verify 'Audit', true, false]</name>
+                    <title>Verify 'Audit'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613713" stop="1529951613715" status="passed">
+                    <name>logReporter[Verify 'Evidence', true, false]</name>
+                    <title>Verify 'Evidence'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951613972" stop="1529951613974" status="passed">
+                    <name>logReporter[Verify 'Incident Number' display on page , true, false]</name>
+                    <title>Verify 'Incident Number' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614272" stop="1529951614274" status="passed">
+                    <name>logReporter[Verify 'Actual Date / Time' display on page , true, false]</name>
+                    <title>Verify 'Actual Date / Time' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614499" stop="1529951614502" status="passed">
+                    <name>logReporter[Verify 'Gaming Date' display on page , true, false]</name>
+                    <title>Verify 'Gaming Date' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951614797" stop="1529951614799" status="passed">
+                    <name>logReporter[Verify 'Category' display on page , true, false]</name>
+                    <title>Verify 'Category' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951615025" stop="1529951615027" status="passed">
+                    <name>logReporter[Verify 'Status' display on page , true, false]</name>
+                    <title>Verify 'Status' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951615244" stop="1529951615246" status="passed">
+                    <name>logReporter[Verify 'Date Closed' display on page , true, false]</name>
+                    <title>Verify 'Date Closed' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951616342" stop="1529951616344" status="passed">
+                    <name>logReporter[Click on Casino dropdown , true, false]</name>
+                    <title>Click on Casino dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617292" stop="1529951617294" status="passed">
+                    <name>logReporter[Select Casino as '_SAW 1', true, false]</name>
+                    <title>Select Casino as '_SAW 1'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617503" stop="1529951617505" status="passed">
+                    <name>logReporter[Verify 'Details' display on page , true, false]</name>
+                    <title>Verify 'Details' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951617644" stop="1529951617647" status="passed">
+                    <name>logReporter[Verify 'Notes' display on page , true, false]</name>
+                    <title>Verify 'Notes' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620147" stop="1529951620149" status="passed">
+                    <name>logReporter[Enter notes  , true, false]</name>
+                    <title>Enter notes  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620517" stop="1529951620519" status="passed">
+                    <name>logReporter[Verify 'User' display on page , true, false]</name>
+                    <title>Verify 'User' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951620790" stop="1529951620792" status="passed">
+                    <name>logReporter[Verify 'Participants' display on page , true, false]</name>
+                    <title>Verify 'Participants' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951623641" stop="1529951623644" status="passed">
+                    <name>logReporter[Verify participant table headers  , true, false]</name>
+                    <title>Verify participant table headers  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951625644" stop="1529951625646" status="passed">
+                    <name>logReporter[Verify content dispaly in table against column , true, false]</name>
+                    <title>Verify content dispaly in table against column </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951625960" stop="1529951625962" status="passed">
+                    <name>logReporter[Verify 'Additional Info' display on page , true, false]</name>
+                    <title>Verify 'Additional Info' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951626195" stop="1529951626197" status="passed">
+                    <name>logReporter[Verify 'Action Taken' display on page , true, false]</name>
+                    <title>Verify 'Action Taken' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627075" stop="1529951627078" status="passed">
+                    <name>logReporter[Click on Action Taken , true, false]</name>
+                    <title>Click on Action Taken </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627398" stop="1529951627405" status="passed">
+                    <name>logReporter[Verify 'Commence Monitoring' display on page , true, false]</name>
+                    <title>Verify 'Commence Monitoring' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627615" stop="1529951627617" status="passed">
+                    <name>logReporter[Verify 'Continue to Monitor' display on page , true, false]</name>
+                    <title>Verify 'Continue to Monitor' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951627902" stop="1529951627905" status="passed">
+                    <name>logReporter[Verify 'Held Conversation' display on page , true, false]</name>
+                    <title>Verify 'Held Conversation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951628158" stop="1529951628160" status="passed">
+                    <name>logReporter[Verify 'No Action as no Gambling Concerns Identified' display on page , true, false]</name>
+                    <title>Verify 'No Action as no Gambling Concerns Identified' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951629069" stop="1529951629071" status="passed">
+                    <name>logReporter[Select Commence Monitoring , true, false]</name>
+                    <title>Select Commence Monitoring </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951629323" stop="1529951629325" status="passed">
+                    <name>logReporter[Verify 'Player Type' display on page , true, false]</name>
+                    <title>Verify 'Player Type' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630263" stop="1529951630265" status="passed">
+                    <name>logReporter[Click on incident_playerTypeDropdown , true, false]</name>
+                    <title>Click on incident_playerTypeDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630606" stop="1529951630607" status="passed">
+                    <name>logReporter[Verify 'Electronic Gaming' display on page , true, false]</name>
+                    <title>Verify 'Electronic Gaming' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951630857" stop="1529951630859" status="passed">
+                    <name>logReporter[Verify 'Poker Room' display on page , true, false]</name>
+                    <title>Verify 'Poker Room' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631152" stop="1529951631153" status="passed">
+                    <name>logReporter[Verify 'Slot Machines' display on page , true, false]</name>
+                    <title>Verify 'Slot Machines' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631389" stop="1529951631391" status="passed">
+                    <name>logReporter[Verify 'Tables' display on page , true, false]</name>
+                    <title>Verify 'Tables' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951631611" stop="1529951631615" status="passed">
+                    <name>logReporter[Verify 'Unspecified/Other' display on page , true, false]</name>
+                    <title>Verify 'Unspecified/Other' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951632503" stop="1529951632505" status="passed">
+                    <name>logReporter[Select Unspecified/Other , true, false]</name>
+                    <title>Select Unspecified/Other </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951632841" stop="1529951632843" status="passed">
+                    <name>logReporter[Verify 'Risk Rating' display on page , true, false]</name>
+                    <title>Verify 'Risk Rating' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951633717" stop="1529951633719" status="passed">
+                    <name>logReporter[Click on incident_RiskRatingDropdown , true, false]</name>
+                    <title>Click on incident_RiskRatingDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634088" stop="1529951634090" status="passed">
+                    <name>logReporter[Verify 'High' display on page , true, false]</name>
+                    <title>Verify 'High' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634318" stop="1529951634320" status="passed">
+                    <name>logReporter[Verify 'Low' display on page , true, false]</name>
+                    <title>Verify 'Low' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951634585" stop="1529951634586" status="passed">
+                    <name>logReporter[Verify 'Medium' display on page , true, false]</name>
+                    <title>Verify 'Medium' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529951635458" stop="1529951635460" status="passed">
+                    <name>logReporter[Select Unspecified/Other , true, false]</name>
+                    <title>Select Unspecified/Other </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9348@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

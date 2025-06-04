@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1530011858430" stop="1530011943384" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1530011860043" stop="1530011941888" status="broken">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, Loss Value=1, CustomerNumber=1955155541, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14250</title>
+            <description type="text">Verify an EDD changes to Awaiting Approval when user doesn’t have correct authorisation limit </description>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn-primary btn-secured'][contains(.,'Details')] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'D90D3CQ1', ip: '192.168.156.51', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37630/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 573b707d-9f50-4ec7-9c1a-03809f0808d8</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn-primary btn-secured'][contains(.,'Details')] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'D90D3CQ1', ip: '192.168.156.51', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37630/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 573b707d-9f50-4ec7-9c1a-03809f0808d8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
+	at com.pageFactory.desktopReception.customerProfile_AddViewDueDiligence_PF.ClickOnDetailsButton(customerProfile_AddViewDueDiligence_PF.java:472)
+	at com.scripts.EDD.TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.tc14250_VerifyAnEDDChangesToAwaitingApproval(TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1530011866135" stop="1530011891278" status="passed">
+                    <name>login[SQSEDD, RankGroup02]</name>
+                    <title>Login to Neon</title>
+                    <steps>
+                        <step start="1530011867275" stop="1530011867285" status="passed">
+                            <name>logReporter[Enter username, true, false]</name>
+                            <title>Enter username</title>
+                        </step>
+                        <step start="1530011867902" stop="1530011867904" status="passed">
+                            <name>logReporter[Enter password, true, false]</name>
+                            <title>Enter password</title>
+                        </step>
+                        <step start="1530011873712" stop="1530011873717" status="passed">
+                            <name>logReporter[Click on signBtn, true, false]</name>
+                            <title>Click on signBtn</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530011891694" stop="1530011891696" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                </step>
+                <step start="1530011895237" stop="1530011895240" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                </step>
+                <step start="1530011898011" stop="1530011898013" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                </step>
+                <step start="1530011898814" stop="1530011898816" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                </step>
+                <step start="1530011903540" stop="1530011903542" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                </step>
+                <step start="1530011903727" stop="1530011903729" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7588@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1530011860043" stop="1530011941888" status="broken">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, Loss Value=1, CustomerNumber=1955155541, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14250</title>
+            <description type="text">Verify an EDD changes to Awaiting Approval when user doesn’t have correct authorisation limit </description>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn-primary btn-secured'][contains(.,'Details')] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'D90D3CQ1', ip: '192.168.156.51', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37630/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 573b707d-9f50-4ec7-9c1a-03809f0808d8</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class='btn-primary btn-secured'][contains(.,'Details')] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'D90D3CQ1', ip: '192.168.156.51', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37630/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 573b707d-9f50-4ec7-9c1a-03809f0808d8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
+	at com.pageFactory.desktopReception.customerProfile_AddViewDueDiligence_PF.ClickOnDetailsButton(customerProfile_AddViewDueDiligence_PF.java:472)
+	at com.scripts.EDD.TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.tc14250_VerifyAnEDDChangesToAwaitingApproval(TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1530011866135" stop="1530011891278" status="passed">
+                    <name>login[SQSEDD, RankGroup02]</name>
+                    <title>Login to Neon</title>
+                    <steps>
+                        <step start="1530011867275" stop="1530011867285" status="passed">
+                            <name>logReporter[Enter username, true, false]</name>
+                            <title>Enter username</title>
+                        </step>
+                        <step start="1530011867902" stop="1530011867904" status="passed">
+                            <name>logReporter[Enter password, true, false]</name>
+                            <title>Enter password</title>
+                        </step>
+                        <step start="1530011873712" stop="1530011873717" status="passed">
+                            <name>logReporter[Click on signBtn, true, false]</name>
+                            <title>Click on signBtn</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530011891694" stop="1530011891696" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                </step>
+                <step start="1530011895237" stop="1530011895240" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                </step>
+                <step start="1530011898011" stop="1530011898013" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                </step>
+                <step start="1530011898814" stop="1530011898816" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                </step>
+                <step start="1530011903540" stop="1530011903542" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                </step>
+                <step start="1530011903727" stop="1530011903729" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7588@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

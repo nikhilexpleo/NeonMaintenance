@@ -1,0 +1,523 @@
+{
+  "uid" : "10636b02c2ad3910",
+  "name" : "tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955217037, Authorised User=Gadekar, TestCaseID=TC14252}]",
+  "title" : "Test 14252",
+  "time" : {
+    "start" : 1554791174115,
+    "stop" : 1554791261886,
+    "duration" : 87771
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 32
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Verify a customer can be set to Groupwide Barred - Behaviour ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554791192012,
+      "stop" : 1554791192022,
+      "duration" : 10
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554791192800,
+      "stop" : 1554791192801,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554791193284,
+      "stop" : 1554791193285,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554791212432,
+      "stop" : 1554791212433,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554791216158,
+      "stop" : 1554791216160,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[search Customer Number '1955217037', true, false]",
+    "title" : "search Customer Number '1955217037'",
+    "time" : {
+      "start" : 1554791218811,
+      "stop" : 1554791218812,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554791219532,
+      "stop" : 1554791219533,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setSuspension[Groupwide Barred - Behaviour]",
+    "title" : "Set suspension to customer profile ",
+    "time" : {
+      "start" : 1554791219535,
+      "stop" : 1554791260143,
+      "duration" : 40608
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 14
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "logReporter[Verify 'Suspensions', true, false]",
+      "title" : "Verify 'Suspensions'",
+      "time" : {
+        "start" : 1554791224016,
+        "stop" : 1554791224017,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]",
+      "title" : "Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...",
+      "time" : {
+        "start" : 1554791224312,
+        "stop" : 1554791224312,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify Add button , true, false]",
+      "title" : "Verify Add button ",
+      "time" : {
+        "start" : 1554791232463,
+        "stop" : 1554791232466,
+        "duration" : 3
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Add tab, true, false]",
+      "title" : "Click on Add tab",
+      "time" : {
+        "start" : 1554791232990,
+        "stop" : 1554791232991,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display, true, false]",
+      "title" : "Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display",
+      "time" : {
+        "start" : 1554791233728,
+        "stop" : 1554791233729,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Casino Dropdown , true, false]",
+      "title" : "Click on Casino Dropdown ",
+      "time" : {
+        "start" : 1554791234559,
+        "stop" : 1554791234560,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Select Casino as  '_SAW 1', true, false]",
+      "title" : "Select Casino as  '_SAW 1'",
+      "time" : {
+        "start" : 1554791235059,
+        "stop" : 1554791235060,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Suspension TypeDropdown , true, false]",
+      "title" : "Click on Suspension TypeDropdown ",
+      "time" : {
+        "start" : 1554791240582,
+        "stop" : 1554791240583,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Select suspension type as , Groupwide Barred - Behaviour, true, false]",
+      "title" : "Select suspension type as  - Groupwide Barred - Behaviour",
+      "time" : {
+        "start" : 1554791241135,
+        "stop" : 1554791241136,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify Gaming Date Dropdown , true, false]",
+      "title" : "Verify Gaming Date Dropdown ",
+      "time" : {
+        "start" : 1554791241313,
+        "stop" : 1554791241314,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Message, true, false]",
+      "title" : "Enter Message",
+      "time" : {
+        "start" : 1554791242255,
+        "stop" : 1554791242256,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Notes, true, false]",
+      "title" : "Enter Notes",
+      "time" : {
+        "start" : 1554791242888,
+        "stop" : 1554791242890,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify Cancel button , true, false]",
+      "title" : "Verify Cancel button ",
+      "time" : {
+        "start" : 1554791243050,
+        "stop" : 1554791243051,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on commit , true, false]",
+      "title" : "Click on commit ",
+      "time" : {
+        "start" : 1554791243614,
+        "stop" : 1554791243616,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "verifyFieldsOnSuspensionScreen",
+    "title" : "Verify fields on customer suspension screen ",
+    "time" : {
+      "start" : 1554791260145,
+      "stop" : 1554791261113,
+      "duration" : 968
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "logReporter[Verify 'All Casinos' display on page , true, false]",
+      "title" : "Verify 'All Casinos' display on page ",
+      "time" : {
+        "start" : 1554791260269,
+        "stop" : 1554791260270,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Notes' display on page , true, false]",
+      "title" : "Verify 'Notes' display on page ",
+      "time" : {
+        "start" : 1554791260420,
+        "stop" : 1554791260421,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Employee Messages' display on page , true, false]",
+      "title" : "Verify 'Employee Messages' display on page ",
+      "time" : {
+        "start" : 1554791260559,
+        "stop" : 1554791260560,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Expiry Date' display on page , true, false]",
+      "title" : "Verify 'Expiry Date' display on page ",
+      "time" : {
+        "start" : 1554791260700,
+        "stop" : 1554791260701,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Date Lifted' display on page , true, false]",
+      "title" : "Verify 'Date Lifted' display on page ",
+      "time" : {
+        "start" : 1554791260836,
+        "stop" : 1554791260836,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Authorised By' display on page , true, false]",
+      "title" : "Verify 'Authorised By' display on page ",
+      "time" : {
+        "start" : 1554791260978,
+        "stop" : 1554791260979,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Verify 'Casino' display on page , true, false]",
+      "title" : "Verify 'Casino' display on page ",
+      "time" : {
+        "start" : 1554791261112,
+        "stop" : 1554791261113,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554791261568,
+      "stop" : 1554791261568,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on X , true, false]",
+    "title" : "Click on X ",
+    "time" : {
+      "start" : 1554791261882,
+      "stop" : 1554791261882,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "8092@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

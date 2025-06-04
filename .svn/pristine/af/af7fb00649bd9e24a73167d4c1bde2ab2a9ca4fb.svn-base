@@ -1,0 +1,325 @@
+{
+  "uid" : "46a95094f24977ff",
+  "name" : "Test6446AttendanceSummarybyHourReport",
+  "title" : "Test 6446 attendance summaryby hour report",
+  "time" : {
+    "start" : 1528092257331,
+    "stop" : 1528092368056,
+    "duration" : 110725
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 19
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1528092261794,
+      "stop" : 1528092261795,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1528092262400,
+      "stop" : 1528092262401,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1528092262780,
+      "stop" : 1528092262785,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1528092281149,
+      "stop" : 1528092281150,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[click on EstimatedVisitEntry, true, false]",
+    "title" : "click on EstimatedVisitEntry",
+    "time" : {
+      "start" : 1528092285697,
+      "stop" : 1528092285699,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeBtn , true, false]",
+    "title" : "Click on closeBtn ",
+    "time" : {
+      "start" : 1528092291690,
+      "stop" : 1528092291695,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Report Tab , true, false]",
+    "title" : "Click on Report Tab ",
+    "time" : {
+      "start" : 1528092295549,
+      "stop" : 1528092295551,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  attendence Tab , true, false]",
+    "title" : "Verify  attendence Tab ",
+    "time" : {
+      "start" : 1528092295751,
+      "stop" : 1528092295753,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on attendence Tab, true, false]",
+    "title" : "Click on attendence Tab",
+    "time" : {
+      "start" : 1528092299525,
+      "stop" : 1528092299529,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  attendanceSummaryByHourReportTab , true, false]",
+    "title" : "Verify  attendanceSummaryByHourReportTab ",
+    "time" : {
+      "start" : 1528092303407,
+      "stop" : 1528092303409,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on attendanceSummaryByHourReportTab , true, false]",
+    "title" : "Click on attendanceSummaryByHourReportTab ",
+    "time" : {
+      "start" : 1528092307218,
+      "stop" : 1528092307219,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on genrate , true, false]",
+    "title" : "Click on genrate ",
+    "time" : {
+      "start" : 1528092312408,
+      "stop" : 1528092312410,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  export, true, false]",
+    "title" : "Verify  export",
+    "time" : {
+      "start" : 1528092325615,
+      "stop" : 1528092325618,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on export, true, false]",
+    "title" : "Click on export",
+    "time" : {
+      "start" : 1528092329416,
+      "stop" : 1528092329418,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  export, true, false]",
+    "title" : "Verify  export",
+    "time" : {
+      "start" : 1528092329598,
+      "stop" : 1528092329599,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on export, true, false]",
+    "title" : "Click on export",
+    "time" : {
+      "start" : 1528092333534,
+      "stop" : 1528092333539,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeBtn , true, false]",
+    "title" : "Click on closeBtn ",
+    "time" : {
+      "start" : 1528092358513,
+      "stop" : 1528092358515,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1528092362538,
+      "stop" : 1528092362539,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1528092368045,
+      "stop" : 1528092368049,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "D90D3CQ1"
+  }, {
+    "name" : "thread",
+    "value" : "7900@D90D3CQ1.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

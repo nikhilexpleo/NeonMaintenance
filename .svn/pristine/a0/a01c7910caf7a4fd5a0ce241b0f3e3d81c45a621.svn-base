@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1528091037801" stop="1528093255773" version="1.4.4">
+    <name>LEO</name>
+    <title>LEO : LEO</title>
+    <test-cases>
+        <test-case start="1528091043873" stop="1528091158712" status="passed">
+            <name>addCreditBankDeatils_CreditAccountTC</name>
+            <steps>
+                <step start="1528091044500" stop="1528091044532" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091045110" stop="1528091045187" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091045547" stop="1528091045550" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091067425" stop="1528091067427" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091068135" stop="1528091068140" status="passed">
+                    <name>logReporter[Click on Credit Accounts form Credit, true, false]</name>
+                    <title>Click on Credit Accounts form Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091069636" stop="1528091069639" status="passed">
+                    <name>logReporter[Click on Create New, true, false]</name>
+                    <title>Click on Create New</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091071564" stop="1528091071566" status="passed">
+                    <name>logReporter[Enter Acc Number, true, false]</name>
+                    <title>Enter Acc Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091080417" stop="1528091080421" status="passed">
+                    <name>logReporter[Click on LowerLimit , true, false]</name>
+                    <title>Click on LowerLimit </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091081115" stop="1528091081117" status="passed">
+                    <name>logReporter[Verify Date of birth display, true, false]</name>
+                    <title>Verify Date of birth display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091081765" stop="1528091081767" status="passed">
+                    <name>logReporter[Click on LowerLimit, true, false]</name>
+                    <title>Click on LowerLimit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091092253" stop="1528091092255" status="passed">
+                    <name>logReporter[Enter Lower Limit, true, false]</name>
+                    <title>Enter Lower Limit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091092799" stop="1528091092800" status="passed">
+                    <name>logReporter[Enter Upper Limit, true, false]</name>
+                    <title>Enter Upper Limit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091093524" stop="1528091093527" status="passed">
+                    <name>logReporter[Click on  save, true, false]</name>
+                    <title>Click on  save</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091096020" stop="1528091096022" status="passed">
+                    <name>logReporter[Select manager from the list , true, false]</name>
+                    <title>Select manager from the list </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091097155" stop="1528091097159" status="passed">
+                    <name>logReporter[Click on OK, true, false]</name>
+                    <title>Click on OK</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091099336" stop="1528091099338" status="passed">
+                    <name>logReporter[Verify successfull message display, true, false]</name>
+                    <title>Verify successfull message display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091104084" stop="1528091104086" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091108024" stop="1528091108029" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091112027" stop="1528091112029" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091112622" stop="1528091112625" status="passed">
+                    <name>logReporter[Click on Credit Accounts form Credit, true, false]</name>
+                    <title>Click on Credit Accounts form Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091114281" stop="1528091114286" status="passed">
+                    <name>logReporter[Enter Acc Number, true, false]</name>
+                    <title>Enter Acc Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091114789" stop="1528091114792" status="passed">
+                    <name>logReporter[Click on Find, true, false]</name>
+                    <title>Click on Find</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091115966" stop="1528091115969" status="passed">
+                    <name>logReporter[Select Page, true, false]</name>
+                    <title>Select Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091123107" stop="1528091123111" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Details, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091123448" stop="1528091123450" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Audit, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Audit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091123768" stop="1528091123770" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Authorisations, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Authorisations</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091124111" stop="1528091124115" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_BankAccounts, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_BankAccounts</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091124431" stop="1528091124434" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_BankReferences, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_BankReferences</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091124761" stop="1528091124765" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_CasinoReferences, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_CasinoReferences</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091125076" stop="1528091125078" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Identification, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Identification</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091125426" stop="1528091125430" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Messages, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Messages</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091125752" stop="1528091125754" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Notes, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Notes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091126080" stop="1528091126082" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Transactions, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Transactions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091126400" stop="1528091126404" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Deposits, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Deposits</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091126777" stop="1528091126779" status="passed">
+                    <name>logReporter[Check Presence :creditAccount_findAcc_Deatils_Summary, true, false]</name>
+                    <title>Check Presence :creditAccount_findAcc_Deatils_Summary</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091127213" stop="1528091127215" status="passed">
+                    <name>logReporter[Click on Bank Account, true, false]</name>
+                    <title>Click on Bank Account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091128692" stop="1528091128695" status="passed">
+                    <name>logReporter[Click on Add Bank Account, true, false]</name>
+                    <title>Click on Add Bank Account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091129952" stop="1528091129954" status="passed">
+                    <name>logReporter[Enter Acc Number, true, false]</name>
+                    <title>Enter Acc Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091130610" stop="1528091130613" status="passed">
+                    <name>logReporter[Enter Bank Number, true, false]</name>
+                    <title>Enter Bank Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091141415" stop="1528091141417" status="passed">
+                    <name>logReporter[CheckBOX check For Debit card, true, false]</name>
+                    <title>CheckBOX check For Debit card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091142028" stop="1528091142030" status="passed">
+                    <name>logReporter[click on Last 4 digit textbox, true, false]</name>
+                    <title>click on Last 4 digit textbox</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091142696" stop="1528091142701" status="passed">
+                    <name>logReporter[Enter cardLastFourDigits, true, false]</name>
+                    <title>Enter cardLastFourDigits</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091143312" stop="1528091143314" status="passed">
+                    <name>logReporter[Enter expiry month, true, false]</name>
+                    <title>Enter expiry month</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091144029" stop="1528091144030" status="passed">
+                    <name>logReporter[Enter expiry year, true, false]</name>
+                    <title>Enter expiry year</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091144605" stop="1528091144607" status="passed">
+                    <name>logReporter[Click on Commit, true, false]</name>
+                    <title>Click on Commit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091148632" stop="1528091148637" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091152825" stop="1528091152827" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091158705" stop="1528091158707" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528091167038" stop="1528091318940" status="passed">
+            <name>addDebitCardAsElectronic</name>
+            <steps>
+                <step start="1528091167540" stop="1528091167546" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091168154" stop="1528091168156" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091168517" stop="1528091168519" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091190558" stop="1528091190566" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091195073" stop="1528091195074" status="passed">
+                    <name>logReporter[Click on Debit Card Menu , true, false]</name>
+                    <title>Click on Debit Card Menu </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091199571" stop="1528091199572" status="passed">
+                    <name>logReporter[Click on Add Debit Card , true, false]</name>
+                    <title>Click on Add Debit Card </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091201049" stop="1528091201050" status="passed">
+                    <name>logReporter[Enter First two letters of Surname and Last 4 digit of Debit card, true, false]</name>
+                    <title>Enter First two letters of Surname and Last 4 digit of Debit card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091251882" stop="1528091251884" status="passed">
+                    <name>logReporter[Verify Account NameLabel displayed, true, false]</name>
+                    <title>Verify Account NameLabel displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091252069" stop="1528091252070" status="passed">
+                    <name>logReporter[Verify Account Name Value displayed, true, false]</name>
+                    <title>Verify Account Name Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091252345" stop="1528091252347" status="passed">
+                    <name>logReporter[Verify Account Number Label displayed, true, false]</name>
+                    <title>Verify Account Number Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091252586" stop="1528091252592" status="passed">
+                    <name>logReporter[Verify AccountNumber Value displayed, true, false]</name>
+                    <title>Verify AccountNumber Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091252943" stop="1528091252945" status="passed">
+                    <name>logReporter[Verify Bank Label displayed, true, false]</name>
+                    <title>Verify Bank Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091253097" stop="1528091253098" status="passed">
+                    <name>logReporter[Verify Bank Value displayed, true, false]</name>
+                    <title>Verify Bank Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091253450" stop="1528091253453" status="passed">
+                    <name>logReporter[Verify Customer Name label displayed, true, false]</name>
+                    <title>Verify Customer Name label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091253636" stop="1528091253637" status="passed">
+                    <name>logReporter[Verify CustomerName Value displayed, true, false]</name>
+                    <title>Verify CustomerName Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091253920" stop="1528091253921" status="passed">
+                    <name>logReporter[Verify Customer Number Label displayed, true, false]</name>
+                    <title>Verify Customer Number Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091254062" stop="1528091254065" status="passed">
+                    <name>logReporter[Verify Customer Number Value displayed, true, false]</name>
+                    <title>Verify Customer Number Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091254334" stop="1528091254335" status="passed">
+                    <name>logReporter[Verify AmountAvailable Label displayed, true, false]</name>
+                    <title>Verify AmountAvailable Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091254496" stop="1528091254497" status="passed">
+                    <name>logReporter[Verify AmountAvailable Value displayed, true, false]</name>
+                    <title>Verify AmountAvailable Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091255157" stop="1528091255159" status="passed">
+                    <name>logReporter[Enter Amount, true, false]</name>
+                    <title>Enter Amount</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091260840" stop="1528091260842" status="passed">
+                    <name>logReporter[selemanager , true, false]</name>
+                    <title>selemanager </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091261952" stop="1528091261954" status="passed">
+                    <name>logReporter[Enter Transaction code, true, false]</name>
+                    <title>Enter Transaction code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091262546" stop="1528091262547" status="passed">
+                    <name>logReporter[Click on Save , true, false]</name>
+                    <title>Click on Save </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091302727" stop="1528091302730" status="passed">
+                    <name>logReporter[Verify processTransactionMsg displayed, true, false]</name>
+                    <title>Verify processTransactionMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091302994" stop="1528091302996" status="passed">
+                    <name>logReporter[Click on Yes button, true, false]</name>
+                    <title>Click on Yes button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091305299" stop="1528091305300" status="passed">
+                    <name>logReporter[Verify transactionCompletedMsg displayed, true, false]</name>
+                    <title>Verify transactionCompletedMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091305497" stop="1528091305502" status="passed">
+                    <name>logReporter[Click on ok  button, true, false]</name>
+                    <title>Click on ok  button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091309457" stop="1528091309459" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091313431" stop="1528091313432" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091318935" stop="1528091318940" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528091325023" stop="1528091537636" status="passed">
+            <name>VerifyAddDebitCardManualSameCard</name>
+            <steps>
+                <step start="1528091325601" stop="1528091325608" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091326226" stop="1528091326227" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091326599" stop="1528091326601" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091348540" stop="1528091348546" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091352994" stop="1528091352997" status="passed">
+                    <name>logReporter[Click on Debit Card Menu , true, false]</name>
+                    <title>Click on Debit Card Menu </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091357493" stop="1528091357494" status="passed">
+                    <name>logReporter[Click on Add Debit Card , true, false]</name>
+                    <title>Click on Add Debit Card </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091359114" stop="1528091359116" status="passed">
+                    <name>logReporter[Enter First two letters of Surname and Last 4 digit of Debit card, true, false]</name>
+                    <title>Enter First two letters of Surname and Last 4 digit of Debit card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091366441" stop="1528091366443" status="passed">
+                    <name>logReporter[Click on okButton, true, false]</name>
+                    <title>Click on okButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091416757" stop="1528091416759" status="passed">
+                    <name>logReporter[Verify Account NameLabel displayed, true, false]</name>
+                    <title>Verify Account NameLabel displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091416954" stop="1528091416956" status="passed">
+                    <name>logReporter[Verify Account Name Value displayed, true, false]</name>
+                    <title>Verify Account Name Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091417271" stop="1528091417276" status="passed">
+                    <name>logReporter[Verify Account Number Label displayed, true, false]</name>
+                    <title>Verify Account Number Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091417435" stop="1528091417437" status="passed">
+                    <name>logReporter[Verify AccountNumber Value displayed, true, false]</name>
+                    <title>Verify AccountNumber Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091417747" stop="1528091417748" status="passed">
+                    <name>logReporter[Verify Bank Label displayed, true, false]</name>
+                    <title>Verify Bank Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091417910" stop="1528091417916" status="passed">
+                    <name>logReporter[Verify Bank Value displayed, true, false]</name>
+                    <title>Verify Bank Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091418268" stop="1528091418270" status="passed">
+                    <name>logReporter[Verify Customer Name label displayed, true, false]</name>
+                    <title>Verify Customer Name label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091418464" stop="1528091418465" status="passed">
+                    <name>logReporter[Verify CustomerName Value displayed, true, false]</name>
+                    <title>Verify CustomerName Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091418776" stop="1528091418781" status="passed">
+                    <name>logReporter[Verify Customer Number Label displayed, true, false]</name>
+                    <title>Verify Customer Number Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091418917" stop="1528091418919" status="passed">
+                    <name>logReporter[Verify Customer Number Value displayed, true, false]</name>
+                    <title>Verify Customer Number Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091419266" stop="1528091419271" status="passed">
+                    <name>logReporter[Verify AmountAvailable Label displayed, true, false]</name>
+                    <title>Verify AmountAvailable Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091419440" stop="1528091419445" status="passed">
+                    <name>logReporter[Verify AmountAvailable Value displayed, true, false]</name>
+                    <title>Verify AmountAvailable Value displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091420108" stop="1528091420109" status="passed">
+                    <name>logReporter[Enter Amount, true, false]</name>
+                    <title>Enter Amount</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091425753" stop="1528091425755" status="passed">
+                    <name>logReporter[selemanager , true, false]</name>
+                    <title>selemanager </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091426959" stop="1528091426961" status="passed">
+                    <name>logReporter[Enter Transaction code, true, false]</name>
+                    <title>Enter Transaction code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091427411" stop="1528091427412" status="passed">
+                    <name>logReporter[Click on Manual radioButton, true, false]</name>
+                    <title>Click on Manual radioButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091428084" stop="1528091428086" status="passed">
+                    <name>logReporter[Click on Save , true, false]</name>
+                    <title>Click on Save </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091468254" stop="1528091468256" status="passed">
+                    <name>logReporter[Verify processTransactionMsg displayed, true, false]</name>
+                    <title>Verify processTransactionMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091468527" stop="1528091468531" status="passed">
+                    <name>logReporter[Click on Yes button, true, false]</name>
+                    <title>Click on Yes button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091470328" stop="1528091470329" status="passed">
+                    <name>logReporter[Verify transactionCompletedMsg displayed, true, false]</name>
+                    <title>Verify transactionCompletedMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091470534" stop="1528091470536" status="passed">
+                    <name>logReporter[Click on ok  button, true, false]</name>
+                    <title>Click on ok  button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091471032" stop="1528091471040" status="passed">
+                    <name>logReporter[verify same card button , true, false]</name>
+                    <title>verify same card button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091475273" stop="1528091475274" status="passed">
+                    <name>logReporter[click on same card button , true, false]</name>
+                    <title>click on same card button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091484027" stop="1528091484028" status="passed">
+                    <name>logReporter[Enter Amount, true, false]</name>
+                    <title>Enter Amount</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091489502" stop="1528091489506" status="passed">
+                    <name>logReporter[selemanager , true, false]</name>
+                    <title>selemanager </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091490723" stop="1528091490725" status="passed">
+                    <name>logReporter[Enter Transaction code, true, false]</name>
+                    <title>Enter Transaction code</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091491246" stop="1528091491248" status="passed">
+                    <name>logReporter[Click on Save , true, false]</name>
+                    <title>Click on Save </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091492755" stop="1528091492756" status="passed">
+                    <name>logReporter[Verify processTransactionMsg displayed, true, false]</name>
+                    <title>Verify processTransactionMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091533350" stop="1528091533355" status="passed">
+                    <name>logReporter[Click on Yes button, true, false]</name>
+                    <title>Click on Yes button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091533496" stop="1528091533498" status="passed">
+                    <name>logReporter[Verify transactionCompletedMsg displayed, true, false]</name>
+                    <title>Verify transactionCompletedMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091533658" stop="1528091533659" status="passed">
+                    <name>logReporter[Click on ok  button, true, false]</name>
+                    <title>Click on ok  button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091537632" stop="1528091537636" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528091537746" stop="1528091583169" status="passed">
+            <name>ViewVoidDebitCard</name>
+            <steps>
+                <step start="1528091541763" stop="1528091541765" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091542449" stop="1528091542454" status="passed">
+                    <name>logReporter[Click on view Debit card menu , true, false]</name>
+                    <title>Click on view Debit card menu </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091544270" stop="1528091544271" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091544825" stop="1528091544827" status="passed">
+                    <name>logReporter[Click on Find , true, false]</name>
+                    <title>Click on Find </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091545840" stop="1528091545842" status="passed">
+                    <name>logReporter[verify details , true, false]</name>
+                    <title>verify details </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091546214" stop="1528091546219" status="passed">
+                    <name>logReporter[Select Page, true, false]</name>
+                    <title>Select Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091547410" stop="1528091547412" status="passed">
+                    <name>logReporter[verify view debit card screen displayed , true, false]</name>
+                    <title>verify view debit card screen displayed </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091547865" stop="1528091547866" status="passed">
+                    <name>logReporter[Verify CardType Label displayed, true, false]</name>
+                    <title>Verify CardType Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091548022" stop="1528091548030" status="passed">
+                    <name>logReporter[Verify ExpiryDate Label displayed, true, false]</name>
+                    <title>Verify ExpiryDate Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091548266" stop="1528091548267" status="passed">
+                    <name>logReporter[Verify Account NameLabel displayed, true, false]</name>
+                    <title>Verify Account NameLabel displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091548417" stop="1528091548419" status="passed">
+                    <name>logReporter[Verify Account Number Label displayed, true, false]</name>
+                    <title>Verify Account Number Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091548600" stop="1528091548604" status="passed">
+                    <name>logReporter[Verify Bank Label displayed, true, false]</name>
+                    <title>Verify Bank Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091548816" stop="1528091548818" status="passed">
+                    <name>logReporter[Verify AmountAvailable Label displayed, true, false]</name>
+                    <title>Verify AmountAvailable Label displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091553009" stop="1528091553011" status="passed">
+                    <name>logReporter[Click on Void , true, false]</name>
+                    <title>Click on Void </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091553886" stop="1528091553887" status="passed">
+                    <name>logReporter[Verify voidConfirmationMsg displayed, true, false]</name>
+                    <title>Verify voidConfirmationMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091554424" stop="1528091554426" status="passed">
+                    <name>logReporter[Click on yes , true, false]</name>
+                    <title>Click on yes </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091555141" stop="1528091555143" status="passed">
+                    <name>logReporter[Verify voidSuccessMsg displayed, true, false]</name>
+                    <title>Verify voidSuccessMsg displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091555519" stop="1528091555521" status="passed">
+                    <name>logReporter[Click on ok , true, false]</name>
+                    <title>Click on ok </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091559545" stop="1528091559549" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091563452" stop="1528091563454" status="passed">
+                    <name>logReporter[Click on closeIconTab, true, false]</name>
+                    <title>Click on closeIconTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091567443" stop="1528091567445" status="passed">
+                    <name>logReporter[Click on top Navigation Credit, true, false]</name>
+                    <title>Click on top Navigation Credit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091568091" stop="1528091568095" status="passed">
+                    <name>logReporter[Click on view Debit card menu , true, false]</name>
+                    <title>Click on view Debit card menu </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091569834" stop="1528091569836" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091570692" stop="1528091570693" status="passed">
+                    <name>logReporter[Click on Find , true, false]</name>
+                    <title>Click on Find </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091571749" stop="1528091571755" status="passed">
+                    <name>logReporter[verify details , true, false]</name>
+                    <title>verify details </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091572111" stop="1528091572112" status="passed">
+                    <name>logReporter[Select Page, true, false]</name>
+                    <title>Select Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091577485" stop="1528091577487" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091583162" stop="1528091583168" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528091584647" stop="1528091783923" status="passed">
+            <name>tc6389_NormalRegistration[Run1,{TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, StreetAddress=Waterside  Basin Road, Name=Mrs ODBOP OKSZU, CustomerNumber=1955156474, City=WORCESTER, CardNumber=1.4171917E7, Country=United Kingdom, DateOfBirth=20/01/1971}]</name>
+            <title>Test6389/91</title>
+            <description type="text">Normal Registration</description>
+            <steps>
+                <step start="1528091589530" stop="1528091589532" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091590238" stop="1528091590240" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091595949" stop="1528091595956" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091614207" stop="1528091614209" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091614849" stop="1528091614850" status="passed">
+                    <name>logReporter[Click on registartion tab, true, false]</name>
+                    <title>Click on registartion tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091620265" stop="1528091620266" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091622805" stop="1528091622807" status="passed">
+                    <name>logReporter[Enter DateOfBirth, true, false]</name>
+                    <title>Enter DateOfBirth</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091624444" stop="1528091624445" status="passed">
+                    <name>logReporter[Enter Postcode, true, false]</name>
+                    <title>Enter Postcode</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091669615" stop="1528091669616" status="passed">
+                    <name>logReporter[Click on Cancel , true, false]</name>
+                    <title>Click on Cancel </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091673482" stop="1528091673485" status="passed">
+                    <name>logReporter[Enter street, true, false]</name>
+                    <title>Enter street</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091676376" stop="1528091676378" status="passed">
+                    <name>logReporter[Enter City, true, false]</name>
+                    <title>Enter City</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091677612" stop="1528091677614" status="passed">
+                    <name>logReporter[Enter cardNumber, true, false]</name>
+                    <title>Enter cardNumber</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091680611" stop="1528091680616" status="passed">
+                    <name>logReporter[Click on Save btn, true, false]</name>
+                    <title>Click on Save btn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091764942" stop="1528091764944" status="passed">
+                    <name>logReporter[Click on toggleButton, true, false]</name>
+                    <title>Click on toggleButton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091765317" stop="1528091765318" status="passed">
+                    <name>logReporter[Click on View match, true, false]</name>
+                    <title>Click on View match</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091769423" stop="1528091769427" status="passed">
+                    <name>logReporter[verify Message displayed, true, false]</name>
+                    <title>verify Message displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091773935" stop="1528091773938" status="passed">
+                    <name>logReporter[Click on ok, true, false]</name>
+                    <title>Click on ok</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091778070" stop="1528091778073" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091783918" stop="1528091783923" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528091785271" stop="1528092006733" status="passed">
+            <name>verifyTest6300TableDailyResultsReport</name>
+            <steps>
+                <step start="1528091790934" stop="1528091790936" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091791493" stop="1528091791497" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091791847" stop="1528091791852" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091810179" stop="1528091810181" status="passed">
+                    <name>logReporter[Click on Top navigation Table Accounting, true, false]</name>
+                    <title>Click on Top navigation Table Accounting</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091810922" stop="1528091810924" status="passed">
+                    <name>logReporter[Click on Top navigation Table fill, true, false]</name>
+                    <title>Click on Top navigation Table fill</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091812302" stop="1528091812304" status="passed">
+                    <name>logReporter[Select  table, true, false]</name>
+                    <title>Select  table</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091853892" stop="1528091853894" status="passed">
+                    <name>logReporter[Select Asset, true, false]</name>
+                    <title>Select Asset</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091854651" stop="1528091854653" status="passed">
+                    <name>logReporter[Enter Comment, true, false]</name>
+                    <title>Enter Comment</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091856289" stop="1528091856291" status="passed">
+                    <name>logReporter[Click on save, true, false]</name>
+                    <title>Click on save</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091935830" stop="1528091935832" status="passed">
+                    <name>logReporter[Click on 'x' , true, false]</name>
+                    <title>Click on 'x' </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091939669" stop="1528091939671" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091939849" stop="1528091939851" status="passed">
+                    <name>logReporter[Verify Tables Tab , true, false]</name>
+                    <title>Verify Tables Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091943652" stop="1528091943656" status="passed">
+                    <name>logReporter[Click on Tables Tab, true, false]</name>
+                    <title>Click on Tables Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091943909" stop="1528091943912" status="passed">
+                    <name>logReporter[Verify TableDailyResultsReportTab, true, false]</name>
+                    <title>Verify TableDailyResultsReportTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091947697" stop="1528091947699" status="passed">
+                    <name>logReporter[Click on TableDailyResultsReportTab , true, false]</name>
+                    <title>Click on TableDailyResultsReportTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091952699" stop="1528091952702" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091965967" stop="1528091965969" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091969823" stop="1528091969825" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091970044" stop="1528091970047" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091973924" stop="1528091973927" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528091999186" stop="1528091999189" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092005974" stop="1528092005979" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092008155" stop="1528092143675" status="passed">
+            <name>Test6444verifyAttendanceDetailReport</name>
+            <steps>
+                <step start="1528092013577" stop="1528092013582" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092014195" stop="1528092014196" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092014569" stop="1528092014571" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092036406" stop="1528092036408" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092040753" stop="1528092040754" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092046360" stop="1528092046363" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092050218" stop="1528092050219" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092050399" stop="1528092050401" status="passed">
+                    <name>logReporter[Verify  attendence Tab , true, false]</name>
+                    <title>Verify  attendence Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092054191" stop="1528092054193" status="passed">
+                    <name>logReporter[Click on attendence Tab, true, false]</name>
+                    <title>Click on attendence Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092054400" stop="1528092054403" status="passed">
+                    <name>logReporter[Verify  attendence Detail ReportTab , true, false]</name>
+                    <title>Verify  attendence Detail ReportTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092058199" stop="1528092058201" status="passed">
+                    <name>logReporter[Click on attendence Detail Report Tab , true, false]</name>
+                    <title>Click on attendence Detail Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092062165" stop="1528092062166" status="passed">
+                    <name>logReporter[Click on DateRange dropdw , true, false]</name>
+                    <title>Click on DateRange dropdw </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092062628" stop="1528092062631" status="passed">
+                    <name>logReporter[select today as DateRange  , true, false]</name>
+                    <title>select today as DateRange  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092066687" stop="1528092066689" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092079898" stop="1528092079899" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092083721" stop="1528092083724" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092083897" stop="1528092083899" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092087838" stop="1528092087840" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092134196" stop="1528092134203" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092138218" stop="1528092138220" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092143673" stop="1528092143675" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092145228" stop="1528092255911" status="passed">
+            <name>Test6445verifyAttendanceSummaryReport</name>
+            <steps>
+                <step start="1528092150356" stop="1528092150357" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092150968" stop="1528092150969" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092151338" stop="1528092151340" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092173340" stop="1528092173342" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092177738" stop="1528092177740" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092183292" stop="1528092183294" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092187107" stop="1528092187108" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092187304" stop="1528092187306" status="passed">
+                    <name>logReporter[Verify  attendence Tab , true, false]</name>
+                    <title>Verify  attendence Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092191092" stop="1528092191096" status="passed">
+                    <name>logReporter[Click on attendence Tab, true, false]</name>
+                    <title>Click on attendence Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092191285" stop="1528092191289" status="passed">
+                    <name>logReporter[Verify  attendence Summary Tab , true, false]</name>
+                    <title>Verify  attendence Summary Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092195083" stop="1528092195085" status="passed">
+                    <name>logReporter[Click on attendence Summary Tab , true, false]</name>
+                    <title>Click on attendence Summary Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092200249" stop="1528092200253" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092213467" stop="1528092213468" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092217262" stop="1528092217263" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092217474" stop="1528092217480" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092221402" stop="1528092221404" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092246356" stop="1528092246358" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092250420" stop="1528092250424" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092255900" stop="1528092255901" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092257331" stop="1528092368056" status="passed">
+            <name>Test6446AttendanceSummarybyHourReport</name>
+            <steps>
+                <step start="1528092261794" stop="1528092261795" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092262400" stop="1528092262401" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092262780" stop="1528092262785" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092281149" stop="1528092281150" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092285697" stop="1528092285699" status="passed">
+                    <name>logReporter[click on EstimatedVisitEntry, true, false]</name>
+                    <title>click on EstimatedVisitEntry</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092291690" stop="1528092291695" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092295549" stop="1528092295551" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092295751" stop="1528092295753" status="passed">
+                    <name>logReporter[Verify  attendence Tab , true, false]</name>
+                    <title>Verify  attendence Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092299525" stop="1528092299529" status="passed">
+                    <name>logReporter[Click on attendence Tab, true, false]</name>
+                    <title>Click on attendence Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092303407" stop="1528092303409" status="passed">
+                    <name>logReporter[Verify  attendanceSummaryByHourReportTab , true, false]</name>
+                    <title>Verify  attendanceSummaryByHourReportTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092307218" stop="1528092307219" status="passed">
+                    <name>logReporter[Click on attendanceSummaryByHourReportTab , true, false]</name>
+                    <title>Click on attendanceSummaryByHourReportTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092312408" stop="1528092312410" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092325615" stop="1528092325618" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092329416" stop="1528092329418" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092329598" stop="1528092329599" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092333534" stop="1528092333539" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092358513" stop="1528092358515" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092362538" stop="1528092362539" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092368045" stop="1528092368049" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092369590" stop="1528092469797" status="passed">
+            <name>Test6447verifyRegistrationDeatilsReport</name>
+            <steps>
+                <step start="1528092374842" stop="1528092374848" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092375473" stop="1528092375474" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092375820" stop="1528092375821" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092397576" stop="1528092397581" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092397761" stop="1528092397763" status="passed">
+                    <name>logReporter[Verify  Registration Tab , true, false]</name>
+                    <title>Verify  Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092401545" stop="1528092401547" status="passed">
+                    <name>logReporter[Click on Registration Tab , true, false]</name>
+                    <title>Click on Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092401879" stop="1528092401883" status="passed">
+                    <name>logReporter[Verify  registration Detail Tab , true, false]</name>
+                    <title>Verify  registration Detail Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092405697" stop="1528092405698" status="passed">
+                    <name>logReporter[Click on Registration Detail Tab , true, false]</name>
+                    <title>Click on Registration Detail Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092409647" stop="1528092409648" status="passed">
+                    <name>logReporter[Click on DateRange dropdw , true, false]</name>
+                    <title>Click on DateRange dropdw </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092410132" stop="1528092410135" status="passed">
+                    <name>logReporter[select today as DateRange  , true, false]</name>
+                    <title>select today as DateRange  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092414193" stop="1528092414195" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092427404" stop="1528092427406" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092431199" stop="1528092431204" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092431392" stop="1528092431393" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092435352" stop="1528092435354" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092460327" stop="1528092460329" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092464345" stop="1528092464346" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092469785" stop="1528092469786" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092471220" stop="1528092571828" status="passed">
+            <name>Test6448verifyRegistrationSummaryReport</name>
+            <steps>
+                <step start="1528092475537" stop="1528092475539" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092476150" stop="1528092476156" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092476522" stop="1528092476524" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092498197" stop="1528092498199" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092498373" stop="1528092498380" status="passed">
+                    <name>logReporter[Verify  Registration Tab , true, false]</name>
+                    <title>Verify  Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092502152" stop="1528092502153" status="passed">
+                    <name>logReporter[Click on Registration Tab , true, false]</name>
+                    <title>Click on Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092502517" stop="1528092502519" status="passed">
+                    <name>logReporter[Verify  registration Summary Report Tab , true, false]</name>
+                    <title>Verify  registration Summary Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092506349" stop="1528092506351" status="passed">
+                    <name>logReporter[Click on Registration Summary Report  Tab , true, false]</name>
+                    <title>Click on Registration Summary Report  Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092510301" stop="1528092510302" status="passed">
+                    <name>logReporter[Click on DateRange dropdw , true, false]</name>
+                    <title>Click on DateRange dropdw </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092510774" stop="1528092510776" status="passed">
+                    <name>logReporter[select today as DateRange  , true, false]</name>
+                    <title>select today as DateRange  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092514786" stop="1528092514788" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092527999" stop="1528092528004" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092531820" stop="1528092531821" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092532017" stop="1528092532019" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092535956" stop="1528092535960" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092560936" stop="1528092560937" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092564953" stop="1528092564955" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092570453" stop="1528092570457" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092571951" stop="1528092801359" status="passed">
+            <name>reportregister</name>
+            <steps>
+                <step start="1528092576890" stop="1528092576892" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092577519" stop="1528092577521" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092577899" stop="1528092577901" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092611061" stop="1528092611067" status="passed">
+                    <name>logReporter[Click on customer tab, true, false]</name>
+                    <title>Click on customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092611681" stop="1528092611682" status="passed">
+                    <name>logReporter[Click on registartion tab, true, false]</name>
+                    <title>Click on registartion tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092616362" stop="1528092616363" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092618396" stop="1528092618399" status="passed">
+                    <name>logReporter[Click on customer tab, true, false]</name>
+                    <title>Click on customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092620427" stop="1528092620429" status="passed">
+                    <name>logReporter[Click on customer tab, true, false]</name>
+                    <title>Click on customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092621574" stop="1528092621576" status="passed">
+                    <name>logReporter[Enter forename, true, false]</name>
+                    <title>Enter forename</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092625999" stop="1528092626004" status="passed">
+                    <name>logReporter[Enter DateOfBirth, true, false]</name>
+                    <title>Enter DateOfBirth</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092627681" stop="1528092627682" status="passed">
+                    <name>logReporter[select gender, true, false]</name>
+                    <title>select gender</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092629204" stop="1528092629206" status="passed">
+                    <name>logReporter[Enter Postcode, true, false]</name>
+                    <title>Enter Postcode</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092671161" stop="1528092671164" status="passed">
+                    <name>logReporter[Click on match button, true, false]</name>
+                    <title>Click on match button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092682422" stop="1528092682424" status="passed">
+                    <name>logReporter[Enter cardNumber, true, false]</name>
+                    <title>Enter cardNumber</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092683047" stop="1528092683049" status="passed">
+                    <name>logReporter[Enter  occupation, true, false]</name>
+                    <title>Enter  occupation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092685779" stop="1528092685781" status="passed">
+                    <name>logReporter[Click on Save btn, true, false]</name>
+                    <title>Click on Save btn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092726490" stop="1528092726492" status="passed">
+                    <name>logReporter[ click on No Match Btn, true, false]</name>
+                    <title> click on No Match Btn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092781301" stop="1528092781304" status="passed">
+                    <name>logReporter[ click on yesBtn, true, false]</name>
+                    <title> click on yesBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092786959" stop="1528092786961" status="passed">
+                    <name>logReporter[ click on yesBtn, true, false]</name>
+                    <title> click on yesBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092790096" stop="1528092790098" status="passed">
+                    <name>logReporter[ click on ok Btn, true, false]</name>
+                    <title> click on ok Btn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092794387" stop="1528092794388" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092800096" stop="1528092800098" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092801484" stop="1528092971575" status="passed">
+            <name>Test6448verifyReportRegistrationSummaryReport</name>
+            <steps>
+                <step start="1528092806888" stop="1528092806890" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092807511" stop="1528092807513" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092807882" stop="1528092807883" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092856845" stop="1528092856847" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092857029" stop="1528092857031" status="passed">
+                    <name>logReporter[Verify  Registration Tab , true, false]</name>
+                    <title>Verify  Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092860797" stop="1528092860802" status="passed">
+                    <name>logReporter[Click on Registration Tab , true, false]</name>
+                    <title>Click on Registration Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092861143" stop="1528092861145" status="passed">
+                    <name>logReporter[Verify  registration Summary Report Tab , true, false]</name>
+                    <title>Verify  registration Summary Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092864949" stop="1528092864951" status="passed">
+                    <name>logReporter[Click on Registration Summary Report  Tab , true, false]</name>
+                    <title>Click on Registration Summary Report  Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092890258" stop="1528092890262" status="passed">
+                    <name>logReporter[Click on DateRange dropdw , true, false]</name>
+                    <title>Click on DateRange dropdw </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092890739" stop="1528092890741" status="passed">
+                    <name>logReporter[select today as DateRange  , true, false]</name>
+                    <title>select today as DateRange  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092894729" stop="1528092894732" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092907943" stop="1528092907945" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092911752" stop="1528092911753" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092911932" stop="1528092911933" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092915820" stop="1528092915822" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092940788" stop="1528092940792" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092966147" stop="1528092966149" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092971565" stop="1528092971567" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528092973123" stop="1528093155594" status="passed">
+            <name>Test6450verifyLiftedSuspensionReport</name>
+            <steps>
+                <step start="1528092978133" stop="1528092978134" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092978717" stop="1528092978718" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092979097" stop="1528092979100" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528092997502" stop="1528092997505" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093001893" stop="1528093001897" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093004321" stop="1528093004323" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093005086" stop="1528093005088" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093017121" stop="1528093017124" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093018190" stop="1528093018193" status="passed">
+                    <name>logReporter[Select suspension type as Suspended, true, false]</name>
+                    <title>Select suspension type as Suspended</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093018779" stop="1528093018781" status="passed">
+                    <name>logReporter[Set Expiry date, true, false]</name>
+                    <title>Set Expiry date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093019258" stop="1528093019262" status="passed">
+                    <name>logReporter[Enter Notes, true, false]</name>
+                    <title>Enter Notes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093019964" stop="1528093019965" status="passed">
+                    <name>logReporter[Enter Message, true, false]</name>
+                    <title>Enter Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093020467" stop="1528093020468" status="passed">
+                    <name>logReporter[Click on commit , true, false]</name>
+                    <title>Click on commit </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093031323" stop="1528093031326" status="passed">
+                    <name>logReporter[Click on Lift tab, true, false]</name>
+                    <title>Click on Lift tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093075242" stop="1528093075246" status="passed">
+                    <name>logReporter[Click on Surname, true, false]</name>
+                    <title>Click on Surname</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093075917" stop="1528093075918" status="passed">
+                    <name>logReporter[Click on Ok , true, false]</name>
+                    <title>Click on Ok </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093080130" stop="1528093080132" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093084158" stop="1528093084160" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093088011" stop="1528093088013" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093088191" stop="1528093088193" status="passed">
+                    <name>logReporter[Verify  SuspensionsTab , true, false]</name>
+                    <title>Verify  SuspensionsTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093092003" stop="1528093092005" status="passed">
+                    <name>logReporter[Click on Suspensions Tab, true, false]</name>
+                    <title>Click on Suspensions Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093092204" stop="1528093092208" status="passed">
+                    <name>logReporter[Verify  Lifted Suspensions ReportTab , true, false]</name>
+                    <title>Verify  Lifted Suspensions ReportTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093095994" stop="1528093095995" status="passed">
+                    <name>logReporter[Click on LiftedSuspensions Report Tab , true, false]</name>
+                    <title>Click on LiftedSuspensions Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093101133" stop="1528093101135" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093114352" stop="1528093114355" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093118181" stop="1528093118182" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093118359" stop="1528093118360" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093122299" stop="1528093122303" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093147313" stop="1528093147315" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093151337" stop="1528093151338" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093155583" stop="1528093155585" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528093157175" stop="1528093254258" status="passed">
+            <name>Test6451verifyCurrentSuspensionReport</name>
+            <steps>
+                <step start="1528093162386" stop="1528093162393" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093163017" stop="1528093163018" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093163401" stop="1528093163402" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093185210" stop="1528093185214" status="passed">
+                    <name>logReporter[Click on Report Tab , true, false]</name>
+                    <title>Click on Report Tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093185394" stop="1528093185395" status="passed">
+                    <name>logReporter[Verify  SuspensionsTab , true, false]</name>
+                    <title>Verify  SuspensionsTab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093189164" stop="1528093189167" status="passed">
+                    <name>logReporter[Click on Suspensions Tab, true, false]</name>
+                    <title>Click on Suspensions Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093189389" stop="1528093189391" status="passed">
+                    <name>logReporter[Verify  SuspensionDetailReport , false, false]</name>
+                    <title>Verify  SuspensionDetailReport </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093193216" stop="1528093193221" status="passed">
+                    <name>logReporter[Click on SuspensionDetailReport , true, false]</name>
+                    <title>Click on SuspensionDetailReport </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093198509" stop="1528093198511" status="passed">
+                    <name>logReporter[Click on genrate , true, false]</name>
+                    <title>Click on genrate </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093211736" stop="1528093211739" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093215613" stop="1528093215614" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093215805" stop="1528093215806" status="passed">
+                    <name>logReporter[Verify  export, true, false]</name>
+                    <title>Verify  export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093219763" stop="1528093219769" status="passed">
+                    <name>logReporter[Click on export, true, false]</name>
+                    <title>Click on export</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093244755" stop="1528093244757" status="passed">
+                    <name>logReporter[Click on closeBtn , true, false]</name>
+                    <title>Click on closeBtn </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093248768" stop="1528093248770" status="passed">
+                    <name>logReporter[Click on username link, true, false]</name>
+                    <title>Click on username link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528093254245" stop="1528093254248" status="passed">
+                    <name>logReporter[Click on logout, true, false]</name>
+                    <title>Click on logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="7900@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

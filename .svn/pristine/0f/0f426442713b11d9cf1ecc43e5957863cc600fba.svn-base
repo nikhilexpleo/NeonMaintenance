@@ -1,0 +1,328 @@
+{
+  "uid" : "9ef7ed9a7db151f5",
+  "name" : "tc6389_NormalRegistration[Run1,{TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, StreetAddress=Waterside  Basin Road, Name=Mrs ODBOP OKSZU, CustomerNumber=1955156474, City=WORCESTER, CardNumber=1.4171917E7, Country=United Kingdom, DateOfBirth=20/01/1971}]",
+  "title" : "Test6389/91",
+  "time" : {
+    "start" : 1528091584647,
+    "stop" : 1528091783923,
+    "duration" : 199276
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 19
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Normal Registration",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1528091589530,
+      "stop" : 1528091589532,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1528091590238,
+      "stop" : 1528091590240,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1528091595949,
+      "stop" : 1528091595956,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1528091614207,
+      "stop" : 1528091614209,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on registartion tab, true, false]",
+    "title" : "Click on registartion tab",
+    "time" : {
+      "start" : 1528091614849,
+      "stop" : 1528091614850,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1528091620265,
+      "stop" : 1528091620266,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter DateOfBirth, true, false]",
+    "title" : "Enter DateOfBirth",
+    "time" : {
+      "start" : 1528091622805,
+      "stop" : 1528091622807,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Postcode, true, false]",
+    "title" : "Enter Postcode",
+    "time" : {
+      "start" : 1528091624444,
+      "stop" : 1528091624445,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Cancel , true, false]",
+    "title" : "Click on Cancel ",
+    "time" : {
+      "start" : 1528091669615,
+      "stop" : 1528091669616,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter street, true, false]",
+    "title" : "Enter street",
+    "time" : {
+      "start" : 1528091673482,
+      "stop" : 1528091673485,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter City, true, false]",
+    "title" : "Enter City",
+    "time" : {
+      "start" : 1528091676376,
+      "stop" : 1528091676378,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter cardNumber, true, false]",
+    "title" : "Enter cardNumber",
+    "time" : {
+      "start" : 1528091677612,
+      "stop" : 1528091677614,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Save btn, true, false]",
+    "title" : "Click on Save btn",
+    "time" : {
+      "start" : 1528091680611,
+      "stop" : 1528091680616,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on toggleButton, true, false]",
+    "title" : "Click on toggleButton",
+    "time" : {
+      "start" : 1528091764942,
+      "stop" : 1528091764944,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on View match, true, false]",
+    "title" : "Click on View match",
+    "time" : {
+      "start" : 1528091765317,
+      "stop" : 1528091765318,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify Message displayed, true, false]",
+    "title" : "verify Message displayed",
+    "time" : {
+      "start" : 1528091769423,
+      "stop" : 1528091769427,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on ok, true, false]",
+    "title" : "Click on ok",
+    "time" : {
+      "start" : 1528091773935,
+      "stop" : 1528091773938,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1528091778070,
+      "stop" : 1528091778073,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1528091783918,
+      "stop" : 1528091783923,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "D90D3CQ1"
+  }, {
+    "name" : "thread",
+    "value" : "7900@D90D3CQ1.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

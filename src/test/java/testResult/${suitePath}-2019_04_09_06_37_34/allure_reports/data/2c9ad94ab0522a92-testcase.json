@@ -1,0 +1,760 @@
+{
+  "uid" : "2c9ad94ab0522a92",
+  "name" : "addCreditBankDeatils_CreditAccountTC",
+  "title" : "Add credit bank deatils credit account TC",
+  "time" : {
+    "start" : 1554792114208,
+    "stop" : 1554792237843,
+    "duration" : 123635
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 48
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554792114793,
+      "stop" : 1554792114794,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554792115531,
+      "stop" : 1554792115532,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554792115948,
+      "stop" : 1554792115949,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on top Navigation Credit, true, false]",
+    "title" : "Click on top Navigation Credit",
+    "time" : {
+      "start" : 1554792137980,
+      "stop" : 1554792137981,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Credit Accounts form Credit, true, false]",
+    "title" : "Click on Credit Accounts form Credit",
+    "time" : {
+      "start" : 1554792138566,
+      "stop" : 1554792138567,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Create New, true, false]",
+    "title" : "Click on Create New",
+    "time" : {
+      "start" : 1554792140140,
+      "stop" : 1554792140141,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Acc Number, true, false]",
+    "title" : "Enter Acc Number",
+    "time" : {
+      "start" : 1554792141800,
+      "stop" : 1554792141801,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on LowerLimit , true, false]",
+    "title" : "Click on LowerLimit ",
+    "time" : {
+      "start" : 1554792155161,
+      "stop" : 1554792155162,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Date of birth display, true, false]",
+    "title" : "Verify Date of birth display",
+    "time" : {
+      "start" : 1554792155842,
+      "stop" : 1554792155843,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on LowerLimit, true, false]",
+    "title" : "Click on LowerLimit",
+    "time" : {
+      "start" : 1554792156509,
+      "stop" : 1554792156510,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Lower Limit, true, false]",
+    "title" : "Enter Lower Limit",
+    "time" : {
+      "start" : 1554792167082,
+      "stop" : 1554792167083,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Upper Limit, true, false]",
+    "title" : "Enter Upper Limit",
+    "time" : {
+      "start" : 1554792167671,
+      "stop" : 1554792167673,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on  save, true, false]",
+    "title" : "Click on  save",
+    "time" : {
+      "start" : 1554792168307,
+      "stop" : 1554792168308,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select manager from the list , true, false]",
+    "title" : "Select manager from the list ",
+    "time" : {
+      "start" : 1554792172199,
+      "stop" : 1554792172200,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on OK, true, false]",
+    "title" : "Click on OK",
+    "time" : {
+      "start" : 1554792173249,
+      "stop" : 1554792173250,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify successfull message display, true, false]",
+    "title" : "Verify successfull message display",
+    "time" : {
+      "start" : 1554792175494,
+      "stop" : 1554792175495,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeIconTab, true, false]",
+    "title" : "Click on closeIconTab",
+    "time" : {
+      "start" : 1554792179960,
+      "stop" : 1554792179962,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeIconTab, true, false]",
+    "title" : "Click on closeIconTab",
+    "time" : {
+      "start" : 1554792183504,
+      "stop" : 1554792183505,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on top Navigation Credit, true, false]",
+    "title" : "Click on top Navigation Credit",
+    "time" : {
+      "start" : 1554792187233,
+      "stop" : 1554792187235,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Credit Accounts form Credit, true, false]",
+    "title" : "Click on Credit Accounts form Credit",
+    "time" : {
+      "start" : 1554792187678,
+      "stop" : 1554792187679,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Acc Number, true, false]",
+    "title" : "Enter Acc Number",
+    "time" : {
+      "start" : 1554792189146,
+      "stop" : 1554792189146,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find, true, false]",
+    "title" : "Click on Find",
+    "time" : {
+      "start" : 1554792189667,
+      "stop" : 1554792189668,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Page, true, false]",
+    "title" : "Select Page",
+    "time" : {
+      "start" : 1554792190908,
+      "stop" : 1554792190910,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Details, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Details",
+    "time" : {
+      "start" : 1554792198099,
+      "stop" : 1554792198100,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Audit, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Audit",
+    "time" : {
+      "start" : 1554792198522,
+      "stop" : 1554792198523,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Authorisations, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Authorisations",
+    "time" : {
+      "start" : 1554792198936,
+      "stop" : 1554792198937,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_BankAccounts, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_BankAccounts",
+    "time" : {
+      "start" : 1554792199416,
+      "stop" : 1554792199417,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_BankReferences, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_BankReferences",
+    "time" : {
+      "start" : 1554792199823,
+      "stop" : 1554792199824,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_CasinoReferences, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_CasinoReferences",
+    "time" : {
+      "start" : 1554792200225,
+      "stop" : 1554792200226,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Identification, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Identification",
+    "time" : {
+      "start" : 1554792200636,
+      "stop" : 1554792200637,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Messages, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Messages",
+    "time" : {
+      "start" : 1554792201030,
+      "stop" : 1554792201031,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Notes, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Notes",
+    "time" : {
+      "start" : 1554792201439,
+      "stop" : 1554792201440,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Transactions, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Transactions",
+    "time" : {
+      "start" : 1554792201864,
+      "stop" : 1554792201865,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Deposits, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Deposits",
+    "time" : {
+      "start" : 1554792202318,
+      "stop" : 1554792202320,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Check Presence :creditAccount_findAcc_Deatils_Summary, true, false]",
+    "title" : "Check Presence :creditAccount_findAcc_Deatils_Summary",
+    "time" : {
+      "start" : 1554792202718,
+      "stop" : 1554792202719,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Bank Account, true, false]",
+    "title" : "Click on Bank Account",
+    "time" : {
+      "start" : 1554792203247,
+      "stop" : 1554792203248,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Add Bank Account, true, false]",
+    "title" : "Click on Add Bank Account",
+    "time" : {
+      "start" : 1554792204831,
+      "stop" : 1554792204832,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Acc Number, true, false]",
+    "title" : "Enter Acc Number",
+    "time" : {
+      "start" : 1554792205864,
+      "stop" : 1554792205865,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Bank Number, true, false]",
+    "title" : "Enter Bank Number",
+    "time" : {
+      "start" : 1554792206526,
+      "stop" : 1554792206527,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[CheckBOX check For Debit card, true, false]",
+    "title" : "CheckBOX check For Debit card",
+    "time" : {
+      "start" : 1554792222272,
+      "stop" : 1554792222273,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[click on Last 4 digit textbox, true, false]",
+    "title" : "click on Last 4 digit textbox",
+    "time" : {
+      "start" : 1554792222834,
+      "stop" : 1554792222835,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter cardLastFourDigits, true, false]",
+    "title" : "Enter cardLastFourDigits",
+    "time" : {
+      "start" : 1554792223412,
+      "stop" : 1554792223413,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter expiry month, true, false]",
+    "title" : "Enter expiry month",
+    "time" : {
+      "start" : 1554792224057,
+      "stop" : 1554792224058,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter expiry year, true, false]",
+    "title" : "Enter expiry year",
+    "time" : {
+      "start" : 1554792224717,
+      "stop" : 1554792224719,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Commit, true, false]",
+    "title" : "Click on Commit",
+    "time" : {
+      "start" : 1554792225357,
+      "stop" : 1554792225359,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeIconTab, true, false]",
+    "title" : "Click on closeIconTab",
+    "time" : {
+      "start" : 1554792228958,
+      "stop" : 1554792228960,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554792232645,
+      "stop" : 1554792232646,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554792237842,
+      "stop" : 1554792237843,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "11468@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

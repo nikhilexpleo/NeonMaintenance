@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="EDDRegression" parallel="false">
+ <!-- <parameter name="TestFileName" value="projectModule1/SmokeSuite" /> -->
+ <listeners>
+  <listener class-name="com.generic.AnnotationTransformer" />
+  <listener class-name="com.generic.CustomReporterNew" />
+ </listeners>
+ <test name="EDD">
+ <classes>
+ 
+ 	 <!--  <class name="com.scripts.EDD.TC14240_incidentCreatedAsSelfExclusion" />
+	<class name="com.scripts.EDD.TC14241_incidentCreatedAsEnforcedExclusion" />	
+	<class name="com.scripts.EDD.TC14242_incidentCreatedAsPositiveAssessments" />  
+	<class name="com.scripts.EDD.TC14243_incidentCreatedAsProblemGamblingConversation" />
+	<class name="com.scripts.EDD.TC14244_incidentCreatedAsProblemGamblingReinstatementRequest" />
+	<class name="com.scripts.EDD.TC14231_EnsureActualLossValueCanbeEnteredWhenCreatingManualEDDRecord" />  
+	<class name="com.scripts.EDD.TC14245_EnsureUserCanAddAnAttachementToEDDRecord" />
+	<class name="com.scripts.EDD.TC14246_EnsureUserCanAddNextStepToEDDRecord" />  
+	<class name="com.scripts.EDD.TC14247_EnsureUserAlertedCorrectlyOnOpenEDDCustomersFirstVisitInSameCasinoOnSameDay" />
+	
+	<class name="com.scripts.EDD.TC14249_EnsureUserAlertedWhenCustomerWithanEDDIsInAwaitingApprovalVisits" />
+	<class name="com.scripts.EDD.TC14248_EnsureUserNotAlertedOnClosedEDDWhenCustomerVisits" />
+	<class name="com.scripts.EDD.TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit" />  
+	
+	<class name="com.scripts.EDD.TC14232_UsersShouldbeAbleTofilterEDDsonOpen" />
+	<class name="com.scripts.EDD.TC14233_UsersShouldbeAbleTofilterEDDsonClosed" />
+	<class name="com.scripts.EDD.TC14234_UsersShouldbeAbleTofilterEDDsOnAwaitingApproval" />
+	<class name="com.scripts.EDD.TC14235_UsersShouldbeAbleTofilterEDDsonManualTrigger" />  
+	<class name="com.scripts.EDD.TC14239_UsersShouldbeAbleTofilterEDDsOnComplete" />   -->
+	
+	
+	<!-- need to run on headoffice -->
+  	 <class name="com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour" />
+	<!-- <class name="com.scripts.EDD.TC14253_VerifyCustomerCanBeSetToGroupwideBarred_FailedEDD" />
+	<class name="com.scripts.EDD.TC14254_VerifyCustomerCanBeSetToLocallyBarreBehaviour" />
+	
+	<class name="com.scripts.EDD.TC14255_VerifyCustomerCanBeSetToLocallyResigned" />  
+	<class name="com.scripts.EDD.TC14256_VerifyCustomerCanBeSetToNationallyResigned" />
+	<class name="com.scripts.EDD.TC14257_VerifyCustomerCanBeSetToRefusedRegistration" />
+	<class name="com.scripts.EDD.TC14258_VerifyCustomerCanBeSetToSelfExcludedNotOnSENSE" />
+	<class name="com.scripts.EDD.TC14259_VerifyCustomerCanBeSetToSelfExcluded_SENSE_External" />  
+	<class name="com.scripts.EDD.TC14260_VerifyCustomerCanBeSetToSelfExcluded_SENSEGrosvenor" />
+	<class name="com.scripts.EDD.TC14261_VerifyCustomerCanBeSetToSuspended_EDD" />
+	
+	<class name="com.scripts.EDD.TC14262_VerifyCustomerSuspensionCanbeLifted_to_GroupwideBarredBehaviour" />	
+	<class name="com.scripts.EDD.TC14263_VerifyCustomerSuspensionCanbeLifted_to_GroupwideBarredFailureEDD" />   
+	<class name="com.scripts.EDD.TC14264_VerifyCustomerSuspensionCanbeLifted_to_LocallyBarredBehaviour" />
+	<class name="com.scripts.EDD.TC14265_VerifyCustomerSuspensionCanbeLifted_to_LocallyResigned" />
+	<class name="com.scripts.EDD.TC14266_VerifyCustomerSuspensionCanbeLifted_to_NationallyResigned" />	
+	<class name="com.scripts.EDD.TC14267_VerifyCustomerSuspensionCanbeLifted_to_RefusedRegistration" />  
+	<class name="com.scripts.EDD.TC14268_VerifyCustomerSuspensionCanbeLifted_to_SelfExcludedNotonSENSE" />
+	<class name="com.scripts.EDD.TC14269_VerifyCustomerSuspensionCanbeLifted_to_SelfExcludedSENSEExternal" />
+	<class name="com.scripts.EDD.TC14270_VerifyCustomerSuspensionCanbeLifted_to_SelfExcluded_SENSE_Grosvenor" />
+	<class name="com.scripts.EDD.TC14271_VerifyCustomerSuspensionCanbeLifted_to_SuspendedEDD" />  -->
+  
+	
+	
+  </classes>
+</test> 
+</suite>

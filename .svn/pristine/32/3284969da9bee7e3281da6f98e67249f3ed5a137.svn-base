@@ -1,0 +1,460 @@
+{
+  "uid" : "61fa45ef942eaec8",
+  "name" : "ViewVoidDebitCard",
+  "title" : "View void debit card",
+  "time" : {
+    "start" : 1528091537746,
+    "stop" : 1528091583169,
+    "duration" : 45423
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 28
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Click on top Navigation Credit, true, false]",
+    "title" : "Click on top Navigation Credit",
+    "time" : {
+      "start" : 1528091541763,
+      "stop" : 1528091541765,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on view Debit card menu , true, false]",
+    "title" : "Click on view Debit card menu ",
+    "time" : {
+      "start" : 1528091542449,
+      "stop" : 1528091542454,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1528091544270,
+      "stop" : 1528091544271,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find , true, false]",
+    "title" : "Click on Find ",
+    "time" : {
+      "start" : 1528091544825,
+      "stop" : 1528091544827,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify details , true, false]",
+    "title" : "verify details ",
+    "time" : {
+      "start" : 1528091545840,
+      "stop" : 1528091545842,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Page, true, false]",
+    "title" : "Select Page",
+    "time" : {
+      "start" : 1528091546214,
+      "stop" : 1528091546219,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify view debit card screen displayed , true, false]",
+    "title" : "verify view debit card screen displayed ",
+    "time" : {
+      "start" : 1528091547410,
+      "stop" : 1528091547412,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify CardType Label displayed, true, false]",
+    "title" : "Verify CardType Label displayed",
+    "time" : {
+      "start" : 1528091547865,
+      "stop" : 1528091547866,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify ExpiryDate Label displayed, true, false]",
+    "title" : "Verify ExpiryDate Label displayed",
+    "time" : {
+      "start" : 1528091548022,
+      "stop" : 1528091548030,
+      "duration" : 8
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Account NameLabel displayed, true, false]",
+    "title" : "Verify Account NameLabel displayed",
+    "time" : {
+      "start" : 1528091548266,
+      "stop" : 1528091548267,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Account Number Label displayed, true, false]",
+    "title" : "Verify Account Number Label displayed",
+    "time" : {
+      "start" : 1528091548417,
+      "stop" : 1528091548419,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Bank Label displayed, true, false]",
+    "title" : "Verify Bank Label displayed",
+    "time" : {
+      "start" : 1528091548600,
+      "stop" : 1528091548604,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify AmountAvailable Label displayed, true, false]",
+    "title" : "Verify AmountAvailable Label displayed",
+    "time" : {
+      "start" : 1528091548816,
+      "stop" : 1528091548818,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Void , true, false]",
+    "title" : "Click on Void ",
+    "time" : {
+      "start" : 1528091553009,
+      "stop" : 1528091553011,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify voidConfirmationMsg displayed, true, false]",
+    "title" : "Verify voidConfirmationMsg displayed",
+    "time" : {
+      "start" : 1528091553886,
+      "stop" : 1528091553887,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on yes , true, false]",
+    "title" : "Click on yes ",
+    "time" : {
+      "start" : 1528091554424,
+      "stop" : 1528091554426,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify voidSuccessMsg displayed, true, false]",
+    "title" : "Verify voidSuccessMsg displayed",
+    "time" : {
+      "start" : 1528091555141,
+      "stop" : 1528091555143,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on ok , true, false]",
+    "title" : "Click on ok ",
+    "time" : {
+      "start" : 1528091555519,
+      "stop" : 1528091555521,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeIconTab, true, false]",
+    "title" : "Click on closeIconTab",
+    "time" : {
+      "start" : 1528091559545,
+      "stop" : 1528091559549,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on closeIconTab, true, false]",
+    "title" : "Click on closeIconTab",
+    "time" : {
+      "start" : 1528091563452,
+      "stop" : 1528091563454,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on top Navigation Credit, true, false]",
+    "title" : "Click on top Navigation Credit",
+    "time" : {
+      "start" : 1528091567443,
+      "stop" : 1528091567445,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on view Debit card menu , true, false]",
+    "title" : "Click on view Debit card menu ",
+    "time" : {
+      "start" : 1528091568091,
+      "stop" : 1528091568095,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1528091569834,
+      "stop" : 1528091569836,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find , true, false]",
+    "title" : "Click on Find ",
+    "time" : {
+      "start" : 1528091570692,
+      "stop" : 1528091570693,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify details , true, false]",
+    "title" : "verify details ",
+    "time" : {
+      "start" : 1528091571749,
+      "stop" : 1528091571755,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Page, true, false]",
+    "title" : "Select Page",
+    "time" : {
+      "start" : 1528091572111,
+      "stop" : 1528091572112,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1528091577485,
+      "stop" : 1528091577487,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1528091583162,
+      "stop" : 1528091583168,
+      "duration" : 6
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "D90D3CQ1"
+  }, {
+    "name" : "thread",
+    "value" : "7900@D90D3CQ1.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,191 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 15,
+      "passed" : 15,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "5f3b024b0da60efe9ecb322fd34a2604",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 15,
+        "passed" : 15,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "f13cf168b10d4b3a",
+        "name" : "addCreditBankDeatils_CreditAccountTC",
+        "title" : "Add credit bank deatils credit account TC",
+        "time" : {
+          "start" : 1528091043873,
+          "stop" : 1528091158712,
+          "duration" : 114839
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "541618277e898223",
+        "name" : "addDebitCardAsElectronic",
+        "title" : "Add debit card as electronic",
+        "time" : {
+          "start" : 1528091167038,
+          "stop" : 1528091318940,
+          "duration" : 151902
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e3901e359835dfa8",
+        "name" : "VerifyAddDebitCardManualSameCard",
+        "title" : "Verify add debit card manual same card",
+        "time" : {
+          "start" : 1528091325023,
+          "stop" : 1528091537636,
+          "duration" : 212613
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "61fa45ef942eaec8",
+        "name" : "ViewVoidDebitCard",
+        "title" : "View void debit card",
+        "time" : {
+          "start" : 1528091537746,
+          "stop" : 1528091583169,
+          "duration" : 45423
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9ef7ed9a7db151f5",
+        "name" : "tc6389_NormalRegistration[Run1,{TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, StreetAddress=Waterside  Basin Road, Name=Mrs ODBOP OKSZU, CustomerNumber=1955156474, City=WORCESTER, CardNumber=1.4171917E7, Country=United Kingdom, DateOfBirth=20/01/1971}]",
+        "title" : "Test6389/91",
+        "time" : {
+          "start" : 1528091584647,
+          "stop" : 1528091783923,
+          "duration" : 199276
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "de2f40cda07505c6",
+        "name" : "verifyTest6300TableDailyResultsReport",
+        "title" : "Verify test 6300 table daily results report",
+        "time" : {
+          "start" : 1528091785271,
+          "stop" : 1528092006733,
+          "duration" : 221462
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c5870d0aeb04a84a",
+        "name" : "Test6444verifyAttendanceDetailReport",
+        "title" : "Test 6444verify attendance detail report",
+        "time" : {
+          "start" : 1528092008155,
+          "stop" : 1528092143675,
+          "duration" : 135520
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c55cc3e62bdd866f",
+        "name" : "Test6445verifyAttendanceSummaryReport",
+        "title" : "Test 6445verify attendance summary report",
+        "time" : {
+          "start" : 1528092145228,
+          "stop" : 1528092255911,
+          "duration" : 110683
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "46a95094f24977ff",
+        "name" : "Test6446AttendanceSummarybyHourReport",
+        "title" : "Test 6446 attendance summaryby hour report",
+        "time" : {
+          "start" : 1528092257331,
+          "stop" : 1528092368056,
+          "duration" : 110725
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8e76d46ae3b5aac1",
+        "name" : "Test6447verifyRegistrationDeatilsReport",
+        "title" : "Test 6447verify registration deatils report",
+        "time" : {
+          "start" : 1528092369590,
+          "stop" : 1528092469797,
+          "duration" : 100207
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "13be0e61a92e0764",
+        "name" : "Test6448verifyRegistrationSummaryReport",
+        "title" : "Test 6448verify registration summary report",
+        "time" : {
+          "start" : 1528092471220,
+          "stop" : 1528092571828,
+          "duration" : 100608
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "46604ac368987515",
+        "name" : "reportregister",
+        "title" : "Reportregister",
+        "time" : {
+          "start" : 1528092571951,
+          "stop" : 1528092801359,
+          "duration" : 229408
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "285c02c806994df3",
+        "name" : "Test6448verifyReportRegistrationSummaryReport",
+        "title" : "Test 6448verify report registration summary report",
+        "time" : {
+          "start" : 1528092801484,
+          "stop" : 1528092971575,
+          "duration" : 170091
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2941ea39b2d5cbbb",
+        "name" : "Test6450verifyLiftedSuspensionReport",
+        "title" : "Test 6450verify lifted suspension report",
+        "time" : {
+          "start" : 1528092973123,
+          "stop" : 1528093155594,
+          "duration" : 182471
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "11adbc727e5fb2bf",
+        "name" : "Test6451verifyCurrentSuspensionReport",
+        "title" : "Test 6451verify current suspension report",
+        "time" : {
+          "start" : 1528093157175,
+          "stop" : 1528093254258,
+          "duration" : 97083
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

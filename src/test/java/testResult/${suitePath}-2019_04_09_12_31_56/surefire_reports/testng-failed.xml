@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SAW]">
+  <listeners>
+    <listener class-name="com.generic.AnnotationTransformer"/>
+    <listener class-name="com.generic.CustomReporterNew"/>
+  </listeners>
+  <test name="SAW(failed)">
+    <classes>
+      <class name="com.scripts.desktopReception.customerProfile_AddViewDeleteMessage">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_AddViewDeleteMessage -->
+      <class name="com.scripts.desktopReception.sundryIncomeExpenses_Transcation">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.sundryIncomeExpenses_Transcation -->
+      <class name="com.scripts.desktopReception.tableProgressiveJackpotPayout">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.tableProgressiveJackpotPayout -->
+      <class name="com.scripts.desktopReception.CentralCharityDonationsReversal">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyCentralCharityDonationsReversalTab"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CentralCharityDonationsReversal -->
+      <class name="com.scripts.desktopReception.errorOverUnderAccountTranscation">
+        <methods>
+          <include name="addAmount_ErrorOverAndUnderAccount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.errorOverUnderAccountTranscation -->
+      <class name="com.scripts.desktopReception.Test6368_69_SundryExpensesAndReversal">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.Test6368_69_SundryExpensesAndReversal -->
+      <class name="com.scripts.desktopReception.Reception_Entry">
+        <methods>
+          <include name="VerifyReception_Entry"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.Reception_Entry -->
+      <class name="com.scripts.noen.CashierAndManagerTC.Customers_IntelligentDatabase">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.Customers_IntelligentDatabase -->
+      <class name="com.scripts.desktopReception.chipsAddRemove">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddRemovechips"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.chipsAddRemove -->
+      <class name="com.scripts.desktopReception.incentivesRedeemedAndIssued">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyMajorIncentivesRedeemedAndIssued"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.incentivesRedeemedAndIssued -->
+      <class name="com.scripts.desktopReception.CustomerProfileAddLocalMessage">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CustomerProfileAddLocalMessage -->
+      <class name="com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid -->
+      <class name="com.scripts.desktopReception.TC6692_6694_ManagerDueDiligence_001_003">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.TC6692_6694_ManagerDueDiligence_001_003 -->
+      <class name="com.scripts.noen.CashierAndManagerTC.FunctionDepositONAndOFF">
+        <methods>
+          <include name="FunctionDepositONAndOFF"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.FunctionDepositONAndOFF -->
+      <class name="com.scripts.desktopReception.staffSocialFundOnOff_Transcation">
+        <methods>
+          <include name="verifystaffSocialFundOnOffTranscation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.staffSocialFundOnOff_Transcation -->
+      <class name="com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear">
+        <methods>
+          <include name="chequeAddViewVoid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewExpensesDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewExpensesDetails -->
+      <class name="com.scripts.noen.CustomerProfileTC.TC6412_CustomerProfileAddNotes">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.TC6412_CustomerProfileAddNotes -->
+      <class name="com.scripts.noen.CashierAndManagerTC.AddViewAndDeleteThirdPartyBankAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkAddViewAndDeleteThirdPartyBankAccount"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.AddViewAndDeleteThirdPartyBankAccount -->
+      <class name="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ViewVoidDebitCard"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard -->
+      <class name="com.scripts.desktopReception.CustomerDueDiligenceFilter">
+        <methods>
+          <include name="Customer_ManageDueDiligenceFilter"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CustomerDueDiligenceFilter -->
+      <class name="com.scripts.desktopReception.viewCustomerCasino">
+        <methods>
+          <include name="viewCustomerCasino"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.viewCustomerCasino -->
+      <class name="com.scripts.desktopReception.foodAndBeverageIncome_Tranasction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyfoodAndBeverageIncomeAccount"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.foodAndBeverageIncome_Tranasction -->
+      <class name="com.scripts.desktopReception.cashFloatIssuedReturnedTab">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifycashFloatIssuedReturnedTab"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.cashFloatIssuedReturnedTab -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewCreditDetail">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewCreditDetail -->
+      <class name="com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber -->
+      <class name="com.scripts.noen.ForeignCurrency.CashDesk_ForeignCurrencyRelated">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.ForeignCurrency.CashDesk_ForeignCurrencyRelated -->
+      <class name="com.scripts.noen.CashierAndManagerTC.ViewAndVoidTransactions">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.ViewAndVoidTransactions -->
+      <class name="com.scripts.desktopReception.pettyCashIssuedRepaid_Transcation">
+        <methods>
+          <include name="verifyPettyCashIssuedRepaid"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.pettyCashIssuedRepaid_Transcation -->
+      <class name="com.scripts.noen.CashierAndManagerTC.CashDesk_ChequeRelated">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.CashDesk_ChequeRelated -->
+      <class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_ViewAllTransactions">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.CustomerProfile_ViewAllTransactions -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewAuditDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewAuditDetails -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewGamingDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewGamingDetails -->
+      <class name="com.scripts.desktopReception.ballyTicketsCounted">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyballyTickets"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.ballyTicketsCounted -->
+      <class name="com.scripts.noen.CashierAndManagerTC.PlayerTracking_ViewHospitalityTransaction">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.PlayerTracking_ViewHospitalityTransaction -->
+      <class name="com.scripts.desktopReception.issueNewCard_LostAndReplacementCard">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.issueNewCard_LostAndReplacementCard -->
+      <class name="com.scripts.noen.CashierAndManagerTC.View_Authorizations_AlarmsAlerts">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkView_Authorizations_AlarmsAlerts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.View_Authorizations_AlarmsAlerts -->
+      <class name="com.scripts.noen.CashierAndManagerTC.PlayerTracking_HospitalityTransaction">
+        <methods>
+          <include name="checkPlayerTracking_HospitalityTransaction"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.PlayerTracking_HospitalityTransaction -->
+      <class name="com.scripts.noen.CashierAndManagerTC.BalanceDetailsVerification">
+        <methods>
+          <include name="checkAndVerifyViewsTransactionOfThroughoutGamingDay"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.BalanceDetailsVerification -->
+      <class name="com.scripts.desktopReception.cashier_AssetEntry">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.cashier_AssetEntry -->
+      <class name="com.scripts.desktopReception.customerProfile_AddAssociates">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_AddAssociates -->
+      <class name="com.scripts.noen.ForeignCurrency.CashDeskImportCurrencyRate">
+        <methods>
+          <include name="tearDown"/>
+          <include name="CashDeskImportCurrencyRate"/>
+        </methods>
+      </class> <!-- com.scripts.noen.ForeignCurrency.CashDeskImportCurrencyRate -->
+      <class name="com.scripts.desktopReception.interimTableCount">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.interimTableCount -->
+      <class name="com.scripts.desktopReception.winnersBankTransferReversal_Transcation">
+        <methods>
+          <include name="VerifyWinnersBankTransferTranscation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.winnersBankTransferReversal_Transcation -->
+      <class name="com.scripts.noen.CashierAndManagerTC.PokerAccountONAndOFF">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.PokerAccountONAndOFF -->
+      <class name="com.scripts.desktopReception.CustomerEntry_UsingDOBName">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkCustomerEntryUsingNameDOB"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CustomerEntry_UsingDOBName -->
+      <class name="com.scripts.desktopReception.customerProfile_AddEditViewBarredsuspension">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addBarredSuspensionToCustomerProfile"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_AddEditViewBarredsuspension -->
+      <class name="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases">
+        <methods>
+          <include name="addCreditBankDeatils_CreditAccountTC"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases -->
+      <class name="com.scripts.desktopReception.Test6342_CashFromBank">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyCashFromBankTab"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.Test6342_CashFromBank -->
+      <class name="com.scripts.desktopReception.customerHistoricalAndEstimatedVisitEntry">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkcustomerHistoricalAndEstimatedVisitEntry"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerHistoricalAndEstimatedVisitEntry -->
+      <class name="com.scripts.noen.Reception.OpeningGamingDay.ExchangeTravellersCheque">
+        <methods>
+          <include name="tearDown"/>
+          <include name="exchangeTravellersCheque"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.Reception.OpeningGamingDay.ExchangeTravellersCheque -->
+      <class name="com.scripts.desktopReception.bank">
+        <methods>
+          <include name="VerifyBankingTab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.bank -->
+      <class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_ProfileIdentifications">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.CustomerProfile_ProfileIdentifications -->
+      <class name="com.scripts.noen.Reception.OpeningGamingDay.TableAccounting_TableFillAddAsset">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.Reception.OpeningGamingDay.TableAccounting_TableFillAddAsset -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewVisitsDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewVisitsDetails -->
+      <class name="com.scripts.desktopReception.gratuitiesIncomeAccountTranscation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifygratuitiesIncomeAccoun"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.gratuitiesIncomeAccountTranscation -->
+      <class name="com.scripts.desktopReception.depositOnOff">
+        <methods>
+          <include name="verifyDepositOff"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.depositOnOff -->
+      <class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_TestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.CustomerProfile_TestCases -->
+      <class name="com.scripts.desktopReception.setupCreditDebit_Transcation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySetupCreaditDebit"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.setupCreditDebit_Transcation -->
+      <class name="com.scripts.desktopReception.customerProfile_AddSuspendedSuspension">
+        <methods>
+          <include name="tc6421_addEditLiftSuspendedSuspensionToCustomerProfile" invocation-numbers="0 0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_AddSuspendedSuspension -->
+      <class name="com.scripts.noen.LEO_Tables.Test6629_TableDevices">
+        <methods>
+          <include name="viewcashier_AssetEntryDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.LEO_Tables.Test6629_TableDevices -->
+      <class name="com.scripts.desktopReception.accountTransction">
+        <methods>
+          <include name="verifyBadBeatJackpotBC"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.accountTransction -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewSummaryDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewSummaryDetails -->
+      <class name="com.scripts.desktopReception.CreditTransactions001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CreditTransactions001 -->
+      <class name="com.scripts.desktopReception.customerProfile_Delete">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_Delete -->
+      <class name="com.scripts.noen.CustomerProfileTC.TC6413_14_CustomerProfileViewAndRemoveNotes">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CustomerProfileTC.TC6413_14_CustomerProfileViewAndRemoveNotes -->
+      <class name="com.scripts.noen.CashierAndManagerTC.Machines_ViewDetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.Machines_ViewDetails -->
+      <class name="com.scripts.noen.CashierAndManagerTC.ViewAndvoidTransactionFromViews">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.ViewAndvoidTransactionFromViews -->
+      <class name="com.scripts.desktopReception.customerProfile_AddViewDueDiligence">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_AddViewDueDiligence -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewAdd_InterestsNPrefernces">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewAdd_InterestsNPrefernces -->
+      <class name="com.scripts.desktopReception.directCrediToAccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyDirectCrediToAccountTab"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.directCrediToAccount -->
+      <class name="com.scripts.desktopReception.TC6327_28_BadBeatJackpotCAndReversal">
+        <methods>
+          <include name="verifyBadBeatJackpotCAndReversalTab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.TC6327_28_BadBeatJackpotCAndReversal -->
+    </classes>
+  </test> <!-- SAW(failed) -->
+</suite> <!-- Failed suite [SAW] -->

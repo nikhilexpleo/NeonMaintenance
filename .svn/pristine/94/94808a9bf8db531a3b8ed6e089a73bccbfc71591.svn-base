@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529903906442" stop="1529903964933" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529903907946" stop="1529903963615" status="passed">
+            <name>tc14231_SetActualLossValueCanbeEnteredWhenCreatingManualEDDRecord[Run1,{Loss Value=1, CustomerNumber=1955155548, Reason=Periodic Review, TestCaseID=TC14231}]</name>
+            <title>Test 14231</title>
+            <description type="text">Ensure the Actual Loss Value can be entered when creating a manual EDD record </description>
+            <steps>
+                <step start="1529903914222" stop="1529903914279" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903914891" stop="1529903914893" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903915285" stop="1529903915287" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903932906" stop="1529903932908" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903936524" stop="1529903936526" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903939225" stop="1529903939227" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903940047" stop="1529903940049" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903945154" stop="1529903945157" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903945331" stop="1529903945333" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903953702" stop="1529903953704" status="passed">
+                    <name>logReporter[Click on Add button, true, false]</name>
+                    <title>Click on Add button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954483" stop="1529903954484" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display, true, fal...]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954613" stop="1529903954615" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954715" stop="1529903954717" status="passed">
+                    <name>logReporter[Verify 'Reason' display on page , true, false]</name>
+                    <title>Verify 'Reason' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954851" stop="1529903954853" status="passed">
+                    <name>logReporter[Verify 'Loss Value' display on page , true, false]</name>
+                    <title>Verify 'Loss Value' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955216" stop="1529903955218" status="passed">
+                    <name>logReporter[Click on reson for dropdown , true, false]</name>
+                    <title>Click on reson for dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955353" stop="1529903955355" status="passed">
+                    <name>logReporter[Verify option 'Black Card Customer' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Black Card Customer' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955448" stop="1529903955450" status="passed">
+                    <name>logReporter[Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955542" stop="1529903955544" status="passed">
+                    <name>logReporter[Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955635" stop="1529903955637" status="passed">
+                    <name>logReporter[Verify option 'Periodic Review' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Periodic Review' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955736" stop="1529903955737" status="passed">
+                    <name>logReporter[Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955835" stop="1529903955837" status="passed">
+                    <name>logReporter[Verify option 'Other' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Other' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955928" stop="1529903955930" status="passed">
+                    <name>logReporter[Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956028" stop="1529903956029" status="passed">
+                    <name>logReporter[Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956176" stop="1529903956179" status="passed">
+                    <name>logReporter[Verify option 'Third Party Information / C6' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Third Party Information / C6' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956522" stop="1529903956523" status="passed">
+                    <name>logReporter[Select reason, true, false]</name>
+                    <title>Select reason</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903957123" stop="1529903957125" status="passed">
+                    <name>logReporter[Enter Reason, true, false]</name>
+                    <title>Enter Reason</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903957642" stop="1529903957646" status="passed">
+                    <name>logReporter[Enter Loss value, true, false]</name>
+                    <title>Enter Loss value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903961927" stop="1529903961929" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903963610" stop="1529903963612" status="passed">
+                    <name>logReporter[loss value displayed correctly, true, false]</name>
+                    <title>loss value displayed correctly</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9964@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529903907946" stop="1529903963615" status="passed">
+            <name>tc14231_SetActualLossValueCanbeEnteredWhenCreatingManualEDDRecord[Run1,{Loss Value=1, CustomerNumber=1955155548, Reason=Periodic Review, TestCaseID=TC14231}]</name>
+            <title>Test 14231</title>
+            <description type="text">Ensure the Actual Loss Value can be entered when creating a manual EDD record </description>
+            <steps>
+                <step start="1529903914222" stop="1529903914279" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903914891" stop="1529903914893" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903915285" stop="1529903915287" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903932906" stop="1529903932908" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903936524" stop="1529903936526" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903939225" stop="1529903939227" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903940047" stop="1529903940049" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903945154" stop="1529903945157" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903945331" stop="1529903945333" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903953702" stop="1529903953704" status="passed">
+                    <name>logReporter[Click on Add button, true, false]</name>
+                    <title>Click on Add button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954483" stop="1529903954484" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display, true, fal...]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954613" stop="1529903954615" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954715" stop="1529903954717" status="passed">
+                    <name>logReporter[Verify 'Reason' display on page , true, false]</name>
+                    <title>Verify 'Reason' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903954851" stop="1529903954853" status="passed">
+                    <name>logReporter[Verify 'Loss Value' display on page , true, false]</name>
+                    <title>Verify 'Loss Value' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955216" stop="1529903955218" status="passed">
+                    <name>logReporter[Click on reson for dropdown , true, false]</name>
+                    <title>Click on reson for dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955353" stop="1529903955355" status="passed">
+                    <name>logReporter[Verify option 'Black Card Customer' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Black Card Customer' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955448" stop="1529903955450" status="passed">
+                    <name>logReporter[Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955542" stop="1529903955544" status="passed">
+                    <name>logReporter[Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955635" stop="1529903955637" status="passed">
+                    <name>logReporter[Verify option 'Periodic Review' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Periodic Review' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955736" stop="1529903955737" status="passed">
+                    <name>logReporter[Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955835" stop="1529903955837" status="passed">
+                    <name>logReporter[Verify option 'Other' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Other' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903955928" stop="1529903955930" status="passed">
+                    <name>logReporter[Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956028" stop="1529903956029" status="passed">
+                    <name>logReporter[Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956176" stop="1529903956179" status="passed">
+                    <name>logReporter[Verify option 'Third Party Information / C6' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Third Party Information / C6' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903956522" stop="1529903956523" status="passed">
+                    <name>logReporter[Select reason, true, false]</name>
+                    <title>Select reason</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903957123" stop="1529903957125" status="passed">
+                    <name>logReporter[Enter Reason, true, false]</name>
+                    <title>Enter Reason</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903957642" stop="1529903957646" status="passed">
+                    <name>logReporter[Enter Loss value, true, false]</name>
+                    <title>Enter Loss value</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903961927" stop="1529903961929" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529903963610" stop="1529903963612" status="passed">
+                    <name>logReporter[loss value displayed correctly, true, false]</name>
+                    <title>loss value displayed correctly</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9964@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

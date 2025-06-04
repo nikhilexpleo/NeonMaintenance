@@ -1,0 +1,280 @@
+{
+  "uid" : "d8afa0b4b58b9a9a",
+  "name" : "checkAndVerifyMachinesViewDetails",
+  "title" : "Check and verify machines view details",
+  "time" : {
+    "start" : 1554821886141,
+    "stop" : 1554821940424,
+    "duration" : 54283
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 16
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554821886830,
+      "stop" : 1554821886831,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554821887653,
+      "stop" : 1554821887654,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554821888140,
+      "stop" : 1554821888141,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on top nav Machines, true, false]",
+    "title" : "Click on top nav Machines",
+    "time" : {
+      "start" : 1554821906888,
+      "stop" : 1554821906889,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Machines, true, false]",
+    "title" : "Click on Machines",
+    "time" : {
+      "start" : 1554821910612,
+      "stop" : 1554821910613,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find, true, false]",
+    "title" : "Click on Find",
+    "time" : {
+      "start" : 1554821920554,
+      "stop" : 1554821920555,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Page, true, false]",
+    "title" : "Select Page",
+    "time" : {
+      "start" : 1554821921872,
+      "stop" : 1554821921874,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Machine label displayed, true, false]",
+    "title" : "Verify Machine label displayed",
+    "time" : {
+      "start" : 1554821928096,
+      "stop" : 1554821928097,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Location label displayed, true, false]",
+    "title" : "Verify Location label displayed",
+    "time" : {
+      "start" : 1554821928341,
+      "stop" : 1554821928342,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Game label displayed, true, false]",
+    "title" : "Verify Game label displayed",
+    "time" : {
+      "start" : 1554821928574,
+      "stop" : 1554821928575,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify status label displayed, true, false]",
+    "title" : "Verify status label displayed",
+    "time" : {
+      "start" : 1554821928798,
+      "stop" : 1554821928801,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify MoneyAcceptors label displayed, true, false]",
+    "title" : "Verify MoneyAcceptors label displayed",
+    "time" : {
+      "start" : 1554821929028,
+      "stop" : 1554821929029,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify OtherDetails displayed, true, false]",
+    "title" : "Verify OtherDetails displayed",
+    "time" : {
+      "start" : 1554821929271,
+      "stop" : 1554821929272,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify CustomFields label displayed, true, false]",
+    "title" : "Verify CustomFields label displayed",
+    "time" : {
+      "start" : 1554821929497,
+      "stop" : 1554821929497,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554821934575,
+      "stop" : 1554821934576,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554821939887,
+      "stop" : 1554821939891,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

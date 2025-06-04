@@ -1,0 +1,610 @@
+{
+  "uid" : "bb8ddeb59c9b14f",
+  "name" : "exchangeAndRedeemForegienCurrency",
+  "title" : "Exchange and redeem foregien currency",
+  "time" : {
+    "start" : 1554828405704,
+    "stop" : 1554828649513,
+    "duration" : 243809
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 38
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554828406358,
+      "stop" : 1554828406359,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554828407174,
+      "stop" : 1554828407175,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554828407640,
+      "stop" : 1554828407641,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Top Navigation Cash Desk, true, false]",
+    "title" : "Click on Top Navigation Cash Desk",
+    "time" : {
+      "start" : 1554828429976,
+      "stop" : 1554828429977,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on currency Transactions, true, false]",
+    "title" : "Click on currency Transactions",
+    "time" : {
+      "start" : 1554828430302,
+      "stop" : 1554828430304,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on exchange currency Transactions, true, false]",
+    "title" : "Click on exchange currency Transactions",
+    "time" : {
+      "start" : 1554828430636,
+      "stop" : 1554828430637,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Name, true, false]",
+    "title" : "Enter Name",
+    "time" : {
+      "start" : 1554828435239,
+      "stop" : 1554828435240,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select currency type, true, false]",
+    "title" : "Select currency type",
+    "time" : {
+      "start" : 1554828436194,
+      "stop" : 1554828436195,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter foreign Value, true, false]",
+    "title" : "Enter foreign Value",
+    "time" : {
+      "start" : 1554828440293,
+      "stop" : 1554828440294,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on save, true, false]",
+    "title" : "Click on save",
+    "time" : {
+      "start" : 1554828530196,
+      "stop" : 1554828530198,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on View, true, false]",
+    "title" : "Click on View",
+    "time" : {
+      "start" : 1554828614029,
+      "stop" : 1554828614030,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on currency Transactions, true, false]",
+    "title" : "Click on currency Transactions",
+    "time" : {
+      "start" : 1554828614375,
+      "stop" : 1554828614376,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find, true, false]",
+    "title" : "Click on Find",
+    "time" : {
+      "start" : 1554828618785,
+      "stop" : 1554828618787,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Top Navigation Cash Desk, true, false]",
+    "title" : "Click on Top Navigation Cash Desk",
+    "time" : {
+      "start" : 1554828623585,
+      "stop" : 1554828623586,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on currency Transactions, true, false]",
+    "title" : "Click on currency Transactions",
+    "time" : {
+      "start" : 1554828623898,
+      "stop" : 1554828623899,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on redeem currency Transactions, true, false]",
+    "title" : "Click on redeem currency Transactions",
+    "time" : {
+      "start" : 1554828624310,
+      "stop" : 1554828624311,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Customer Name label displayed, true, false]",
+    "title" : "Verify Customer Name label displayed",
+    "time" : {
+      "start" : 1554828627497,
+      "stop" : 1554828627498,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Customer Number label displayed, true, false]",
+    "title" : "Verify Customer Number label displayed",
+    "time" : {
+      "start" : 1554828627708,
+      "stop" : 1554828627709,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter number, true, false]",
+    "title" : "Enter number",
+    "time" : {
+      "start" : 1554828628425,
+      "stop" : 1554828628426,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Customer Name label displayed, true, false]",
+    "title" : "Verify Customer Name label displayed",
+    "time" : {
+      "start" : 1554828634051,
+      "stop" : 1554828634052,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify CustomerName Value displayed, true, false]",
+    "title" : "Verify CustomerName Value displayed",
+    "time" : {
+      "start" : 1554828634338,
+      "stop" : 1554828634339,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Staus label displayed, true, false]",
+    "title" : "Verify Staus label displayed",
+    "time" : {
+      "start" : 1554828634780,
+      "stop" : 1554828634781,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Staus Value displayed, true, false]",
+    "title" : "Verify Staus Value displayed",
+    "time" : {
+      "start" : 1554828634996,
+      "stop" : 1554828634997,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Currency label displayed, true, false]",
+    "title" : "Verify Currency label displayed",
+    "time" : {
+      "start" : 1554828635466,
+      "stop" : 1554828635467,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Currency Value displayed, true, false]",
+    "title" : "Verify Currency Value displayed",
+    "time" : {
+      "start" : 1554828635683,
+      "stop" : 1554828635684,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Original Foreign Value label displayed, true, false]",
+    "title" : "Verify Original Foreign Value label displayed",
+    "time" : {
+      "start" : 1554828636158,
+      "stop" : 1554828636159,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Original Foreign Value Value displayed, true, false]",
+    "title" : "Verify Original Foreign Value Value displayed",
+    "time" : {
+      "start" : 1554828636396,
+      "stop" : 1554828636396,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify ExchangeRate label displayed, true, false]",
+    "title" : "Verify ExchangeRate label displayed",
+    "time" : {
+      "start" : 1554828636888,
+      "stop" : 1554828636891,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Exchange Rate Value displayed, true, false]",
+    "title" : "Verify Exchange Rate Value displayed",
+    "time" : {
+      "start" : 1554828637125,
+      "stop" : 1554828637126,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Payment Amount label displayed, true, false]",
+    "title" : "Verify Payment Amount label displayed",
+    "time" : {
+      "start" : 1554828637550,
+      "stop" : 1554828637553,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Payment Amount Value displayed, true, false]",
+    "title" : "Verify Payment Amount Value displayed",
+    "time" : {
+      "start" : 1554828637779,
+      "stop" : 1554828637780,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Foreign Already Redeemed label displayed, true, false]",
+    "title" : "Verify Foreign Already Redeemed label displayed",
+    "time" : {
+      "start" : 1554828638274,
+      "stop" : 1554828638275,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Foreign Already Redeemed Value displayed, true, false]",
+    "title" : "Verify Foreign Already Redeemed Value displayed",
+    "time" : {
+      "start" : 1554828638501,
+      "stop" : 1554828638502,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Already Redeemed label displayed, true, false]",
+    "title" : "Verify Already Redeemed label displayed",
+    "time" : {
+      "start" : 1554828638944,
+      "stop" : 1554828638945,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Already Redeemed Value displayed, true, false]",
+    "title" : "Verify Already Redeemed Value displayed",
+    "time" : {
+      "start" : 1554828639146,
+      "stop" : 1554828639147,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter foreign currency to redeem, true, false]",
+    "title" : "Enter foreign currency to redeem",
+    "time" : {
+      "start" : 1554828640026,
+      "stop" : 1554828640027,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554828644118,
+      "stop" : 1554828644121,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554828649511,
+      "stop" : 1554828649512,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

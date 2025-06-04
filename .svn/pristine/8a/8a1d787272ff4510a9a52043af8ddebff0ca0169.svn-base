@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529473276262" stop="1529473367501" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529473277967" stop="1529473367452" status="passed">
+            <name>tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14252</title>
+            <description type="text">Verify a customer can be set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529473284450" stop="1529473284460" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473285211" stop="1529473285212" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473285625" stop="1529473285627" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473343493" stop="1529473343495" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473350304" stop="1529473350306" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473353731" stop="1529473353733" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473354734" stop="1529473354736" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473362490" stop="1529473362492" status="passed">
+                    <name>logReporter[Verify Add button , true, false]</name>
+                    <title>Verify Add button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473363194" stop="1529473363196" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473363884" stop="1529473363886" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473364262" stop="1529473364264" status="passed">
+                    <name>logReporter[Click on Suspension TypeDropdown , true, false]</name>
+                    <title>Click on Suspension TypeDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473365068" stop="1529473365071" status="passed">
+                    <name>logReporter[Select suspension type as , Groupwide Barred - Behaviour, true, false]</name>
+                    <title>Select suspension type as  - Groupwide Barred - Behaviour</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473365972" stop="1529473365974" status="passed">
+                    <name>logReporter[Enter Message, true, false]</name>
+                    <title>Enter Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473366807" stop="1529473366809" status="passed">
+                    <name>logReporter[Enter Notes, true, false]</name>
+                    <title>Enter Notes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473367447" stop="1529473367449" status="passed">
+                    <name>logReporter[Click on commit , true, false]</name>
+                    <title>Click on commit </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9072@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529473277967" stop="1529473367452" status="passed">
+            <name>tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14252</title>
+            <description type="text">Verify a customer can be set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529473284450" stop="1529473284460" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473285211" stop="1529473285212" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473285625" stop="1529473285627" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473343493" stop="1529473343495" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473350304" stop="1529473350306" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473353731" stop="1529473353733" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473354734" stop="1529473354736" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473362490" stop="1529473362492" status="passed">
+                    <name>logReporter[Verify Add button , true, false]</name>
+                    <title>Verify Add button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473363194" stop="1529473363196" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473363884" stop="1529473363886" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473364262" stop="1529473364264" status="passed">
+                    <name>logReporter[Click on Suspension TypeDropdown , true, false]</name>
+                    <title>Click on Suspension TypeDropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473365068" stop="1529473365071" status="passed">
+                    <name>logReporter[Select suspension type as , Groupwide Barred - Behaviour, true, false]</name>
+                    <title>Select suspension type as  - Groupwide Barred - Behaviour</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473365972" stop="1529473365974" status="passed">
+                    <name>logReporter[Enter Message, true, false]</name>
+                    <title>Enter Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473366807" stop="1529473366809" status="passed">
+                    <name>logReporter[Enter Notes, true, false]</name>
+                    <title>Enter Notes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529473367447" stop="1529473367449" status="passed">
+                    <name>logReporter[Click on commit , true, false]</name>
+                    <title>Click on commit </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9072@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

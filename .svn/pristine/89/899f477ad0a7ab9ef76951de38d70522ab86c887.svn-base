@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1530008137003" stop="1530008215635" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1530008138821" stop="1530008214387" status="failed">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, CustomerNumber=1955155547, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14250</title>
+            <description type="text">Verify an EDD changes to Awaiting Approval when user doesn’t have correct authorisation limit </description>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.desktopReception.customerProfile_AddViewDueDiligence_PF.verifyLossValueDisplayedOnEDDRecord(customerProfile_AddViewDueDiligence_PF.java:217)
+	at com.scripts.EDD.TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.tc14250_VerifyAnEDDChangesToAwaitingApproval(TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1530008152050" stop="1530008182903" status="passed">
+                    <name>login[SQSEDD, RankGroup02]</name>
+                    <title>Login to Neon</title>
+                    <steps>
+                        <step start="1530008153208" stop="1530008153226" status="passed">
+                            <name>logReporter[Enter username, true, false]</name>
+                            <title>Enter username</title>
+                        </step>
+                        <step start="1530008153941" stop="1530008153943" status="passed">
+                            <name>logReporter[Enter password, true, false]</name>
+                            <title>Enter password</title>
+                        </step>
+                        <step start="1530008165439" stop="1530008165444" status="passed">
+                            <name>logReporter[Click on signBtn, true, false]</name>
+                            <title>Click on signBtn</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530008183282" stop="1530008183284" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                </step>
+                <step start="1530008186847" stop="1530008186849" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                </step>
+                <step start="1530008189440" stop="1530008189442" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                </step>
+                <step start="1530008190195" stop="1530008190197" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                </step>
+                <step start="1530008194585" stop="1530008194588" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                </step>
+                <step start="1530008194791" stop="1530008194794" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                </step>
+                <step start="1530008203332" stop="1530008203334" status="passed">
+                    <name>logReporter[Click on Add button, true, false]</name>
+                    <title>Click on Add button</title>
+                </step>
+                <step start="1530008204099" stop="1530008204104" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display, true, fal...]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display</title>
+                </step>
+                <step start="1530008204246" stop="1530008204249" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                </step>
+                <step start="1530008204362" stop="1530008204374" status="passed">
+                    <name>logReporter[Verify 'Reason' display on page , true, false]</name>
+                    <title>Verify 'Reason' display on page </title>
+                </step>
+                <step start="1530008204482" stop="1530008204484" status="passed">
+                    <name>logReporter[Verify 'Loss Value' display on page , true, false]</name>
+                    <title>Verify 'Loss Value' display on page </title>
+                </step>
+                <step start="1530008204889" stop="1530008204891" status="passed">
+                    <name>logReporter[Click on reson for dropdown , true, false]</name>
+                    <title>Click on reson for dropdown </title>
+                </step>
+                <step start="1530008205022" stop="1530008205024" status="passed">
+                    <name>logReporter[Verify option 'Black Card Customer' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Black Card Customer' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205123" stop="1530008205125" status="passed">
+                    <name>logReporter[Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205229" stop="1530008205232" status="passed">
+                    <name>logReporter[Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205342" stop="1530008205344" status="passed">
+                    <name>logReporter[Verify option 'Periodic Review' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Periodic Review' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205455" stop="1530008205457" status="passed">
+                    <name>logReporter[Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205557" stop="1530008205561" status="passed">
+                    <name>logReporter[Verify option 'Other' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Other' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205678" stop="1530008205680" status="passed">
+                    <name>logReporter[Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205809" stop="1530008205811" status="passed">
+                    <name>logReporter[Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205909" stop="1530008205911" status="passed">
+                    <name>logReporter[Verify option 'Third Party Information / C6' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Third Party Information / C6' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008206269" stop="1530008206271" status="passed">
+                    <name>logReporter[Select reason, true, false]</name>
+                    <title>Select reason</title>
+                </step>
+                <step start="1530008207077" stop="1530008207079" status="passed">
+                    <name>logReporter[Enter Reason, true, false]</name>
+                    <title>Enter Reason</title>
+                </step>
+                <step start="1530008207601" stop="1530008207603" status="passed">
+                    <name>logReporter[Enter Loss value, true, false]</name>
+                    <title>Enter Loss value</title>
+                </step>
+                <step start="1530008211380" stop="1530008211383" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                </step>
+                <step start="1530008214128" stop="1530008214382" status="failed">
+                    <name>logReporter[loss value displayed correctly, false, false]</name>
+                    <title>loss value displayed correctly</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="dbf207d2-cbb9-49a8-8bb2-b3661e1d8057-attachment.png" type="image/png" size="68555"/>
+                    </attachments>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="6556@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1530008138821" stop="1530008214387" status="failed">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, CustomerNumber=1955155547, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14250</title>
+            <description type="text">Verify an EDD changes to Awaiting Approval when user doesn’t have correct authorisation limit </description>
+            <failure>
+                <message>AssertionError: expected [true] but found [false]</message>
+                <stack-trace>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.desktopReception.customerProfile_AddViewDueDiligence_PF.verifyLossValueDisplayedOnEDDRecord(customerProfile_AddViewDueDiligence_PF.java:217)
+	at com.scripts.EDD.TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.tc14250_VerifyAnEDDChangesToAwaitingApproval(TC14250_VerifyAnEDDChangesToAwaitingApprovalWhenUserDoesntHaveCorrectAuthorisationLimit.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1530008152050" stop="1530008182903" status="passed">
+                    <name>login[SQSEDD, RankGroup02]</name>
+                    <title>Login to Neon</title>
+                    <steps>
+                        <step start="1530008153208" stop="1530008153226" status="passed">
+                            <name>logReporter[Enter username, true, false]</name>
+                            <title>Enter username</title>
+                        </step>
+                        <step start="1530008153941" stop="1530008153943" status="passed">
+                            <name>logReporter[Enter password, true, false]</name>
+                            <title>Enter password</title>
+                        </step>
+                        <step start="1530008165439" stop="1530008165444" status="passed">
+                            <name>logReporter[Click on signBtn, true, false]</name>
+                            <title>Click on signBtn</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530008183282" stop="1530008183284" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                </step>
+                <step start="1530008186847" stop="1530008186849" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                </step>
+                <step start="1530008189440" stop="1530008189442" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                </step>
+                <step start="1530008190195" stop="1530008190197" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                </step>
+                <step start="1530008194585" stop="1530008194588" status="passed">
+                    <name>logReporter[Verify 'Due Diligence', true, false]</name>
+                    <title>Verify 'Due Diligence'</title>
+                </step>
+                <step start="1530008194791" stop="1530008194794" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                </step>
+                <step start="1530008203332" stop="1530008203334" status="passed">
+                    <name>logReporter[Click on Add button, true, false]</name>
+                    <title>Click on Add button</title>
+                </step>
+                <step start="1530008204099" stop="1530008204104" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display, true, fal...]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display</title>
+                </step>
+                <step start="1530008204246" stop="1530008204249" status="passed">
+                    <name>logReporter[Verify 'Reason For Creation' display on page , true, false]</name>
+                    <title>Verify 'Reason For Creation' display on page </title>
+                </step>
+                <step start="1530008204362" stop="1530008204374" status="passed">
+                    <name>logReporter[Verify 'Reason' display on page , true, false]</name>
+                    <title>Verify 'Reason' display on page </title>
+                </step>
+                <step start="1530008204482" stop="1530008204484" status="passed">
+                    <name>logReporter[Verify 'Loss Value' display on page , true, false]</name>
+                    <title>Verify 'Loss Value' display on page </title>
+                </step>
+                <step start="1530008204889" stop="1530008204891" status="passed">
+                    <name>logReporter[Click on reson for dropdown , true, false]</name>
+                    <title>Click on reson for dropdown </title>
+                </step>
+                <step start="1530008205022" stop="1530008205024" status="passed">
+                    <name>logReporter[Verify option 'Black Card Customer' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Black Card Customer' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205123" stop="1530008205125" status="passed">
+                    <name>logReporter[Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205229" stop="1530008205232" status="passed">
+                    <name>logReporter[Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205342" stop="1530008205344" status="passed">
+                    <name>logReporter[Verify option 'Periodic Review' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Periodic Review' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205455" stop="1530008205457" status="passed">
+                    <name>logReporter[Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205557" stop="1530008205561" status="passed">
+                    <name>logReporter[Verify option 'Other' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Other' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205678" stop="1530008205680" status="passed">
+                    <name>logReporter[Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205809" stop="1530008205811" status="passed">
+                    <name>logReporter[Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008205909" stop="1530008205911" status="passed">
+                    <name>logReporter[Verify option 'Third Party Information / C6' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Third Party Information / C6' display in Reason for creation dropdown</title>
+                </step>
+                <step start="1530008206269" stop="1530008206271" status="passed">
+                    <name>logReporter[Select reason, true, false]</name>
+                    <title>Select reason</title>
+                </step>
+                <step start="1530008207077" stop="1530008207079" status="passed">
+                    <name>logReporter[Enter Reason, true, false]</name>
+                    <title>Enter Reason</title>
+                </step>
+                <step start="1530008207601" stop="1530008207603" status="passed">
+                    <name>logReporter[Enter Loss value, true, false]</name>
+                    <title>Enter Loss value</title>
+                </step>
+                <step start="1530008211380" stop="1530008211383" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                </step>
+                <step start="1530008214128" stop="1530008214382" status="failed">
+                    <name>logReporter[loss value displayed correctly, false, false]</name>
+                    <title>loss value displayed correctly</title>
+                    <attachments>
+                        <attachment title="Screenshot" source="dbf207d2-cbb9-49a8-8bb2-b3661e1d8057-attachment.png" type="image/png" size="68555"/>
+                    </attachments>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="6556@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

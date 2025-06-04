@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529907214300" stop="1529907273728" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529907215889" stop="1529907273694" status="passed">
+            <name>tc14252_AddNextStepToEDDRecord[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155546, Authorised User=Gadekar, TestCaseID=TC14252}]</name>
+            <title>Test 14245</title>
+            <description type="text"> Ensure user can add an attachement to a EDD record </description>
+            <steps>
+                <step start="1529907220076" stop="1529907220092" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907220665" stop="1529907220667" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907221023" stop="1529907221025" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907238621" stop="1529907238623" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907239079" stop="1529907239081" status="passed">
+                    <name>logReporter[Click on dueDiligence tab, true, false]</name>
+                    <title>Click on dueDiligence tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907241360" stop="1529907241362" status="passed">
+                    <name>logReporter[Enter Number, true, false]</name>
+                    <title>Enter Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907241838" stop="1529907241840" status="passed">
+                    <name>logReporter[Click on filter button, true, false]</name>
+                    <title>Click on filter button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907244740" stop="1529907244742" status="passed">
+                    <name>logReporter[Click on Add Attachment Button, true, false]</name>
+                    <title>Click on Add Attachment Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245602" stop="1529907245604" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245738" stop="1529907245741" status="passed">
+                    <name>logReporter[Verify 'Type' display on page , true, false]</name>
+                    <title>Verify 'Type' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245864" stop="1529907245866" status="passed">
+                    <name>logReporter[Verify 'File Name' display on page , true, false]</name>
+                    <title>Verify 'File Name' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246339" stop="1529907246341" status="passed">
+                    <name>logReporter[Click on type dropdown , true, false]</name>
+                    <title>Click on type dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246553" stop="1529907246555" status="passed">
+                    <name>logReporter[Verify option 'Document' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Document' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246797" stop="1529907246799" status="passed">
+                    <name>logReporter[Verify option 'Image' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Image' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246985" stop="1529907246988" status="passed">
+                    <name>logReporter[Verify option 'Media File' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Media File' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907247167" stop="1529907247170" status="passed">
+                    <name>logReporter[Verify option 'URL' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'URL' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907247889" stop="1529907247890" status="passed">
+                    <name>logReporter[Select Type as Image, true, false]</name>
+                    <title>Select Type as Image</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907248841" stop="1529907248842" status="passed">
+                    <name>logReporter[Enter Description, true, false]</name>
+                    <title>Enter Description</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907249313" stop="1529907249314" status="passed">
+                    <name>logReporter[Click on Browse Button , true, false]</name>
+                    <title>Click on Browse Button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907263213" stop="1529907263214" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907266686" stop="1529907266688" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907270213" stop="1529907270214" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907273690" stop="1529907273691" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="1984@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529907215889" stop="1529907273694" status="passed">
+            <name>tc14252_AddNextStepToEDDRecord[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155546, Authorised User=Gadekar, TestCaseID=TC14252}]</name>
+            <title>Test 14245</title>
+            <description type="text"> Ensure user can add an attachement to a EDD record </description>
+            <steps>
+                <step start="1529907220076" stop="1529907220092" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907220665" stop="1529907220667" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907221023" stop="1529907221025" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907238621" stop="1529907238623" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907239079" stop="1529907239081" status="passed">
+                    <name>logReporter[Click on dueDiligence tab, true, false]</name>
+                    <title>Click on dueDiligence tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907241360" stop="1529907241362" status="passed">
+                    <name>logReporter[Enter Number, true, false]</name>
+                    <title>Enter Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907241838" stop="1529907241840" status="passed">
+                    <name>logReporter[Click on filter button, true, false]</name>
+                    <title>Click on filter button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907244740" stop="1529907244742" status="passed">
+                    <name>logReporter[Click on Add Attachment Button, true, false]</name>
+                    <title>Click on Add Attachment Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245602" stop="1529907245604" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245738" stop="1529907245741" status="passed">
+                    <name>logReporter[Verify 'Type' display on page , true, false]</name>
+                    <title>Verify 'Type' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907245864" stop="1529907245866" status="passed">
+                    <name>logReporter[Verify 'File Name' display on page , true, false]</name>
+                    <title>Verify 'File Name' display on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246339" stop="1529907246341" status="passed">
+                    <name>logReporter[Click on type dropdown , true, false]</name>
+                    <title>Click on type dropdown </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246553" stop="1529907246555" status="passed">
+                    <name>logReporter[Verify option 'Document' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Document' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246797" stop="1529907246799" status="passed">
+                    <name>logReporter[Verify option 'Image' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Image' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907246985" stop="1529907246988" status="passed">
+                    <name>logReporter[Verify option 'Media File' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'Media File' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907247167" stop="1529907247170" status="passed">
+                    <name>logReporter[Verify option 'URL' display in Reason for creation dropdown, true, false]</name>
+                    <title>Verify option 'URL' display in Reason for creation dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907247889" stop="1529907247890" status="passed">
+                    <name>logReporter[Select Type as Image, true, false]</name>
+                    <title>Select Type as Image</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907248841" stop="1529907248842" status="passed">
+                    <name>logReporter[Enter Description, true, false]</name>
+                    <title>Enter Description</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907249313" stop="1529907249314" status="passed">
+                    <name>logReporter[Click on Browse Button , true, false]</name>
+                    <title>Click on Browse Button </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907263213" stop="1529907263214" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907266686" stop="1529907266688" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907270213" stop="1529907270214" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529907273690" stop="1529907273691" status="passed">
+                    <name>logReporter[Click on Ok button, true, false]</name>
+                    <title>Click on Ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="1984@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

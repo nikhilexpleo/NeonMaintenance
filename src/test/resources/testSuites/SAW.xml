@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="SAW" parallel="false">
+ <!-- <parameter name="TestFileName" value="projectModule1/SmokeSuite" /> -->
+ <listeners>
+   <listener class-name="com.generic.AnnotationTransformer" /> 
+  <listener class-name="com.generic.CustomReporterNew" />
+ </listeners>
+ <test name="SAW">
+ <classes>
+ 	   
+ 		
+		<!-- set add credit card script  -->
+	 	<class name="com.scripts.desktopReception.customer_RegisterAndViewDetails" /> 
+		<class name="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases" />  	   
+		<class name="com.scripts.desktopReception.CreditTransactions001" />  	
+ 	   <class name="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard" />     
+	 	 <class name="com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear" />   
+		<class name="com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid" />		  
+		<class name="com.scripts.desktopReception.customerProfile_ViewCreditDetail" />
+		 <class name="com.scripts.desktopReception.customerProfile_Delete" />  
+	
+		<!-- Message -->
+		   <class name="com.scripts.desktopReception.customerProfile_AddViewDeleteMessage" />
+		 <class name="com.scripts.desktopReception.CustomerProfileAddLocalMessage" />  
+		 
+		<!--  balance need to chck   -->
+		  <class name="com.scripts.desktopReception.cashier_AssetEntry" />
+		<class name="com.scripts.desktopReception.depositOnOff" />
+		<class name="com.scripts.desktopReception.Reception_Entry" />  
+		<class name="com.scripts.desktopReception.TC6393_BarredCustomersEntry" />  
+		<class name="com.scripts.desktopReception.CustomerEntry_UsingDOBName" />	 
+		<class name="com.scripts.desktopReception.customerHistoricalAndEstimatedVisitEntry" /> 	
+		<class name="com.scripts.desktopReception.viewCustomerCasino" /> 
+		 
+		<class name="com.scripts.desktopReception.accountTransction" />
+		<class name="com.scripts.desktopReception.TC6327_28_BadBeatJackpotCAndReversal" />	
+		<class name="com.scripts.desktopReception.ballyTicketsCounted" />  		 
+		<!-- <class name="com.scripts.desktopReception.ballyTicketSold" /> -->
+		<class name="com.scripts.desktopReception.bank" />
+		<class name="com.scripts.desktopReception.Test6342_CashFromBank" />
+		
+		
+		<class name="com.scripts.desktopReception.CentralCharityDonationsReversal" />
+		<class name="com.scripts.desktopReception.cashFloatIssuedReturnedTab" /> 
+		<class name="com.scripts.desktopReception.chipsAddRemove" />
+		<class name="com.scripts.desktopReception.directCrediToAccount" />
+		<class name="com.scripts.desktopReception.errorOverUnderAccountTranscation" />
+		<class name="com.scripts.desktopReception.foodAndBeverageIncome_Tranasction" />		  
+		<class name="com.scripts.desktopReception.gratuitiesIncomeAccountTranscation" />
+		
+		<class name="com.scripts.desktopReception.incentivesRedeemedAndIssued" />
+		<class name="com.scripts.desktopReception.pettyCashIssuedRepaid_Transcation" />
+		<class name="com.scripts.desktopReception.setupCreditDebit_Transcation" />
+		<class name="com.scripts.desktopReception.staffSocialFundOnOff_Transcation" />
+		<class name="com.scripts.desktopReception.sundryIncomeExpenses_Transcation" />
+		<class name="com.scripts.desktopReception.Test6368_69_SundryExpensesAndReversal" />
+		
+		
+		<class name="com.scripts.desktopReception.winnersBankTransferReversal_Transcation" /> 
+		 <class name="com.scripts.desktopReception.interimTableCount" /> 
+		 <class name="com.scripts.desktopReception.tableProgressiveJackpotPayout" />	  
+		<class name="com.scripts.noen.Reception.OpeningGamingDay.TableAccounting_TableFillAddAsset" /> 
+		
+	   		<!--  Cashier Manager -->
+	<class name="com.scripts.noen.CashierAndManagerTC.Customers_IntelligentDatabase" />   
+		<class name="com.scripts.noen.CashierAndManagerTC.Machines_ViewDetails" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.BalanceDetailsVerification" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.ViewAndVoidTransactions" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.ViewAndvoidTransactionFromViews" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.AddViewAndDeleteThirdPartyBankAccount" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.PokerAccountONAndOFF" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.FunctionDepositONAndOFF" />  
+		
+		<class name="com.scripts.noen.CashierAndManagerTC.CashDesk_ChequeRelated" />  	
+		<class name="com.scripts.noen.Reception.OpeningGamingDay.ExchangeTravellersCheque" />  	 
+		<class name="com.scripts.noen.CashierAndManagerTC.View_Authorizations_AlarmsAlerts" /> 
+		<class name="com.scripts.desktopReception.CustomerDueDiligenceFilter" />  
+		 <class name="com.scripts.desktopReception.customerHistoricalAndEstimatedVisitEntry" />  
+		   
+		<class name="com.scripts.desktopReception.customerProfile_AddEditViewBarredsuspension" />   
+		<class name="com.scripts.desktopReception.customerProfile_AddSuspendedSuspension" /> 
+		  
+		<class name="com.scripts.desktopReception.customerProfile_AddAssociates" /> 
+		<class name="com.scripts.desktopReception.issueNewCard_LostAndReplacementCard" /> 
+		<class name="com.scripts.desktopReception.customerProfile_ViewAdd_InterestsNPrefernces" /> 
+		<class name="com.scripts.desktopReception.customerProfile_ViewAuditDetails" />  
+		  
+		 <!--   set here hospitality track rating script -->
+		 <class name="com.scripts.noen.CashierAndManagerTC.PlayerTracking_HospitalityTransaction" />  
+		<class name="com.scripts.noen.CashierAndManagerTC.PlayerTracking_ViewHospitalityTransaction" />  
+		<class name="com.scripts.desktopReception.customerProfile_ViewExpensesDetails" />
+		<class name="com.scripts.desktopReception.customerProfile_ViewVisitsDetails" />
+		<class name="com.scripts.desktopReception.customerProfile_ViewGamingDetails" />
+		<class name="com.scripts.desktopReception.customerProfile_ViewSummaryDetails" />
+		
+	
+		<class name="com.scripts.desktopReception.customerProfile_AddViewDueDiligence" /> 
+		<class name="com.scripts.desktopReception.TC6692_6694_ManagerDueDiligence_001_003" />  
+		<class name="com.scripts.noen.CustomerProfileTC.TC6412_CustomerProfileAddNotes" />
+		<class name="com.scripts.noen.CustomerProfileTC.TC6413_14_CustomerProfileViewAndRemoveNotes" /> 
+		
+	 
+		<class name="com.scripts.noen.CashierAndManagerTC.BalanceDetailsVerification" />
+		
+	
+		<!-- Reception	Customer Profile -->
+		
+	 	<class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_ProfileIdentifications" />   
+		<class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_TestCases" />
+		<class name="com.scripts.noen.CustomerProfileTC.CustomerProfile_ViewAllTransactions" /> 
+		
+		<!-- Foreign Currency related -->
+		 <class name="com.scripts.noen.ForeignCurrency.CashDesk_ForeignCurrencyRelated" />
+		<class name="com.scripts.noen.ForeignCurrency.CashDeskImportCurrencyRate" />  
+	
+	<!-- 	view gaming day and closing transactions -->
+		 <!--  <class name="com.scripts.noen.Reception.OpeningGamingDay.View_OpeningGamingDay" />   -->
+		
+		<class name="com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber" />
+		<class name="com.scripts.desktopReception.issueNewCard_LostAndReplacementCard" /> 
+		<class name="com.scripts.noen.LEO_Tables.Test6629_TableDevices" />   
+		<class name="com.scripts.desktopReception.incentivesRedeemedAndIssued" />
+		<class name="com.scripts.desktopReception.pettyCashIssuedRepaid_Transcation" />
+		<class name="com.scripts.noen.CashierAndManagerTC.AddViewAndDeleteThirdPartyBankAccount" /> 
+		 
+		
+		<!--   <class name="com.scripts.noen.CashierAndManagerTC.Test6686_MachineCount02" /> 
+		<class name="com.scripts.noen.CashierAndManagerTC.Test6685_MachineCount" /> 
+		<class name="com.scripts.noen.CashierAndManagerTC.Test6689_MachineCount05" />  --> 
+		
+		
+		 <class name="com.scripts.noen.CustomerProfileTC.Test6388_CustRegistration_SuspendedCust" />
+		<class name="com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched" />
+		 <class name="com.scripts.noen.CustomerProfileTC.Test6396_PODEntries" />
+		<class name="com.scripts.noen.CustomerProfileTC.Test6423_CustProfile_EditSuspensionAnotherCasino" /> 
+		 <class name="com.scripts.noen.CustomerProfileTC.Test6424_CustProfileEditGroupwideBarred" /> 
+		<class name="com.scripts.noen.CustomerProfileTC.Test6426_CustProfileUnableToLiftSuspensionAnotherCasino" />
+		<class name="com.scripts.noen.CustomerProfileTC.Test6427_CustProfileUnableLiftGlobalSuspension" />  -->
+		
+		
+		
+		
+		   <class name="com.scripts.noen.Reports.Test6300_TableDailyResultsReport" />
+		<class name="com.scripts.noen.Reports.Test6444_AttendanceDetailReport" />
+		<class name="com.scripts.noen.Reports.Test6445_AttendanceSummaryReport" />
+		<class name="com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport" />
+		<class name="com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils" />
+		<class name="com.scripts.noen.Reports.Test6448_RegistrationSummaryReport" />
+		
+		<class name="com.scripts.noen.Reports.Test6450_LiftedSuspensionReport" />
+		<class name="com.scripts.noen.Reports.Test6451_SuspensionDetailReport" />   
+		 
+		  
+		
+		
+		
+		
+		 <class name="com.scripts.desktopReception.customer_RegisterAndViewDetails" />
+		<class name="com.scripts.desktopReception.customerProfile_Delete" /> 
+		<class name="com.scripts.noen.Reports.Test6449_CurrentSuspensionReport" />  
+		
+		
+  </classes>
+</test> 
+</suite>

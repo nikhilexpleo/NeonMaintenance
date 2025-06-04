@@ -1,0 +1,65 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "adba6acb308487b9",
+      "failure" : {
+        "message" : "AssertionError: expected [true] but found [false]",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "ab4652799f839630",
+        "name" : "VerifyAddDebitCardManualSameCard",
+        "title" : "Verify add debit card manual same card",
+        "time" : {
+          "start" : 1554792379039,
+          "stop" : 1554792567765,
+          "duration" : 188726
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "74f7158a9ff25d82",
+      "failure" : {
+        "message" : "TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a#DebitCards_ViewDebitCard_Menu (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1717/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: 4408b247-05e7-4810-8c61-cbdb6a95e2bf",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "a7d1fffd87e39a9e",
+        "name" : "ViewVoidDebitCard",
+        "title" : "View void debit card",
+        "time" : {
+          "start" : 1554792567836,
+          "stop" : 1554792601976,
+          "duration" : 34140
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "28271321cbb09be6",
+      "failure" : {
+        "message" : "StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35631/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: 96c13c5e-dff1-4cf9-8fa6-793e11f9e728",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "d9975dea068527ee",
+        "name" : "chequeAddViewVoid",
+        "title" : "Cheque add view void",
+        "time" : {
+          "start" : 1554792606608,
+          "stop" : 1554792667063,
+          "duration" : 60455
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

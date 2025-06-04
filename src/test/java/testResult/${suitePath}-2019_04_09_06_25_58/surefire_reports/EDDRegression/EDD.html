@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>TestNG:  EDD</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EDD</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 09 11:56:12 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>91 seconds (91597 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour.tc14252_SetGroupwideBarredBehaviourToCustomerProfile()'><b>tc14252_SetGroupwideBarredBehaviourToCustomerProfile</b><br>Test class: com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour<br>Parameters: Run1, {Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955217037, Authorised User=Gadekar, TestCaseID=TC14252}<br/>
+<a href="#Output-1610737219" onClick='toggleBox("Output-1610737219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610737219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610737219">
+Step >> Enter username<br/>
+Step >> Enter password<br/>
+Step >> Click on signBtn<br/>
+Step >> Click on Customers Menu tab<br/>
+Step >> Click on Customers tab<br/>
+Step >> search Customer Number '1955217037'<br/>
+Step >> Click on Find button<br/>
+Step >> Verify 'Suspensions'<br/>
+Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Suspensions')]'<br/>
+Step >> Verify Add button <br/>
+Step >> Click on Add tab<br/>
+Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display<br/>
+Step >> Click on Casino Dropdown <br/>
+Step >> Select Casino as  '_SAW 1'<br/>
+Step >> Click on Suspension TypeDropdown <br/>
+Step >> Select suspension type as || Input Value : Groupwide Barred - Behaviour<br/>
+Step >> Verify Gaming Date Dropdown <br/>
+Step >> Enter Message<br/>
+Step >> Enter Notes<br/>
+Step >> Verify Cancel button <br/>
+Step >> Click on commit <br/>
+Step >> Verify 'All Casinos' display on page <br/>
+Step >> Verify 'Notes' display on page <br/>
+Step >> Verify 'Employee Messages' display on page <br/>
+Step >> Verify 'Expiry Date' display on page <br/>
+Step >> Verify 'Date Lifted' display on page <br/>
+Step >> Verify 'Authorised By' display on page <br/>
+Step >> Verify 'Casino' display on page <br/>
+Step >> Click on X <br/>
+Step >> Click on X <br/>
+</div>
+</td>
+<td></td>
+<td>87</td>
+<td>com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour@7b61bf11</td></tr>
+</table><p>
+</body>
+</html>

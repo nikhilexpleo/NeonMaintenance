@@ -1,0 +1,355 @@
+{
+  "uid" : "bab9f4bd4dd3410b",
+  "name" : "AddLocalMessageToCustomerProfile",
+  "title" : "Add local message to customer profile",
+  "time" : {
+    "start" : 1554814762998,
+    "stop" : 1554814837329,
+    "duration" : 74331
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 21
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554814767638,
+      "stop" : 1554814767639,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554814768442,
+      "stop" : 1554814768442,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554814768937,
+      "stop" : 1554814768938,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554814796027,
+      "stop" : 1554814796028,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554814796546,
+      "stop" : 1554814796547,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1554814799024,
+      "stop" : 1554814799026,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554814799757,
+      "stop" : 1554814799759,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Add tab, true, false]",
+    "title" : "Click on Add tab",
+    "time" : {
+      "start" : 1554814810661,
+      "stop" : 1554814810662,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Customer Message', true, false]",
+    "title" : "verify page header displayed as 'Customer Message'",
+    "time" : {
+      "start" : 1554814815824,
+      "stop" : 1554814815825,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify Local radiobutton , true, false]",
+    "title" : "verify Local radiobutton ",
+    "time" : {
+      "start" : 1554814815999,
+      "stop" : 1554814816000,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify Groupwide radiobutton , true, false]",
+    "title" : "verify Groupwide radiobutton ",
+    "time" : {
+      "start" : 1554814821156,
+      "stop" : 1554814821157,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Reception', true, false]",
+    "title" : "verify page header displayed as 'Reception'",
+    "time" : {
+      "start" : 1554814821336,
+      "stop" : 1554814821337,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Table Manager', true, false]",
+    "title" : "verify page header displayed as 'Table Manager'",
+    "time" : {
+      "start" : 1554814821490,
+      "stop" : 1554814821491,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Neon Touch (Inbox)', true, false]",
+    "title" : "verify page header displayed as 'Neon Touch (Inbox)'",
+    "time" : {
+      "start" : 1554814821631,
+      "stop" : 1554814821632,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Managers App', true, false]",
+    "title" : "verify page header displayed as 'Managers App'",
+    "time" : {
+      "start" : 1554814821786,
+      "stop" : 1554814821787,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify page header displayed as 'Cash Desk', true, false]",
+    "title" : "verify page header displayed as 'Cash Desk'",
+    "time" : {
+      "start" : 1554814821945,
+      "stop" : 1554814821946,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[verify Reception ApplicationCheckBox , true, false]",
+    "title" : "verify Reception ApplicationCheckBox ",
+    "time" : {
+      "start" : 1554814822088,
+      "stop" : 1554814822089,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click Reception ApplicationCheckBox , true, false]",
+    "title" : "Click Reception ApplicationCheckBox ",
+    "time" : {
+      "start" : 1554814822721,
+      "stop" : 1554814822722,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter details', true, false]",
+    "title" : "Enter details'",
+    "time" : {
+      "start" : 1554814823727,
+      "stop" : 1554814823728,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click OK, true, false]",
+    "title" : "Click OK",
+    "time" : {
+      "start" : 1554814824508,
+      "stop" : 1554814824509,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Save , true, false]",
+    "title" : "Click on Save ",
+    "time" : {
+      "start" : 1554814831384,
+      "stop" : 1554814831386,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

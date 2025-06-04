@@ -1,0 +1,1235 @@
+{
+  "testCases" : [ {
+    "uid" : "150891c51c6866de",
+    "name" : "addCreditBankDeatils_CreditAccountTC",
+    "title" : "Add credit bank deatils credit account TC",
+    "time" : {
+      "start" : 1554813145700,
+      "stop" : 1554813238244,
+      "duration" : 92544
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "bd72cef85f1f2e1f",
+    "name" : "addCreditBankDeatils_CreditAccountTC",
+    "title" : "Add credit bank deatils credit account TC",
+    "time" : {
+      "start" : 1554813240491,
+      "stop" : 1554813256737,
+      "duration" : 16246
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "6fff9d7a75005d53",
+    "name" : "addDebitCardAsElectronic",
+    "title" : " Add debit card as Electronic",
+    "time" : {
+      "start" : 1554813263811,
+      "stop" : 1554813470931,
+      "duration" : 207120
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ed631e51175ed06f",
+    "name" : "VerifyAddDebitCardManualSameCard",
+    "title" : "Verify add debit card manual same card",
+    "time" : {
+      "start" : 1554813475486,
+      "stop" : 1554813688120,
+      "duration" : 212634
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "384899abb299f155",
+    "name" : "ViewVoidDebitCard",
+    "title" : "View void debit card",
+    "time" : {
+      "start" : 1554813688206,
+      "stop" : 1554813856452,
+      "duration" : 168246
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "c86bf1d18dfcb4e8",
+    "name" : "ViewVoidDebitCard",
+    "title" : "View void debit card",
+    "time" : {
+      "start" : 1554813856531,
+      "stop" : 1554813890705,
+      "duration" : 34174
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "99956650a58393d3",
+    "name" : "chequeAddViewVoid",
+    "title" : "Cheque add view void",
+    "time" : {
+      "start" : 1554813895355,
+      "stop" : 1554814187606,
+      "duration" : 292251
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "fec3a66293e18789",
+    "name" : "chequeAddViewVoid",
+    "title" : "Cheque add view void",
+    "time" : {
+      "start" : 1554814187693,
+      "stop" : 1554814309075,
+      "duration" : 121382
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "c2fbead74cd31655",
+    "name" : "globalCashAddViewVoid",
+    "title" : "Global cash add view void",
+    "time" : {
+      "start" : 1554814313662,
+      "stop" : 1554814483064,
+      "duration" : 169402
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8f7d75946d17a303",
+    "name" : "viewCreditDetails",
+    "title" : "View credit details",
+    "time" : {
+      "start" : 1554814483673,
+      "stop" : 1554814531948,
+      "duration" : 48275
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c34d676031b1b92b",
+    "name" : "DeleteCustomerProfile",
+    "title" : "Delete customer profile",
+    "time" : {
+      "start" : 1554814532025,
+      "stop" : 1554814594585,
+      "duration" : 62560
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "409d01168c2fd130",
+    "name" : "AddViewGroupwideDeleteMessage",
+    "title" : "Add view groupwide delete message",
+    "time" : {
+      "start" : 1554814594656,
+      "stop" : 1554814762170,
+      "duration" : 167514
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bab9f4bd4dd3410b",
+    "name" : "AddLocalMessageToCustomerProfile",
+    "title" : "Add local message to customer profile",
+    "time" : {
+      "start" : 1554814762998,
+      "stop" : 1554814837329,
+      "duration" : 74331
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d0b84cdebd21bb3d",
+    "name" : "viewcashier_AssetEntryDetails",
+    "title" : "Viewcashier asset entry details",
+    "time" : {
+      "start" : 1554814840400,
+      "stop" : 1554814916912,
+      "duration" : 76512
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6026b9e72a0c1c87",
+    "name" : "verifyDepositOn",
+    "title" : "Verify deposit on",
+    "time" : {
+      "start" : 1554814917568,
+      "stop" : 1554815016585,
+      "duration" : 99017
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "244d38b016121e26",
+    "name" : "verifyDepositOff",
+    "title" : "Verify deposit off",
+    "time" : {
+      "start" : 1554815016648,
+      "stop" : 1554815052009,
+      "duration" : 35361
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "edf6caebe4acba24",
+    "name" : "verifyDepositOff",
+    "title" : "Verify deposit off",
+    "time" : {
+      "start" : 1554815052072,
+      "stop" : 1554815086691,
+      "duration" : 34619
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "685a8c048a14e207",
+    "name" : "VerifyReception_Entry",
+    "title" : "Verify reception entry",
+    "time" : {
+      "start" : 1554815087234,
+      "stop" : 1554815307182,
+      "duration" : 219948
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "71480258f34bec70",
+    "name" : "VerifyReception_Entry",
+    "title" : "Verify reception entry",
+    "time" : {
+      "start" : 1554815307243,
+      "stop" : 1554815339985,
+      "duration" : 32742
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "619de0f1b8aa663e",
+    "name" : "checkCustomerEntryUsingNameDOB",
+    "title" : "Check customer entry using name DOB",
+    "time" : {
+      "start" : 1554815339987,
+      "stop" : 1554815471651,
+      "duration" : 131664
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "a52fba2d6a40fbcc",
+    "name" : "checkCustomerEntryUsingNameDOB",
+    "title" : "Check customer entry using name DOB",
+    "time" : {
+      "start" : 1554815471714,
+      "stop" : 1554815611598,
+      "duration" : 139884
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "c2242ab3d76a6bc3",
+    "name" : "checkcustomerHistoricalAndEstimatedVisitEntry",
+    "title" : "Checkcustomer historical and estimated visit entry",
+    "time" : {
+      "start" : 1554815612126,
+      "stop" : 1554815750803,
+      "duration" : 138677
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "8eda0a2a7b7feeb9",
+    "name" : "checkcustomerHistoricalAndEstimatedVisitEntry",
+    "title" : "Checkcustomer historical and estimated visit entry",
+    "time" : {
+      "start" : 1554815750873,
+      "stop" : 1554815889770,
+      "duration" : 138897
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "32a1d9c1a5ad2ca0",
+    "name" : "viewCustomerCasino",
+    "title" : "View customer casino",
+    "time" : {
+      "start" : 1554815890299,
+      "stop" : 1554816030366,
+      "duration" : 140067
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "7c4f06188e154ff1",
+    "name" : "viewCustomerCasino",
+    "title" : "View customer casino",
+    "time" : {
+      "start" : 1554816030438,
+      "stop" : 1554816169820,
+      "duration" : 139382
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "8bdeb4099dd8b37b",
+    "name" : "verifyBadBeatJackpotBC",
+    "title" : "Verify bad beat jackpot BC",
+    "time" : {
+      "start" : 1554816170348,
+      "stop" : 1554816310359,
+      "duration" : 140011
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "700a44ca5a9e427e",
+    "name" : "verifyBadBeatJackpotBC",
+    "title" : "Verify bad beat jackpot BC",
+    "time" : {
+      "start" : 1554816310445,
+      "stop" : 1554816450806,
+      "duration" : 140361
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "a42721024fff9510",
+    "name" : "verifyBadBeatJackpotCAndReversalTab",
+    "title" : "Verify bad beat jackpot C and reversal tab",
+    "time" : {
+      "start" : 1554816451336,
+      "stop" : 1554816591205,
+      "duration" : 139869
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "7a165ea3f0dd35bb",
+    "name" : "verifyBadBeatJackpotCAndReversalTab",
+    "title" : "Verify bad beat jackpot C and reversal tab",
+    "time" : {
+      "start" : 1554816591286,
+      "stop" : 1554816731252,
+      "duration" : 139966
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "16c50c634c716383",
+    "name" : "VerifyballyTickets",
+    "title" : "Verifybally tickets",
+    "time" : {
+      "start" : 1554816731781,
+      "stop" : 1554816871964,
+      "duration" : 140183
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "e7019b9e8af71dbe",
+    "name" : "VerifyballyTickets",
+    "title" : "Verifybally tickets",
+    "time" : {
+      "start" : 1554816872118,
+      "stop" : 1554817013007,
+      "duration" : 140889
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "1e330141fbfa820f",
+    "name" : "VerifyBankingTab",
+    "title" : "Verify banking tab",
+    "time" : {
+      "start" : 1554817013541,
+      "stop" : 1554817154293,
+      "duration" : 140752
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "bee267e1cfa0c69c",
+    "name" : "VerifyBankingTab",
+    "title" : "Verify banking tab",
+    "time" : {
+      "start" : 1554817154382,
+      "stop" : 1554817295091,
+      "duration" : 140709
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "c4c588bce8cee4e1",
+    "name" : "VerifyCashFromBankTab",
+    "title" : "Verify cash from bank tab",
+    "time" : {
+      "start" : 1554817295621,
+      "stop" : 1554817436402,
+      "duration" : 140781
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "fc7f5650666f4a0c",
+    "name" : "VerifyCashFromBankTab",
+    "title" : "Verify cash from bank tab",
+    "time" : {
+      "start" : 1554817436512,
+      "stop" : 1554817577890,
+      "duration" : 141378
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "1b80cbefc5179af",
+    "name" : "VerifyCentralCharityDonationsReversalTab",
+    "title" : "Verify central charity donations reversal tab",
+    "time" : {
+      "start" : 1554817578427,
+      "stop" : 1554817718774,
+      "duration" : 140347
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "c69ca21e946be385",
+    "name" : "VerifyCentralCharityDonationsReversalTab",
+    "title" : "Verify central charity donations reversal tab",
+    "time" : {
+      "start" : 1554817718852,
+      "stop" : 1554817859083,
+      "duration" : 140231
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "210d6bb88dc5019a",
+    "name" : "VerifycashFloatIssuedReturnedTab",
+    "title" : "Verifycash float issued returned tab",
+    "time" : {
+      "start" : 1554817859612,
+      "stop" : 1554818000623,
+      "duration" : 141011
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "9dc12c9bab9df200",
+    "name" : "VerifycashFloatIssuedReturnedTab",
+    "title" : "Verifycash float issued returned tab",
+    "time" : {
+      "start" : 1554818000728,
+      "stop" : 1554818140572,
+      "duration" : 139844
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "4a7f26975f0b05e7",
+    "name" : "AddRemovechips",
+    "title" : "Add removechips",
+    "time" : {
+      "start" : 1554818141101,
+      "stop" : 1554818281482,
+      "duration" : 140381
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "5cecb1e2295ce8c9",
+    "name" : "AddRemovechips",
+    "title" : "Add removechips",
+    "time" : {
+      "start" : 1554818281571,
+      "stop" : 1554818421442,
+      "duration" : 139871
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "dfb4b4d428fa1f2e",
+    "name" : "verifyDirectCrediToAccountTab",
+    "title" : "Verify direct credi to account tab",
+    "time" : {
+      "start" : 1554818421973,
+      "stop" : 1554818562216,
+      "duration" : 140243
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "5103f7a7ca47e1d",
+    "name" : "verifyDirectCrediToAccountTab",
+    "title" : "Verify direct credi to account tab",
+    "time" : {
+      "start" : 1554818562303,
+      "stop" : 1554818702597,
+      "duration" : 140294
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "d435828908d7bf85",
+    "name" : "addAmount_ErrorOverAndUnderAccount",
+    "title" : "Add amount error over and under account",
+    "time" : {
+      "start" : 1554818703124,
+      "stop" : 1554818843164,
+      "duration" : 140040
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "d38db611d15be589",
+    "name" : "addAmount_ErrorOverAndUnderAccount",
+    "title" : "Add amount error over and under account",
+    "time" : {
+      "start" : 1554818843265,
+      "stop" : 1554818983444,
+      "duration" : 140179
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "3b3c09b993d8a73e",
+    "name" : "verifyfoodAndBeverageIncomeAccount",
+    "title" : "Verifyfood and beverage income account",
+    "time" : {
+      "start" : 1554818983973,
+      "stop" : 1554819123831,
+      "duration" : 139858
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "b0ebd3329a97ad38",
+    "name" : "verifyfoodAndBeverageIncomeAccount",
+    "title" : "Verifyfood and beverage income account",
+    "time" : {
+      "start" : 1554819123910,
+      "stop" : 1554819263941,
+      "duration" : 140031
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "b376d53caae892fc",
+    "name" : "verifygratuitiesIncomeAccoun",
+    "title" : "Verifygratuities income accoun",
+    "time" : {
+      "start" : 1554819264472,
+      "stop" : 1554819404549,
+      "duration" : 140077
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "943e4373eb1ed87b",
+    "name" : "verifygratuitiesIncomeAccoun",
+    "title" : "Verifygratuities income accoun",
+    "time" : {
+      "start" : 1554819404633,
+      "stop" : 1554819536881,
+      "duration" : 132248
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "fbc42f8490a665bb",
+    "name" : "VerifyMajorIncentivesRedeemedAndIssued",
+    "title" : "Verify major incentives redeemed and issued",
+    "time" : {
+      "start" : 1554819537407,
+      "stop" : 1554819676580,
+      "duration" : 139173
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "27c4ceff2c65bd6b",
+    "name" : "VerifyMajorIncentivesRedeemedAndIssued",
+    "title" : "Verify major incentives redeemed and issued",
+    "time" : {
+      "start" : 1554819676669,
+      "stop" : 1554819815808,
+      "duration" : 139139
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "64498177c3d8449e",
+    "name" : "verifyPettyCashIssuedRepaid",
+    "title" : "Verify petty cash issued repaid",
+    "time" : {
+      "start" : 1554819816343,
+      "stop" : 1554819956244,
+      "duration" : 139901
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "3ff8c72104ef7562",
+    "name" : "verifyPettyCashIssuedRepaid",
+    "title" : "Verify petty cash issued repaid",
+    "time" : {
+      "start" : 1554819956335,
+      "stop" : 1554820095045,
+      "duration" : 138710
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "a7c97aff6ef194dd",
+    "name" : "verifySetupCreaditDebit",
+    "title" : "Verify setup creadit debit",
+    "time" : {
+      "start" : 1554820095575,
+      "stop" : 1554820235391,
+      "duration" : 139816
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "5a833613f4739b23",
+    "name" : "verifySetupCreaditDebit",
+    "title" : "Verify setup creadit debit",
+    "time" : {
+      "start" : 1554820235479,
+      "stop" : 1554820375426,
+      "duration" : 139947
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "e7dcc0bad48ce238",
+    "name" : "verifystaffSocialFundOnOffTranscation",
+    "title" : "Verifystaff social fund on off transcation",
+    "time" : {
+      "start" : 1554820375955,
+      "stop" : 1554820516967,
+      "duration" : 141012
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "a55411ea3f5fdbd3",
+    "name" : "verifystaffSocialFundOnOffTranscation",
+    "title" : "Verifystaff social fund on off transcation",
+    "time" : {
+      "start" : 1554820517138,
+      "stop" : 1554820623138,
+      "duration" : 106000
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "f93561fa95ea72a2",
+    "name" : "VerifysundryIncomeExpenses",
+    "title" : "Verifysundry income expenses",
+    "time" : {
+      "start" : 1554820623795,
+      "stop" : 1554821016400,
+      "duration" : 392605
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "af37d0797a6a1697",
+    "name" : "VerifySundryExpensesAndReversal",
+    "title" : "Verify sundry expenses and reversal",
+    "time" : {
+      "start" : 1554821017135,
+      "stop" : 1554821401610,
+      "duration" : 384475
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4281a8f08d4b11ec",
+    "name" : "VerifyWinnersBankTransferTranscation",
+    "title" : "Verify winners bank transfer transcation",
+    "time" : {
+      "start" : 1554821402238,
+      "stop" : 1554821435567,
+      "duration" : 33329
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "7ba55f33e8bfde74",
+    "name" : "VerifyWinnersBankTransferTranscation",
+    "title" : "Verify winners bank transfer transcation",
+    "time" : {
+      "start" : 1554821435662,
+      "stop" : 1554821467273,
+      "duration" : 31611
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "d69c019bae8aa454",
+    "name" : "addinterimTableCount",
+    "title" : "Addinterim table count",
+    "time" : {
+      "start" : 1554821471075,
+      "stop" : 1554821525949,
+      "duration" : 54874
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8a161e7321e0814",
+    "name" : "verifyTableProgressiveJackpotPayout",
+    "title" : "Verify table progressive jackpot payout",
+    "time" : {
+      "start" : 1554821526655,
+      "stop" : 1554821587041,
+      "duration" : 60386
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d194705af655e6d6",
+    "name" : "verifyTableFillAndCredit",
+    "title" : "Verify table fill and credit",
+    "time" : {
+      "start" : 1554821591591,
+      "stop" : 1554821740091,
+      "duration" : 148500
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9e88812d089ab529",
+    "name" : "checkCustomersIntelligentDatabase",
+    "title" : "Check customers intelligent database",
+    "time" : {
+      "start" : 1554821744617,
+      "stop" : 1554821881931,
+      "duration" : 137314
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "d8afa0b4b58b9a9a",
+    "name" : "checkAndVerifyMachinesViewDetails",
+    "title" : "Check and verify machines view details",
+    "time" : {
+      "start" : 1554821886141,
+      "stop" : 1554821940424,
+      "duration" : 54283
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4e18f8e0de24cb7f",
+    "name" : "checkAndVerifyViewsTransactionOfThroughoutGamingDay",
+    "title" : "Check and verify views transaction of throughout gaming day",
+    "time" : {
+      "start" : 1554821944413,
+      "stop" : 1554822144578,
+      "duration" : 200165
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "921db8ef0a3be06b",
+    "name" : "checkAndVerifyViewsTransactionOfThroughoutGamingDay",
+    "title" : "Check and verify views transaction of throughout gaming day",
+    "time" : {
+      "start" : 1554822144676,
+      "stop" : 1554822265730,
+      "duration" : 121054
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "2e3ff494202a141a",
+    "name" : "verifyBalancePageDetails",
+    "title" : "Verify balance page details",
+    "time" : {
+      "start" : 1554822270283,
+      "stop" : 1554822315544,
+      "duration" : 45261
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5b38de2b20510f87",
+    "name" : "checkViewAndvoidTransactionFromViews",
+    "title" : "Check view andvoid transaction from views",
+    "time" : {
+      "start" : 1554822319797,
+      "stop" : 1554822368827,
+      "duration" : 49030
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bedca7885d76792e",
+    "name" : "checkAddViewAndDeleteThirdPartyBankAccount",
+    "title" : "Check add view and delete third party bank account",
+    "time" : {
+      "start" : 1554822372834,
+      "stop" : 1554822584036,
+      "duration" : 211202
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "5598bb19dadab2e5",
+    "name" : "checkAddViewAndDeleteThirdPartyBankAccount",
+    "title" : "Check add view and delete third party bank account",
+    "time" : {
+      "start" : 1554822584139,
+      "stop" : 1554822705211,
+      "duration" : 121072
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "e955316c35e52769",
+    "name" : "PokerAccountONAndOFF",
+    "title" : "Poker account ON and OFF",
+    "time" : {
+      "start" : 1554822709788,
+      "stop" : 1554822768374,
+      "duration" : 58586
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "299ae9005e27a245",
+    "name" : "FunctionDepositONAndOFF",
+    "title" : "Function deposit ON and OFF",
+    "time" : {
+      "start" : 1554822772368,
+      "stop" : 1554822817455,
+      "duration" : 45087
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "858a94b8ae2edfc8",
+    "name" : "FunctionDepositONAndOFF",
+    "title" : "Function deposit ON and OFF",
+    "time" : {
+      "start" : 1554822817558,
+      "stop" : 1554822833823,
+      "duration" : 16265
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "125d3ce3db1e77fc",
+    "name" : "CashDesk_PayWinnerChequeIssueNReplacementCheque",
+    "title" : "Cash desk pay winner cheque issue N replacement cheque",
+    "time" : {
+      "start" : 1554822840743,
+      "stop" : 1554823464854,
+      "duration" : 624111
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "37e5343c66fa29cf",
+    "name" : "exchangeTravellersCheque",
+    "title" : "Exchange travellers cheque",
+    "time" : {
+      "start" : 1554823469067,
+      "stop" : 1554823601304,
+      "duration" : 132237
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "7aa823f764753c28",
+    "name" : "exchangeTravellersCheque",
+    "title" : "Exchange travellers cheque",
+    "time" : {
+      "start" : 1554823601409,
+      "stop" : 1554823617644,
+      "duration" : 16235
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "7af87dca3b6581d6",
+    "name" : "checkView_Authorizations_AlarmsAlerts",
+    "title" : "Check view authorizations alarms alerts",
+    "time" : {
+      "start" : 1554823624598,
+      "stop" : 1554824153233,
+      "duration" : 528635
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "72ea492dff26a46b",
+    "name" : "checkView_Authorizations_AlarmsAlerts",
+    "title" : "Check view authorizations alarms alerts",
+    "time" : {
+      "start" : 1554824153355,
+      "stop" : 1554824274823,
+      "duration" : 121468
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "c7f8b23fc39d20c6",
+    "name" : "Customer_ManageDueDiligenceFilter",
+    "title" : "Customer manage due diligence filter",
+    "time" : {
+      "start" : 1554824275490,
+      "stop" : 1554824722638,
+      "duration" : 447148
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "7243a136d675bbaf",
+    "name" : "Customer_ManageDueDiligenceFilter",
+    "title" : "Customer manage due diligence filter",
+    "time" : {
+      "start" : 1554824722742,
+      "stop" : 1554825168271,
+      "duration" : 445529
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "79711c7a4ded6410",
+    "name" : "addBarredSuspensionToCustomerProfile",
+    "title" : "Add barred suspension to customer profile",
+    "time" : {
+      "start" : 1554825168907,
+      "stop" : 1554825313035,
+      "duration" : 144128
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "26cb578f5f6ba8ea",
+    "name" : "addBarredSuspensionToCustomerProfile",
+    "title" : "Add barred suspension to customer profile",
+    "time" : {
+      "start" : 1554825313149,
+      "stop" : 1554825451629,
+      "duration" : 138480
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a5ddeac9264d305f",
+    "name" : "tc6421_addEditLiftSuspendedSuspensionToCustomerProfile[Run1,{CustomerNumber=1955208459, TestCaseID=TC6421}]",
+    "title" : "Test 6421",
+    "time" : {
+      "start" : 1554825452403,
+      "stop" : 1554825611582,
+      "duration" : 159179
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "dad797a6afab90d8",
+    "name" : "tc6421_addEditLiftSuspendedSuspensionToCustomerProfile[Run1,{CustomerNumber=1955208459, TestCaseID=TC6421}]",
+    "title" : "Test 6421",
+    "time" : {
+      "start" : 1554825611753,
+      "stop" : 1554825771202,
+      "duration" : 159449
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "2b8a1aacc4befe1b",
+    "name" : "addAssociatesToCustomerProfile",
+    "title" : "Add associates to customer profile",
+    "time" : {
+      "start" : 1554825771861,
+      "stop" : 1554825836405,
+      "duration" : 64544
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "74efae3568bcc495",
+    "name" : "addAssociatesToCustomerProfile",
+    "title" : "Add associates to customer profile",
+    "time" : {
+      "start" : 1554825836527,
+      "stop" : 1554826152765,
+      "duration" : 316238
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "497aaf2422b6f8fc",
+    "name" : "issueNew_LostAndReplacementCardToCustomer",
+    "title" : "Issue new lost and replacement card to customer",
+    "time" : {
+      "start" : 1554826152872,
+      "stop" : 1554826183147,
+      "duration" : 30275
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "defee527cbb4d73e",
+    "name" : "issueNew_LostAndReplacementCardToCustomer",
+    "title" : "Issue new lost and replacement card to customer",
+    "time" : {
+      "start" : 1554826183270,
+      "stop" : 1554826424525,
+      "duration" : 241255
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f8f62db77a9043f9",
+    "name" : "verifyViewAddInterestsNPrefernces",
+    "title" : "Verify view add interests N prefernces",
+    "time" : {
+      "start" : 1554826424641,
+      "stop" : 1554826536250,
+      "duration" : 111609
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5baba80c33cbe1e3",
+    "name" : "viewAuditDetails",
+    "title" : "View audit details",
+    "time" : {
+      "start" : 1554826536368,
+      "stop" : 1554826626385,
+      "duration" : 90017
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7744288b036ce144",
+    "name" : "checkPlayerTracking_HospitalityTransaction",
+    "title" : "Check player tracking hospitality transaction",
+    "time" : {
+      "start" : 1554826630733,
+      "stop" : 1554826656868,
+      "duration" : 26135
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "df15e3e5f0fe79bd",
+    "name" : "checkPlayerTracking_HospitalityTransaction",
+    "title" : "Check player tracking hospitality transaction",
+    "time" : {
+      "start" : 1554826656999,
+      "stop" : 1554826673187,
+      "duration" : 16188
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "170e3a83f0931efa",
+    "name" : "checkPlayerTrackingViewHospitalityTransaction",
+    "title" : "Check player tracking view hospitality transaction",
+    "time" : {
+      "start" : 1554826680541,
+      "stop" : 1554826719041,
+      "duration" : 38500
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9c370b2886b8355",
+    "name" : "viewExpensesDetails",
+    "title" : "View expenses details",
+    "time" : {
+      "start" : 1554826719156,
+      "stop" : 1554826885817,
+      "duration" : 166661
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f84c31592ffdd166",
+    "name" : "viewVisitsDetails",
+    "title" : "View visits details",
+    "time" : {
+      "start" : 1554826885934,
+      "stop" : 1554826936506,
+      "duration" : 50572
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fd34036b41fd4075",
+    "name" : "viewGamingDetails",
+    "title" : "View gaming details",
+    "time" : {
+      "start" : 1554826936628,
+      "stop" : 1554827106711,
+      "duration" : 170083
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "608529a17a265e74",
+    "name" : "viewSummaryDetails",
+    "title" : "View summary details",
+    "time" : {
+      "start" : 1554827106833,
+      "stop" : 1554827206525,
+      "duration" : 99692
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "82cf692aa2a1e063",
+    "name" : "AddViewDueDiligenceDetailsToCustomerProfile",
+    "title" : "Test 6431 and 6693",
+    "time" : {
+      "start" : 1554827206653,
+      "stop" : 1554827407219,
+      "duration" : 200566
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5461ecf4258f8b14",
+    "name" : "tc6692_AddoUTCOMEToEDDRecord",
+    "title" : "TC6692_6694 ",
+    "time" : {
+      "start" : 1554827408006,
+      "stop" : 1554827465084,
+      "duration" : 57078
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "96854f544a8b880e",
+    "name" : "tc6388_AddNotesOnCustomerProfile",
+    "title" : "Test6412",
+    "time" : {
+      "start" : 1554827465855,
+      "stop" : 1554827560233,
+      "duration" : 94378
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "25c60cea8d840115",
+    "name" : "tc6413_editRemoveNoteOnCustomerProfile",
+    "title" : "Test6413_14",
+    "time" : {
+      "start" : 1554827560983,
+      "stop" : 1554827664016,
+      "duration" : 103033
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6a94c62969acc1f5",
+    "name" : "checkCustomerProfileIdentifications",
+    "title" : "Check customer profile identifications",
+    "time" : {
+      "start" : 1554827668780,
+      "stop" : 1554827901725,
+      "duration" : 232945
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ce48b73cec58cacb",
+    "name" : "checkCustomerProfileViewRemoveAddAddress",
+    "title" : "Check customer profile view remove add address",
+    "time" : {
+      "start" : 1554827905765,
+      "stop" : 1554828349496,
+      "duration" : 443731
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "55a586424870f69d",
+    "name" : "checkCustomerProfileViewAllTransactions",
+    "title" : "Check customer profile view all transactions",
+    "time" : {
+      "start" : 1554828353529,
+      "stop" : 1554828401662,
+      "duration" : 48133
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bb8ddeb59c9b14f",
+    "name" : "exchangeAndRedeemForegienCurrency",
+    "title" : "Exchange and redeem foregien currency",
+    "time" : {
+      "start" : 1554828405704,
+      "stop" : 1554828649513,
+      "duration" : 243809
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b9174800d0ba73a",
+    "name" : "CashDeskImportCurrencyRate",
+    "title" : "Cash desk import currency rate",
+    "time" : {
+      "start" : 1554828650239,
+      "stop" : 1554828856103,
+      "duration" : 205864
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "d026dd5ec17e98e5",
+    "name" : "CashDeskImportCurrencyRate",
+    "title" : "Cash desk import currency rate",
+    "time" : {
+      "start" : 1554828856233,
+      "stop" : 1554829102348,
+      "duration" : 246115
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "84d3a446035cee7e",
+    "name" : "setPinNumber",
+    "title" : "Set pin number",
+    "time" : {
+      "start" : 1554829102930,
+      "stop" : 1554829192693,
+      "duration" : 89763
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8df4be9ee4151ace",
+    "name" : "viewcashier_AssetEntryDetails",
+    "title" : "Viewcashier asset entry details",
+    "time" : {
+      "start" : 1554829192832,
+      "stop" : 1554829430125,
+      "duration" : 237293
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "70063cec7e9e3738",
+    "name" : "viewcashier_AssetEntryDetails",
+    "title" : "Viewcashier asset entry details",
+    "time" : {
+      "start" : 1554829430262,
+      "stop" : 1554829461307,
+      "duration" : 31045
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  } ]
+}

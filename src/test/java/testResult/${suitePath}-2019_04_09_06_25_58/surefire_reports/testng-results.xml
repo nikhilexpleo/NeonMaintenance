@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers Menu tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> search Customer Number '1955217037']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Suspensions']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Suspensions')]']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Add button ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Casino Dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Casino as  '_SAW 1']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Suspension TypeDropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select suspension type as || Input Value : Groupwide Barred - Behaviour]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Gaming Date Dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Message]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Notes]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Cancel button ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on commit ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'All Casinos' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Notes' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Employee Messages' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Expiry Date' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Date Lifted' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Authorised By' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Casino' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+  </reporter-output>
+  <suite name="EDDRegression" duration-ms="91597" started-at="2019-04-09T06:26:12Z" finished-at="2019-04-09T06:27:43Z">
+    <groups>
+    </groups>
+    <test name="EDD" duration-ms="91597" started-at="2019-04-09T06:26:12Z" finished-at="2019-04-09T06:27:43Z">
+      <class name="com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour">
+        <test-method status="PASS" signature="tc14252_SetGroupwideBarredBehaviourToCustomerProfile(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour@7b61bf11]" name="tc14252_SetGroupwideBarredBehaviourToCustomerProfile" duration-ms="87934" started-at="2019-04-09T11:56:13Z" data-provider="TestDataProvider" finished-at="2019-04-09T11:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Run1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955217037, Authorised User=Gadekar, TestCaseID=TC14252}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers Menu tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> search Customer Number '1955217037']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Suspensions']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Suspensions')]']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Add button ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Casino Dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Casino as  '_SAW 1']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Suspension TypeDropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select suspension type as || Input Value : Groupwide Barred - Behaviour]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Gaming Date Dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Message]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Notes]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Cancel button ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on commit ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'All Casinos' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Notes' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Employee Messages' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Expiry Date' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Date Lifted' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Authorised By' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Casino' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc14252_SetGroupwideBarredBehaviourToCustomerProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour@7b61bf11]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-04-09T11:57:43Z" finished-at="2019-04-09T11:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc14252_SetGroupwideBarredBehaviourToCustomerProfile status=SUCCESS method=TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour.tc14252_SetGroupwideBarredBehaviourToCustomerProfile(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour@7b61bf11] output=Step >> Enter username]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.EDD.TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour -->
+    </test> <!-- EDD -->
+  </suite> <!-- EDDRegression -->
+</testng-results>

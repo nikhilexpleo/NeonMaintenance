@@ -1,0 +1,29 @@
+<h2>Reporter output</h2><table><tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> verify setPin button display</td></tr>
+<tr><td>Step >> Click on SetPin button</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number label displayed</td></tr>
+<tr><td>Step >> Verify CustomerNumber Value displayed</td></tr>
+<tr><td>Step >> verify PinNumber label</td></tr>
+<tr><td>Step >> verify confirm PinNumber label</td></tr>
+<tr><td>Step >> Set PinNumber </td></tr>
+<tr><td>Step >> Set ConfirmPinNumber </td></tr>
+<tr><td>Step >> Click on save button</td></tr>
+<tr><td>Step >> verify error message displayed</td></tr>
+<tr><td>Step >> Click on OK button</td></tr>
+<tr><td>Step >> Set PinNumber </td></tr>
+<tr><td>Step >> Set ConfirmPinNumber </td></tr>
+<tr><td>Step >> Click on save button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+</table>

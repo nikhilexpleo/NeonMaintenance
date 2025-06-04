@@ -1,0 +1,498 @@
+{
+  "defectsList" : [ {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "3d81a3b147188a02",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:21009 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "bd72cef85f1f2e1f",
+        "name" : "addCreditBankDeatils_CreditAccountTC",
+        "title" : "Add credit bank deatils credit account TC",
+        "time" : {
+          "start" : 1554813240491,
+          "stop" : 1554813256737,
+          "duration" : 16246
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "e1eef8067b6fd493",
+      "failure" : {
+        "message" : "TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a#DebitCards_ViewDebitCard_Menu (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:34169/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: 5aa1fba0-2638-4f43-a23b-78c9a7bfea72",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "c86bf1d18dfcb4e8",
+        "name" : "ViewVoidDebitCard",
+        "title" : "View void debit card",
+        "time" : {
+          "start" : 1554813856531,
+          "stop" : 1554813890705,
+          "duration" : 34174
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "b2d977fed1df1e98",
+      "failure" : {
+        "message" : "TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[@id='Cashdesk_Deposits_Menu']//a[contains(.,'Deposits')] (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:38219/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: f2f23c1a-467d-4930-859e-633a42508d2b",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "edf6caebe4acba24",
+        "name" : "verifyDepositOff",
+        "title" : "Verify deposit off",
+        "time" : {
+          "start" : 1554815052072,
+          "stop" : 1554815086691,
+          "duration" : 34619
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "2e0309255508949b",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8204 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "71480258f34bec70",
+        "name" : "VerifyReception_Entry",
+        "title" : "Verify reception entry",
+        "time" : {
+          "start" : 1554815307243,
+          "stop" : 1554815339985,
+          "duration" : 32742
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "fd7274822a10aff8",
+      "failure" : {
+        "message" : "ElementNotVisibleException: Cannot click on element (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:49088/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: 3c32eaf7-f3ab-40ef-993d-1832e5de2d7b",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "a55411ea3f5fdbd3",
+        "name" : "verifystaffSocialFundOnOffTranscation",
+        "title" : "Verifystaff social fund on off transcation",
+        "time" : {
+          "start" : 1554820517138,
+          "stop" : 1554820623138,
+          "duration" : 106000
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "2ce081cc1832bedd",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:42019 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "7ba55f33e8bfde74",
+        "name" : "VerifyWinnersBankTransferTranscation",
+        "title" : "Verify winners bank transfer transcation",
+        "time" : {
+          "start" : 1554821435662,
+          "stop" : 1554821467273,
+          "duration" : 31611
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "5c40cabeacf8c187",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:32180 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "858a94b8ae2edfc8",
+        "name" : "FunctionDepositONAndOFF",
+        "title" : "Function deposit ON and OFF",
+        "time" : {
+          "start" : 1554822817558,
+          "stop" : 1554822833823,
+          "duration" : 16265
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "f02e17078c61315a",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:39017 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "7aa823f764753c28",
+        "name" : "exchangeTravellersCheque",
+        "title" : "Exchange travellers cheque",
+        "time" : {
+          "start" : 1554823601409,
+          "stop" : 1554823617644,
+          "duration" : 16235
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "3756d49466753f4b",
+      "failure" : {
+        "message" : "TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li[@id='linkUserLogOut']//a[contains(.,'Log Out')] (tried for 30 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27835/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: 03247266-0ce3-4909-abc1-ad51452a8712",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "26cb578f5f6ba8ea",
+        "name" : "addBarredSuspensionToCustomerProfile",
+        "title" : "Add barred suspension to customer profile",
+        "time" : {
+          "start" : 1554825313149,
+          "stop" : 1554825451629,
+          "duration" : 138480
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "749c7fda843ff1ea",
+      "failure" : {
+        "message" : "NoSuchElementException: Unable to find element with xpath == //section[@class='sidebar']//li[@id='tabSuspensions']//a[contains(.,'Suspensions')] (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9199/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}\nSession ID: e6968dce-fc95-441c-9e66-867b9ea7c8c5\n*** Element info: {Using=xpath, value=//section[@class='sidebar']//li[@id='tabSuspensions']//a[contains(.,'Suspensions')]}",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "dad797a6afab90d8",
+        "name" : "tc6421_addEditLiftSuspendedSuspensionToCustomerProfile[Run1,{CustomerNumber=1955208459, TestCaseID=TC6421}]",
+        "title" : "Test 6421",
+        "time" : {
+          "start" : 1554825611753,
+          "stop" : 1554825771202,
+          "duration" : 159449
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "d5afd71103a73f34",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:25912 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "df15e3e5f0fe79bd",
+        "name" : "checkPlayerTracking_HospitalityTransaction",
+        "title" : "Check player tracking hospitality transaction",
+        "time" : {
+          "start" : 1554826656999,
+          "stop" : 1554826673187,
+          "duration" : 16188
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "abbebc9ae2d6ae3a",
+      "failure" : {
+        "message" : "WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:40953 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect\nBuild info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'\nSystem info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: driver.version: RemoteWebDriver",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "70063cec7e9e3738",
+        "name" : "viewcashier_AssetEntryDetails",
+        "title" : "Viewcashier asset entry details",
+        "time" : {
+          "start" : 1554829430262,
+          "stop" : 1554829461307,
+          "duration" : 31045
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  }, {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "42cf103e765db66f",
+      "failure" : {
+        "message" : "AssertionError: expected [true] but found [false]",
+        "stackTrace" : null
+      },
+      "testCases" : [ {
+        "uid" : "fec3a66293e18789",
+        "name" : "chequeAddViewVoid",
+        "title" : "Cheque add view void",
+        "time" : {
+          "start" : 1554814187693,
+          "stop" : 1554814309075,
+          "duration" : 121382
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "a52fba2d6a40fbcc",
+        "name" : "checkCustomerEntryUsingNameDOB",
+        "title" : "Check customer entry using name DOB",
+        "time" : {
+          "start" : 1554815471714,
+          "stop" : 1554815611598,
+          "duration" : 139884
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8eda0a2a7b7feeb9",
+        "name" : "checkcustomerHistoricalAndEstimatedVisitEntry",
+        "title" : "Checkcustomer historical and estimated visit entry",
+        "time" : {
+          "start" : 1554815750873,
+          "stop" : 1554815889770,
+          "duration" : 138897
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "7c4f06188e154ff1",
+        "name" : "viewCustomerCasino",
+        "title" : "View customer casino",
+        "time" : {
+          "start" : 1554816030438,
+          "stop" : 1554816169820,
+          "duration" : 139382
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "700a44ca5a9e427e",
+        "name" : "verifyBadBeatJackpotBC",
+        "title" : "Verify bad beat jackpot BC",
+        "time" : {
+          "start" : 1554816310445,
+          "stop" : 1554816450806,
+          "duration" : 140361
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "7a165ea3f0dd35bb",
+        "name" : "verifyBadBeatJackpotCAndReversalTab",
+        "title" : "Verify bad beat jackpot C and reversal tab",
+        "time" : {
+          "start" : 1554816591286,
+          "stop" : 1554816731252,
+          "duration" : 139966
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e7019b9e8af71dbe",
+        "name" : "VerifyballyTickets",
+        "title" : "Verifybally tickets",
+        "time" : {
+          "start" : 1554816872118,
+          "stop" : 1554817013007,
+          "duration" : 140889
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "bee267e1cfa0c69c",
+        "name" : "VerifyBankingTab",
+        "title" : "Verify banking tab",
+        "time" : {
+          "start" : 1554817154382,
+          "stop" : 1554817295091,
+          "duration" : 140709
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "fc7f5650666f4a0c",
+        "name" : "VerifyCashFromBankTab",
+        "title" : "Verify cash from bank tab",
+        "time" : {
+          "start" : 1554817436512,
+          "stop" : 1554817577890,
+          "duration" : 141378
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c69ca21e946be385",
+        "name" : "VerifyCentralCharityDonationsReversalTab",
+        "title" : "Verify central charity donations reversal tab",
+        "time" : {
+          "start" : 1554817718852,
+          "stop" : 1554817859083,
+          "duration" : 140231
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "9dc12c9bab9df200",
+        "name" : "VerifycashFloatIssuedReturnedTab",
+        "title" : "Verifycash float issued returned tab",
+        "time" : {
+          "start" : 1554818000728,
+          "stop" : 1554818140572,
+          "duration" : 139844
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5cecb1e2295ce8c9",
+        "name" : "AddRemovechips",
+        "title" : "Add removechips",
+        "time" : {
+          "start" : 1554818281571,
+          "stop" : 1554818421442,
+          "duration" : 139871
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5103f7a7ca47e1d",
+        "name" : "verifyDirectCrediToAccountTab",
+        "title" : "Verify direct credi to account tab",
+        "time" : {
+          "start" : 1554818562303,
+          "stop" : 1554818702597,
+          "duration" : 140294
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "d38db611d15be589",
+        "name" : "addAmount_ErrorOverAndUnderAccount",
+        "title" : "Add amount error over and under account",
+        "time" : {
+          "start" : 1554818843265,
+          "stop" : 1554818983444,
+          "duration" : 140179
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b0ebd3329a97ad38",
+        "name" : "verifyfoodAndBeverageIncomeAccount",
+        "title" : "Verifyfood and beverage income account",
+        "time" : {
+          "start" : 1554819123910,
+          "stop" : 1554819263941,
+          "duration" : 140031
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "943e4373eb1ed87b",
+        "name" : "verifygratuitiesIncomeAccoun",
+        "title" : "Verifygratuities income accoun",
+        "time" : {
+          "start" : 1554819404633,
+          "stop" : 1554819536881,
+          "duration" : 132248
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "27c4ceff2c65bd6b",
+        "name" : "VerifyMajorIncentivesRedeemedAndIssued",
+        "title" : "Verify major incentives redeemed and issued",
+        "time" : {
+          "start" : 1554819676669,
+          "stop" : 1554819815808,
+          "duration" : 139139
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3ff8c72104ef7562",
+        "name" : "verifyPettyCashIssuedRepaid",
+        "title" : "Verify petty cash issued repaid",
+        "time" : {
+          "start" : 1554819956335,
+          "stop" : 1554820095045,
+          "duration" : 138710
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5a833613f4739b23",
+        "name" : "verifySetupCreaditDebit",
+        "title" : "Verify setup creadit debit",
+        "time" : {
+          "start" : 1554820235479,
+          "stop" : 1554820375426,
+          "duration" : 139947
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "921db8ef0a3be06b",
+        "name" : "checkAndVerifyViewsTransactionOfThroughoutGamingDay",
+        "title" : "Check and verify views transaction of throughout gaming day",
+        "time" : {
+          "start" : 1554822144676,
+          "stop" : 1554822265730,
+          "duration" : 121054
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5598bb19dadab2e5",
+        "name" : "checkAddViewAndDeleteThirdPartyBankAccount",
+        "title" : "Check add view and delete third party bank account",
+        "time" : {
+          "start" : 1554822584139,
+          "stop" : 1554822705211,
+          "duration" : 121072
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "72ea492dff26a46b",
+        "name" : "checkView_Authorizations_AlarmsAlerts",
+        "title" : "Check view authorizations alarms alerts",
+        "time" : {
+          "start" : 1554824153355,
+          "stop" : 1554824274823,
+          "duration" : 121468
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "7243a136d675bbaf",
+        "name" : "Customer_ManageDueDiligenceFilter",
+        "title" : "Customer manage due diligence filter",
+        "time" : {
+          "start" : 1554824722742,
+          "stop" : 1554825168271,
+          "duration" : 445529
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "d026dd5ec17e98e5",
+        "name" : "CashDeskImportCurrencyRate",
+        "title" : "Cash desk import currency rate",
+        "time" : {
+          "start" : 1554828856233,
+          "stop" : 1554829102348,
+          "duration" : 246115
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

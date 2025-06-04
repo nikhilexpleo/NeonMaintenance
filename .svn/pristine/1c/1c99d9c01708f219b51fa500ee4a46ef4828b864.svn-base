@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529652184515" stop="1529652327117" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529652186160" stop="1529652327014" status="passed">
+            <name>tc14252_LiftSuepensionGroupwideBarredBehaviour[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14262</title>
+            <description type="text">Verify a customer suspension can be lifted when set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529652197271" stop="1529652197280" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652197970" stop="1529652198038" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652198495" stop="1529652198497" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652257646" stop="1529652257648" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652261738" stop="1529652261740" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652264595" stop="1529652264596" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652265550" stop="1529652265552" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270242" stop="1529652270244" status="passed">
+                    <name>logReporter[Verify 'Suspensions', true, false]</name>
+                    <title>Verify 'Suspensions'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270450" stop="1529652270452" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270455" stop="1529652325989" status="passed">
+                    <name>liftSuspension</name>
+                    <title>Lift the suspension </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529652284127" stop="1529652284129" status="passed">
+                            <name>logReporter[Click on Lift tab, true, false]</name>
+                            <title>Click on Lift tab</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529652325171" stop="1529652325173" status="passed">
+                            <name>logReporter[Select Authorise user , true, false]</name>
+                            <title>Select Authorise user </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529652325987" stop="1529652325989" status="passed">
+                            <name>logReporter[Click on Ok , true, false]</name>
+                            <title>Click on Ok </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529652326355" stop="1529652326357" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652327008" stop="1529652327010" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9048@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529652186160" stop="1529652327014" status="passed">
+            <name>tc14252_LiftSuepensionGroupwideBarredBehaviour[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14262</title>
+            <description type="text">Verify a customer suspension can be lifted when set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529652197271" stop="1529652197280" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652197970" stop="1529652198038" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652198495" stop="1529652198497" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652257646" stop="1529652257648" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652261738" stop="1529652261740" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652264595" stop="1529652264596" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652265550" stop="1529652265552" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270242" stop="1529652270244" status="passed">
+                    <name>logReporter[Verify 'Suspensions', true, false]</name>
+                    <title>Verify 'Suspensions'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270450" stop="1529652270452" status="passed">
+                    <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                    <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652270455" stop="1529652325989" status="passed">
+                    <name>liftSuspension</name>
+                    <title>Lift the suspension </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529652284127" stop="1529652284129" status="passed">
+                            <name>logReporter[Click on Lift tab, true, false]</name>
+                            <title>Click on Lift tab</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529652325171" stop="1529652325173" status="passed">
+                            <name>logReporter[Select Authorise user , true, false]</name>
+                            <title>Select Authorise user </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529652325987" stop="1529652325989" status="passed">
+                            <name>logReporter[Click on Ok , true, false]</name>
+                            <title>Click on Ok </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529652326355" stop="1529652326357" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529652327008" stop="1529652327010" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="9048@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

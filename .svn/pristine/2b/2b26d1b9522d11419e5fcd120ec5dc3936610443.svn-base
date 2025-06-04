@@ -1,0 +1,31 @@
+<h2>Reporter output</h2><table><tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> search Customer Number '1955217037'</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Verify 'Suspensions'</td></tr>
+<tr><td>Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Suspensions')]'</td></tr>
+<tr><td>Step >> Verify Add button </td></tr>
+<tr><td>Step >> Click on Add tab</td></tr>
+<tr><td>Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Customer Suspension')]' display</td></tr>
+<tr><td>Step >> Click on Casino Dropdown </td></tr>
+<tr><td>Step >> Select Casino as  '_SAW 1'</td></tr>
+<tr><td>Step >> Click on Suspension TypeDropdown </td></tr>
+<tr><td>Step >> Select suspension type as || Input Value : Groupwide Barred - Behaviour</td></tr>
+<tr><td>Step >> Verify Gaming Date Dropdown </td></tr>
+<tr><td>Step >> Enter Message</td></tr>
+<tr><td>Step >> Enter Notes</td></tr>
+<tr><td>Step >> Verify Cancel button </td></tr>
+<tr><td>Step >> Click on commit </td></tr>
+<tr><td>Step >> Verify 'All Casinos' display on page </td></tr>
+<tr><td>Step >> Verify 'Notes' display on page </td></tr>
+<tr><td>Step >> Verify 'Employee Messages' display on page </td></tr>
+<tr><td>Step >> Verify 'Expiry Date' display on page </td></tr>
+<tr><td>Step >> Verify 'Date Lifted' display on page </td></tr>
+<tr><td>Step >> Verify 'Authorised By' display on page </td></tr>
+<tr><td>Step >> Verify 'Casino' display on page </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+</table>

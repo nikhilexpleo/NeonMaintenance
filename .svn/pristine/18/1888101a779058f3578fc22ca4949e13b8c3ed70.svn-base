@@ -1,0 +1,239 @@
+<h2>Reporter output</h2><table><tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on customer tab</td></tr>
+<tr><td>Step >> Click on registartion tab</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Click on customer tab</td></tr>
+<tr><td>Step >> Click on customer tab</td></tr>
+<tr><td>Step >> Enter forename</td></tr>
+<tr><td>Step >> Enter DateOfBirth</td></tr>
+<tr><td>Step >> select gender</td></tr>
+<tr><td>Step >> Enter Postcode</td></tr>
+<tr><td>Step >> Click on match button</td></tr>
+<tr><td>Step >> Enter cardNumber</td></tr>
+<tr><td>Step >> Enter  occupation</td></tr>
+<tr><td>Step >> Click on Save btn</td></tr>
+<tr><td>Step >>  click on No Match Btn</td></tr>
+<tr><td>Step >>  click on yesBtn</td></tr>
+<tr><td>Step >>  click on yesBtn</td></tr>
+<tr><td>Step >>  click on ok Btn</td></tr>
+<tr><td>Step >> Click on Details Button</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Credit Accounts form Credit</td></tr>
+<tr><td>Step >> Click on Create New</td></tr>
+<tr><td>Step >> Enter Acc Number</td></tr>
+<tr><td>Step >> Click on LowerLimit </td></tr>
+<tr><td>Step >> Verify Date of birth display</td></tr>
+<tr><td>Step >> Click on LowerLimit</td></tr>
+<tr><td>Step >> Enter Lower Limit</td></tr>
+<tr><td>Step >> Enter Upper Limit</td></tr>
+<tr><td>Step >> Click on  save</td></tr>
+<tr><td>Step >> Select manager from the list </td></tr>
+<tr><td>Step >> Click on OK</td></tr>
+<tr><td>Step >> Verify successfull message display</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Credit Accounts form Credit</td></tr>
+<tr><td>Step >> Enter Acc Number</td></tr>
+<tr><td>Step >> Click on Find</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Details</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Audit</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Authorisations</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_BankAccounts</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_BankReferences</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_CasinoReferences</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Identification</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Messages</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Notes</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Transactions</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Deposits</td></tr>
+<tr><td>Step >> Check Presence :creditAccount_findAcc_Deatils_Summary</td></tr>
+<tr><td>Step >> Click on Bank Account</td></tr>
+<tr><td>Step >> Click on Add Bank Account</td></tr>
+<tr><td>Step >> Enter Acc Number</td></tr>
+<tr><td>Step >> Enter Bank Number</td></tr>
+<tr><td>Step >> CheckBOX check For Debit card</td></tr>
+<tr><td>Step >> click on Last 4 digit textbox</td></tr>
+<tr><td>Step >> Enter cardLastFourDigits</td></tr>
+<tr><td>Step >> Enter expiry month</td></tr>
+<tr><td>Step >> Enter expiry year</td></tr>
+<tr><td>Step >> Click on Commit</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Debit Card Menu </td></tr>
+<tr><td>Step >> Click on Add Debit Card </td></tr>
+<tr><td>Step >> Enter First two letters of Surname and Last 4 digit of Debit card</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Label displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> selemanager </td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Debit Card Menu </td></tr>
+<tr><td>Step >> Click on Add Debit Card </td></tr>
+<tr><td>Step >> Enter First two letters of Surname and Last 4 digit of Debit card</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Label displayed</td></tr>
+<tr><td>Step >> Verify Customer Number Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> selemanager </td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Manual radioButton</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> verify same card button </td></tr>
+<tr><td>Step >> click on same card button </td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> selemanager </td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Cheque Menu</td></tr>
+<tr><td>Step >> Click on Add Cheque </td></tr>
+<tr><td>Step >> Enter Bank Acc Number</td></tr>
+<tr><td>Step >> Click on okButton </td></tr>
+<tr><td>Step >> Select cheque type</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Select clearance type</td></tr>
+<tr><td>Step >> Click on Save</td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on Global Cash </td></tr>
+<tr><td>Step >> Click on Add Global Cash </td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Verify Customer Name label displayed</td></tr>
+<tr><td>Step >> Verify CustomerName Value displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Label displayed</td></tr>
+<tr><td>Step >> Verify AmountAvailable Value displayed</td></tr>
+<tr><td>Step >> Verify Account NameLabel displayed</td></tr>
+<tr><td>Step >> Verify Account Name Value displayed</td></tr>
+<tr><td>Step >> Verify Account Number Label displayed</td></tr>
+<tr><td>Step >> Verify AccountNumber Value displayed</td></tr>
+<tr><td>Step >> Verify Bank Label displayed</td></tr>
+<tr><td>Step >> Verify Bank Value displayed</td></tr>
+<tr><td>Step >> Enter Amount</td></tr>
+<tr><td>Step >> Enter Transaction code</td></tr>
+<tr><td>Step >> Click on Save </td></tr>
+<tr><td>Step >> Verify processTransactionMsg displayed</td></tr>
+<tr><td>Step >> Click on Yes button</td></tr>
+<tr><td>Step >> Verify transactionCompletedMsg displayed</td></tr>
+<tr><td>Step >> Click on ok  button</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on view Global Cash </td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find </td></tr>
+<tr><td>Step >> verify details </td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on Void </td></tr>
+<tr><td>Step >> Verify voidConfirmationMsg displayed</td></tr>
+<tr><td>Step >> Click on yes </td></tr>
+<tr><td>Step >> Verify voidSuccessMsg displayed</td></tr>
+<tr><td>Step >> Click on ok </td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on closeIconTab</td></tr>
+<tr><td>Step >> Click on top Navigation Credit</td></tr>
+<tr><td>Step >> Click on view Global Cash </td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find </td></tr>
+<tr><td>Step >> verify details </td></tr>
+<tr><td>Step >> Select Page</td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on CreditDetailsTab</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+<tr><td>Step >> Enter username</td></tr>
+<tr><td>Step >> Enter password</td></tr>
+<tr><td>Step >> Click on signBtn</td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on Action Button</td></tr>
+<tr><td>Step >> Click on Delete Tab</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on Customers Menu tab</td></tr>
+<tr><td>Step >> Click on Customers tab</td></tr>
+<tr><td>Step >> Enter Customer Number</td></tr>
+<tr><td>Step >> Click on Find button</td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on X </td></tr>
+<tr><td>Step >> Click on username link</td></tr>
+<tr><td>Step >> Click on logout</td></tr>
+</table>

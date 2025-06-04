@@ -1,0 +1,313 @@
+{
+  "uid" : "5461ecf4258f8b14",
+  "name" : "tc6692_AddoUTCOMEToEDDRecord",
+  "title" : "TC6692_6694 ",
+  "time" : {
+    "start" : 1554827408006,
+    "stop" : 1554827465084,
+    "duration" : 57078
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 18
+  },
+  "failure" : null,
+  "description" : {
+    "value" : " Manager Due Diligence_001_003 -ADD OUTCOME ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554827412573,
+      "stop" : 1554827412574,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554827413366,
+      "stop" : 1554827413367,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554827413832,
+      "stop" : 1554827413833,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554827432551,
+      "stop" : 1554827432552,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on dueDiligence tab, true, false]",
+    "title" : "Click on dueDiligence tab",
+    "time" : {
+      "start" : 1554827433181,
+      "stop" : 1554827433182,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Number, true, false]",
+    "title" : "Enter Number",
+    "time" : {
+      "start" : 1554827435096,
+      "stop" : 1554827435097,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on stateFilter dropdown, true, false]",
+    "title" : "Click on stateFilter dropdown",
+    "time" : {
+      "start" : 1554827435561,
+      "stop" : 1554827435562,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on stateFilter dropdown, true, false]",
+    "title" : "Click on stateFilter dropdown",
+    "time" : {
+      "start" : 1554827436131,
+      "stop" : 1554827436132,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on filter button, true, false]",
+    "title" : "Click on filter button",
+    "time" : {
+      "start" : 1554827436735,
+      "stop" : 1554827436736,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify AddOutCome button, true, false]",
+    "title" : "Verify AddOutCome button",
+    "time" : {
+      "start" : 1554827446878,
+      "stop" : 1554827446879,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on AddOutCome button, true, false]",
+    "title" : "Click on AddOutCome button",
+    "time" : {
+      "start" : 1554827447541,
+      "stop" : 1554827447542,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Reason For Review, true, false]",
+    "title" : "Select Reason For Review",
+    "time" : {
+      "start" : 1554827448112,
+      "stop" : 1554827448113,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select decision as 'End Relationship' , true, false]",
+    "title" : "Select decision as 'End Relationship' ",
+    "time" : {
+      "start" : 1554827448548,
+      "stop" : 1554827448549,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Rationale for decision details, true, false]",
+    "title" : "Enter Rationale for decision details",
+    "time" : {
+      "start" : 1554827449302,
+      "stop" : 1554827449303,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select customer RiskAssessment , true, false]",
+    "title" : "Select customer RiskAssessment ",
+    "time" : {
+      "start" : 1554827449885,
+      "stop" : 1554827449886,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Save button, true, false]",
+    "title" : "Click on Save button",
+    "time" : {
+      "start" : 1554827453855,
+      "stop" : 1554827453856,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Yes button, true, false]",
+    "title" : "Click on Yes button",
+    "time" : {
+      "start" : 1554827459170,
+      "stop" : 1554827459171,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827465083,
+      "stop" : 1554827465084,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="9" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on customer tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on registartion tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on customer tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on customer tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter forename]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter DateOfBirth]]>
+    </line>
+    <line>
+      <![CDATA[Step >> select gender]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Postcode]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on match button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter cardNumber]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter  occupation]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save btn]]>
+    </line>
+    <line>
+      <![CDATA[Step >>  click on No Match Btn]]>
+    </line>
+    <line>
+      <![CDATA[Step >>  click on yesBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >>  click on yesBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >>  click on ok Btn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Details Button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Credit Accounts form Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Create New]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Acc Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on LowerLimit ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Date of birth display]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on LowerLimit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Lower Limit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Upper Limit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on  save]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select manager from the list ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on OK]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify successfull message display]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Credit Accounts form Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Acc Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Page]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Details]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Audit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Authorisations]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_BankAccounts]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_BankReferences]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_CasinoReferences]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Identification]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Messages]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Notes]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Transactions]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Deposits]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Summary]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Bank Account]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add Bank Account]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Acc Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Bank Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> CheckBOX check For Debit card]]>
+    </line>
+    <line>
+      <![CDATA[Step >> click on Last 4 digit textbox]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter cardLastFourDigits]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter expiry month]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter expiry year]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Commit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Debit Card Menu ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add Debit Card ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter First two letters of Surname and Last 4 digit of Debit card]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account NameLabel displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Name Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Name label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify CustomerName Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Number Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Amount]]>
+    </line>
+    <line>
+      <![CDATA[Step >> selemanager ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Transaction code]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Yes button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on ok  button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Debit Card Menu ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add Debit Card ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter First two letters of Surname and Last 4 digit of Debit card]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account NameLabel displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Name Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Name label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify CustomerName Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Number Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Amount]]>
+    </line>
+    <line>
+      <![CDATA[Step >> selemanager ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Transaction code]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Manual radioButton]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Yes button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on ok  button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify same card button ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> click on same card button ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Amount]]>
+    </line>
+    <line>
+      <![CDATA[Step >> selemanager ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Transaction code]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Yes button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Cheque Menu]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add Cheque ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Bank Acc Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on okButton ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select cheque type]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Transaction code]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Amount]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select clearance type]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Page]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Global Cash ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Add Global Cash ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Name label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account NameLabel displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Name Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Customer Name label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify CustomerName Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account NameLabel displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Name Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Account Number Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Label displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify Bank Value displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Amount]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Transaction code]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Yes button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on ok  button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on view Global Cash ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify details ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Page]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Void ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify voidConfirmationMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on yes ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify voidSuccessMsg displayed]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on ok ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on closeIconTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on top Navigation Credit]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on view Global Cash ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> verify details ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Page]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers Menu tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Action Button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on CreditDetailsTab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on signBtn]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers Menu tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Action Button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Delete Tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers Menu tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Customers tab]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter Customer Number]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Find button]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on X ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on username link]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on logout]]>
+    </line>
+  </reporter-output>
+  <suite name="LEO" duration-ms="1080090" started-at="2019-04-09T06:37:44Z" finished-at="2019-04-09T06:55:44Z">
+    <groups>
+    </groups>
+    <test name="LEO" duration-ms="1080090" started-at="2019-04-09T06:37:44Z" finished-at="2019-04-09T06:55:44Z">
+      <class name="com.scripts.desktopReception.CreditTransactions001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@2e13f304]" name="setUp" is-config="true" duration-ms="3844" started-at="2019-04-09T12:13:58Z" finished-at="2019-04-09T12:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addDebitCardAsElectronic()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@2e13f304]" name="addDebitCardAsElectronic" duration-ms="132168" started-at="2019-04-09T12:14:02Z" finished-at="2019-04-09T12:16:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Debit Card Menu ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add Debit Card ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter First two letters of Surname and Last 4 digit of Debit card]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account NameLabel displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Name Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Name label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify CustomerName Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Number Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Amount]]>
+            </line>
+            <line>
+              <![CDATA[Step >> selemanager ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Transaction code]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Yes button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on ok  button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addDebitCardAsElectronic -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@2e13f304]" name="tearDown" is-config="true" duration-ms="530" started-at="2019-04-09T12:16:14Z" finished-at="2019-04-09T12:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.desktopReception.CreditTransactions001 -->
+      <class name="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@60a7e509]" name="setUp" is-config="true" duration-ms="3875" started-at="2019-04-09T12:11:50Z" finished-at="2019-04-09T12:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCreditBankDeatils_CreditAccountTC()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@60a7e509]" name="addCreditBankDeatils_CreditAccountTC" duration-ms="123636" started-at="2019-04-09T12:11:54Z" finished-at="2019-04-09T12:13:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Credit Accounts form Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Create New]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Acc Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on LowerLimit ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Date of birth display]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on LowerLimit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Lower Limit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Upper Limit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on  save]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select manager from the list ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on OK]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify successfull message display]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Credit Accounts form Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Acc Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Page]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Details]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Audit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Authorisations]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_BankAccounts]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_BankReferences]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_CasinoReferences]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Identification]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Messages]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Notes]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Transactions]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Deposits]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Check Presence :creditAccount_findAcc_Deatils_Summary]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Bank Account]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add Bank Account]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Acc Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Bank Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> CheckBOX check For Debit card]]>
+            </line>
+            <line>
+              <![CDATA[Step >> click on Last 4 digit textbox]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter cardLastFourDigits]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter expiry month]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter expiry year]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Commit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCreditBankDeatils_CreditAccountTC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@60a7e509]" name="tearDown" is-config="true" duration-ms="632" started-at="2019-04-09T12:13:57Z" finished-at="2019-04-09T12:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases -->
+      <class name="com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid@32d5279]" name="setUp" is-config="true" duration-ms="3914" started-at="2019-04-09T12:21:07Z" finished-at="2019-04-09T12:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="globalCashAddViewVoid()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid@32d5279]" name="globalCashAddViewVoid" duration-ms="164793" started-at="2019-04-09T12:21:11Z" finished-at="2019-04-09T12:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Global Cash ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add Global Cash ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Name label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account NameLabel displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Name Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Name label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify CustomerName Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account NameLabel displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Name Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Amount]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Transaction code]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Yes button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on ok  button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on view Global Cash ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify details ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Page]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Void ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify voidConfirmationMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on yes ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify voidSuccessMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on ok ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on closeIconTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on view Global Cash ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify details ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Page]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- globalCashAddViewVoid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid@32d5279]" name="tearDown" is-config="true" duration-ms="591" started-at="2019-04-09T12:23:56Z" finished-at="2019-04-09T12:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid -->
+      <class name="com.scripts.desktopReception.customer_RegisterAndViewDetails">
+        <test-method status="PASS" signature="RegisterAndViewCustomerDetails()[pri:0, instance:com.scripts.desktopReception.customer_RegisterAndViewDetails@4ace284d]" name="RegisterAndViewCustomerDetails" duration-ms="244561" started-at="2019-04-09T12:07:44Z" finished-at="2019-04-09T12:11:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on customer tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on registartion tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on customer tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on customer tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter forename]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter DateOfBirth]]>
+            </line>
+            <line>
+              <![CDATA[Step >> select gender]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Postcode]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on match button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter cardNumber]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter  occupation]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save btn]]>
+            </line>
+            <line>
+              <![CDATA[Step >>  click on No Match Btn]]>
+            </line>
+            <line>
+              <![CDATA[Step >>  click on yesBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >>  click on yesBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >>  click on ok Btn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Details Button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RegisterAndViewCustomerDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.customer_RegisterAndViewDetails@4ace284d]" name="tearDown" is-config="true" duration-ms="540" started-at="2019-04-09T12:11:49Z" finished-at="2019-04-09T12:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.desktopReception.customer_RegisterAndViewDetails -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewCreditDetail">
+        <test-method status="PASS" signature="viewCreditDetails()[pri:0, instance:com.scripts.desktopReception.customerProfile_ViewCreditDetail@1c067c0d]" name="viewCreditDetails" duration-ms="46844" started-at="2019-04-09T12:23:57Z" finished-at="2019-04-09T12:24:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers Menu tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Action Button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on CreditDetailsTab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewCreditDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.customerProfile_ViewCreditDetail@1c067c0d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-09T12:24:44Z" finished-at="2019-04-09T12:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewCreditDetail -->
+      <class name="com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear@3d24420b]" name="setUp" is-config="true" duration-ms="3897" started-at="2019-04-09T12:20:02Z" finished-at="2019-04-09T12:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="chequeAddViewVoid()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear@3d24420b]" name="chequeAddViewVoid" duration-ms="60454" started-at="2019-04-09T12:20:06Z" finished-at="2019-04-09T12:21:07Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35631/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 96c13c5e-dff1-4cf9-8fa6-793e11f9e728]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35631/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 96c13c5e-dff1-4cf9-8fa6-793e11f9e728
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.generic.WrapperFunctions.pressEnterBtn(WrapperFunctions.java:2179)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.clickOkOrYes(TopNavigation_Credit.java:321)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.addCheque(TopNavigation_Credit.java:448)
+	at com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear.chequeAddViewVoid(cheque_addViewVoidClear.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Cheque Menu]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add Cheque ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Bank Acc Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on okButton ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select cheque type]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Transaction code]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Amount]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select clearance type]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chequeAddViewVoid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear@3d24420b]" name="tearDown" is-config="true" duration-ms="649" started-at="2019-04-09T12:21:07Z" finished-at="2019-04-09T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear -->
+      <class name="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@787508ca]" name="setUp" is-config="true" duration-ms="3872" started-at="2019-04-09T12:16:15Z" finished-at="2019-04-09T12:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="VerifyAddDebitCardManualSameCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@787508ca]" name="VerifyAddDebitCardManualSameCard" duration-ms="188716" started-at="2019-04-09T12:16:19Z" finished-at="2019-04-09T12:19:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.addDebitCardForSameCard(TopNavigation_Credit.java:703)
+	at com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard.VerifyAddDebitCardManualSameCard(AddDebitCardManualSameCard.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Debit Card Menu ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Add Debit Card ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter First two letters of Surname and Last 4 digit of Debit card]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account NameLabel displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Name Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Account Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AccountNumber Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Bank Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Name label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify CustomerName Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Number Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify Customer Number Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Label displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify AmountAvailable Value displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Amount]]>
+            </line>
+            <line>
+              <![CDATA[Step >> selemanager ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Transaction code]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Manual radioButton]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Yes button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify transactionCompletedMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on ok  button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> verify same card button ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> click on same card button ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Amount]]>
+            </line>
+            <line>
+              <![CDATA[Step >> selemanager ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Transaction code]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify processTransactionMsg displayed]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Yes button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyAddDebitCardManualSameCard -->
+        <test-method status="FAIL" signature="ViewVoidDebitCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@787508ca]" name="ViewVoidDebitCard" duration-ms="34134" started-at="2019-04-09T12:19:27Z" finished-at="2019-04-09T12:20:01Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: a#DebitCards_ViewDebitCard_Menu (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1717/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 4408b247-05e7-4810-8c61-cbdb6a95e2bf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a#DebitCards_ViewDebitCard_Menu (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DFWQB9R2', ip: '192.168.156.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1717/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 4408b247-05e7-4810-8c61-cbdb6a95e2bf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.NavigteToViewDebitCards(TopNavigation_Credit.java:718)
+	at com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard.ViewVoidDebitCard(AddDebitCardManualSameCard.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Click on top Navigation Credit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ViewVoidDebitCard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@787508ca]" name="tearDown" is-config="true" duration-ms="644" started-at="2019-04-09T12:20:02Z" finished-at="2019-04-09T12:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard -->
+      <class name="com.scripts.desktopReception.customerProfile_Delete">
+        <test-method status="PASS" signature="DeleteCustomerProfile()[pri:0, instance:com.scripts.desktopReception.customerProfile_Delete@5d0b0cb9]" name="DeleteCustomerProfile" duration-ms="60282" started-at="2019-04-09T12:24:44Z" finished-at="2019-04-09T12:25:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step >> Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on signBtn]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers Menu tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Action Button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Delete Tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers Menu tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Customers tab]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter Customer Number]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Find button]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on X ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on username link]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomerProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.customerProfile_Delete@5d0b0cb9]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-09T12:25:44Z" finished-at="2019-04-09T12:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.desktopReception.customerProfile_Delete -->
+    </test> <!-- LEO -->
+  </suite> <!-- LEO -->
+</testng-results>

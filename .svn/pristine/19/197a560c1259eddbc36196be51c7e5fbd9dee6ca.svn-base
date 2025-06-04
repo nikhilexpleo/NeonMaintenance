@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LEO">
+              <span class="suite-name border-passed">LEO</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LEO">
+                    <span>C:\SQS_Automation_Trinity_Framework\src\test\resources\testSuites\SAW.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LEO">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LEO">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LEO">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LEO">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LEO">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LEO">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LEO" class="hide-methods passed suite-LEO"> (hide)</a> <!-- hide-methods passed suite-LEO -->
+                      <a href="#" panel-name="suite-LEO" class="show-methods passed suite-LEO"> (show)</a> <!-- show-methods passed suite-LEO -->
+                    </span>
+                    <div class="method-list-content passed suite-LEO">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6444_AttendanceDetailReport" hash-for-method="Test6444verifyAttendanceDetailReport">Test6444verifyAttendanceDetailReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6445_AttendanceSummaryReport" hash-for-method="Test6445verifyAttendanceSummaryReport">Test6445verifyAttendanceSummaryReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport" hash-for-method="Test6446AttendanceSummarybyHourReport">Test6446AttendanceSummarybyHourReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils" hash-for-method="Test6447verifyRegistrationDeatilsReport">Test6447verifyRegistrationDeatilsReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6448_RegistrationSummaryReport" hash-for-method="Test6448verifyRegistrationSummaryReport">Test6448verifyRegistrationSummaryReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6448_RegistrationSummaryReport" hash-for-method="Test6448verifyReportRegistrationSummaryReport">Test6448verifyReportRegistrationSummaryReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6450_LiftedSuspensionReport" hash-for-method="Test6450verifyLiftedSuspensionReport">Test6450verifyLiftedSuspensionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6451_SuspensionDetailReport" hash-for-method="Test6451verifyCurrentSuspensionReport">Test6451verifyCurrentSuspensionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard" hash-for-method="VerifyAddDebitCardManualSameCard">VerifyAddDebitCardManualSameCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard" hash-for-method="ViewVoidDebitCard">ViewVoidDebitCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases" hash-for-method="addCreditBankDeatils_CreditAccountTC">addCreditBankDeatils_CreditAccountTC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.desktopReception.CreditTransactions001" hash-for-method="addDebitCardAsElectronic">addDebitCardAsElectronic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6448_RegistrationSummaryReport" hash-for-method="reportregister">reportregister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched" hash-for-method="tc6389_NormalRegistration(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, S...)">tc6389_NormalRegistration(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.Reports.Test6300_TableDailyResultsReport" hash-for-method="verifyTest6300TableDailyResultsReport">verifyTest6300TableDailyResultsReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LEO -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LEO" class="panel LEO">
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.desktopReception.CreditTransactions001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDebitCardAsElectronic">
+                  </a> <!-- addDebitCardAsElectronic -->
+                  <span class="method-name">addDebitCardAsElectronic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6300_TableDailyResultsReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTest6300TableDailyResultsReport">
+                  </a> <!-- verifyTest6300TableDailyResultsReport -->
+                  <span class="method-name">verifyTest6300TableDailyResultsReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddDebitCardManualSameCard">
+                  </a> <!-- VerifyAddDebitCardManualSameCard -->
+                  <span class="method-name">VerifyAddDebitCardManualSameCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewVoidDebitCard">
+                  </a> <!-- ViewVoidDebitCard -->
+                  <span class="method-name">ViewVoidDebitCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6451_SuspensionDetailReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6451verifyCurrentSuspensionReport">
+                  </a> <!-- Test6451verifyCurrentSuspensionReport -->
+                  <span class="method-name">Test6451verifyCurrentSuspensionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6446AttendanceSummarybyHourReport">
+                  </a> <!-- Test6446AttendanceSummarybyHourReport -->
+                  <span class="method-name">Test6446AttendanceSummarybyHourReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6450_LiftedSuspensionReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6450verifyLiftedSuspensionReport">
+                  </a> <!-- Test6450verifyLiftedSuspensionReport -->
+                  <span class="method-name">Test6450verifyLiftedSuspensionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6445_AttendanceSummaryReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6445verifyAttendanceSummaryReport">
+                  </a> <!-- Test6445verifyAttendanceSummaryReport -->
+                  <span class="method-name">Test6445verifyAttendanceSummaryReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCreditBankDeatils_CreditAccountTC">
+                  </a> <!-- addCreditBankDeatils_CreditAccountTC -->
+                  <span class="method-name">addCreditBankDeatils_CreditAccountTC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6447verifyRegistrationDeatilsReport">
+                  </a> <!-- Test6447verifyRegistrationDeatilsReport -->
+                  <span class="method-name">Test6447verifyRegistrationDeatilsReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6448_RegistrationSummaryReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6448verifyRegistrationSummaryReport">
+                  </a> <!-- Test6448verifyRegistrationSummaryReport -->
+                  <span class="method-name">Test6448verifyRegistrationSummaryReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6448verifyReportRegistrationSummaryReport">
+                  </a> <!-- Test6448verifyReportRegistrationSummaryReport -->
+                  <span class="method-name">Test6448verifyReportRegistrationSummaryReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reportregister">
+                  </a> <!-- reportregister -->
+                  <span class="method-name">reportregister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.Reports.Test6444_AttendanceDetailReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6444verifyAttendanceDetailReport">
+                  </a> <!-- Test6444verifyAttendanceDetailReport -->
+                  <span class="method-name">Test6444verifyAttendanceDetailReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc6389_NormalRegistration(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, S...)">
+                  </a> <!-- tc6389_NormalRegistration(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, S...) -->
+                  <span class="method-name">tc6389_NormalRegistration</span>
+                  <span class="parameters">(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, StreetAddress=Waterside  Basin Road, Name=Mrs ODBOP OKSZU, CustomerNumber=1955156474, City=WORCESTER, CardNumber=1.4171917E7, Country=United Kingdom, DateOfBirth=20/01/1971})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+        </div> <!-- panel LEO -->
+        <div panel-name="test-xml-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\SQS_Automation_Trinity_Framework\src\test\resources\testSuites\SAW.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;LEO&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.generic.CustomReporterNew&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;LEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases&quot;/&gt;
+      &lt;class name=&quot;com.scripts.desktopReception.CreditTransactions001&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6300_TableDailyResultsReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6444_AttendanceDetailReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6445_AttendanceSummaryReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6448_RegistrationSummaryReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6450_LiftedSuspensionReport&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.Reports.Test6451_SuspensionDetailReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LEO --&gt;
+&lt;/suite&gt; &lt;!-- LEO --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LEO (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LEO');
+function tableData_LEO() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'reportregister')
+data.setCell(0, 2, 'com.scripts.noen.Reports.Test6448_RegistrationSummaryReport')
+data.setCell(0, 3, 229409);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTest6300TableDailyResultsReport')
+data.setCell(1, 2, 'com.scripts.noen.Reports.Test6300_TableDailyResultsReport')
+data.setCell(1, 3, 221462);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyAddDebitCardManualSameCard')
+data.setCell(2, 2, 'com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard')
+data.setCell(2, 3, 212614);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc6389_NormalRegistration')
+data.setCell(3, 2, 'com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched')
+data.setCell(3, 3, 199277);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test6450verifyLiftedSuspensionReport')
+data.setCell(4, 2, 'com.scripts.noen.Reports.Test6450_LiftedSuspensionReport')
+data.setCell(4, 3, 182472);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test6448verifyReportRegistrationSummaryReport')
+data.setCell(5, 2, 'com.scripts.noen.Reports.Test6448_RegistrationSummaryReport')
+data.setCell(5, 3, 170091);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addDebitCardAsElectronic')
+data.setCell(6, 2, 'com.scripts.desktopReception.CreditTransactions001')
+data.setCell(6, 3, 151903);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test6444verifyAttendanceDetailReport')
+data.setCell(7, 2, 'com.scripts.noen.Reports.Test6444_AttendanceDetailReport')
+data.setCell(7, 3, 135525);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addCreditBankDeatils_CreditAccountTC')
+data.setCell(8, 2, 'com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases')
+data.setCell(8, 3, 114909);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test6446AttendanceSummarybyHourReport')
+data.setCell(9, 2, 'com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport')
+data.setCell(9, 3, 110725);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test6445verifyAttendanceSummaryReport')
+data.setCell(10, 2, 'com.scripts.noen.Reports.Test6445_AttendanceSummaryReport')
+data.setCell(10, 3, 110684);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test6448verifyRegistrationSummaryReport')
+data.setCell(11, 2, 'com.scripts.noen.Reports.Test6448_RegistrationSummaryReport')
+data.setCell(11, 3, 100608);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Test6447verifyRegistrationDeatilsReport')
+data.setCell(12, 2, 'com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils')
+data.setCell(12, 3, 100208);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test6451verifyCurrentSuspensionReport')
+data.setCell(13, 2, 'com.scripts.noen.Reports.Test6451_SuspensionDetailReport')
+data.setCell(13, 3, 97084);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ViewVoidDebitCard')
+data.setCell(14, 2, 'com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard')
+data.setCell(14, 3, 45423);
+window.suiteTableData['LEO']= { tableData: data, tableDiv: 'times-div-LEO'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 minutes</span>
+              <div id="times-div-LEO">
+              </div> <!-- times-div-LEO -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addCreditBankDeatils_CreditAccountTC</span>
+                <span class="method-start">5983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123340 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.desktopReception.CreditTransactions001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124877 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addDebitCardAsElectronic</span>
+                <span class="method-start">129222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">281259 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">282650 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddDebitCardManualSameCard</span>
+                <span class="method-start">287207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewVoidDebitCard</span>
+                <span class="method-start">499930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">545460 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tc6389_NormalRegistration(Run1, {TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, S...)</span>
+                <span class="method-start">546831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc6389_NormalRegistration status=SUCCESS method=Test6389_91_CustDBMatched.tc6389_No...)</span>
+                <span class="method-start">746208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6300_TableDailyResultsReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTest6300TableDailyResultsReport</span>
+                <span class="method-start">747456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">969041 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6444_AttendanceDetailReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6444verifyAttendanceDetailReport</span>
+                <span class="method-start">970335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1106063 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6445_AttendanceSummaryReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6445verifyAttendanceSummaryReport</span>
+                <span class="method-start">1107412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1218247 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6446AttendanceSummarybyHourReport</span>
+                <span class="method-start">1219516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1330458 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6447verifyRegistrationDeatilsReport</span>
+                <span class="method-start">1331774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1432112 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6448_RegistrationSummaryReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6448verifyRegistrationSummaryReport</span>
+                <span class="method-start">1433404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reportregister</span>
+                <span class="method-start">1534135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test6448verifyReportRegistrationSummaryReport</span>
+                <span class="method-start">1763669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1933969 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6450_LiftedSuspensionReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6450verifyLiftedSuspensionReport</span>
+                <span class="method-start">1935307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2118050 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.Reports.Test6451_SuspensionDetailReport</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test6451verifyCurrentSuspensionReport</span>
+                <span class="method-start">2119359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2216662 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

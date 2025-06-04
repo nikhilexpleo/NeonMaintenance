@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [LEO]">
+  <listeners>
+    <listener class-name="com.generic.CustomReporterNew"/>
+  </listeners>
+  <test name="LEO(failed)">
+    <classes>
+      <class name="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ViewVoidDebitCard"/>
+          <include name="VerifyAddDebitCardManualSameCard"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard -->
+      <class name="com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear">
+        <methods>
+          <include name="chequeAddViewVoid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear -->
+      <class name="com.scripts.desktopReception.customerProfile_Delete">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_Delete -->
+      <class name="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases -->
+      <class name="com.scripts.desktopReception.customerProfile_ViewCreditDetail">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customerProfile_ViewCreditDetail -->
+      <class name="com.scripts.desktopReception.customer_RegisterAndViewDetails">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.customer_RegisterAndViewDetails -->
+      <class name="com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid -->
+      <class name="com.scripts.desktopReception.CreditTransactions001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.scripts.desktopReception.CreditTransactions001 -->
+    </classes>
+  </test> <!-- LEO(failed) -->
+</suite> <!-- Failed suite [LEO] -->

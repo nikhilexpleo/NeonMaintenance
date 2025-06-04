@@ -1,0 +1,1153 @@
+{
+  "uid" : "82cf692aa2a1e063",
+  "name" : "AddViewDueDiligenceDetailsToCustomerProfile",
+  "title" : "Test 6431 and 6693",
+  "time" : {
+    "start" : 1554827206653,
+    "stop" : 1554827407219,
+    "duration" : 200566
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 74
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Adding Due Diligence for a customer and Manager_Due Diligence_002",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554827211194,
+      "stop" : 1554827211195,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554827212029,
+      "stop" : 1554827212030,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554827212503,
+      "stop" : 1554827212505,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers Menu tab, true, false]",
+    "title" : "Click on Customers Menu tab",
+    "time" : {
+      "start" : 1554827239431,
+      "stop" : 1554827239432,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Customers tab, true, false]",
+    "title" : "Click on Customers tab",
+    "time" : {
+      "start" : 1554827239980,
+      "stop" : 1554827239981,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Customer Number, true, false]",
+    "title" : "Enter Customer Number",
+    "time" : {
+      "start" : 1554827242182,
+      "stop" : 1554827242183,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Find button, true, false]",
+    "title" : "Click on Find button",
+    "time" : {
+      "start" : 1554827242878,
+      "stop" : 1554827242879,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Due Diligence', true, false]",
+    "title" : "Verify 'Due Diligence'",
+    "time" : {
+      "start" : 1554827246680,
+      "stop" : 1554827246681,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]",
+    "title" : "Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...",
+    "time" : {
+      "start" : 1554827246938,
+      "stop" : 1554827246939,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[ verifyDueDiligenceFilterTableHeaders , true, false]",
+    "title" : " verifyDueDiligenceFilterTableHeaders ",
+    "time" : {
+      "start" : 1554827262575,
+      "stop" : 1554827262576,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Add button, true, false]",
+    "title" : "Click on Add button",
+    "time" : {
+      "start" : 1554827263106,
+      "stop" : 1554827263107,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display, true, fal...]",
+    "title" : "Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Create New Due Diligence')]' display",
+    "time" : {
+      "start" : 1554827263708,
+      "stop" : 1554827263709,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Reason For Creation' display on page , true, false]",
+    "title" : "Verify 'Reason For Creation' display on page ",
+    "time" : {
+      "start" : 1554827263851,
+      "stop" : 1554827263852,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Reason' display on page , true, false]",
+    "title" : "Verify 'Reason' display on page ",
+    "time" : {
+      "start" : 1554827264049,
+      "stop" : 1554827264049,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Loss Value' display on page , true, false]",
+    "title" : "Verify 'Loss Value' display on page ",
+    "time" : {
+      "start" : 1554827264227,
+      "stop" : 1554827264228,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on reson for dropdown , true, false]",
+    "title" : "Click on reson for dropdown ",
+    "time" : {
+      "start" : 1554827264754,
+      "stop" : 1554827264755,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Black Card Customer' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Black Card Customer' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827264937,
+      "stop" : 1554827264940,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Cash Drop (Manual Record)' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265090,
+      "stop" : 1554827265092,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Change in Customer Behaviour' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265248,
+      "stop" : 1554827265249,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Periodic Review' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Periodic Review' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265398,
+      "stop" : 1554827265399,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Customer Loss (Manual Record)' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265541,
+      "stop" : 1554827265542,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Other' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Other' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265719,
+      "stop" : 1554827265720,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Politically Exposed Person (PEP)' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827265870,
+      "stop" : 1554827265871,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Suspicious Activity Report (SAR)' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827266014,
+      "stop" : 1554827266015,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Third Party Information / C6' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Third Party Information / C6' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827266156,
+      "stop" : 1554827266158,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select reason, true, false]",
+    "title" : "Select reason",
+    "time" : {
+      "start" : 1554827266703,
+      "stop" : 1554827266704,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Reason, true, false]",
+    "title" : "Enter Reason",
+    "time" : {
+      "start" : 1554827267400,
+      "stop" : 1554827267401,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Loss value, true, false]",
+    "title" : "Enter Loss value",
+    "time" : {
+      "start" : 1554827268019,
+      "stop" : 1554827268020,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827271972,
+      "stop" : 1554827271973,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[loss value displayed correctly, true, false]",
+    "title" : "loss value displayed correctly",
+    "time" : {
+      "start" : 1554827277753,
+      "stop" : 1554827277754,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Set Business Relationship StartDate, true, false]",
+    "title" : "Set Business Relationship StartDate",
+    "time" : {
+      "start" : 1554827278381,
+      "stop" : 1554827278382,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Occupation, true, false]",
+    "title" : "Enter Occupation",
+    "time" : {
+      "start" : 1554827279137,
+      "stop" : 1554827279138,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Position held, true, false]",
+    "title" : "Enter Position held",
+    "time" : {
+      "start" : 1554827279802,
+      "stop" : 1554827279803,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Employer details, true, false]",
+    "title" : "Enter Employer details",
+    "time" : {
+      "start" : 1554827280519,
+      "stop" : 1554827280520,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Business Address, true, false]",
+    "title" : "Enter Business Address",
+    "time" : {
+      "start" : 1554827281244,
+      "stop" : 1554827281245,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Property Market Value, true, false]",
+    "title" : "Enter Property Market Value",
+    "time" : {
+      "start" : 1554827281853,
+      "stop" : 1554827281854,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select PropertyType, true, false]",
+    "title" : "Select PropertyType",
+    "time" : {
+      "start" : 1554827287982,
+      "stop" : 1554827287984,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter source of funds, true, false]",
+    "title" : "Enter source of funds",
+    "time" : {
+      "start" : 1554827288662,
+      "stop" : 1554827288664,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter source of information, true, false]",
+    "title" : "Enter source of information",
+    "time" : {
+      "start" : 1554827289337,
+      "stop" : 1554827289338,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Evidence to support source of funds, true, false]",
+    "title" : "Enter Evidence to support source of funds",
+    "time" : {
+      "start" : 1554827290266,
+      "stop" : 1554827290267,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[ verify Conversation Table Headers , true, false]",
+    "title" : " verify Conversation Table Headers ",
+    "time" : {
+      "start" : 1554827291254,
+      "stop" : 1554827291255,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Add Attachment Button, true, false]",
+    "title" : "Click on Add Attachment Button",
+    "time" : {
+      "start" : 1554827291775,
+      "stop" : 1554827291776,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display, true, false]",
+    "title" : "Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Attachment')]' display",
+    "time" : {
+      "start" : 1554827292266,
+      "stop" : 1554827292267,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Type' display on page , true, false]",
+    "title" : "Verify 'Type' display on page ",
+    "time" : {
+      "start" : 1554827292440,
+      "stop" : 1554827292441,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'File Name' display on page , true, false]",
+    "title" : "Verify 'File Name' display on page ",
+    "time" : {
+      "start" : 1554827292622,
+      "stop" : 1554827292625,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on type dropdown , true, false]",
+    "title" : "Click on type dropdown ",
+    "time" : {
+      "start" : 1554827293131,
+      "stop" : 1554827293132,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Document' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Document' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827293307,
+      "stop" : 1554827293308,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Image' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Image' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827293462,
+      "stop" : 1554827293463,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'Media File' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'Media File' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827293615,
+      "stop" : 1554827293616,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify option 'URL' display in Reason for creation dropdown, true, false]",
+    "title" : "Verify option 'URL' display in Reason for creation dropdown",
+    "time" : {
+      "start" : 1554827293781,
+      "stop" : 1554827293782,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Select Type as Image, true, false]",
+    "title" : "Select Type as Image",
+    "time" : {
+      "start" : 1554827294305,
+      "stop" : 1554827294306,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Description, true, false]",
+    "title" : "Enter Description",
+    "time" : {
+      "start" : 1554827295036,
+      "stop" : 1554827295037,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Browse Button , true, false]",
+    "title" : "Click on Browse Button ",
+    "time" : {
+      "start" : 1554827295580,
+      "stop" : 1554827295581,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827345182,
+      "stop" : 1554827345183,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827349000,
+      "stop" : 1554827349001,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[ verify NextStepHeaders , true, false]",
+    "title" : " verify NextStepHeaders ",
+    "time" : {
+      "start" : 1554827352321,
+      "stop" : 1554827352324,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on AddNextStep button, true, false]",
+    "title" : "Click on AddNextStep button",
+    "time" : {
+      "start" : 1554827362867,
+      "stop" : 1554827362869,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Next Step')]' display, true, false]",
+    "title" : "Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Next Step')]' display",
+    "time" : {
+      "start" : 1554827363455,
+      "stop" : 1554827363456,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Next Step' display on page , true, false]",
+    "title" : "Verify 'Next Step' display on page ",
+    "time" : {
+      "start" : 1554827363625,
+      "stop" : 1554827363625,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Casino' display on page , true, false]",
+    "title" : "Verify 'Casino' display on page ",
+    "time" : {
+      "start" : 1554827363836,
+      "stop" : 1554827363837,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'As At Date' display on page , true, false]",
+    "title" : "Verify 'As At Date' display on page ",
+    "time" : {
+      "start" : 1554827363996,
+      "stop" : 1554827363997,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter Next Step details, true, false]",
+    "title" : "Enter Next Step details",
+    "time" : {
+      "start" : 1554827364672,
+      "stop" : 1554827364673,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827368685,
+      "stop" : 1554827368686,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[ verify Conversation Table Headers , true, false]",
+    "title" : " verify Conversation Table Headers ",
+    "time" : {
+      "start" : 1554827370122,
+      "stop" : 1554827370123,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on AddConversation button, true, false]",
+    "title" : "Click on AddConversation button",
+    "time" : {
+      "start" : 1554827380748,
+      "stop" : 1554827380751,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Conversation')]' display, true, false]",
+    "title" : "Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Add Conversation')]' display",
+    "time" : {
+      "start" : 1554827381370,
+      "stop" : 1554827381371,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'User' display on page , true, false]",
+    "title" : "Verify 'User' display on page ",
+    "time" : {
+      "start" : 1554827381524,
+      "stop" : 1554827381525,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'Casino' display on page , true, false]",
+    "title" : "Verify 'Casino' display on page ",
+    "time" : {
+      "start" : 1554827381725,
+      "stop" : 1554827381727,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'As At Date' display on page , true, false]",
+    "title" : "Verify 'As At Date' display on page ",
+    "time" : {
+      "start" : 1554827381920,
+      "stop" : 1554827381921,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter RecordOfConversation details, true, false]",
+    "title" : "Enter RecordOfConversation details",
+    "time" : {
+      "start" : 1554827392608,
+      "stop" : 1554827392609,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827396595,
+      "stop" : 1554827396597,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Save button, true, false]",
+    "title" : "Click on Save button",
+    "time" : {
+      "start" : 1554827400675,
+      "stop" : 1554827400676,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify 'This record has been saved successfully.' display  , true, false]",
+    "title" : "Verify 'This record has been saved successfully.' display  ",
+    "time" : {
+      "start" : 1554827403225,
+      "stop" : 1554827403227,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Ok button, true, false]",
+    "title" : "Click on Ok button",
+    "time" : {
+      "start" : 1554827407217,
+      "stop" : 1554827407218,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

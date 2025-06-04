@@ -1,0 +1,125 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 9,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 2
+    },
+    "stories" : [ {
+      "uid" : "5f3b024b0da60efe9ecb322fd34a2604",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 9,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 2
+      },
+      "testCases" : [ {
+        "uid" : "5d04a62d15f92f1b",
+        "name" : "RegisterAndViewCustomerDetails",
+        "title" : "Register and view customer details",
+        "time" : {
+          "start" : 1554791864692,
+          "stop" : 1554792109218,
+          "duration" : 244526
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2c9ad94ab0522a92",
+        "name" : "addCreditBankDeatils_CreditAccountTC",
+        "title" : "Add credit bank deatils credit account TC",
+        "time" : {
+          "start" : 1554792114208,
+          "stop" : 1554792237843,
+          "duration" : 123635
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6069565b2f42f729",
+        "name" : "addDebitCardAsElectronic",
+        "title" : " Add debit card as Electronic",
+        "time" : {
+          "start" : 1554792242402,
+          "stop" : 1554792374567,
+          "duration" : 132165
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ab4652799f839630",
+        "name" : "VerifyAddDebitCardManualSameCard",
+        "title" : "Verify add debit card manual same card",
+        "time" : {
+          "start" : 1554792379039,
+          "stop" : 1554792567765,
+          "duration" : 188726
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "a7d1fffd87e39a9e",
+        "name" : "ViewVoidDebitCard",
+        "title" : "View void debit card",
+        "time" : {
+          "start" : 1554792567836,
+          "stop" : 1554792601976,
+          "duration" : 34140
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "d9975dea068527ee",
+        "name" : "chequeAddViewVoid",
+        "title" : "Cheque add view void",
+        "time" : {
+          "start" : 1554792606608,
+          "stop" : 1554792667063,
+          "duration" : 60455
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "56ec1015171bc835",
+        "name" : "globalCashAddViewVoid",
+        "title" : "Global cash add view void",
+        "time" : {
+          "start" : 1554792671753,
+          "stop" : 1554792836545,
+          "duration" : 164792
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f3044543b33c98b3",
+        "name" : "viewCreditDetails",
+        "title" : "View credit details",
+        "time" : {
+          "start" : 1554792837374,
+          "stop" : 1554792884218,
+          "duration" : 46844
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ea45e488bd9703e0",
+        "name" : "DeleteCustomerProfile",
+        "title" : "Delete customer profile",
+        "time" : {
+          "start" : 1554792884313,
+          "stop" : 1554792944594,
+          "duration" : 60281
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

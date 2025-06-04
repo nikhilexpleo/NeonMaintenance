@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1529512395794" stop="1529512574247" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1529512399105" stop="1529512573816" status="passed">
+            <name>tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14252</title>
+            <description type="text">Verify a customer can be set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529512421336" stop="1529512421748" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512422614" stop="1529512423346" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512424059" stop="1529512424063" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512488376" stop="1529512488379" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512492718" stop="1529512492720" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512496541" stop="1529512496543" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512497528" stop="1529512497533" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512497536" stop="1529512568927" status="passed">
+                    <name>setSuspension[Groupwide Barred - Behaviour]</name>
+                    <title>Set suspension to customer profile </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512502801" stop="1529512502803" status="passed">
+                            <name>logReporter[Verify 'Suspensions', true, false]</name>
+                            <title>Verify 'Suspensions'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512503243" stop="1529512503247" status="passed">
+                            <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                            <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512504839" stop="1529512504841" status="passed">
+                            <name>logReporter[Verify Add button , true, false]</name>
+                            <title>Verify Add button </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512506355" stop="1529512506357" status="passed">
+                            <name>logReporter[Click on Add tab, true, false]</name>
+                            <title>Click on Add tab</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512507136" stop="1529512507138" status="passed">
+                            <name>logReporter[Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display, true, false]</name>
+                            <title>Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512507767" stop="1529512507769" status="passed">
+                            <name>logReporter[Click on Suspension TypeDropdown , true, false]</name>
+                            <title>Click on Suspension TypeDropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512508336" stop="1529512508338" status="passed">
+                            <name>logReporter[Select suspension type as , Groupwide Barred - Behaviour, true, false]</name>
+                            <title>Select suspension type as  - Groupwide Barred - Behaviour</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512548807" stop="1529512549076" status="passed">
+                            <name>logReporter[Verify Gaming Date Dropdown , true, false]</name>
+                            <title>Verify Gaming Date Dropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512550285" stop="1529512550287" status="passed">
+                            <name>logReporter[Enter Message, true, false]</name>
+                            <title>Enter Message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512551532" stop="1529512551534" status="passed">
+                            <name>logReporter[Enter Notes, true, false]</name>
+                            <title>Enter Notes</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512551729" stop="1529512551731" status="passed">
+                            <name>logReporter[Verify Cancel button , true, false]</name>
+                            <title>Verify Cancel button </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512552396" stop="1529512552398" status="passed">
+                            <name>logReporter[Click on cancel , true, false]</name>
+                            <title>Click on cancel </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512568930" stop="1529512569927" status="passed">
+                    <name>verifyFieldsOnSuspensionScreen</name>
+                    <title>Verify fields on customer suspension screen </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512569064" stop="1529512569066" status="passed">
+                            <name>logReporter[Verify 'All Casinos' display on page , true, false]</name>
+                            <title>Verify 'All Casinos' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569191" stop="1529512569193" status="passed">
+                            <name>logReporter[Verify 'Notes' display on page , true, false]</name>
+                            <title>Verify 'Notes' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569332" stop="1529512569334" status="passed">
+                            <name>logReporter[Verify 'Employee Messages' display on page , true, false]</name>
+                            <title>Verify 'Employee Messages' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569452" stop="1529512569454" status="passed">
+                            <name>logReporter[Verify 'Expiry Date' display on page , true, false]</name>
+                            <title>Verify 'Expiry Date' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569626" stop="1529512569628" status="passed">
+                            <name>logReporter[Verify 'Date Lifted' display on page , true, false]</name>
+                            <title>Verify 'Date Lifted' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569767" stop="1529512569768" status="passed">
+                            <name>logReporter[Verify 'Authorised By' display on page , true, false]</name>
+                            <title>Verify 'Authorised By' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569925" stop="1529512569927" status="passed">
+                            <name>logReporter[Verify 'Casino' display on page , true, false]</name>
+                            <title>Verify 'Casino' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512569929" stop="1529512571953" status="passed">
+                    <name>verifySuspensionStatusDisplayOrNot[Groupwide Barred - Behaviour]</name>
+                    <title>Verify added suspension displayed on customer details page </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512570083" stop="1529512570085" status="passed">
+                            <name>logReporter[Verify 'Details', true, false]</name>
+                            <title>Verify 'Details'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512570360" stop="1529512570362" status="passed">
+                            <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                            <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512571952" stop="1529512571953" status="passed">
+                            <name>logReporter[Verify Suspension Status Displayed as 'Groupwide Barred - Behaviour' on Customer Details Page  , true, false]</name>
+                            <title>Verify Suspension Status Displayed as 'Groupwide Barred - Behaviour' on Customer Details Page  </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512572974" stop="1529512572976" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512573808" stop="1529512573810" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="10324@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1529512399105" stop="1529512573816" status="passed">
+            <name>tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955155548, TestCaseID=TC14252}]</name>
+            <title>Test 14252</title>
+            <description type="text">Verify a customer can be set to Groupwide Barred - Behaviour </description>
+            <steps>
+                <step start="1529512421336" stop="1529512421748" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512422614" stop="1529512423346" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512424059" stop="1529512424063" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512488376" stop="1529512488379" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512492718" stop="1529512492720" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512496541" stop="1529512496543" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512497528" stop="1529512497533" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512497536" stop="1529512568927" status="passed">
+                    <name>setSuspension[Groupwide Barred - Behaviour]</name>
+                    <title>Set suspension to customer profile </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512502801" stop="1529512502803" status="passed">
+                            <name>logReporter[Verify 'Suspensions', true, false]</name>
+                            <title>Verify 'Suspensions'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512503243" stop="1529512503247" status="passed">
+                            <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                            <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512504839" stop="1529512504841" status="passed">
+                            <name>logReporter[Verify Add button , true, false]</name>
+                            <title>Verify Add button </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512506355" stop="1529512506357" status="passed">
+                            <name>logReporter[Click on Add tab, true, false]</name>
+                            <title>Click on Add tab</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512507136" stop="1529512507138" status="passed">
+                            <name>logReporter[Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display, true, false]</name>
+                            <title>Verify 'By.xpath: //h2[@class='modal-title'][contains(text(),'Customer Suspension')]' display</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512507767" stop="1529512507769" status="passed">
+                            <name>logReporter[Click on Suspension TypeDropdown , true, false]</name>
+                            <title>Click on Suspension TypeDropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512508336" stop="1529512508338" status="passed">
+                            <name>logReporter[Select suspension type as , Groupwide Barred - Behaviour, true, false]</name>
+                            <title>Select suspension type as  - Groupwide Barred - Behaviour</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512548807" stop="1529512549076" status="passed">
+                            <name>logReporter[Verify Gaming Date Dropdown , true, false]</name>
+                            <title>Verify Gaming Date Dropdown </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512550285" stop="1529512550287" status="passed">
+                            <name>logReporter[Enter Message, true, false]</name>
+                            <title>Enter Message</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512551532" stop="1529512551534" status="passed">
+                            <name>logReporter[Enter Notes, true, false]</name>
+                            <title>Enter Notes</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512551729" stop="1529512551731" status="passed">
+                            <name>logReporter[Verify Cancel button , true, false]</name>
+                            <title>Verify Cancel button </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512552396" stop="1529512552398" status="passed">
+                            <name>logReporter[Click on cancel , true, false]</name>
+                            <title>Click on cancel </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512568930" stop="1529512569927" status="passed">
+                    <name>verifyFieldsOnSuspensionScreen</name>
+                    <title>Verify fields on customer suspension screen </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512569064" stop="1529512569066" status="passed">
+                            <name>logReporter[Verify 'All Casinos' display on page , true, false]</name>
+                            <title>Verify 'All Casinos' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569191" stop="1529512569193" status="passed">
+                            <name>logReporter[Verify 'Notes' display on page , true, false]</name>
+                            <title>Verify 'Notes' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569332" stop="1529512569334" status="passed">
+                            <name>logReporter[Verify 'Employee Messages' display on page , true, false]</name>
+                            <title>Verify 'Employee Messages' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569452" stop="1529512569454" status="passed">
+                            <name>logReporter[Verify 'Expiry Date' display on page , true, false]</name>
+                            <title>Verify 'Expiry Date' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569626" stop="1529512569628" status="passed">
+                            <name>logReporter[Verify 'Date Lifted' display on page , true, false]</name>
+                            <title>Verify 'Date Lifted' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569767" stop="1529512569768" status="passed">
+                            <name>logReporter[Verify 'Authorised By' display on page , true, false]</name>
+                            <title>Verify 'Authorised By' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512569925" stop="1529512569927" status="passed">
+                            <name>logReporter[Verify 'Casino' display on page , true, false]</name>
+                            <title>Verify 'Casino' display on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512569929" stop="1529512571953" status="passed">
+                    <name>verifySuspensionStatusDisplayOrNot[Groupwide Barred - Behaviour]</name>
+                    <title>Verify added suspension displayed on customer details page </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529512570083" stop="1529512570085" status="passed">
+                            <name>logReporter[Verify 'Details', true, false]</name>
+                            <title>Verify 'Details'</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512570360" stop="1529512570362" status="passed">
+                            <name>logReporter[Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//followi...]</name>
+                            <title>Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::...</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1529512571952" stop="1529512571953" status="passed">
+                            <name>logReporter[Verify Suspension Status Displayed as 'Groupwide Barred - Behaviour' on Customer Details Page  , true, false]</name>
+                            <title>Verify Suspension Status Displayed as 'Groupwide Barred - Behaviour' on Customer Details Page  </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529512572974" stop="1529512572976" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529512573808" stop="1529512573810" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="10324@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

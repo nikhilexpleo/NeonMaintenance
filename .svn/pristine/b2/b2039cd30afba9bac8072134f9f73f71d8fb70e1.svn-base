@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LEO" duration-ms="2217940" started-at="2018-06-04T05:43:57Z" finished-at="2018-06-04T06:20:55Z">
+    <groups>
+    </groups>
+    <test name="LEO" duration-ms="2217940" started-at="2018-06-04T05:43:57Z" finished-at="2018-06-04T06:20:55Z">
+      <class name="com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport">
+        <test-method status="PASS" signature="Test6446AttendanceSummarybyHourReport()[pri:0, instance:com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport@1e87ddd]" name="Test6446AttendanceSummarybyHourReport" duration-ms="110725" started-at="2018-06-04T11:34:17Z" finished-at="2018-06-04T11:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6446AttendanceSummarybyHourReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport@1e87ddd]" name="tearDown" is-config="true" duration-ms="1316" started-at="2018-06-04T11:36:08Z" finished-at="2018-06-04T11:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport -->
+      <class name="com.scripts.desktopReception.CreditTransactions001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]" name="setUp" is-config="true" duration-ms="4345" started-at="2018-06-04T11:16:02Z" finished-at="2018-06-04T11:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addDebitCardAsElectronic()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]" name="addDebitCardAsElectronic" duration-ms="151903" started-at="2018-06-04T11:16:07Z" finished-at="2018-06-04T11:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDebitCardAsElectronic -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]" name="tearDown" is-config="true" duration-ms="1391" started-at="2018-06-04T11:18:39Z" finished-at="2018-06-04T11:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.desktopReception.CreditTransactions001 -->
+      <class name="com.scripts.noen.Reports.Test6450_LiftedSuspensionReport">
+        <test-method status="PASS" signature="Test6450verifyLiftedSuspensionReport()[pri:0, instance:com.scripts.noen.Reports.Test6450_LiftedSuspensionReport@1f40689]" name="Test6450verifyLiftedSuspensionReport" duration-ms="182472" started-at="2018-06-04T11:46:13Z" finished-at="2018-06-04T11:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6450verifyLiftedSuspensionReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6450_LiftedSuspensionReport@1f40689]" name="tearDown" is-config="true" duration-ms="1308" started-at="2018-06-04T11:49:15Z" finished-at="2018-06-04T11:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6450_LiftedSuspensionReport -->
+      <class name="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]" name="setUp" is-config="true" duration-ms="5971" started-at="2018-06-04T11:13:57Z" finished-at="2018-06-04T11:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCreditBankDeatils_CreditAccountTC()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]" name="addCreditBankDeatils_CreditAccountTC" duration-ms="114909" started-at="2018-06-04T11:14:03Z" finished-at="2018-06-04T11:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCreditBankDeatils_CreditAccountTC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]" name="tearDown" is-config="true" duration-ms="1533" started-at="2018-06-04T11:16:01Z" finished-at="2018-06-04T11:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases -->
+      <class name="com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils">
+        <test-method status="PASS" signature="Test6447verifyRegistrationDeatilsReport()[pri:0, instance:com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils@ea94a4]" name="Test6447verifyRegistrationDeatilsReport" duration-ms="100208" started-at="2018-06-04T11:36:09Z" finished-at="2018-06-04T11:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6447verifyRegistrationDeatilsReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils@ea94a4]" name="tearDown" is-config="true" duration-ms="1292" started-at="2018-06-04T11:37:49Z" finished-at="2018-06-04T11:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils -->
+      <class name="com.scripts.noen.Reports.Test6300_TableDailyResultsReport">
+        <test-method status="PASS" signature="verifyTest6300TableDailyResultsReport()[pri:0, instance:com.scripts.noen.Reports.Test6300_TableDailyResultsReport@1dad32f]" name="verifyTest6300TableDailyResultsReport" duration-ms="221462" started-at="2018-06-04T11:26:25Z" finished-at="2018-06-04T11:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest6300TableDailyResultsReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6300_TableDailyResultsReport@1dad32f]" name="tearDown" is-config="true" duration-ms="1291" started-at="2018-06-04T11:30:06Z" finished-at="2018-06-04T11:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6300_TableDailyResultsReport -->
+      <class name="com.scripts.noen.Reports.Test6445_AttendanceSummaryReport">
+        <test-method status="PASS" signature="Test6445verifyAttendanceSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6445_AttendanceSummaryReport@d2f2f6]" name="Test6445verifyAttendanceSummaryReport" duration-ms="110684" started-at="2018-06-04T11:32:25Z" finished-at="2018-06-04T11:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6445verifyAttendanceSummaryReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6445_AttendanceSummaryReport@d2f2f6]" name="tearDown" is-config="true" duration-ms="1268" started-at="2018-06-04T11:34:16Z" finished-at="2018-06-04T11:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6445_AttendanceSummaryReport -->
+      <class name="com.scripts.noen.Reports.Test6451_SuspensionDetailReport">
+        <test-method status="PASS" signature="Test6451verifyCurrentSuspensionReport()[pri:0, instance:com.scripts.noen.Reports.Test6451_SuspensionDetailReport@1be997f]" name="Test6451verifyCurrentSuspensionReport" duration-ms="97084" started-at="2018-06-04T11:49:17Z" finished-at="2018-06-04T11:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6451verifyCurrentSuspensionReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6451_SuspensionDetailReport@1be997f]" name="tearDown" is-config="true" duration-ms="1250" started-at="2018-06-04T11:50:54Z" finished-at="2018-06-04T11:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6451_SuspensionDetailReport -->
+      <class name="com.scripts.noen.Reports.Test6448_RegistrationSummaryReport">
+        <test-method status="PASS" signature="Test6448verifyRegistrationSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]" name="Test6448verifyRegistrationSummaryReport" duration-ms="100608" started-at="2018-06-04T11:37:51Z" finished-at="2018-06-04T11:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6448verifyRegistrationSummaryReport -->
+        <test-method status="PASS" signature="reportregister()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]" name="reportregister" duration-ms="229409" started-at="2018-06-04T11:39:31Z" finished-at="2018-06-04T11:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportregister -->
+        <test-method status="PASS" signature="Test6448verifyReportRegistrationSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]" name="Test6448verifyReportRegistrationSummaryReport" duration-ms="170091" started-at="2018-06-04T11:43:21Z" finished-at="2018-06-04T11:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6448verifyReportRegistrationSummaryReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]" name="tearDown" is-config="true" duration-ms="1338" started-at="2018-06-04T11:46:11Z" finished-at="2018-06-04T11:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6448_RegistrationSummaryReport -->
+      <class name="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]" name="setUp" is-config="true" duration-ms="4557" started-at="2018-06-04T11:18:40Z" finished-at="2018-06-04T11:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyAddDebitCardManualSameCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]" name="VerifyAddDebitCardManualSameCard" duration-ms="212614" started-at="2018-06-04T11:18:45Z" finished-at="2018-06-04T11:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddDebitCardManualSameCard -->
+        <test-method status="PASS" signature="ViewVoidDebitCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]" name="ViewVoidDebitCard" duration-ms="45423" started-at="2018-06-04T11:22:17Z" finished-at="2018-06-04T11:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewVoidDebitCard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]" name="tearDown" is-config="true" duration-ms="1330" started-at="2018-06-04T11:23:03Z" finished-at="2018-06-04T11:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard -->
+      <class name="com.scripts.noen.Reports.Test6444_AttendanceDetailReport">
+        <test-method status="PASS" signature="Test6444verifyAttendanceDetailReport()[pri:0, instance:com.scripts.noen.Reports.Test6444_AttendanceDetailReport@1696332]" name="Test6444verifyAttendanceDetailReport" duration-ms="135525" started-at="2018-06-04T11:30:08Z" finished-at="2018-06-04T11:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6444verifyAttendanceDetailReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6444_AttendanceDetailReport@1696332]" name="tearDown" is-config="true" duration-ms="1348" started-at="2018-06-04T11:32:23Z" finished-at="2018-06-04T11:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.Reports.Test6444_AttendanceDetailReport -->
+      <class name="com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched">
+        <test-method status="PASS" signature="tc6389_NormalRegistration(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched@1919544]" name="tc6389_NormalRegistration" duration-ms="199277" started-at="2018-06-04T11:23:04Z" data-provider="TestDataProvider" finished-at="2018-06-04T11:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Run1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{TestCaseID=TC6389, Postcode=WR5 3DA, Email Id=ODBOP.OKSZU@gmail.com, Telephone=07771115081, StreetAddress=Waterside  Basin Road, Name=Mrs ODBOP OKSZU, CustomerNumber=1955156474, City=WORCESTER, CardNumber=1.4171917E7, Country=United Kingdom, DateOfBirth=20/01/1971}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6389_NormalRegistration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched@1919544]" name="tearDown" is-config="true" duration-ms="1247" started-at="2018-06-04T11:26:24Z" finished-at="2018-06-04T11:26:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc6389_NormalRegistration status=SUCCESS method=Test6389_91_CustDBMatched.tc6389_NormalRegistration(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched@1919544] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched -->
+    </test> <!-- LEO -->
+  </suite> <!-- LEO -->
+</testng-results>

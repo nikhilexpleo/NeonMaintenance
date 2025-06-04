@@ -1,0 +1,610 @@
+{
+  "uid" : "2e3ff494202a141a",
+  "name" : "verifyBalancePageDetails",
+  "title" : "Verify balance page details",
+  "time" : {
+    "start" : 1554822270283,
+    "stop" : 1554822315544,
+    "duration" : 45261
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 38
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554822270942,
+      "stop" : 1554822270943,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554822271789,
+      "stop" : 1554822271790,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554822272273,
+      "stop" : 1554822272274,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on view tab, true, false]",
+    "title" : "Click on view tab",
+    "time" : {
+      "start" : 1554822293258,
+      "stop" : 1554822293259,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on Balance Menu, true, false]",
+    "title" : "Click on Balance Menu",
+    "time" : {
+      "start" : 1554822293877,
+      "stop" : 1554822293878,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify View Balance text, true, false]",
+    "title" : "Verify View Balance text",
+    "time" : {
+      "start" : 1554822294944,
+      "stop" : 1554822294945,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify Refresh button displayed, true, false]",
+    "title" : "Verify Refresh button displayed",
+    "time" : {
+      "start" : 1554822295089,
+      "stop" : 1554822295090,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify View Details text, true, false]",
+    "title" : "Verify View Details text",
+    "time" : {
+      "start" : 1554822295247,
+      "stop" : 1554822295248,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Opening section is present on Balance details page, true, false]",
+    "title" : "Verify  Opening section is present on Balance details page",
+    "time" : {
+      "start" : 1554822295795,
+      "stop" : 1554822295796,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  opening balance amount displayed  for the cash, true, false]",
+    "title" : "Verify  opening balance amount displayed  for the cash",
+    "time" : {
+      "start" : 1554822296024,
+      "stop" : 1554822296025,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Opening section is present on Balance details page, true, false]",
+    "title" : "Verify  Opening section is present on Balance details page",
+    "time" : {
+      "start" : 1554822296465,
+      "stop" : 1554822296466,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  opening balance amount displayed  for the chips, true, false]",
+    "title" : "Verify  opening balance amount displayed  for the chips",
+    "time" : {
+      "start" : 1554822296678,
+      "stop" : 1554822296679,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Opening section is present on Balance details page, true, false]",
+    "title" : "Verify  Opening section is present on Balance details page",
+    "time" : {
+      "start" : 1554822297153,
+      "stop" : 1554822297155,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  opening balance amount displayed  for the cash, true, false]",
+    "title" : "Verify  opening balance amount displayed  for the cash",
+    "time" : {
+      "start" : 1554822297390,
+      "stop" : 1554822297391,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Opening section is present on Balance details page, true, false]",
+    "title" : "Verify  Opening section is present on Balance details page",
+    "time" : {
+      "start" : 1554822297815,
+      "stop" : 1554822297816,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  opening balance amount displayed  for the credit, true, false]",
+    "title" : "Verify  opening balance amount displayed  for the credit",
+    "time" : {
+      "start" : 1554822298039,
+      "stop" : 1554822298040,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transcation section is present on Balance details page, true, false]",
+    "title" : "Verify  Transcation section is present on Balance details page",
+    "time" : {
+      "start" : 1554822298507,
+      "stop" : 1554822298508,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions cash section is present on Balance details page, true, false]",
+    "title" : "Verify  Transactions cash section is present on Balance details page",
+    "time" : {
+      "start" : 1554822298715,
+      "stop" : 1554822298716,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions balance amount displayed  for the cash, true, false]",
+    "title" : "Verify  Transactions balance amount displayed  for the cash",
+    "time" : {
+      "start" : 1554822298926,
+      "stop" : 1554822298927,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions chips section is present on Balance details page, true, false]",
+    "title" : "Verify  Transactions chips section is present on Balance details page",
+    "time" : {
+      "start" : 1554822299382,
+      "stop" : 1554822299383,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions balance amount displayed  for the chips, true, false]",
+    "title" : "Verify  Transactions balance amount displayed  for the chips",
+    "time" : {
+      "start" : 1554822299594,
+      "stop" : 1554822299595,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions Table section is present on Balance details page, true, false]",
+    "title" : "Verify  Transactions Table section is present on Balance details page",
+    "time" : {
+      "start" : 1554822300057,
+      "stop" : 1554822300058,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions balance amount displayed  for the Table, true, false]",
+    "title" : "Verify  Transactions balance amount displayed  for the Table",
+    "time" : {
+      "start" : 1554822300298,
+      "stop" : 1554822300299,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions Machine section is present on Balance details page, true, false]",
+    "title" : "Verify  Transactions Machine section is present on Balance details page",
+    "time" : {
+      "start" : 1554822300766,
+      "stop" : 1554822300768,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions balance amount displayed  for the Machine , true, false]",
+    "title" : "Verify  Transactions balance amount displayed  for the Machine ",
+    "time" : {
+      "start" : 1554822300985,
+      "stop" : 1554822300986,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions Tips section is present on Balance details page, true, false]",
+    "title" : "Verify  Transactions Tips section is present on Balance details page",
+    "time" : {
+      "start" : 1554822301468,
+      "stop" : 1554822301468,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Transactions balance amount displayed  for the Tips, true, false]",
+    "title" : "Verify  Transactions balance amount displayed  for the Tips",
+    "time" : {
+      "start" : 1554822301706,
+      "stop" : 1554822301707,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing Section is present on Balance details page, true, false]",
+    "title" : "Verify  Closing Section is present on Balance details page",
+    "time" : {
+      "start" : 1554822302127,
+      "stop" : 1554822302127,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing  balance amount displayed  for the cash, true, false]",
+    "title" : "Verify  Closing  balance amount displayed  for the cash",
+    "time" : {
+      "start" : 1554822302339,
+      "stop" : 1554822302339,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing  balance amount displayed  for the chips, true, false]",
+    "title" : "Verify  Closing  balance amount displayed  for the chips",
+    "time" : {
+      "start" : 1554822302826,
+      "stop" : 1554822302827,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing Section is present on Balance details page, true, false]",
+    "title" : "Verify  Closing Section is present on Balance details page",
+    "time" : {
+      "start" : 1554822303295,
+      "stop" : 1554822303296,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing  balance amount displayed  for the ForeignCurrency, true, false]",
+    "title" : "Verify  Closing  balance amount displayed  for the ForeignCurrency",
+    "time" : {
+      "start" : 1554822303510,
+      "stop" : 1554822303510,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing Section is present on Balance details page, true, false]",
+    "title" : "Verify  Closing Section is present on Balance details page",
+    "time" : {
+      "start" : 1554822303990,
+      "stop" : 1554822303991,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Closing  balance amount displayed  for the Credit, true, false]",
+    "title" : "Verify  Closing  balance amount displayed  for the Credit",
+    "time" : {
+      "start" : 1554822304206,
+      "stop" : 1554822304207,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  Summary Section is present on Balance details page, true, false]",
+    "title" : "Verify  Summary Section is present on Balance details page",
+    "time" : {
+      "start" : 1554822304657,
+      "stop" : 1554822304657,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Verify  status Section is present on Balance details page, true, false]",
+    "title" : "Verify  status Section is present on Balance details page",
+    "time" : {
+      "start" : 1554822305385,
+      "stop" : 1554822305386,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554822309666,
+      "stop" : 1554822309668,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554822314972,
+      "stop" : 1554822314973,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

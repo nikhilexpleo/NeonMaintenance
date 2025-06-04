@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1528269256763" stop="1528269464384" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1528269256818" stop="1528269462533" status="passed">
+            <name>AddViewDeleteMessage</name>
+            <steps>
+                <step start="1528269265154" stop="1528269265164" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269265956" stop="1528269265957" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269266450" stop="1528269266451" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269285879" stop="1528269285881" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269286543" stop="1528269286545" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269289563" stop="1528269289565" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269290362" stop="1528269290364" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269304114" stop="1528269304115" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269305850" stop="1528269305852" status="passed">
+                    <name>logReporter[Click Groupwide radiobutton , true, false]</name>
+                    <title>Click Groupwide radiobutton </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269306244" stop="1528269306246" status="passed">
+                    <name>logReporter[verify Reception ApplicationCheckBox , true, false]</name>
+                    <title>verify Reception ApplicationCheckBox </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269306902" stop="1528269306904" status="passed">
+                    <name>logReporter[Click Reception ApplicationCheckBox , true, false]</name>
+                    <title>Click Reception ApplicationCheckBox </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269308192" stop="1528269308196" status="passed">
+                    <name>logReporter[verify page header displayed as '', true, false]</name>
+                    <title>verify page header displayed as ''</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269312385" stop="1528269312387" status="passed">
+                    <name>logReporter[Click on Save , true, false]</name>
+                    <title>Click on Save </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269357514" stop="1528269357516" status="passed">
+                    <name>logReporter[Click on customer Profile_MessageTab, true, false]</name>
+                    <title>Click on customer Profile_MessageTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269365653" stop="1528269365655" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269369677" stop="1528269369679" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269370675" stop="1528269370677" status="passed">
+                    <name>logReporter[Enter CustomerNumber, true, false]</name>
+                    <title>Enter CustomerNumber</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269373900" stop="1528269373902" status="passed">
+                    <name>logReporter[Click on Delete, true, false]</name>
+                    <title>Click on Delete</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269420543" stop="1528269420545" status="passed">
+                    <name>logReporter[Click on cancel, true, false]</name>
+                    <title>Click on cancel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269461204" stop="1528269461206" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269461874" stop="1528269461876" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269462528" stop="1528269462530" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="6888@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1528269256818" stop="1528269462533" status="passed">
+            <name>AddViewDeleteMessage</name>
+            <steps>
+                <step start="1528269265154" stop="1528269265164" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269265956" stop="1528269265957" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269266450" stop="1528269266451" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269285879" stop="1528269285881" status="passed">
+                    <name>logReporter[Click on Customers Menu tab, true, false]</name>
+                    <title>Click on Customers Menu tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269286543" stop="1528269286545" status="passed">
+                    <name>logReporter[Click on Customers tab, true, false]</name>
+                    <title>Click on Customers tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269289563" stop="1528269289565" status="passed">
+                    <name>logReporter[Enter Customer Number, true, false]</name>
+                    <title>Enter Customer Number</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269290362" stop="1528269290364" status="passed">
+                    <name>logReporter[Click on Find button, true, false]</name>
+                    <title>Click on Find button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269304114" stop="1528269304115" status="passed">
+                    <name>logReporter[Click on Add tab, true, false]</name>
+                    <title>Click on Add tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269305850" stop="1528269305852" status="passed">
+                    <name>logReporter[Click Groupwide radiobutton , true, false]</name>
+                    <title>Click Groupwide radiobutton </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269306244" stop="1528269306246" status="passed">
+                    <name>logReporter[verify Reception ApplicationCheckBox , true, false]</name>
+                    <title>verify Reception ApplicationCheckBox </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269306902" stop="1528269306904" status="passed">
+                    <name>logReporter[Click Reception ApplicationCheckBox , true, false]</name>
+                    <title>Click Reception ApplicationCheckBox </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269308192" stop="1528269308196" status="passed">
+                    <name>logReporter[verify page header displayed as '', true, false]</name>
+                    <title>verify page header displayed as ''</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269312385" stop="1528269312387" status="passed">
+                    <name>logReporter[Click on Save , true, false]</name>
+                    <title>Click on Save </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269357514" stop="1528269357516" status="passed">
+                    <name>logReporter[Click on customer Profile_MessageTab, true, false]</name>
+                    <title>Click on customer Profile_MessageTab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269365653" stop="1528269365655" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269369677" stop="1528269369679" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269370675" stop="1528269370677" status="passed">
+                    <name>logReporter[Enter CustomerNumber, true, false]</name>
+                    <title>Enter CustomerNumber</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269373900" stop="1528269373902" status="passed">
+                    <name>logReporter[Click on Delete, true, false]</name>
+                    <title>Click on Delete</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269420543" stop="1528269420545" status="passed">
+                    <name>logReporter[Click on cancel, true, false]</name>
+                    <title>Click on cancel</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269461204" stop="1528269461206" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269461874" stop="1528269461876" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1528269462528" stop="1528269462530" status="passed">
+                    <name>logReporter[Click on X , true, false]</name>
+                    <title>Click on X </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="6888@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

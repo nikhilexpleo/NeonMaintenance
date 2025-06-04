@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1530032759608" stop="1530032811150" version="1.4.4">
+    <name>Default suite</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1530032761741" stop="1530032810976" status="passed">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, Loss Value=1, CustomerNumber=1955155541, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14249</title>
+            <description type="text"> Ensure user is alerted when customer with an EDD is in Awaiting Approval visits </description>
+            <steps>
+                <step start="1530032771939" stop="1530032771967" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032773064" stop="1530032773066" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032773595" stop="1530032773602" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032796404" stop="1530032796406" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032800412" stop="1530032800414" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032803096" stop="1530032803098" status="passed">
+                    <name>logReporter[Serch customer by '1955155541' , true, false]</name>
+                    <title>Serch customer by '1955155541' </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032804722" stop="1530032804724" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Messages')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Messages')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032808813" stop="1530032808815" status="passed">
+                    <name>logReporter[verify EDD Message  , true, false]</name>
+                    <title>verify EDD Message  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032809762" stop="1530032809765" status="passed">
+                    <name>logReporter[Click on 'Ok' button, true, false]</name>
+                    <title>Click on 'Ok' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032810971" stop="1530032810973" status="passed">
+                    <name>logReporter[Click on 'Yes' button, true, false]</name>
+                    <title>Click on 'Yes' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="10908@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+        <test-case start="1530032761741" stop="1530032810976" status="passed">
+            <name>tc14250_VerifyAnEDDChangesToAwaitingApproval[Run1,{Password=RankGroup02, Loss Value=1, CustomerNumber=1955155541, Reason=Periodic Review, TestCaseID=TC14250, UserName=SQSEDD}]</name>
+            <title>Test 14249</title>
+            <description type="text"> Ensure user is alerted when customer with an EDD is in Awaiting Approval visits </description>
+            <steps>
+                <step start="1530032771939" stop="1530032771967" status="passed">
+                    <name>logReporter[Enter username, true, false]</name>
+                    <title>Enter username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032773064" stop="1530032773066" status="passed">
+                    <name>logReporter[Enter password, true, false]</name>
+                    <title>Enter password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032773595" stop="1530032773602" status="passed">
+                    <name>logReporter[Click on signBtn, true, false]</name>
+                    <title>Click on signBtn</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032796404" stop="1530032796406" status="passed">
+                    <name>logReporter[Click on Customer tab, true, false]</name>
+                    <title>Click on Customer tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032800412" stop="1530032800414" status="passed">
+                    <name>logReporter[Click on Reception tab, true, false]</name>
+                    <title>Click on Reception tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032803096" stop="1530032803098" status="passed">
+                    <name>logReporter[Serch customer by '1955155541' , true, false]</name>
+                    <title>Serch customer by '1955155541' </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032804722" stop="1530032804724" status="passed">
+                    <name>logReporter[Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Messages')]' display, true, false]</name>
+                    <title>Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Messages')]' display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032808813" stop="1530032808815" status="passed">
+                    <name>logReporter[verify EDD Message  , true, false]</name>
+                    <title>verify EDD Message  </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032809762" stop="1530032809765" status="passed">
+                    <name>logReporter[Click on 'Ok' button, true, false]</name>
+                    <title>Click on 'Ok' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1530032810971" stop="1530032810973" status="passed">
+                    <name>logReporter[Click on 'Yes' button, true, false]</name>
+                    <title>Click on 'Yes' button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="D90D3CQ1"/>
+                <label name="thread" value="10908@D90D3CQ1.main"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

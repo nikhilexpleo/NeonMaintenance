@@ -1,0 +1,64 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>LEO</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="6283b7">  <td>18/06/04 11:13:57</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;CreditAccountTestCases.setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="6283b7">  <td>18/06/04 11:14:03</td>   <td>5976</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="CreditAccountTestCases.addCreditBankDeatils_CreditAccountTC()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]">addCreditBankDeatils_CreditAccountTC</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="6283b7">  <td>18/06/04 11:16:01</td>   <td>123334</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;CreditAccountTestCases.tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases@136c8e3]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="8e6cee">  <td>18/06/04 11:16:02</td>   <td>124870</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;CreditTransactions001.setUp()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="8e6cee">  <td>18/06/04 11:16:07</td>   <td>129215</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="CreditTransactions001.addDebitCardAsElectronic()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]">addDebitCardAsElectronic</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="8e6cee">  <td>18/06/04 11:18:39</td>   <td>281252</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;CreditTransactions001.tearDown()[pri:0, instance:com.scripts.desktopReception.CreditTransactions001@16db620]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="aaeccc">  <td>18/06/04 11:18:40</td>   <td>282643</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;AddDebitCardManualSameCard.setUp()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="aaeccc">  <td>18/06/04 11:18:45</td>   <td>287200</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddDebitCardManualSameCard.VerifyAddDebitCardManualSameCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]">VerifyAddDebitCardManualSameCard</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="aaeccc">  <td>18/06/04 11:22:17</td>   <td>499923</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="AddDebitCardManualSameCard.ViewVoidDebitCard()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]">ViewVoidDebitCard</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="aaeccc">  <td>18/06/04 11:23:03</td>   <td>545453</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;AddDebitCardManualSameCard.tearDown()[pri:0, instance:com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard@168c1d6]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="76ac69">  <td>18/06/04 11:23:04</td>   <td>546824</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6389_91_CustDBMatched.tc6389_NormalRegistration(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched@1919544]">tc6389_NormalRegistration</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="76ac69">  <td>18/06/04 11:26:24</td>   <td>746205</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6389_91_CustDBMatched.tearDown(org.testng.ITestResult)[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6389_91_CustDBMatched@1919544]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="c485e7">  <td>18/06/04 11:26:25</td>   <td>747449</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6300_TableDailyResultsReport.verifyTest6300TableDailyResultsReport()[pri:0, instance:com.scripts.noen.Reports.Test6300_TableDailyResultsReport@1dad32f]">verifyTest6300TableDailyResultsReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="c485e7">  <td>18/06/04 11:30:06</td>   <td>969034</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6300_TableDailyResultsReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6300_TableDailyResultsReport@1dad32f]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="b2a36d">  <td>18/06/04 11:30:08</td>   <td>970328</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6444_AttendanceDetailReport.Test6444verifyAttendanceDetailReport()[pri:0, instance:com.scripts.noen.Reports.Test6444_AttendanceDetailReport@1696332]">Test6444verifyAttendanceDetailReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="b2a36d">  <td>18/06/04 11:32:23</td>   <td>1106056</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6444_AttendanceDetailReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6444_AttendanceDetailReport@1696332]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="8863db">  <td>18/06/04 11:32:25</td>   <td>1107405</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6445_AttendanceSummaryReport.Test6445verifyAttendanceSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6445_AttendanceSummaryReport@d2f2f6]">Test6445verifyAttendanceSummaryReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="8863db">  <td>18/06/04 11:34:16</td>   <td>1218240</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6445_AttendanceSummaryReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6445_AttendanceSummaryReport@d2f2f6]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="ba8773">  <td>18/06/04 11:34:17</td>   <td>1219509</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6446_AttendanceSummarybyHourReport.Test6446AttendanceSummarybyHourReport()[pri:0, instance:com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport@1e87ddd]">Test6446AttendanceSummarybyHourReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="ba8773">  <td>18/06/04 11:36:08</td>   <td>1330451</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6446_AttendanceSummarybyHourReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6446_AttendanceSummarybyHourReport@1e87ddd]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="eb7bbe">  <td>18/06/04 11:36:09</td>   <td>1331767</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6447_ReportRegistrationDeatils.Test6447verifyRegistrationDeatilsReport()[pri:0, instance:com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils@ea94a4]">Test6447verifyRegistrationDeatilsReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="eb7bbe">  <td>18/06/04 11:37:49</td>   <td>1432106</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6447_ReportRegistrationDeatils.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6447_ReportRegistrationDeatils@ea94a4]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="d06765">  <td>18/06/04 11:37:51</td>   <td>1433398</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6448_RegistrationSummaryReport.Test6448verifyRegistrationSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]">Test6448verifyRegistrationSummaryReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="d06765">  <td>18/06/04 11:39:31</td>   <td>1534128</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6448_RegistrationSummaryReport.reportregister()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]">reportregister</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="d06765">  <td>18/06/04 11:43:21</td>   <td>1763662</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6448_RegistrationSummaryReport.Test6448verifyReportRegistrationSummaryReport()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]">Test6448verifyReportRegistrationSummaryReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="d06765">  <td>18/06/04 11:46:11</td>   <td>1933963</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6448_RegistrationSummaryReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6448_RegistrationSummaryReport@281eb8]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="74e5bf">  <td>18/06/04 11:46:13</td>   <td>1935300</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6450_LiftedSuspensionReport.Test6450verifyLiftedSuspensionReport()[pri:0, instance:com.scripts.noen.Reports.Test6450_LiftedSuspensionReport@1f40689]">Test6450verifyLiftedSuspensionReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="74e5bf">  <td>18/06/04 11:49:15</td>   <td>2118043</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6450_LiftedSuspensionReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6450_LiftedSuspensionReport@1f40689]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="776a91">  <td>18/06/04 11:49:17</td>   <td>2119352</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test6451_SuspensionDetailReport.Test6451verifyCurrentSuspensionReport()[pri:0, instance:com.scripts.noen.Reports.Test6451_SuspensionDetailReport@1be997f]">Test6451verifyCurrentSuspensionReport</td> 
+  <td>main@28052072</td>   <td></td> </tr>
+<tr bgcolor="776a91">  <td>18/06/04 11:50:54</td>   <td>2216655</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test6451_SuspensionDetailReport.tearDown()[pri:0, instance:com.scripts.noen.Reports.Test6451_SuspensionDetailReport@1be997f]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@28052072</td>   <td></td> </tr>
+</table>

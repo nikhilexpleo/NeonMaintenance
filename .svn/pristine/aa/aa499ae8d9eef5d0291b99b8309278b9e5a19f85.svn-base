@@ -1,0 +1,475 @@
+{
+  "uid" : "f93561fa95ea72a2",
+  "name" : "VerifysundryIncomeExpenses",
+  "title" : "Verifysundry income expenses",
+  "time" : {
+    "start" : 1554820623795,
+    "stop" : 1554821016400,
+    "duration" : 392605
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 29
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "logReporter[Enter username, true, false]",
+    "title" : "Enter username",
+    "time" : {
+      "start" : 1554820631781,
+      "stop" : 1554820631782,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Enter password, true, false]",
+    "title" : "Enter password",
+    "time" : {
+      "start" : 1554820632791,
+      "stop" : 1554820632793,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on signBtn, true, false]",
+    "title" : "Click on signBtn",
+    "time" : {
+      "start" : 1554820633510,
+      "stop" : 1554820633510,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on transaction Tab, true, false]",
+    "title" : "Click on transaction Tab",
+    "time" : {
+      "start" : 1554820653559,
+      "stop" : 1554820653561,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[select sub account, true, false]",
+    "title" : "select sub account",
+    "time" : {
+      "start" : 1554820665430,
+      "stop" : 1554820665433,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyAccountTypeAndSetAmmount[SUNDRY INCOME, 1, Process Transaction: Sundry Income]",
+    "title" : "Set amount and save details",
+    "time" : {
+      "start" : 1554820666749,
+      "stop" : 1554820835250,
+      "duration" : 168501
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 9
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "logReporter[Verify Account type dispalyed as SUNDRY INCOME, true, false]",
+      "title" : "Verify Account type dispalyed as SUNDRY INCOME",
+      "time" : {
+        "start" : 1554820667336,
+        "stop" : 1554820667339,
+        "duration" : 3
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Amount Number, true, false]",
+      "title" : "Enter Amount Number",
+      "time" : {
+        "start" : 1554820668705,
+        "stop" : 1554820668707,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Comment Number, true, false]",
+      "title" : "Enter Comment Number",
+      "time" : {
+        "start" : 1554820670366,
+        "stop" : 1554820670368,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Save, true, false]",
+      "title" : "Click on Save",
+      "time" : {
+        "start" : 1554820671720,
+        "stop" : 1554820671722,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Yes, true, false]",
+      "title" : "Click on Yes",
+      "time" : {
+        "start" : 1554820807237,
+        "stop" : 1554820807239,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Ok, true, false]",
+      "title" : "Click on Ok",
+      "time" : {
+        "start" : 1554820815414,
+        "stop" : 1554820815416,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[verify New Button , true, false]",
+      "title" : "verify New Button ",
+      "time" : {
+        "start" : 1554820825776,
+        "stop" : 1554820825778,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on New , true, false]",
+      "title" : "Click on New ",
+      "time" : {
+        "start" : 1554820826532,
+        "stop" : 1554820826534,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on 'x' , true, false]",
+      "title" : "Click on 'x' ",
+      "time" : {
+        "start" : 1554820835249,
+        "stop" : 1554820835250,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "logReporter[Click on transaction Tab, true, false]",
+    "title" : "Click on transaction Tab",
+    "time" : {
+      "start" : 1554820836068,
+      "stop" : 1554820836069,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[select sub account, true, false]",
+    "title" : "select sub account",
+    "time" : {
+      "start" : 1554820839909,
+      "stop" : 1554820839910,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyAccountTypeAndSetAmmount[SUNDRY INCOME, 1, Process Transaction: Sundry Income Reversal]",
+    "title" : "Set amount and save details",
+    "time" : {
+      "start" : 1554820840607,
+      "stop" : 1554821005191,
+      "duration" : 164584
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 9
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "logReporter[Verify Account type dispalyed as SUNDRY INCOME, true, false]",
+      "title" : "Verify Account type dispalyed as SUNDRY INCOME",
+      "time" : {
+        "start" : 1554820840996,
+        "stop" : 1554820840997,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Amount Number, true, false]",
+      "title" : "Enter Amount Number",
+      "time" : {
+        "start" : 1554820841765,
+        "stop" : 1554820841766,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Enter Comment Number, true, false]",
+      "title" : "Enter Comment Number",
+      "time" : {
+        "start" : 1554820842830,
+        "stop" : 1554820842832,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Save, true, false]",
+      "title" : "Click on Save",
+      "time" : {
+        "start" : 1554820843543,
+        "stop" : 1554820843544,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Yes, true, false]",
+      "title" : "Click on Yes",
+      "time" : {
+        "start" : 1554820978540,
+        "stop" : 1554820978541,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on Ok, true, false]",
+      "title" : "Click on Ok",
+      "time" : {
+        "start" : 1554820985623,
+        "stop" : 1554820985625,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[verify New Button , true, false]",
+      "title" : "verify New Button ",
+      "time" : {
+        "start" : 1554820995881,
+        "stop" : 1554820995883,
+        "duration" : 2
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on New , true, false]",
+      "title" : "Click on New ",
+      "time" : {
+        "start" : 1554820996477,
+        "stop" : 1554820996478,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "logReporter[Click on 'x' , true, false]",
+      "title" : "Click on 'x' ",
+      "time" : {
+        "start" : 1554821005190,
+        "stop" : 1554821005191,
+        "duration" : 1
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "logReporter[Click on username link, true, false]",
+    "title" : "Click on username link",
+    "time" : {
+      "start" : 1554821009744,
+      "stop" : 1554821009747,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "logReporter[Click on logout, true, false]",
+    "title" : "Click on logout",
+    "time" : {
+      "start" : 1554821016396,
+      "stop" : 1554821016400,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DFWQB9R2"
+  }, {
+    "name" : "thread",
+    "value" : "14380@DFWQB9R2.main"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1554791172132,
+    "stop" : 1554791263753,
+    "duration" : 91621
+  },
+  "testSuites" : [ {
+    "uid" : "365baa1866ddb8f0",
+    "name" : "EDDRegression",
+    "title" : "EDDRegression : EDD",
+    "time" : {
+      "start" : 1554791172132,
+      "stop" : 1554791263753,
+      "duration" : 91621
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "10636b02c2ad3910",
+      "name" : "tc14252_SetGroupwideBarredBehaviourToCustomerProfile[Run1,{Suspension Type=Groupwide Barred - Behaviour, CustomerNumber=1955217037, Authorised User=Gadekar, TestCaseID=TC14252}]",
+      "title" : "Test 14252",
+      "time" : {
+        "start" : 1554791174115,
+        "stop" : 1554791261886,
+        "duration" : 87771
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

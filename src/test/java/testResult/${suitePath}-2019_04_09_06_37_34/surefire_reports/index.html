@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LEO">
+              <span class="suite-name border-failed">LEO</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LEO">
+                    <span>C:\Users\bhadv\workspace\SQS_Automation_Trinity_Framework_Neon\src\test\resources\testSuites\SAW.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LEO">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LEO">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LEO">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LEO">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LEO">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LEO">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LEO" class="hide-methods failed suite-LEO"> (hide)</a> <!-- hide-methods failed suite-LEO -->
+                      <a href="#" panel-name="suite-LEO" class="show-methods failed suite-LEO"> (show)</a> <!-- show-methods failed suite-LEO -->
+                    </span>
+                    <div class="method-list-content failed suite-LEO">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard" hash-for-method="VerifyAddDebitCardManualSameCard">VerifyAddDebitCardManualSameCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard" hash-for-method="ViewVoidDebitCard">ViewVoidDebitCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear" hash-for-method="chequeAddViewVoid">chequeAddViewVoid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LEO -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LEO" class="hide-methods passed suite-LEO"> (hide)</a> <!-- hide-methods passed suite-LEO -->
+                      <a href="#" panel-name="suite-LEO" class="show-methods passed suite-LEO"> (show)</a> <!-- show-methods passed suite-LEO -->
+                    </span>
+                    <div class="method-list-content passed suite-LEO">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.desktopReception.customerProfile_Delete" hash-for-method="DeleteCustomerProfile">DeleteCustomerProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.desktopReception.customer_RegisterAndViewDetails" hash-for-method="RegisterAndViewCustomerDetails">RegisterAndViewCustomerDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases" hash-for-method="addCreditBankDeatils_CreditAccountTC">addCreditBankDeatils_CreditAccountTC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.desktopReception.CreditTransactions001" hash-for-method="addDebitCardAsElectronic">addDebitCardAsElectronic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid" hash-for-method="globalCashAddViewVoid">globalCashAddViewVoid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LEO" title="com.scripts.desktopReception.customerProfile_ViewCreditDetail" hash-for-method="viewCreditDetails">viewCreditDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LEO -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LEO" class="panel LEO">
+          <div class="suite-LEO-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddDebitCardManualSameCard">
+                  </a> <!-- VerifyAddDebitCardManualSameCard -->
+                  <span class="method-name">VerifyAddDebitCardManualSameCard</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.addDebitCardForSameCard(TopNavigation_Credit.java:703)
+	at com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard.VerifyAddDebitCardManualSameCard(AddDebitCardManualSameCard.java:36)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewVoidDebitCard">
+                  </a> <!-- ViewVoidDebitCard -->
+                  <span class="method-name">ViewVoidDebitCard</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: a#DebitCards_ViewDebitCard_Menu (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;DFWQB9R2&apos;, ip: &apos;192.168.156.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1717/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 4408b247-05e7-4810-8c61-cbdb6a95e2bf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.NavigteToViewDebitCards(TopNavigation_Credit.java:718)
+	at com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard.ViewVoidDebitCard(AddDebitCardManualSameCard.java:49)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-failed -->
+          <div class="suite-LEO-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chequeAddViewVoid">
+                  </a> <!-- chequeAddViewVoid -->
+                  <span class="method-name">chequeAddViewVoid</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;DFWQB9R2&apos;, ip: &apos;192.168.156.88&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.enableFullPageScreenshot: true, ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ie.forceShellWindowsApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35631/, javascriptEnabled: true, nativeEvents: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 96c13c5e-dff1-4cf9-8fa6-793e11f9e728
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.generic.WrapperFunctions.pressEnterBtn(WrapperFunctions.java:2179)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.clickOkOrYes(TopNavigation_Credit.java:321)
+	at com.pageFactory.CashierManagerTC.TopNavigation_Credit.addCheque(TopNavigation_Credit.java:448)
+	at com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear.chequeAddViewVoid(cheque_addViewVoidClear.java:32)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-failed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.desktopReception.customerProfile_Delete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteCustomerProfile">
+                  </a> <!-- DeleteCustomerProfile -->
+                  <span class="method-name">DeleteCustomerProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCreditBankDeatils_CreditAccountTC">
+                  </a> <!-- addCreditBankDeatils_CreditAccountTC -->
+                  <span class="method-name">addCreditBankDeatils_CreditAccountTC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.desktopReception.customerProfile_ViewCreditDetail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewCreditDetails">
+                  </a> <!-- viewCreditDetails -->
+                  <span class="method-name">viewCreditDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.desktopReception.customer_RegisterAndViewDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterAndViewCustomerDetails">
+                  </a> <!-- RegisterAndViewCustomerDetails -->
+                  <span class="method-name">RegisterAndViewCustomerDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="globalCashAddViewVoid">
+                  </a> <!-- globalCashAddViewVoid -->
+                  <span class="method-name">globalCashAddViewVoid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+          <div class="suite-LEO-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.desktopReception.CreditTransactions001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDebitCardAsElectronic">
+                  </a> <!-- addDebitCardAsElectronic -->
+                  <span class="method-name">addDebitCardAsElectronic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LEO-class-passed -->
+        </div> <!-- panel LEO -->
+        <div panel-name="test-xml-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhadv\workspace\SQS_Automation_Trinity_Framework_Neon\src\test\resources\testSuites\SAW.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;LEO&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.generic.CustomReporterNew&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;LEO&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.scripts.desktopReception.customer_RegisterAndViewDetails&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases&quot;/&gt;
+      &lt;class name=&quot;com.scripts.desktopReception.CreditTransactions001&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear&quot;/&gt;
+      &lt;class name=&quot;com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid&quot;/&gt;
+      &lt;class name=&quot;com.scripts.desktopReception.customerProfile_ViewCreditDetail&quot;/&gt;
+      &lt;class name=&quot;com.scripts.desktopReception.customerProfile_Delete&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LEO --&gt;
+&lt;/suite&gt; &lt;!-- LEO --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LEO (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LEO');
+function tableData_LEO() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'RegisterAndViewCustomerDetails')
+data.setCell(0, 2, 'com.scripts.desktopReception.customer_RegisterAndViewDetails')
+data.setCell(0, 3, 244561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAddDebitCardManualSameCard')
+data.setCell(1, 2, 'com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard')
+data.setCell(1, 3, 188716);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'globalCashAddViewVoid')
+data.setCell(2, 2, 'com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid')
+data.setCell(2, 3, 164793);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addDebitCardAsElectronic')
+data.setCell(3, 2, 'com.scripts.desktopReception.CreditTransactions001')
+data.setCell(3, 3, 132168);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addCreditBankDeatils_CreditAccountTC')
+data.setCell(4, 2, 'com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases')
+data.setCell(4, 3, 123636);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'chequeAddViewVoid')
+data.setCell(5, 2, 'com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear')
+data.setCell(5, 3, 60454);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DeleteCustomerProfile')
+data.setCell(6, 2, 'com.scripts.desktopReception.customerProfile_Delete')
+data.setCell(6, 3, 60282);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'viewCreditDetails')
+data.setCell(7, 2, 'com.scripts.desktopReception.customerProfile_ViewCreditDetail')
+data.setCell(7, 3, 46844);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ViewVoidDebitCard')
+data.setCell(8, 2, 'com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard')
+data.setCell(8, 3, 34134);
+window.suiteTableData['LEO']= { tableData: data, tableDiv: 'times-div-LEO'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
+              <div id="times-div-LEO">
+              </div> <!-- times-div-LEO -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LEO</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCreditBankDeatils_CreditAccountTC</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Credit Accounts form Credit</span>
+                <span class="reporter-method-output">Step >> Click on Create New</span>
+                <span class="reporter-method-output">Step >> Enter Acc Number</span>
+                <span class="reporter-method-output">Step >> Click on LowerLimit </span>
+                <span class="reporter-method-output">Step >> Verify Date of birth display</span>
+                <span class="reporter-method-output">Step >> Click on LowerLimit</span>
+                <span class="reporter-method-output">Step >> Enter Lower Limit</span>
+                <span class="reporter-method-output">Step >> Enter Upper Limit</span>
+                <span class="reporter-method-output">Step >> Click on  save</span>
+                <span class="reporter-method-output">Step >> Select manager from the list </span>
+                <span class="reporter-method-output">Step >> Click on OK</span>
+                <span class="reporter-method-output">Step >> Verify successfull message display</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Credit Accounts form Credit</span>
+                <span class="reporter-method-output">Step >> Enter Acc Number</span>
+                <span class="reporter-method-output">Step >> Click on Find</span>
+                <span class="reporter-method-output">Step >> Select Page</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Details</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Audit</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Authorisations</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_BankAccounts</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_BankReferences</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_CasinoReferences</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Identification</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Messages</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Notes</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Transactions</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Deposits</span>
+                <span class="reporter-method-output">Step >> Check Presence :creditAccount_findAcc_Deatils_Summary</span>
+                <span class="reporter-method-output">Step >> Click on Bank Account</span>
+                <span class="reporter-method-output">Step >> Click on Add Bank Account</span>
+                <span class="reporter-method-output">Step >> Enter Acc Number</span>
+                <span class="reporter-method-output">Step >> Enter Bank Number</span>
+                <span class="reporter-method-output">Step >> CheckBOX check For Debit card</span>
+                <span class="reporter-method-output">Step >> click on Last 4 digit textbox</span>
+                <span class="reporter-method-output">Step >> Enter cardLastFourDigits</span>
+                <span class="reporter-method-output">Step >> Enter expiry month</span>
+                <span class="reporter-method-output">Step >> Enter expiry year</span>
+                <span class="reporter-method-output">Step >> Click on Commit</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">viewCreditDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on Customers Menu tab</span>
+                <span class="reporter-method-output">Step >> Click on Customers tab</span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Click on Find button</span>
+                <span class="reporter-method-output">Step >> Click on Action Button</span>
+                <span class="reporter-method-output">Step >> Click on CreditDetailsTab</span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DeleteCustomerProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on Customers Menu tab</span>
+                <span class="reporter-method-output">Step >> Click on Customers tab</span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Click on Find button</span>
+                <span class="reporter-method-output">Step >> Click on Action Button</span>
+                <span class="reporter-method-output">Step >> Click on Delete Tab</span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on Customers Menu tab</span>
+                <span class="reporter-method-output">Step >> Click on Customers tab</span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Click on Find button</span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on X </span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">RegisterAndViewCustomerDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on customer tab</span>
+                <span class="reporter-method-output">Step >> Click on registartion tab</span>
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Click on customer tab</span>
+                <span class="reporter-method-output">Step >> Click on customer tab</span>
+                <span class="reporter-method-output">Step >> Enter forename</span>
+                <span class="reporter-method-output">Step >> Enter DateOfBirth</span>
+                <span class="reporter-method-output">Step >> select gender</span>
+                <span class="reporter-method-output">Step >> Enter Postcode</span>
+                <span class="reporter-method-output">Step >> Click on match button</span>
+                <span class="reporter-method-output">Step >> Enter cardNumber</span>
+                <span class="reporter-method-output">Step >> Enter  occupation</span>
+                <span class="reporter-method-output">Step >> Click on Save btn</span>
+                <span class="reporter-method-output">Step >>  click on No Match Btn</span>
+                <span class="reporter-method-output">Step >>  click on yesBtn</span>
+                <span class="reporter-method-output">Step >>  click on yesBtn</span>
+                <span class="reporter-method-output">Step >>  click on ok Btn</span>
+                <span class="reporter-method-output">Step >> Click on Details Button</span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">globalCashAddViewVoid</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Global Cash </span>
+                <span class="reporter-method-output">Step >> Click on Add Global Cash </span>
+                <span class="reporter-method-output">Step >> Verify Customer Name label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account NameLabel displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Name Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AccountNumber Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Value displayed</span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Verify Customer Name label displayed</span>
+                <span class="reporter-method-output">Step >> Verify CustomerName Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account NameLabel displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Name Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AccountNumber Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Value displayed</span>
+                <span class="reporter-method-output">Step >> Enter Amount</span>
+                <span class="reporter-method-output">Step >> Enter Transaction code</span>
+                <span class="reporter-method-output">Step >> Click on Save </span>
+                <span class="reporter-method-output">Step >> Verify processTransactionMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on Yes button</span>
+                <span class="reporter-method-output">Step >> Verify transactionCompletedMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on ok  button</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on view Global Cash </span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Click on Find </span>
+                <span class="reporter-method-output">Step >> verify details </span>
+                <span class="reporter-method-output">Step >> Select Page</span>
+                <span class="reporter-method-output">Step >> Click on Void </span>
+                <span class="reporter-method-output">Step >> Verify voidConfirmationMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on yes </span>
+                <span class="reporter-method-output">Step >> Verify voidSuccessMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on ok </span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on view Global Cash </span>
+                <span class="reporter-method-output">Step >> Enter Customer Number</span>
+                <span class="reporter-method-output">Step >> Click on Find </span>
+                <span class="reporter-method-output">Step >> verify details </span>
+                <span class="reporter-method-output">Step >> Select Page</span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addDebitCardAsElectronic</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Debit Card Menu </span>
+                <span class="reporter-method-output">Step >> Click on Add Debit Card </span>
+                <span class="reporter-method-output">Step >> Enter First two letters of Surname and Last 4 digit of Debit card</span>
+                <span class="reporter-method-output">Step >> Verify Account NameLabel displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Name Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AccountNumber Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Name label displayed</span>
+                <span class="reporter-method-output">Step >> Verify CustomerName Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Number Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Value displayed</span>
+                <span class="reporter-method-output">Step >> Enter Amount</span>
+                <span class="reporter-method-output">Step >> selemanager </span>
+                <span class="reporter-method-output">Step >> Enter Transaction code</span>
+                <span class="reporter-method-output">Step >> Click on Save </span>
+                <span class="reporter-method-output">Step >> Verify processTransactionMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on Yes button</span>
+                <span class="reporter-method-output">Step >> Verify transactionCompletedMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on ok  button</span>
+                <span class="reporter-method-output">Step >> Click on closeIconTab</span>
+                <span class="reporter-method-output">Step >> Click on username link</span>
+                <span class="reporter-method-output">Step >> Click on logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyAddDebitCardManualSameCard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Debit Card Menu </span>
+                <span class="reporter-method-output">Step >> Click on Add Debit Card </span>
+                <span class="reporter-method-output">Step >> Enter First two letters of Surname and Last 4 digit of Debit card</span>
+                <span class="reporter-method-output">Step >> Verify Account NameLabel displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Name Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Account Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AccountNumber Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Bank Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Name label displayed</span>
+                <span class="reporter-method-output">Step >> Verify CustomerName Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Number Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify Customer Number Value displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Label displayed</span>
+                <span class="reporter-method-output">Step >> Verify AmountAvailable Value displayed</span>
+                <span class="reporter-method-output">Step >> Enter Amount</span>
+                <span class="reporter-method-output">Step >> selemanager </span>
+                <span class="reporter-method-output">Step >> Enter Transaction code</span>
+                <span class="reporter-method-output">Step >> Click on Manual radioButton</span>
+                <span class="reporter-method-output">Step >> Click on Save </span>
+                <span class="reporter-method-output">Step >> Verify processTransactionMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on Yes button</span>
+                <span class="reporter-method-output">Step >> Verify transactionCompletedMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on ok  button</span>
+                <span class="reporter-method-output">Step >> verify same card button </span>
+                <span class="reporter-method-output">Step >> click on same card button </span>
+                <span class="reporter-method-output">Step >> Enter Amount</span>
+                <span class="reporter-method-output">Step >> selemanager </span>
+                <span class="reporter-method-output">Step >> Enter Transaction code</span>
+                <span class="reporter-method-output">Step >> Click on Save </span>
+                <span class="reporter-method-output">Step >> Verify processTransactionMsg displayed</span>
+                <span class="reporter-method-output">Step >> Click on Yes button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ViewVoidDebitCard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">chequeAddViewVoid</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Step >> Enter username</span>
+                <span class="reporter-method-output">Step >> Enter password</span>
+                <span class="reporter-method-output">Step >> Click on signBtn</span>
+                <span class="reporter-method-output">Step >> Click on top Navigation Credit</span>
+                <span class="reporter-method-output">Step >> Click on Cheque Menu</span>
+                <span class="reporter-method-output">Step >> Click on Add Cheque </span>
+                <span class="reporter-method-output">Step >> Enter Bank Acc Number</span>
+                <span class="reporter-method-output">Step >> Click on okButton </span>
+                <span class="reporter-method-output">Step >> Select cheque type</span>
+                <span class="reporter-method-output">Step >> Enter Transaction code</span>
+                <span class="reporter-method-output">Step >> Enter Amount</span>
+                <span class="reporter-method-output">Step >> Select clearance type</span>
+                <span class="reporter-method-output">Step >> Click on Save</span>
+                <span class="reporter-method-output">Step >> Select Page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LEO" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.desktopReception.customer_RegisterAndViewDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterAndViewCustomerDetails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">245136 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.CreditAccountTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">245678 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addCreditBankDeatils_CreditAccountTC</span>
+                <span class="method-start">249553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">373269 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.desktopReception.CreditTransactions001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">373901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addDebitCardAsElectronic</span>
+                <span class="method-start">377745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">509982 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.AddDebitCardManualSameCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">510512 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyAddDebitCardManualSameCard</span>
+                <span class="method-start">514385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ViewVoidDebitCard</span>
+                <span class="method-start">703181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">737412 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.cheque_addViewVoidClear</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">738056 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">chequeAddViewVoid</span>
+                <span class="method-start">741954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">802534 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.noen.CashierAndManagerTC.GlobalCash_AddViewVoid</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">803183 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">globalCashAddViewVoid</span>
+                <span class="method-start">807097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">972128 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.desktopReception.customerProfile_ViewCreditDetail</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewCreditDetails</span>
+                <span class="method-start">972719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1019657 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.desktopReception.customerProfile_Delete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DeleteCustomerProfile</span>
+                <span class="method-start">1019658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1080034 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
