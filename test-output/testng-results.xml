@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Step >> Enter username]]>
@@ -17,81 +17,147 @@
       <![CDATA[Step >> Click on Customers tab]]>
     </line>
     <line>
-      <![CDATA[Step >> Enter Customer Number]]>
+      <![CDATA[Step >> search Customer Number '1957866526']]>
     </line>
     <line>
       <![CDATA[Step >> Click on Find button]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on Action Button]]>
+      <![CDATA[Step >> Verify 'Incidents']]>
     </line>
     <line>
-      <![CDATA[Step >> verify setPin button display]]>
+      <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]']]>
     </line>
     <line>
-      <![CDATA[Step >> Click on SetPin button]]>
+      <![CDATA[Step >> Click on customerProfile_Incident_AddButton ]]>
     </line>
     <line>
-      <![CDATA[Step >> Verify Customer Name label displayed]]>
+      <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display]]>
     </line>
     <line>
-      <![CDATA[Step >> Verify CustomerName Value displayed]]>
+      <![CDATA[Step >> Verify 'Group' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Verify Customer Number label displayed]]>
+      <![CDATA[Step >> Click on Group dropdown ]]>
     </line>
     <line>
-      <![CDATA[Step >> Verify CustomerNumber Value displayed]]>
+      <![CDATA[Step >> Verify 'Datafix' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> verify PinNumber label]]>
+      <![CDATA[Step >> Verify 'Machines' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> verify confirm PinNumber label]]>
+      <![CDATA[Step >> Select Group as Responsible Gambling]]>
     </line>
     <line>
-      <![CDATA[Step >> Set PinNumber ]]>
+      <![CDATA[Step >> Verify 'Enforced Exclusion' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Set ConfirmPinNumber ]]>
+      <![CDATA[Step >> Verify 'Affordability' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on save button]]>
+      <![CDATA[Step >> Verify 'Customer Under Monitoring' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> verify error message displayed]]>
+      <![CDATA[Step >> Verify 'Digital Account Limits' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on OK button]]>
+      <![CDATA[Step >> Verify 'Self Exclusion' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Set PinNumber ]]>
+      <![CDATA[Step >> Verify 'Problem Gambling Reinstatement Request' display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Set ConfirmPinNumber ]]>
+      <![CDATA[Step >> Select Group as Responsible Gambling]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on save button]]>
+      <![CDATA[Step >> Click on Ok button]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on X ]]>
+      <![CDATA[Step >> Verify Incident header display on page ]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on X ]]>
+      <![CDATA[Step >> Verify 'Associated Incidents']]>
     </line>
     <line>
-      <![CDATA[Step >> Click on username link]]>
+      <![CDATA[Step >> Verify 'Audit']]>
     </line>
     <line>
-      <![CDATA[Step >> Click on logout]]>
+      <![CDATA[Step >> Verify 'Evidence']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Incident Number' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Actual Date / Time' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Gaming Date' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Category' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Status' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Date Closed' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Casino dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Select Casino as '_Maidenhead (FF NT7)']]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Details' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Notes' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Enter notes  ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'User' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'Participants' display on page ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify participant table headers  ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify content dispaly in table against column ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Save ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Verify 'This record has been saved successfully' display  ]]>
+    </line>
+    <line>
+      <![CDATA[Step >> Click on Ok button]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="115587" started-at="2023-11-29T16:14:03Z" finished-at="2023-11-29T16:15:58Z">
+  <suite started-at="2025-06-12T08:43:53Z" name="Default suite" finished-at="2025-06-12T08:46:16Z" duration-ms="142728">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="115587" started-at="2023-11-29T16:14:03Z" finished-at="2023-11-29T16:15:58Z">
-      <class name="com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber">
-        <test-method status="PASS" signature="setPinNumber()[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber@450f0235]" name="setPinNumber" duration-ms="115509" started-at="2023-11-29T21:44:03Z" finished-at="2023-11-29T21:45:58Z">
+    <test started-at="2025-06-12T08:43:53Z" name="Default test" finished-at="2025-06-12T08:46:16Z" duration-ms="142728">
+      <class name="com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring">
+        <test-method signature="tc14256_createIncidentAsCustomerUnderMonitoring(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38]" started-at="2025-06-12T14:13:55Z" name="tc14256_createIncidentAsCustomerUnderMonitoring" data-provider="TestDataProvider" finished-at="2025-06-12T14:16:15Z" duration-ms="140434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Run1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Suspension Type=Nationally Resigned, CustomerNumber=1955217041, Authorised User=Gadekar, TestCaseID=TC14256}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Step >> Enter username]]>
@@ -109,81 +175,135 @@
               <![CDATA[Step >> Click on Customers tab]]>
             </line>
             <line>
-              <![CDATA[Step >> Enter Customer Number]]>
+              <![CDATA[Step >> search Customer Number '1957866526']]>
             </line>
             <line>
               <![CDATA[Step >> Click on Find button]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on Action Button]]>
+              <![CDATA[Step >> Verify 'Incidents']]>
             </line>
             <line>
-              <![CDATA[Step >> verify setPin button display]]>
+              <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]']]>
             </line>
             <line>
-              <![CDATA[Step >> Click on SetPin button]]>
+              <![CDATA[Step >> Click on customerProfile_Incident_AddButton ]]>
             </line>
             <line>
-              <![CDATA[Step >> Verify Customer Name label displayed]]>
+              <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display]]>
             </line>
             <line>
-              <![CDATA[Step >> Verify CustomerName Value displayed]]>
+              <![CDATA[Step >> Verify 'Group' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Verify Customer Number label displayed]]>
+              <![CDATA[Step >> Click on Group dropdown ]]>
             </line>
             <line>
-              <![CDATA[Step >> Verify CustomerNumber Value displayed]]>
+              <![CDATA[Step >> Verify 'Datafix' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> verify PinNumber label]]>
+              <![CDATA[Step >> Verify 'Machines' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> verify confirm PinNumber label]]>
+              <![CDATA[Step >> Select Group as Responsible Gambling]]>
             </line>
             <line>
-              <![CDATA[Step >> Set PinNumber ]]>
+              <![CDATA[Step >> Verify 'Enforced Exclusion' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Set ConfirmPinNumber ]]>
+              <![CDATA[Step >> Verify 'Affordability' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on save button]]>
+              <![CDATA[Step >> Verify 'Customer Under Monitoring' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> verify error message displayed]]>
+              <![CDATA[Step >> Verify 'Digital Account Limits' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on OK button]]>
+              <![CDATA[Step >> Verify 'Self Exclusion' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Set PinNumber ]]>
+              <![CDATA[Step >> Verify 'Problem Gambling Reinstatement Request' display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Set ConfirmPinNumber ]]>
+              <![CDATA[Step >> Select Group as Responsible Gambling]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on save button]]>
+              <![CDATA[Step >> Click on Ok button]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on X ]]>
+              <![CDATA[Step >> Verify Incident header display on page ]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on X ]]>
+              <![CDATA[Step >> Verify 'Associated Incidents']]>
             </line>
             <line>
-              <![CDATA[Step >> Click on username link]]>
+              <![CDATA[Step >> Verify 'Audit']]>
             </line>
             <line>
-              <![CDATA[Step >> Click on logout]]>
+              <![CDATA[Step >> Verify 'Evidence']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Incident Number' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Actual Date / Time' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Gaming Date' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Category' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Status' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Date Closed' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Casino dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Select Casino as '_Maidenhead (FF NT7)']]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Details' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Notes' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Enter notes  ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'User' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'Participants' display on page ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify participant table headers  ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify content dispaly in table against column ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Save ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Verify 'This record has been saved successfully' display  ]]>
+            </line>
+            <line>
+              <![CDATA[Step >> Click on Ok button]]>
             </line>
           </reporter-output>
-        </test-method> <!-- setPinNumber -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber@450f0235]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-11-29T21:45:58Z" finished-at="2023-11-29T21:45:58Z">
+        </test-method> <!-- tc14256_createIncidentAsCustomerUnderMonitoring -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38]" started-at="2025-06-12T14:16:15Z" name="tearDown" finished-at="2025-06-12T14:16:16Z" duration-ms="790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.scripts.noen.CustomerProfileTC.Test6440_SettingPinNumber -->
+      </class> <!-- com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

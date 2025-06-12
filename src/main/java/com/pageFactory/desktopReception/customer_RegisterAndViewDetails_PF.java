@@ -92,6 +92,7 @@ public class customer_RegisterAndViewDetails_PF
 
 	private By sawIcon = By.xpath("//span[@class='ig-icon ig-icon-sm'][contains(@style,'background-image')]");
 	private By LogVisit= By.xpath("//div[@class='modal-body ig-modal-scroll'][contains(.,'Log visit for')]");
+	
 	//Registration on Neon System
 	
 	public void verifySAWImageDisplayOrNot()

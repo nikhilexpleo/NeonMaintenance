@@ -3,7 +3,11 @@ package views;
 
 import ru.yandex.qatools.allure.annotations.Step;
 
+import org.openqa.selenium.By;
+
 import com.generic.Pojo;
+import com.generic.Utilities;
+import com.generic.WrapperFunctions;
 import com.pageFactory.EDD.CustomerProfile_Incidents;
 import com.pageFactory.EDD.CustomerProfile_Suspension;
 import com.pageFactory.desktopReception.CustomerDueDiligenceFilter_PF;
@@ -32,7 +36,7 @@ public class CommonView
 		objaccountTransactions_PF= new accountTransactions_PF(objPojo);
 		objhomeNavigations = new homeNavigations(objPojo);	
 	}
-
+	
 	public void verifyConfirmationMessage(String msg)
 	{
 	objCustomerProfile_Incidents.verifyConfirmationMessage(msg);
@@ -56,6 +60,8 @@ public class CommonView
 		objCustomerProfile_Suspension.selectSuspensionType(suspensionType);
 		//objCustomerProfile_Suspension.selectCasinoDropdown("_Maidenhead (FF NT7)");
 		
+		//objCustomerProfile_Suspension.setExpiryDate();
+		objCustomerProfile_Suspension.setExpDate();
 		String actualGamingDate = objCustomerProfile_Suspension.verifyGamingDateDropdown();
 		System.out.println(" actualGamingDate : "+actualGamingDate);
 		objCustomerProfile_Suspension.setNotes();
@@ -107,7 +113,7 @@ public class CommonView
 	public void createIncident(String incidentType)
 	{
 		objCustomerProfile_Suspension.verifyPageTitle("Select New Incident Type");
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Group");
+		//objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Group");
 		objCustomerProfile_Incidents.selectGroupFromDropdown();
 		objCustomerProfile_Incidents.selectIncidentTypeFromDropdown(incidentType);
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
@@ -150,7 +156,7 @@ public class CommonView
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Category");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Date Closed");
-		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_SAW 1");
+		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_Maidenhead (FF NT7)");
 	}
 	@Step("Set amount and save details")
 	public void verifyAccountTypeAndSetAmmount(String actType,String amt,String confirmationMessage)

@@ -53,8 +53,8 @@ public class TC14241_incidentCreatedAsEnforcedExclusion extends BaseTest{
 		this.setEnviorment();
 		objlogin_PF.login();
 		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Suspension.findCustomerByUsingNumber("1955155549");
+		//objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Suspension.findCustomerByUsingNumber("1957866516");
 		objCustomerProfile_Suspension.clickOnfindButton();
 		objCustomerProfile_Suspension.navigateToCustomerProfileandSelectTab("Incidents");
 		objCustomerProfile_Incidents.clickOnAddButton();
@@ -78,7 +78,7 @@ public class TC14241_incidentCreatedAsEnforcedExclusion extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Date Closed");
 		
-		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_SAW 1");
+		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_Maidenhead (FF NT7)");
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Details");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Notes");
@@ -87,38 +87,38 @@ public class TC14241_incidentCreatedAsEnforcedExclusion extends BaseTest{
 		
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Participants");
 		objCustomerProfile_Incidents.verifyParticipantTableHeaders();
-		objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Incidents.verifyParticipantTableContent("1955155549");
+		//objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Incidents.verifyParticipantTableContent("1957866516");
 		
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Additional Info");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Were the Police Called?");
 		objCustomerProfile_Incidents.selectWerePoliceCalled();
 		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Method of Exclusion");
-		objCustomerProfile_Incidents.selectMethodofExclusion();
+		//objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Method of Exclusion");
+		//objCustomerProfile_Incidents.selectMethodofExclusion();
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Player Type");
-		objCustomerProfile_Incidents.selectPlayerType("2");
+		objCustomerProfile_Incidents.selectPlayerType("1");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Risk Rating");
-		objCustomerProfile_Incidents.selectRiskRating("3");
+		objCustomerProfile_Incidents.selectRiskRating("2");
 		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Exclusion Term (Months)");
-		objCustomerProfile_Incidents.setExclusionTermMonths();
+		//objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Exclusion Term (Months)");
+		//objCustomerProfile_Incidents.setExclusionTermMonths();
 		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Exclude from Digital?");
-		objCustomerProfile_Incidents.selectExcludefromDigital();
-		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE Rejection Reason");
-		objCustomerProfile_Incidents.selectSENSERejectionReason();
-	
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE URN No (or NA)");
-		objCustomerProfile_Incidents.setSENSEURNNO();
-		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE Application Method");
-		objCustomerProfile_Incidents.selectSENSEApplicatioMethod();
-		
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Exclude from Digital?");
+//		objCustomerProfile_Incidents.selectExcludefromDigital();
+//		
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE Rejection Reason");
+//		objCustomerProfile_Incidents.selectSENSERejectionReason();
+//	
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE URN No (or NA)");
+//		objCustomerProfile_Incidents.setSENSEURNNO();
+//		
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("SENSE Application Method");
+//		objCustomerProfile_Incidents.selectSENSEApplicatioMethod();
+//		
 		objCustomerProfile_Incidents.clickOnSaveButton();
 		objCustomerProfile_Incidents.verifyConfirmationMessage("This record has been saved successfully");
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();

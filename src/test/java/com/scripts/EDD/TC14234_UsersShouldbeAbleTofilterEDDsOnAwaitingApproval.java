@@ -57,7 +57,9 @@ public class TC14234_UsersShouldbeAbleTofilterEDDsOnAwaitingApproval extends Bas
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 		
-		objCustomerDueDiligenceFilter_PF.selectDateRange("This Calendar Quarter");
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom");
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.selectState("Awaiting Approval");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
 		//objCustomerDueDiligenceFilter_PF.verifyDueDiligenceFilterTableHeaders();

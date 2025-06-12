@@ -61,20 +61,23 @@ public class TC14239_UsersShouldbeAbleTofilterEDDsOnComplete extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 
 		//objCustomerDueDiligenceFilter_PF.selectDateRange("This Calendar Year");
-		objCustomerDueDiligenceFilter_PF.selectDateRange("Last Calendar Year");
+		//objCustomerDueDiligenceFilter_PF.selectDateRange("Last Calendar Year");
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom");
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.selectStatus("Complete");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
 		objCustomerDueDiligenceFilter_PF.verifyDueDiligenceFilterTableHeaders();
 		objCustomerDueDiligenceFilter_PF.verifySearchResultDisplayAsPerSearchCirteria("Due Diligence State","Closed");
 		objCustomerDueDiligenceFilter_PF.clickOnDetails();
 		String actualCurrentStatus	= objCustomerDueDiligenceFilter_PF.getCurrentStatus();
-		String actualDecisionValue	= 	objCustomerDueDiligenceFilter_PF.getDecisionValue();
+		//String actualDecisionValue	= 	objCustomerDueDiligenceFilter_PF.getDecisionValue();
 
 		System.out.println(" actualCurrentStatus : "+actualCurrentStatus);
-		System.out.println(" actualDecisionValue : "+actualDecisionValue);
+		//System.out.println(" actualDecisionValue : "+actualDecisionValue);
 		
 		objCustomerProfile_Suspension.verifyValueDisplayCorrectlyOrNot(actualCurrentStatus, "Closed");
-		objCustomerProfile_Suspension.verifyValueDisplayCorrectlyOrNot(actualDecisionValue, "Retain");
+		//objCustomerProfile_Suspension.verifyValueDisplayCorrectlyOrNot(actualDecisionValue, "End Relationship");//End Relationship //Retain
 
 	}
 

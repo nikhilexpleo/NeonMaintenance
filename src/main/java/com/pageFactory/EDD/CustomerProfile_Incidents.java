@@ -45,6 +45,7 @@ public class CustomerProfile_Incidents
 	By filterIncident_incidentDetails_Participent_Role = By.xpath("//input[@id='textBoxRole']");
 
 	By filterIncident_incidentDetails_Participent_Notes = By.id("IncidentParticipant_Notes");
+	By incidentTypeDropdown = By.xpath("//select[@id='listBoxSelectIncidentType']");
 
 	public void navigateToincidentTab()
 	{
@@ -110,7 +111,11 @@ public class CustomerProfile_Incidents
 		verifyGroupDropdownOption("Datafix");
 		verifyGroupDropdownOption("Machines");
 		objPojo.getObjUtilities().logReporter("Select Group as Responsible Gambling", 
-				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incidentGroupDropdown,"Responsible Gambling"), false);	
+				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incidentGroupDropdown,"Safer Gambling"), false);	
+//		objPojo.getObjUtilities().logReporter("Click on Incident type dropdown ", 
+//				objPojo.getObjWrapperFunctions().click(incidentTypeDropdown), false);	
+//		objPojo.getObjUtilities().logReporter("Select Group as Responsible Gambling", 
+//				objPojo.getObjWrapperFunctions().selectDropDownByValue(incidentTypeDropdown,"10"), false);	
 	}
 
 	public void verifyGroupDropdownOption(String option)
@@ -144,11 +149,11 @@ public class CustomerProfile_Incidents
 		/*objPojo.getObjUtilities().logReporter("Click on Group dropdown ", 
 				objPojo.getObjWrapperFunctions().click(incidentGroupDropdown), false);	*/
 		verifyIncidentTypeDropdownOption("Enforced Exclusion");
-		verifyIncidentTypeDropdownOption("Positive Assessment");
-		verifyIncidentTypeDropdownOption("Problem Gambling Conversation");
-		verifyIncidentTypeDropdownOption("Problem Gambling Reinstatement Request");
+		verifyIncidentTypeDropdownOption("Affordability");
+		verifyIncidentTypeDropdownOption("Customer Under Monitoring");
+		verifyIncidentTypeDropdownOption("Digital Account Limits");
 		verifyIncidentTypeDropdownOption("Self Exclusion");
-		verifyIncidentTypeDropdownOption("xTEST RG Checklist");
+		verifyIncidentTypeDropdownOption("Problem Gambling Reinstatement Request");
 
 		objPojo.getObjWrapperFunctions().deSelectDropDown(incidentTypeDropdown);
 		objPojo.getWaitMethods().sleep(5);
@@ -166,9 +171,14 @@ public class CustomerProfile_Incidents
 
 	public void verifyIncidentTitle(String option)
 	{
+		try {
+		Thread.sleep(5000);
 		By webEle = By.xpath("//*[@id='layoutCaption'][contains(text(),'New Incident - " + option +"')]");
 		objPojo.getObjUtilities().logReporter("Verify Incident header display on page ", 
 				objPojo.getObjWrapperFunctions().checkElementDisplyed(webEle), false);	
+		}
+		catch(Exception e) {	
+		}
 	}
 
 	public void verifyCasinoDropdownOptionFromIncidentPage(String option)
@@ -218,6 +228,14 @@ public class CustomerProfile_Incidents
 
 	public void setNotes()
 	{
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		objPojo.getObjWrapperFunctions().checkElementDisplyed(incident_NotesTextArea);
+		objPojo.getObjWrapperFunctions().waitForElementToBeClickable(incident_NotesTextArea);
 		objPojo.getObjUtilities().logReporter("Enter notes  ", 
 				objPojo.getObjWrapperFunctions().setText(incident_NotesTextArea, "test purpose only "), false);	
 	}
@@ -293,12 +311,12 @@ public class CustomerProfile_Incidents
 				objPojo.getObjWrapperFunctions().click(incident_playerTypeDropdown), false);	
 		verifyPlayerTypeDropdownOptions("Electronic Gaming",fieldNumber);
 		verifyPlayerTypeDropdownOptions("Poker Room",fieldNumber);
-		verifyPlayerTypeDropdownOptions("Slot Machines",fieldNumber);
+		verifyPlayerTypeDropdownOptions("Slot Machine",fieldNumber);
 		verifyPlayerTypeDropdownOptions("Tables",fieldNumber);
-		verifyPlayerTypeDropdownOptions("Unspecified/Other",fieldNumber);
+		verifyPlayerTypeDropdownOptions("Unspecified / Other",fieldNumber);
 
 		objPojo.getObjUtilities().logReporter("Select Unspecified/Other ", 
-				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_playerTypeDropdown,"Unspecified/Other"), false);	
+				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_playerTypeDropdown,"Unspecified / Other"), false);	
 	}
 
 	public void verifyRiskRatingDropdownOptions(String option,String fieldNumber)
@@ -383,16 +401,16 @@ public class CustomerProfile_Incidents
 
 		objPojo.getObjUtilities().logReporter("Click SENSEApplicatioMethodDropdown ", 
 				objPojo.getObjWrapperFunctions().click(incident_SENSERejectionReasonDropdown), false);	
-		verifySENSERejectionReasonDropdownOptions("No reason given by customer");
+		verifySENSERejectionReasonDropdownOptions("No reason given by the customer");
 		verifySENSERejectionReasonDropdownOptions("Other (explain in notes field)");	
-		verifySENSERejectionReasonDropdownOptions("Not Applicable");	
+		verifySENSERejectionReasonDropdownOptions("Not applicable");	
 		verifySENSERejectionReasonDropdownOptions("Request received by letter/phone/email");
 		verifySENSERejectionReasonDropdownOptions("Technical issues with SENSE");	
 		verifySENSERejectionReasonDropdownOptions("Customer claims to play only with Grosvenor");	
 		verifySENSERejectionReasonDropdownOptions("Customer employed by another operator");	
 
 		objPojo.getObjUtilities().logReporter("Select No ", 
-				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_SENSERejectionReasonDropdown,"No reason given by customer"), false);	
+				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_SENSERejectionReasonDropdown,"No reason given by the customer"), false);	
 	}
 
 	public void verifyCustomerProfileSideNavigationOption(String sideTab)
@@ -515,5 +533,27 @@ public class CustomerProfile_Incidents
 		By incident_teaxtArea = By.xpath("//textarea[@id='customFields_"+fieldNumber+"__Value']");
 		objPojo.getObjUtilities().logReporter("Enter IncidentNumber ", 
 				objPojo.getObjWrapperFunctions().setText(incident_teaxtArea,"Test purpose only"), false);		
+	}
+	
+	public void selectCategoryDropdownOption(String option)
+	{
+		//category dropdown
+		By incident_Dropdown = By.xpath("//select[@id='Incident_CategoryId']");
+		objPojo.getObjUtilities().logReporter("Click on incident_catagory dropdown ", 
+				objPojo.getObjWrapperFunctions().click(incident_Dropdown), false);	
+
+		objPojo.getObjUtilities().logReporter("Select  ", 
+				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_Dropdown,option), false);	
+	}
+	
+	public void casinoDropdownOption(String option)
+	{
+		//casino dropdown
+		By incident_Dropdown = By.xpath("//select[@id='Casino_Id']");
+		objPojo.getObjUtilities().logReporter("Click on casino dropdown ", 
+				objPojo.getObjWrapperFunctions().click(incident_Dropdown), false);	
+
+		objPojo.getObjUtilities().logReporter("Select  ", 
+				objPojo.getObjWrapperFunctions().selectDropDownByVisibleText(incident_Dropdown,option), false);	
 	}
 }

@@ -50,8 +50,8 @@ public class TC14240_incidentCreatedAsSelfExclusion extends BaseTest{
 		this.setEnviorment();
 		objlogin_PF.login();
 		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Suspension.findCustomerByUsingNumber("1955155549");
+		//objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Suspension.findCustomerByUsingNumber("1957225972");
 		objCustomerProfile_Suspension.clickOnfindButton();
 		objCustomerProfile_Suspension.navigateToCustomerProfileandSelectTab("Incidents");
 		objCustomerProfile_Incidents.clickOnAddButton();
@@ -75,7 +75,7 @@ public class TC14240_incidentCreatedAsSelfExclusion extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Date Closed");
 
-		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_SAW 1");
+		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_Maidenhead (FF NT7)");
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Details");
 
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Notes");
@@ -84,8 +84,8 @@ public class TC14240_incidentCreatedAsSelfExclusion extends BaseTest{
 
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Participants");
 		objCustomerProfile_Incidents.verifyParticipantTableHeaders();
-		objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Incidents.verifyParticipantTableContent("1955155549");
+		//objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Incidents.verifyParticipantTableContent("1957225972");
 
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Additional Info");
 

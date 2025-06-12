@@ -96,7 +96,7 @@ public class CustomerEntry_UsingDOBName_PF {
 		//Customer Suspension
 		By pageTitle = By.xpath("//*[@class='modal-title'][contains(text(),'Message')]");
 		objPojo.getObjUtilities().logReporter("Verify Message window does not display", 
-				objPojo.getObjWrapperFunctions().checkElementNotDisplyed(pageTitle), false);	
+				objPojo.getObjWrapperFunctions().checkElementNotDisplayed(pageTitle), false);	
 	}
 	
 	public boolean verifyConfirmationMessage(String message)

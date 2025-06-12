@@ -17,6 +17,9 @@ public class CustomerProfile_Suspension {
 	Properties objConfig=new Properties();
 	String custNumber="",expiryDate,gamingDate,suspensionType;
 	static String refId_FE="";
+	private WrapperFunctions objWrapperFunctions;
+	private String date="",conDate="";
+	private Utilities objUtilities;
 
 	public CustomerProfile_Suspension(Pojo pojo)
 	{
@@ -25,6 +28,8 @@ public class CustomerProfile_Suspension {
 		this.objPojo = pojo;
 		pojo.getObjConfig();
 		custNumber=pojo.getUser();	
+		objWrapperFunctions = pojo.getObjWrapperFunctions();
+		objUtilities = pojo.getObjUtilities();
 	}
 
 	private By customersMainTab=By.xpath("//li[@id='CustomerManagement_Menu']//a[contains(.,'Customers')]");
@@ -58,7 +63,7 @@ public class CustomerProfile_Suspension {
 
 	private By customerProfile_Suspensions_Lift_message=By.xpath("//div[@class='modal-body ig-modal-scroll'][contains(.,'Suspension has already been lifted.')]");
 	private By closeIconTab=By.xpath("//div[@class='buttonbar']//div//button");
-
+	private By expDate=By.xpath("//div//input[@id='CustomerSuspension_ExpiryGamingDate']");
 
 	public void navigateToCustomerTab()
 	{
@@ -119,12 +124,15 @@ public class CustomerProfile_Suspension {
 	}
 
 	public void findCustomerByUsingNumber(String custNumber )
-	{
+	{   
+		objPojo.getWaitMethods().sleep(4);
+		System.out.println("customer nuber to find is = "+custNumber);
 		objPojo.getObjUtilities().logReporter("search Customer Number '"+ custNumber +"'",
 				objPojo.getObjWrapperFunctions().setText(findCustomer_NumberInput,custNumber), false);	
 	}
 	public void clickOnfindButton()
 	{
+		objPojo.getWaitMethods().sleep(4);
 		objPojo.getObjUtilities().logReporter("Click on Find button", objPojo.getObjWrapperFunctions().click(findButton), false);
 	}	
 
@@ -200,7 +208,6 @@ public class CustomerProfile_Suspension {
 	{
 		String date = objPojo.getObjUtilities().getCurrentDate("ddMMyyyy");
 		expiryDate = objPojo.getObjUtilities().modifyDaysFromDate(date,2,"ddMMyyyy");
-		//System.out.println(convertedDate);
 		objPojo.getObjUtilities().logReporter("Set Expiry date", objPojo.getObjWrapperFunctions().setText(customerProfile_Suspensions_Add_ExpiryDate,expiryDate), false);	
 	}
 
@@ -255,7 +262,7 @@ public class CustomerProfile_Suspension {
 
 	public void verifySuspensionStatusDisplayedOnCustomerDetailsPage(String suspensionStatus)
 	{
-		By webEle = By.xpath("//span[@id='labelCustomerStatus'][contains(text(),'"+suspensionStatus+"')]");
+		By webEle = By.xpath("//span[@id='labelStatusDescription'][contains(text(),'"+suspensionStatus+"')]");
 		objPojo.getObjUtilities().logReporter("Verify Suspension Status Displayed as '"+suspensionStatus+"' on Customer Details Page  ", 
 				objPojo.getObjWrapperFunctions().checkElementDisplyed(webEle), false);			
 	}
@@ -264,19 +271,20 @@ public class CustomerProfile_Suspension {
 	{
 		By webEle = By.xpath("//span[@id='labelCustomerStatus'][contains(text(),'"+suspensionStatus+"')]");
 		objPojo.getObjUtilities().logReporter("Verify Suspension Status Displayed as '"+suspensionStatus+"' on Customer Details Page  ", 
-				objPojo.getObjWrapperFunctions().checkElementNotDisplyed(webEle), false);	
+				objPojo.getObjWrapperFunctions().checkElementNotDisplayed(webEle), false);	
 	}
 	public void liftSuspension(String user)
 	{
 		clickOnLift();	
-		if(objPojo.getObjWrapperFunctions().checkElementDisplyed(customerProfile_Suspensions_Lift_message))
-		{
-			objPojo.getObjWrapperFunctions().acceptMultipleAlert(customerProfile_Suspensions_Lift_Ok);
-			objPojo.getObjUtilities().logReporter("Click on Lift tab", objPojo.getObjWrapperFunctions().click(objPojo.getObjWrapperFunctions().getElementOfIndex(customerProfile_Suspensions_LiftButton, 0)), false);
-		}
+//		if(objPojo.getObjWrapperFunctions().checkElementDisplyed(customerProfile_Suspensions_Lift_message))
+//		{
+//			objPojo.getObjWrapperFunctions().acceptMultipleAlert(customerProfile_Suspensions_Lift_Ok);
+//			objPojo.getObjUtilities().logReporter("Click on Lift tab", objPojo.getObjWrapperFunctions().click(objPojo.getObjWrapperFunctions().getElementOfIndex(customerProfile_Suspensions_LiftButton, 0)), false);
+//		}
 
 		selectAuthoriseUser(user);
 		objPojo.getObjUtilities().logReporter("Click on Ok ", objPojo.getObjWrapperFunctions().click(customerProfile_Suspensions_Lift_Ok), false);	
+		//objPojo.getWaitMethods().sleep(10);
 	}
 
 	public void selectAuthoriseUser(String user)
@@ -300,6 +308,26 @@ public class CustomerProfile_Suspension {
 		//objPojo.getObjWrapperFunctions().displayAllElement(customerProfile_Suspensions_DetailsSection2);
 		//objPojo.getObjWrapperFunctions().displayAllElement(customerProfile_Suspensions_DetailsSection3);
 	}
+	
+	public void setExpDate()
+	{
+		date=objWrapperFunctions.getFutureRandomDate();
+		conDate=objUtilities.getFormatedDate(date,"ddmmyyyy","dd/mm/yyyy");
+		System.out.println("Expiry Date = " +conDate);		
+		objUtilities.logReporter("Enter Expiry Date", objWrapperFunctions.setText(expDate,conDate), false);
+		objUtilities.logReporter("Enter Expiry Date", objWrapperFunctions.setText(expDate,conDate), false);
+		
+	}
+	
+	public String getAuthoriserValue(String fieldName)
+	{
+		objPojo.getWaitMethods().sleep(8);	
+		By webEle = By.xpath("//div/span[contains(.,'"+ fieldName +"')]");
+		System.out.println(webEle);
+		return  objPojo.getObjWrapperFunctions().getText(webEle); 
+	}
+	
+
 }
 
 

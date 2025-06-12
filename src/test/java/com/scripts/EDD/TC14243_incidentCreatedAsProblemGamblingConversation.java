@@ -58,8 +58,8 @@ public class TC14243_incidentCreatedAsProblemGamblingConversation extends BaseTe
 
 		objCommonView.createIncident("Problem Gambling Conversation");
 
-		objCommonView.addParticipantToIncident(getObjUtilities().dpString("CustomerNumber"));
-		//objCommonView.addParticipantToIncident("1955155549");
+		//objCommonView.addParticipantToIncident(getObjUtilities().dpString("CustomerNumber"));
+		objCommonView.addParticipantToIncident("1957866519");
 
 		objCommonView.verifySideBarTabsFromIncident();
 		objCommonView.verifyFieldLabelsFromIncidentPage();
