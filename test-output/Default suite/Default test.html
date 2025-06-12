@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 29 17:52:58 IST 2024</td>
+<td>Started on:</td><td>Thu Jun 12 14:13:53 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>219 seconds (219925 ms)</td>
+<tr><td>Total time:</td><td>142 seconds (142728 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,148 +67,70 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.scripts.desktopReception.customer_RegisterAndViewDetails.RegisterAndViewCustomerDetails()'><b>RegisterAndViewCustomerDetails</b><br>Test class: com.scripts.desktopReception.customer_RegisterAndViewDetails<br/>
-<a href="#Output-1874451126" onClick='toggleBox("Output-1874451126", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring.tc14256_createIncidentAsCustomerUnderMonitoring()'><b>tc14256_createIncidentAsCustomerUnderMonitoring</b><br>Test class: com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring<br>Parameters: Run1, {Suspension Type=Nationally Resigned, CustomerNumber=1955217041, Authorised User=Gadekar, TestCaseID=TC14256}<br/>
+<a href="#Output-136539215" onClick='toggleBox("Output-136539215", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1874451126" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1874451126">
+<a href="#Output-136539215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-136539215">
 Step >> Enter username<br/>
 Step >> Enter password<br/>
 Step >> Click on signBtn<br/>
+Step >> Click on Customers Menu tab<br/>
+Step >> Click on Customers tab<br/>
+Step >> search Customer Number '1957866526'<br/>
+Step >> Click on Find button<br/>
+Step >> Verify 'Incidents'<br/>
+Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]'<br/>
+Step >> Click on customerProfile_Incident_AddButton <br/>
+Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display<br/>
+Step >> Verify 'Group' display on page <br/>
+Step >> Click on Group dropdown <br/>
+Step >> Verify 'Datafix' display on page <br/>
+Step >> Verify 'Machines' display on page <br/>
+Step >> Select Group as Responsible Gambling<br/>
+Step >> Verify 'Enforced Exclusion' display on page <br/>
+Step >> Verify 'Affordability' display on page <br/>
+Step >> Verify 'Customer Under Monitoring' display on page <br/>
+Step >> Verify 'Digital Account Limits' display on page <br/>
+Step >> Verify 'Self Exclusion' display on page <br/>
+Step >> Verify 'Problem Gambling Reinstatement Request' display on page <br/>
+Step >> Select Group as Responsible Gambling<br/>
+Step >> Click on Ok button<br/>
+Step >> Verify Incident header display on page <br/>
+Step >> Verify 'Associated Incidents'<br/>
+Step >> Verify 'Audit'<br/>
+Step >> Verify 'Evidence'<br/>
+Step >> Verify 'Incident Number' display on page <br/>
+Step >> Verify 'Actual Date / Time' display on page <br/>
+Step >> Verify 'Gaming Date' display on page <br/>
+Step >> Verify 'Category' display on page <br/>
+Step >> Verify 'Status' display on page <br/>
+Step >> Verify 'Date Closed' display on page <br/>
+Step >> Click on Casino dropdown <br/>
+Step >> Select Casino as '_Maidenhead (FF NT7)'<br/>
+Step >> Verify 'Details' display on page <br/>
+Step >> Verify 'Notes' display on page <br/>
+Step >> Enter notes  <br/>
+Step >> Verify 'User' display on page <br/>
+Step >> Verify 'Participants' display on page <br/>
+Step >> Verify participant table headers  <br/>
+Step >> Verify content dispaly in table against column <br/>
+Step >> Click on Save <br/>
+Step >> Verify 'This record has been saved successfully' display  <br/>
+Step >> Click on Ok button<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;buttonDetails&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
-	at com.pageFactory.desktopReception.customer_RegisterAndViewDetails_PF.viewCustomerDetails(customer_RegisterAndViewDetails_PF.java:266)
-	at com.scripts.desktopReception.customer_RegisterAndViewDetails.RegisterAndViewCustomerDetails(customer_RegisterAndViewDetails.java:25)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.185)
-Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
-System info: host: &apos;L-INE-F7NSYZ2&apos;, ip: &apos;172.28.4.65&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\nkalme\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9fd2b65c5b373434ac063793a9f15838
-*** Element info: {Using=xpath, value=//button[@id=&apos;buttonDetails&apos;]}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 28 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1874451126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1874451126'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;buttonDetails&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.generic.WrapperFunctions.click(WrapperFunctions.java:730)
-	at com.pageFactory.desktopReception.customer_RegisterAndViewDetails_PF.viewCustomerDetails(customer_RegisterAndViewDetails_PF.java:266)
-	at com.scripts.desktopReception.customer_RegisterAndViewDetails.RegisterAndViewCustomerDetails(customer_RegisterAndViewDetails.java:25)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.185)
-Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
-System info: host: &apos;L-INE-F7NSYZ2&apos;, ip: &apos;172.28.4.65&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\nkalme\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9fd2b65c5b373434ac063793a9f15838
-*** Element info: {Using=xpath, value=//button[@id=&apos;buttonDetails&apos;]}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 28 more
-</pre></div></td>
-<td>219</td>
-<td>com.scripts.desktopReception.customer_RegisterAndViewDetails@56881196</td></tr>
+<td></td>
+<td>140</td>
+<td>com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38</td></tr>
 </table><p>
 </body>
 </html>

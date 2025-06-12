@@ -372,21 +372,26 @@ public class WrapperFunctions
 			return false;
 		}
 	}
-	public boolean checkElementNotDisplyed(By locator)
-	{
-		try
-		{	
-			//WebElement webEle = webDriver.findElement(locator);
-			if((webDriver.findElement(locator)).isDisplayed()==false)	
-				System.out.println("locator does not displayed " +locator);
-			return true;
-		} catch (Exception exception)
-		{
-			exception.printStackTrace();
-			return false;
-		}
-	
+	public boolean checkElementNotDisplayed(By locator) {
+	    try {
+	    	System.out.println("checking suspension lift");
+	        WebElement element = webDriver.findElement(locator);
+	        if (!element.isDisplayed()) {
+	            System.out.println("Element is present but not displayed: " + locator);
+	            return true;
+	        } else {
+	            System.out.println("Element is displayed: " + locator);
+	            return false;
+	        }
+	    } catch (NoSuchElementException e) {
+	        System.out.println("Element not found in DOM: " + locator);
+	        return true; // If element is not in DOM, it's considered "not displayed"
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        return false;
+	    }
 	}
+
 
 	/**
 	 * @Method : checkMobileElementDisplyed
@@ -2895,6 +2900,22 @@ public class WrapperFunctions
 			return false;
 		}
 	}	
+	
+	public String getFutureRandomDate() {
+	    SimpleDateFormat spf = new SimpleDateFormat("ddMMyyyy");
+	    // Get today's date
+	    Calendar calendar = Calendar.getInstance();
+	    Date today = calendar.getTime();
+	    // Add one month
+	    calendar.add(Calendar.MONTH, 1);
+	    Date oneMonthLater = calendar.getTime();
+	    // Generate a random date between today and one month later
+	    long startMillis = today.getTime();
+	    long endMillis = oneMonthLater.getTime();
+	    long randomMillisSinceEpoch = startMillis + (long) (Math.random() * (endMillis - startMillis));
+	    Date randomDate = new Date(randomMillisSinceEpoch);
+	    return spf.format(randomDate);
+	}
 }
 
 

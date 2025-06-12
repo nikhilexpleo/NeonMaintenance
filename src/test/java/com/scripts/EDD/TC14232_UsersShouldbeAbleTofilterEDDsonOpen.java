@@ -51,7 +51,10 @@ public class TC14232_UsersShouldbeAbleTofilterEDDsonOpen extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 		
-		objCustomerDueDiligenceFilter_PF.selectDateRange("This Month");
+		//objCustomerDueDiligenceFilter_PF.selectDateRange("This Month"); 
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom"); //Custom 
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.selectState("Open");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
 		objCustomerDueDiligenceFilter_PF.verifyDueDiligenceFilterTableHeaders();

@@ -58,11 +58,12 @@ public class CustomerDueDiligenceFilter_PF {
 
 	private By dueDiligence_Number = By.xpath("//input[@id='Number']");
 	private By dueDiligence_StatusFilterDropdown = By.xpath("//select[@id='FindStatus']");
+	private By startDateSelection = By.xpath("//input[@id='StartGamingDate']");
 	
 	//private By dueDiligence_CasinoFilter = By.cssSelector("td[data-grid-column-key='CasinoName']");
 	By filter_DateRang = By.xpath("//select[@id='ReportInterval_Id']");
 	By table = By.xpath("//table[@class='grid datagrid table ig-table']");
-	By detailsButton = By.xpath("//button[@class='btn-primary btn-secured'][contains(text(),'Details')]");
+	By detailsButton = By.xpath("//button[@class='btn btn-primary btn-secured'][contains(text(),'Details')]");
 	By dueDiligencePage_Outcome_Decison = By.xpath("//select[@id='DueDiligence_Outcome_Decision']");
 			
 	By dueDiligencePage_CurrentState = By.xpath("//label[contains(text(),'Current State')]/following-sibling::p");		
@@ -348,6 +349,21 @@ public class CustomerDueDiligenceFilter_PF {
 				exception.printStackTrace();
 				return false;
 			}
+		}
+		
+		public void setFromDate(String fromDate)
+		{
+			objPojo.getObjUtilities().logReporter("Set From Date ", 
+					objPojo.getObjWrapperFunctions().setText(startDateSelection,fromDate), false);
+			//objPojo.getObjWrapperFunctions().pressTabBtn(filterIncident_incidentDetails_Participent_Number);
+		}
+		
+		public void clickOnFromDate()
+		{
+			objWrapperFunctions.verifyIsElementPresent(startDateSelection);
+			objUtilities.logReporter("Click on From Date dropdown", 
+					objWrapperFunctions.click(startDateSelection), false);
+
 		}
 }
 

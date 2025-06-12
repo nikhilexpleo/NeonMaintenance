@@ -58,8 +58,8 @@ public class TC14244_incidentCreatedAsProblemGamblingReinstatementRequest extend
 
 		objCommonView.createIncident("Problem Gambling Reinstatement Request");
 
-		objCommonView.addParticipantToIncident(getObjUtilities().dpString("CustomerNumber"));
-		//objCommonView.addParticipantToIncident("1955155549");
+		//objCommonView.addParticipantToIncident(getObjUtilities().dpString("CustomerNumber"));
+		objCommonView.addParticipantToIncident("1957866519");
 
 		objCommonView.verifySideBarTabsFromIncident();
 		objCommonView.verifyFieldLabelsFromIncidentPage();
@@ -72,8 +72,8 @@ public class TC14244_incidentCreatedAsProblemGamblingReinstatementRequest extend
 
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Participants");
 		objCustomerProfile_Incidents.verifyParticipantTableHeaders();
-		objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Incidents.verifyParticipantTableContent("1955155549");
+		//objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Incidents.verifyParticipantTableContent("1957866519");
 
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Check List");
 		//objCustomerProfile_Incidents.verifyCheckListTable();
@@ -89,17 +89,22 @@ public class TC14244_incidentCreatedAsProblemGamblingReinstatementRequest extend
 		objCustomerProfile_Incidents.setText("3");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Q5");
 		objCustomerProfile_Incidents.setText("4");
+		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Q6");
+		objCustomerProfile_Incidents.setText("5");
 		
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Previous Reinstatements?");
+		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Previous Reinstatements");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Recommend Reinstatement?");
-		objCustomerProfile_Incidents.selectDropdownOption("6","No");
+		objCustomerProfile_Incidents.selectDropdownOption("7","No");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Preferred Contact Method");
-		objCustomerProfile_Incidents.selectDropdownOption("7","Email");
+		objCustomerProfile_Incidents.selectDropdownOption("8","Email");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("INFORMATION CENTRE ONLY");
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reinstated?");
-		objCustomerProfile_Incidents.selectDropdownOption("9","No");
+		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reinstated");
+		objCustomerProfile_Incidents.selectDropdownOption("10","No");
+		
+		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Category");
+		objCustomerProfile_Incidents.selectCategoryDropdownOption("N/A");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Decision Made By");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("If Not Yes, Why Not?");
@@ -118,8 +123,9 @@ public class TC14244_incidentCreatedAsProblemGamblingReinstatementRequest extend
 		objCustomerProfile_Suspension.closeTab();
 		objCustomerProfile_Suspension.clickOnCustomerMainMenu();
 		objCustomerProfile_Incidents.navigateToincidentTab();
-		
+		objCustomerProfile_Incidents.casinoDropdownOption("_Maidenhead (FF NT7)");
 		objCustomerProfile_Incidents.serchIncidentByIncidentNumber(incidentId);
+	
 		objCustomerProfile_Suspension.clickOnfindButton(); 
 		
 		objCustomerProfile_Incidents.verifyFindIncidentSearchResult(incidentId);	

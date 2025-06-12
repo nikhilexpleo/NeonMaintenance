@@ -61,11 +61,14 @@ public class TC14235_UsersShouldbeAbleTofilterEDDsonManualTrigger extends BaseTe
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 
 		//objCustomerDueDiligenceFilter_PF.selectDateRange("This Calendar Quarter");
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom");
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.selectStatus("Manual");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
 		objCustomerDueDiligenceFilter_PF.verifyDueDiligenceFilterTableHeaders();
-		objCustomerDueDiligenceFilter_PF.verifySearchResultDisplayAsPerSearchCirteria("Number",getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerDueDiligenceFilter_PF.verifySearchResultDisplayAsPerSearchCirteria("Number","1955207144");
+		//objCustomerDueDiligenceFilter_PF.verifySearchResultDisplayAsPerSearchCirteria("Number",getObjUtilities().dpString("CustomerNumber"));
+		objCustomerDueDiligenceFilter_PF.verifySearchResultDisplayAsPerSearchCirteria("Number","5002447");
 	}
 
 	@AfterMethod
