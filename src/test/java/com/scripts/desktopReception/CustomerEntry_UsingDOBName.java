@@ -23,7 +23,7 @@ public class CustomerEntry_UsingDOBName extends BaseTest{
 		objCustomerEntry_UsingDOBName_PF.customerEntryUsingDOB();
 		objCustomerEntry_UsingDOBName_PF.customerEntryUsingName();
 		
-		objlogin_PF.logout();	
+		//objlogin_PF.logout();	
 		
 	}
 	

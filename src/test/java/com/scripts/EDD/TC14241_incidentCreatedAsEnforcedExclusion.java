@@ -78,7 +78,7 @@ public class TC14241_incidentCreatedAsEnforcedExclusion extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Date Closed");
 		
-		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_Maidenhead (FF NT7)");
+		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("AA Maidenhead");
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Details");
 		
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Notes");

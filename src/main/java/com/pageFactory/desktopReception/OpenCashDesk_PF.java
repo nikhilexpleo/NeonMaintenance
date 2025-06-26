@@ -28,7 +28,7 @@ public class OpenCashDesk_PF {
 	private By viewBalanceText=By.cssSelector("div.buttonbar div h2");
 	private By openDeskButton=By.xpath("//button[@id='buttonOpenDesk']");
 	private By yesButton = By.cssSelector("button[data-ig-type='YES']");
-	private By textmessage = By.xpath("//div[@class='modal-body ig-modal-scroll']");
+	private By textmessage = By.xpath("//div[@id='tblBalancing']");
 	private By okButton = By.cssSelector("button[data-ig-type='OK']");
 	
 	public void openCashesk()
@@ -37,15 +37,15 @@ public class OpenCashDesk_PF {
 		objUtilities.logReporter("Click on Balance Menu", objWrapperFunctions.clickByScript(balanceMenu), false);
 		
 	//objWrapperFunctions.waitForElementPresence(openDeskButton);
-	objWrapperFunctions.waitForElementToBeClickable(openDeskButton);
-	objWrapperFunctions.click(openDeskButton);
-	objWrapperFunctions.verifyIsElementPresent(yesButton);
-	objWrapperFunctions.waitFormobileElementToBeClickable(yesButton);
-	objWrapperFunctions.acceptMultipleAlert(yesButton);
+	//objWrapperFunctions.waitForElementToBeClickable(openDeskButton);
+//	objWrapperFunctions.click(openDeskButton);
+//	objWrapperFunctions.verifyIsElementPresent(yesButton);
+//	objWrapperFunctions.waitFormobileElementToBeClickable(yesButton);
+//	objWrapperFunctions.acceptMultipleAlert(yesButton);
 	String txt=objWrapperFunctions.getText(textmessage);
-	System.out.println("fgf f = " +txt);
+	System.out.println("view balance = " +txt);
 	
 	
-	objWrapperFunctions.acceptMultipleAlert(yesButton);
+	//objWrapperFunctions.acceptMultipleAlert(yesButton);
 	}
 }

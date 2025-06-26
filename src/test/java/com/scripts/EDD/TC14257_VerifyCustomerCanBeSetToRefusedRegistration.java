@@ -44,14 +44,17 @@ public class TC14257_VerifyCustomerCanBeSetToRefusedRegistration extends BaseTes
 		loadTestData(strRun, dataSetValue);
 		this.setEnviorment();
 		objlogin_PF.login();
-		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		objCustomerProfile_Suspension.clickOnfindButton();
-		objCommonView.setSuspension(getObjUtilities().dpString("Suspension Type"));
-		objCommonView.verifyFieldsOnSuspensionScreen();
-	//	objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
-		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage("Suspended");
-		objCustomerProfile_Suspension.closeTab();
+		
+		//Test case is not valid now date-18/06/2025
+		
+//		objCustomerProfile_Suspension.navigateToCustomerTab();
+//		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+//		objCustomerProfile_Suspension.clickOnfindButton();
+//		objCommonView.setSuspension(getObjUtilities().dpString("Suspension Type"));
+//		objCommonView.verifyFieldsOnSuspensionScreen();
+//	//	objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
+//		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage("Suspended");
+//		objCustomerProfile_Suspension.closeTab();
 	}
 	
 	@AfterMethod

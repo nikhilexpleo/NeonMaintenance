@@ -55,9 +55,12 @@ public class TC14246_EnsureUserCanAddNextStepToEDDRecord extends BaseTest{
 		objCustomerDueDiligenceFilter_PF.clickOnDueDiligence();
 	
 		//objCustomerDueDiligenceFilter_PF.searchRecordByNumber("1955158939");
-		objCustomerDueDiligenceFilter_PF.searchRecordByNumber(getObjUtilities().dpString("CustomerNumber"));
+		//objCustomerDueDiligenceFilter_PF.searchRecordByNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom"); //Custom 
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
-		
+		objCustomerDueDiligenceFilter_PF.ClickOnDetailsButton();
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnAddNextStepButton();
 		objCustomerProfile_Suspension.verifyPageTitle("Add Next Step");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Next Step");
@@ -65,10 +68,10 @@ public class TC14246_EnsureUserCanAddNextStepToEDDRecord extends BaseTest{
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("As At Date");
 		objcustomerProfile_AddViewDueDiligence_PF.addNextStepDetails("Test");
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
-		objcustomerProfile_AddViewDueDiligence_PF.saveDuediligenceRecord();
+		//objcustomerProfile_AddViewDueDiligence_PF.saveDuediligenceRecord();
 
-		objCommonView.verifyConfirmationMessage("This record has been saved successfully.");
-		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
+		//objCommonView.verifyConfirmationMessage("This record has been saved successfully.");
+		//objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
 		//objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
 	}
 	

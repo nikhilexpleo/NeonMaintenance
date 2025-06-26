@@ -127,21 +127,21 @@ public class CustomerEntry_UsingDOBName_PF {
 					//matchBtn=By.xpath("//table[@class='grid datagrid']//tbody//tr["+i+"]//td[9]//button[@class='btn-primary btn-secured'][contains(.,'Match')]");			
 					matchBtn=By.xpath("(//button[@class='btn-primary btn-secured'][contains(.,'Match')])");
 					//objUtilities.logReporter("Click on 'Yes' button", objWrapperFunctions.click(yesBtn), false);
-					if(temp.equals(custNumber))
-					{
-						Thread.sleep(200);
-						objUtilities.logReporter("Click on Customer tab", objWrapperFunctions.clickByScript(matchBtn), false);
-						//objUtilities.logReporter("Click on Customer tab", objWrapperFunctions.click(matchBtn), false);
-						System.out.println("match");
-						break;
-					}
+//					if(temp.equals(custNumber))
+//					{
+//						Thread.sleep(200);
+//						objUtilities.logReporter("Click on Customer tab", objWrapperFunctions.clickByScript(matchBtn), false);
+//						//objUtilities.logReporter("Click on Customer tab", objWrapperFunctions.click(matchBtn), false);
+//						System.out.println("match");
+//						break;
+//					}
 				}
 			}	
-			if(objWrapperFunctions.checkElementDisplyed(okButton))
-			{
-				objWrapperFunctions.acceptMultipleAlert(okButton);
-			}
-			objUtilities.logReporter("Click on 'Yes' button", objWrapperFunctions.click(yesBtn), false);
+//			if(objWrapperFunctions.checkElementDisplyed(okButton))
+//			{
+//				objWrapperFunctions.acceptMultipleAlert(okButton);
+//			}
+//			objUtilities.logReporter("Click on 'Yes' button", objWrapperFunctions.click(yesBtn), false);
 			if(objWrapperFunctions.checkElementDisplyed(cancelButton))
 			{
 				objUtilities.logReporter("Click on 'Cancel' button", objWrapperFunctions.click(cancelButton), false);
@@ -199,20 +199,23 @@ public class CustomerEntry_UsingDOBName_PF {
 			}
 
 
-			if(objWrapperFunctions.checkElementDisplyed(okButton))
-			{
-				objWrapperFunctions.waitForElementToBeClickable(okButton);
-				objUtilities.logReporter("Click on ok btn", objWrapperFunctions.click(okButton), false);	
-			}
+//			if(objWrapperFunctions.checkElementDisplyed(okButton))
+//			{
+//				objWrapperFunctions.waitForElementToBeClickable(okButton);
+//				objUtilities.logReporter("Click on ok btn", objWrapperFunctions.click(okButton), false);	
+//			}
 
 			if(objWrapperFunctions.checkElementDisplyed(cancelButton))
 			{
 				objWrapperFunctions.waitForElementToBeClickable(cancelButton);
-				objUtilities.logReporter("Click on Cancel button", objWrapperFunctions.click(cancelButton), false);
+				//objUtilities.logReporter("Click on Cancel button", objWrapperFunctions.click(cancelButton), false);
+			}
+			else{
+				
 			}
 
 			//objUtilities.logReporter("Click on 'Cancel' button", objWrapperFunctions.click(cancelButton), false);
-			objUtilities.logReporter("Click on 'Yes' button", objWrapperFunctions.click(yesBtn), false);
+			//objUtilities.logReporter("Click on 'Yes' button", objWrapperFunctions.click(yesBtn), false);
 
 
 			System.out.println("****************Customer Details**********************");

@@ -23,7 +23,8 @@ public class CustomerDueDiligenceFilter extends BaseTest
 		objlogin_PF.login();
 		objCustomerDueDiligenceFilter_PF.NavigateToCustomerTab();
 		objCustomerDueDiligenceFilter_PF.clickOnDueDiligence();
-		objCustomerDueDiligenceFilter_PF.setFilter();
+		objCustomerDueDiligenceFilter_PF.setFilterBtn();
+		//objCustomerDueDiligenceFilter_PF.setFilter();
 		objlogin_PF.logout();	
 
 

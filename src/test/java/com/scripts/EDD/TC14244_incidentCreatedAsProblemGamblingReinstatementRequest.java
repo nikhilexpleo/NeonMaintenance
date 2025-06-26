@@ -123,7 +123,7 @@ public class TC14244_incidentCreatedAsProblemGamblingReinstatementRequest extend
 		objCustomerProfile_Suspension.closeTab();
 		objCustomerProfile_Suspension.clickOnCustomerMainMenu();
 		objCustomerProfile_Incidents.navigateToincidentTab();
-		objCustomerProfile_Incidents.casinoDropdownOption("_Maidenhead (FF NT7)");
+		objCustomerProfile_Incidents.casinoDropdownOption("AA Maidenhead");
 		objCustomerProfile_Incidents.serchIncidentByIncidentNumber(incidentId);
 	
 		objCustomerProfile_Suspension.clickOnfindButton(); 

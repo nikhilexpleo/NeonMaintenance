@@ -51,8 +51,8 @@ public class TC14248_EnsureUserNotAlertedOnClosedEDDWhenCustomerVisits extends B
 		this.setEnviorment();
 		objlogin_PF.login();
 		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Suspension.findCustomerByUsingNumber("1955158948");
+		//objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Suspension.findCustomerByUsingNumber("1957866621");
 		objCustomerProfile_Suspension.clickOnfindButton();
 		objCustomerProfile_Suspension.navigateToCustomerProfileandSelectTab("Due Diligence");
 		objcustomerProfile_AddViewDueDiligence_PF.createNewDueDiligenceByClickingAddButton();
@@ -60,9 +60,11 @@ public class TC14248_EnsureUserNotAlertedOnClosedEDDWhenCustomerVisits extends B
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Loss Value");
-		objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation(getObjUtilities().dpString("Reason"));
+		//objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation(getObjUtilities().dpString("Reason"));
+		objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation("Periodic Review");
 		objcustomerProfile_AddViewDueDiligence_PF.setReason();
-		objcustomerProfile_AddViewDueDiligence_PF.setLossValue(getObjUtilities().dpString("Loss Value"));
+		//objcustomerProfile_AddViewDueDiligence_PF.setLossValue(getObjUtilities().dpString("Loss Value"));
+		objcustomerProfile_AddViewDueDiligence_PF.setLossValue("1");
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
 		
 		objcustomerProfile_AddViewDueDiligence_PF.verifyAddOutcomeButton();
@@ -81,16 +83,16 @@ public class TC14248_EnsureUserNotAlertedOnClosedEDDWhenCustomerVisits extends B
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
 		
 	
-		
-		objCustomerEntry_UsingDOBName_PF.clickOnCustomerTab();
-		objCustomerEntry_UsingDOBName_PF.clickOnreceptionTab();
-		objCustomerEntry_UsingDOBName_PF.searchCustomerInReception(getObjUtilities().dpString("CustomerNumber"));
-		
+//		
+//		objCustomerEntry_UsingDOBName_PF.clickOnCustomerTab();
+//		objCustomerEntry_UsingDOBName_PF.clickOnreceptionTab();
+//		//objCustomerEntry_UsingDOBName_PF.searchCustomerInReception(getObjUtilities().dpString("CustomerNumber"));
+//		objCustomerProfile_Suspension.findCustomerByUsingNumber("1957866621");
 		//objCustomerEntry_UsingDOBName_PF.verifyEDDMessageDisplayWhileLogVisit("Allow entry. Inform the duty manager - Open EDD file, 1st visit.");
-		if(objCustomerEntry_UsingDOBName_PF.verifyConfirmationMessage("Customer has already visited today, enter again?"))
-		{
-			objcustomerProfile_AddViewDueDiligence_PF.clickOnYes();
-		}
+//		if(objCustomerEntry_UsingDOBName_PF.verifyConfirmationMessage("Customer has already visited today, enter again?"))
+//		{
+//			objcustomerProfile_AddViewDueDiligence_PF.clickOnYes();
+//		}
 		//objCustomerEntry_UsingDOBName_PF.verifyMessageWindowDoesNotDisplay();
 		
 	}

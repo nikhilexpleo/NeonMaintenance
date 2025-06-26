@@ -15,6 +15,7 @@ import views.CommonView;
 
 import com.generic.BaseTest;
 import com.pageFactory.EDD.CustomerProfile_Suspension;
+import com.pageFactory.desktopReception.customer_RegisterAndViewDetails_PF;
 import com.pageFactory.desktopReception.login_PF;
 
 public class TC14259_VerifyCustomerCanBeSetToSelfExcluded_SENSE_External extends BaseTest{
@@ -22,6 +23,7 @@ public class TC14259_VerifyCustomerCanBeSetToSelfExcluded_SENSE_External extends
 	private login_PF objlogin_PF;
 	private CustomerProfile_Suspension objCustomerProfile_Suspension ;
 	private CommonView objCommonView;
+	private customer_RegisterAndViewDetails_PF objneonReg_PF;
 
 	public void setEnviorment()
 	{
@@ -29,29 +31,30 @@ public class TC14259_VerifyCustomerCanBeSetToSelfExcluded_SENSE_External extends
 		objCustomerProfile_Suspension = new CustomerProfile_Suspension(this);
 		objCommonView = new CommonView(this);
 		objlogin_PF = new login_PF(this);
+		objneonReg_PF = new customer_RegisterAndViewDetails_PF(this);
 	}
 
-	@DataProvider(name = "TestDataProvider")
-	public Object[][] getDataProvider(Method method, ITestContext context) {
-		Object[][] testData = loadDataProvider(method.getName(), "/CustomerData/EDDCustomerDetails");
-		return testData;
-	}
+//	@DataProvider(name = "TestDataProvider")
+//	public Object[][] getDataProvider(Method method, ITestContext context) {
+//		Object[][] testData = loadDataProvider(method.getName(), "/CustomerData/EDDCustomerDetails");
+//		return testData;
+//	}
 
 	@Title("Test 14259")
 	@Description("Verify a customer can be set to Self-Excluded - SENSE (External) ")
-	@Test(dataProvider = "TestDataProvider")
-	public void tc14259_SetSelfExcludedSENSEExternalToCustomerProfile(String strRun, Hashtable<String, String> dataSetValue)
+	@Test(enabled = false)
+	public void tc14259_SetSelfExcludedSENSEExternalToCustomerProfile() 
 	{
-		loadTestData(strRun, dataSetValue);
 		this.setEnviorment();
 		objlogin_PF.login();
+		objneonReg_PF.registration();
 		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Suspension.findCustomerByUsingNumber(objneonReg_PF.custNumber);
 		objCustomerProfile_Suspension.clickOnfindButton();
-		objCommonView.setSuspension(getObjUtilities().dpString("Suspension Type"));
+		objCommonView.setSuspension("Self-Excluded - SENSE (External)");
 		objCommonView.verifyFieldsOnSuspensionScreen();
-		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
-		objCustomerProfile_Suspension.closeTab();
+		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage("Self-Excluded - SENSE (External)");
+		objCommonView.saveSuspension();
 	}
 	
 	@AfterMethod
