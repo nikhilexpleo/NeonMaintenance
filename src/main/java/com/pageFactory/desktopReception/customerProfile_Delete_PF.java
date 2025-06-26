@@ -111,4 +111,8 @@ public class customerProfile_Delete_PF {
 		objUtilities.logReporter("Click on X ", objWrapperFunctions.click(closeIconTab), false);
 		objUtilities.logReporter("Click on X ", objWrapperFunctions.click(closeIconTab), false);
 	}
+	public void closeCustomerFindTab()
+	{
+		objUtilities.logReporter("Click on X ", objWrapperFunctions.click(closeIconTab), false);
+	}
 }

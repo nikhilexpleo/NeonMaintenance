@@ -156,7 +156,7 @@ public class CommonView
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Category");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Status");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Date Closed");
-		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("_Maidenhead (FF NT7)");
+		objCustomerProfile_Incidents.selectCasinoDropdownOptionFromIncidentPage("AA Maidenhead");
 	}
 	@Step("Set amount and save details")
 	public void verifyAccountTypeAndSetAmmount(String actType,String amt,String confirmationMessage)

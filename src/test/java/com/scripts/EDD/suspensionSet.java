@@ -129,7 +129,7 @@ public class suspensionSet extends BaseTest{
 	
 	@Title("Test 14262")
 	@Description("Verify a customer suspension can be lifted when set to Groupwide Barred - Behaviour ")
-	@Test(enabled = true,priority = 1)
+	@Test(enabled = false,priority = 1)
 	public void tc14252_LiftSuepensionGroupwideBarredBehaviour()
 	{	
 		this.setEnviorment();

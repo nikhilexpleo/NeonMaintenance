@@ -12,7 +12,7 @@ public class customerProfile_Delete extends BaseTest {
 	private customerProfile_Delete_PF  objcustomerProfile_Delete_PF;
 	private login_PF objlogin_PF;
 	
-	@Test(priority = 0)
+	@Test(priority = 2)
 	public void DeleteCustomerProfile()
 	{
 		initializeWebEnvironment("Neon");	
@@ -22,11 +22,11 @@ public class customerProfile_Delete extends BaseTest {
 		objcustomerProfile_Delete_PF.navigateToCustomerTab();
 		objcustomerProfile_Delete_PF.findCustomer();
 		objcustomerProfile_Delete_PF.deleteCustomerProfiles();
-		objcustomerProfile_Delete_PF.closeTab();	
+		objcustomerProfile_Delete_PF.closeCustomerFindTab();	
 		objcustomerProfile_Delete_PF.findDeletedAccount();
-		objcustomerProfile_Delete_PF.closeTab();	
+		objcustomerProfile_Delete_PF.closeCustomerFindTab();	
 		objlogin_PF.logout();	
-		tearDown();
+		//tearDown();
 	}
 	
 	// Closing the browser

@@ -58,7 +58,8 @@ public class customerProfile_AddSuspendedSuspension extends BaseTest
 		objcustomerProfile_AddSuspendedSuspension_PF.clickSuspensionsTab();
 		objcustomerProfile_AddSuspendedSuspension_PF.add_SuspendedSuspensionToCustAccount();
 		objcustomerProfile_AddSuspendedSuspension_PF.viewSuspensioDetails();
-		objcustomerProfile_AddSuspendedSuspension_PF.liftSuspension();
+		//objcustomerProfile_AddSuspendedSuspension_PF.liftSuspension();
+		objCustomerProfile_Suspension.liftSuspension("Kalme");
 		objcustomerProfile_AddSuspendedSuspension_PF.viewSuspensioDetails();
 		objcustomerProfile_AddSuspendedSuspension_PF.closeTab();	
 		objlogin_PF.logout();	

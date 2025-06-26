@@ -135,6 +135,7 @@ public class customerProfile_AddViewDeleteMessage_PF {
 	{
 		objUtilities.logReporter("Enter Customer Number", objWrapperFunctions.setText(findInputBox,custNumber), false);
 		objUtilities.logReporter("Click on Find button", objWrapperFunctions.click(findButton), false);
+		System.out.println("customer number is :"+custNumber);
 
 	}		
 
@@ -198,7 +199,9 @@ public class customerProfile_AddViewDeleteMessage_PF {
 			objUtilities.logReporter("Click on Reception tab", objWrapperFunctions.click(receptionTab), false);
 			objUtilities.logReporter("Enter CustomerNumber", objWrapperFunctions.setText(receptionEntry_findInputBox,custNumber), false);
 			objWrapperFunctions.pressTabBtn(receptionEntry_findInputBox);
+			Thread.sleep(2000);
 			objUtilities.logReporter("Click on Delete", objWrapperFunctions.click(receptionEntry_deleteButton), false);
+			Thread.sleep(2000);
 			String msg=objWrapperFunctions.getText(text);	
 			System.out.println("Message "+msg);
 			if(msg.contentEquals("Message Message is not allowed to be deleted."))
@@ -210,11 +213,12 @@ public class customerProfile_AddViewDeleteMessage_PF {
 			objWrapperFunctions.acceptMultipleAlert(okAlert);
 			Thread.sleep(5000);
 
-			if(objWrapperFunctions.checkElementDisplyed(okButton))
+			if(objWrapperFunctions.checkElementDisplyed(cancelButton))
 			{
-				objUtilities.logReporter("Click on cancel", objWrapperFunctions.click(okButton), false);	
+				objUtilities.logReporter("Click on cancel", objWrapperFunctions.click(cancelButton), false);	
 			}
-			objWrapperFunctions.acceptMultipleAlert(cancelButton);
+			objUtilities.logReporter("Click on No", objWrapperFunctions.click(noBtn), false);	
+			//objWrapperFunctions.acceptMultipleAlert(okAlert);
 
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

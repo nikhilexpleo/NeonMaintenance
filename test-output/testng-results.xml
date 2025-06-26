@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Step >> Enter username]]>
@@ -11,153 +11,61 @@
       <![CDATA[Step >> Click on signBtn]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on Customers Menu tab]]>
+      <![CDATA[Step >> Click on transaction Tab]]>
     </line>
     <line>
-      <![CDATA[Step >> Click on Customers tab]]>
+      <![CDATA[Step >> Click on bally Tickets Issued Tab]]>
     </line>
     <line>
-      <![CDATA[Step >> search Customer Number '1957866526']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Find button]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Incidents']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on customerProfile_Incident_AddButton ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Group' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Group dropdown ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Datafix' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Machines' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Select Group as Responsible Gambling]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Enforced Exclusion' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Affordability' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Customer Under Monitoring' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Digital Account Limits' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Self Exclusion' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Problem Gambling Reinstatement Request' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Select Group as Responsible Gambling]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Ok button]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify Incident header display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Associated Incidents']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Audit']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Evidence']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Incident Number' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Actual Date / Time' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Gaming Date' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Category' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Status' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Date Closed' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Casino dropdown ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Select Casino as '_Maidenhead (FF NT7)']]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Details' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Notes' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Enter notes  ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'User' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'Participants' display on page ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify participant table headers  ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify content dispaly in table against column ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Save ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Verify 'This record has been saved successfully' display  ]]>
-    </line>
-    <line>
-      <![CDATA[Step >> Click on Ok button]]>
+      <![CDATA[Step >> Enter Machine Number]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-12T08:43:53Z" name="Default suite" finished-at="2025-06-12T08:46:16Z" duration-ms="142728">
+  <suite started-at="2025-06-25T11:11:02Z" name="Default suite" finished-at="2025-06-25T11:14:09Z" duration-ms="187575">
     <groups>
     </groups>
-    <test started-at="2025-06-12T08:43:53Z" name="Default test" finished-at="2025-06-12T08:46:16Z" duration-ms="142728">
-      <class name="com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring">
-        <test-method signature="tc14256_createIncidentAsCustomerUnderMonitoring(java.lang.String, java.util.Hashtable)[pri:0, instance:com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38]" started-at="2025-06-12T14:13:55Z" name="tc14256_createIncidentAsCustomerUnderMonitoring" data-provider="TestDataProvider" finished-at="2025-06-12T14:16:15Z" duration-ms="140434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Run1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[{Suspension Type=Nationally Resigned, CustomerNumber=1955217041, Authorised User=Gadekar, TestCaseID=TC14256}]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-06-25T11:11:02Z" name="Default test" finished-at="2025-06-25T11:14:09Z" duration-ms="187575">
+      <class name="com.scripts.desktopReception.ballyTickets">
+        <test-method signature="VerifyballyTickets()[pri:0, instance:com.scripts.desktopReception.ballyTickets@5529522f]" started-at="2025-06-25T16:41:02Z" name="VerifyballyTickets" finished-at="2025-06-25T16:44:08Z" duration-ms="186339" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.desktopReception.ballyTickets_PF.navigateToBallyTicketsIssuedTab(ballyTickets_PF.java:96)
+	at com.scripts.desktopReception.ballyTickets.VerifyballyTickets(ballyTickets.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Step >> Enter username]]>
@@ -169,141 +77,21 @@
               <![CDATA[Step >> Click on signBtn]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on Customers Menu tab]]>
+              <![CDATA[Step >> Click on transaction Tab]]>
             </line>
             <line>
-              <![CDATA[Step >> Click on Customers tab]]>
+              <![CDATA[Step >> Click on bally Tickets Issued Tab]]>
             </line>
             <line>
-              <![CDATA[Step >> search Customer Number '1957866526']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Find button]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Incidents']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on customerProfile_Incident_AddButton ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Group' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Group dropdown ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Datafix' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Machines' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Select Group as Responsible Gambling]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Enforced Exclusion' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Affordability' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Customer Under Monitoring' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Digital Account Limits' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Self Exclusion' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Problem Gambling Reinstatement Request' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Select Group as Responsible Gambling]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Ok button]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify Incident header display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Associated Incidents']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Audit']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Evidence']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Incident Number' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Actual Date / Time' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Gaming Date' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Category' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Status' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Date Closed' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Casino dropdown ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Select Casino as '_Maidenhead (FF NT7)']]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Details' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Notes' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Enter notes  ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'User' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'Participants' display on page ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify participant table headers  ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify content dispaly in table against column ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Save ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Verify 'This record has been saved successfully' display  ]]>
-            </line>
-            <line>
-              <![CDATA[Step >> Click on Ok button]]>
+              <![CDATA[Step >> Enter Machine Number]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc14256_createIncidentAsCustomerUnderMonitoring -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38]" started-at="2025-06-12T14:16:15Z" name="tearDown" finished-at="2025-06-12T14:16:16Z" duration-ms="790" status="PASS">
+        </test-method> <!-- VerifyballyTickets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.scripts.desktopReception.ballyTickets@5529522f]" started-at="2025-06-25T16:44:08Z" name="tearDown" finished-at="2025-06-25T16:44:09Z" duration-ms="1129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring -->
+      </class> <!-- com.scripts.desktopReception.ballyTickets -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

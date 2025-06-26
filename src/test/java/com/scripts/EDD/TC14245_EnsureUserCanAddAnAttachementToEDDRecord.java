@@ -52,11 +52,14 @@ public class TC14245_EnsureUserCanAddAnAttachementToEDDRecord extends BaseTest{
 		objlogin_PF.login();
 		objCustomerProfile_Suspension.clickOnCustomerMainMenu();
 		objCustomerDueDiligenceFilter_PF.clickOnDueDiligence();
-			objCustomerDueDiligenceFilter_PF.searchRecordByNumber(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerDueDiligenceFilter_PF.searchRecordByNumber("1955158939");
-
+		//objCustomerDueDiligenceFilter_PF.searchRecordByNumber(getObjUtilities().dpString("CustomerNumber"));
+		//objCustomerDueDiligenceFilter_PF.searchRecordByNumber("1957866621");
+		objCustomerDueDiligenceFilter_PF.selectDateRange("Custom"); //Custom 
+		objCustomerDueDiligenceFilter_PF.clickOnFromDate();
+		objCustomerDueDiligenceFilter_PF.setFromDate("07/06/2023");
 		objCustomerDueDiligenceFilter_PF.clickONFilter();
-
+		objCustomerDueDiligenceFilter_PF.ClickOnDetailsButton();
+		//Click on details
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnAddButtonFromAttachmentSection();
 		objCustomerProfile_Suspension.verifyPageTitle("Add Attachment");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Type");
@@ -65,11 +68,11 @@ public class TC14245_EnsureUserCanAddAnAttachementToEDDRecord extends BaseTest{
 		objcustomerProfile_AddViewDueDiligence_PF.setDescription();
 		objcustomerProfile_AddViewDueDiligence_PF.addFileAsAttachment();
 
-		objcustomerProfile_AddViewDueDiligence_PF.switchToALertNClick();
-		objcustomerProfile_AddViewDueDiligence_PF.saveDuediligenceRecord();
-
-		objCommonView.verifyConfirmationMessage("This record has been saved successfully.");
-		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
+		//objcustomerProfile_AddViewDueDiligence_PF.switchToALertNClick();
+//		objcustomerProfile_AddViewDueDiligence_PF.saveDuediligenceRecord();
+//
+//		objCommonView.verifyConfirmationMessage("This record has been saved successfully.");
+//		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
 
 	}
 

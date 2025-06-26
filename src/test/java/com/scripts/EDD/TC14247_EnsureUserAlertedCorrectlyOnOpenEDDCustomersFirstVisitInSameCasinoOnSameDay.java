@@ -44,8 +44,8 @@ public class TC14247_EnsureUserAlertedCorrectlyOnOpenEDDCustomersFirstVisitInSam
 		objlogin_PF.login();
 		objCustomerEntry_UsingDOBName_PF.clickOnCustomerTab();
 		objCustomerEntry_UsingDOBName_PF.clickOnreceptionTab();
-		objCustomerEntry_UsingDOBName_PF.searchCustomerInReception(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerEntry_UsingDOBName_PF.searchCustomerInReception("1955158952");
+		//objCustomerEntry_UsingDOBName_PF.searchCustomerInReception(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerEntry_UsingDOBName_PF.searchCustomerInReception("1957866621");
 		
 		objCustomerProfile_Suspension.verifyPageTitle("Messages");
 		objCustomerEntry_UsingDOBName_PF.verifyEDDMessageDisplayWhileLogVisit("Allow entry. Inform the duty manager - Open EDD file, 1st visit.");

@@ -373,7 +373,7 @@ public class suspensionLift extends BaseTest{
 	}
 	
 	@Title("Suspension Lift Groupwide Barred - Other Suspension")
-	@Description("Verify a customer suspension can be lifted when set to Groupwide Barred - Behaviour ")
+	@Description("Verify a customer suspension can be lifted when set to Groupwide Barred - other ")
 	@Test(enabled = true,priority = 1)
 	public void liftSuepensionGroupwideBarredOtherSuspension()
 	{	

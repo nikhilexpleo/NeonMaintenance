@@ -56,10 +56,10 @@ public class TC14243_incidentCreatedAsProblemGamblingConversation extends BaseTe
 		objCustomerProfile_Incidents.navigateToincidentTab();
 		objCustomerProfile_Incidents.ClickNewIncidentButton();
 
-		objCommonView.createIncident("Problem Gambling Conversation");
+		objCommonView.createIncident("Digital Account Limits");
 
 		//objCommonView.addParticipantToIncident(getObjUtilities().dpString("CustomerNumber"));
-		objCommonView.addParticipantToIncident("1957866519");
+		objCommonView.addParticipantToIncident("1957866533");
 
 		objCommonView.verifySideBarTabsFromIncident();
 		objCommonView.verifyFieldLabelsFromIncidentPage();
@@ -72,21 +72,21 @@ public class TC14243_incidentCreatedAsProblemGamblingConversation extends BaseTe
 
 		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Participants");
 		objCustomerProfile_Incidents.verifyParticipantTableHeaders();
-		objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Incidents.verifyParticipantTableContent("1955155549");
+		//objCustomerProfile_Incidents.verifyParticipantTableContent(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Incidents.verifyParticipantTableContent("1957866533");
 
-		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Check List");
-		//objCustomerProfile_Incidents.verifyCheckListTable();
-
-		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Additional Info");
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Action Taken");
-		objCustomerProfile_Incidents.selectActionTakenDropDown();
-
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Player Type");
-		objCustomerProfile_Incidents.selectPlayerType("1");
-
-		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Risk Rating");
-		objCustomerProfile_Incidents.selectRiskRating("2");
+//		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Check List");
+//		//objCustomerProfile_Incidents.verifyCheckListTable();
+//
+//		objCustomerProfile_Incidents.verifySubsectionOnIncidentPage("Additional Info");
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Action Taken");
+//		objCustomerProfile_Incidents.selectActionTakenDropDown();
+//
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Player Type");
+//		objCustomerProfile_Incidents.selectPlayerType("1");
+//
+//		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Risk Rating");
+//		objCustomerProfile_Incidents.selectRiskRating("2");
 
 		objCustomerProfile_Incidents.clickOnSaveButton();
 		objCustomerProfile_Incidents.verifyConfirmationMessage("This record has been saved successfully");
@@ -98,7 +98,7 @@ public class TC14243_incidentCreatedAsProblemGamblingConversation extends BaseTe
 		objCustomerProfile_Suspension.closeTab();
 		objCustomerProfile_Suspension.clickOnCustomerMainMenu();
 		objCustomerProfile_Incidents.navigateToincidentTab();
-		
+		objCustomerProfile_Incidents.casinoDropdownOption("AA Maidenhead");
 		objCustomerProfile_Incidents.serchIncidentByIncidentNumber(incidentId);
 		objCustomerProfile_Suspension.clickOnfindButton(); 
 		

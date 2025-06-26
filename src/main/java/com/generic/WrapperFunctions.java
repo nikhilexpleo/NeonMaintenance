@@ -2916,6 +2916,25 @@ public class WrapperFunctions
 	    Date randomDate = new Date(randomMillisSinceEpoch);
 	    return spf.format(randomDate);
 	}
+	
+	public boolean sendText(By locator, String fieldValue)
+	{
+		waitForElementPresence(locator);
+		try
+		{
+			WebElement webElement = webDriver.findElement(locator);
+			// replace the text
+			//webElement.clear();
+
+			//webElement.sendKeys("");
+			webElement.sendKeys(fieldValue);
+			return true;
+		} catch (Exception exception)
+		{
+			exception.printStackTrace();
+			return false;
+		}
+	}
 }
 
 

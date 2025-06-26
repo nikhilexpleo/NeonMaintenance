@@ -40,7 +40,7 @@ public class customerProfile_AddViewDueDiligence extends BaseTest{
 	
 	@Title("Test 6431 and 6693")
 	@Description("Adding Due Diligence for a customer and Manager_Due Diligence_002")
-	@Test()
+	@Test(priority = 2)
 	public void AddViewDueDiligenceDetailsToCustomerProfile()
 	{
 		this.setEnviorment();

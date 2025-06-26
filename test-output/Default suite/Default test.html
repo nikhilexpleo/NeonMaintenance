@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 12 14:13:53 IST 2025</td>
+<td>Started on:</td><td>Wed Jun 25 16:41:02 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>142 seconds (142728 ms)</td>
+<tr><td>Total time:</td><td>187 seconds (187575 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,70 +67,95 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring.tc14256_createIncidentAsCustomerUnderMonitoring()'><b>tc14256_createIncidentAsCustomerUnderMonitoring</b><br>Test class: com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring<br>Parameters: Run1, {Suspension Type=Nationally Resigned, CustomerNumber=1955217041, Authorised User=Gadekar, TestCaseID=TC14256}<br/>
-<a href="#Output-136539215" onClick='toggleBox("Output-136539215", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.scripts.desktopReception.ballyTickets.VerifyballyTickets()'><b>VerifyballyTickets</b><br>Test class: com.scripts.desktopReception.ballyTickets<br/>
+<a href="#Output-1551106654" onClick='toggleBox("Output-1551106654", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-136539215" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-136539215">
+<a href="#Output-1551106654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551106654">
 Step >> Enter username<br/>
 Step >> Enter password<br/>
 Step >> Click on signBtn<br/>
-Step >> Click on Customers Menu tab<br/>
-Step >> Click on Customers tab<br/>
-Step >> search Customer Number '1957866526'<br/>
-Step >> Click on Find button<br/>
-Step >> Verify 'Incidents'<br/>
-Step >> Click on 'By.xpath: //div[@ng-controller='customerMaintenanceController']/section[@class='sidebar']//following-sibling::ul/li/a[contains(text(),'Incidents')]'<br/>
-Step >> Click on customerProfile_Incident_AddButton <br/>
-Step >> Verify 'By.xpath: //*[@class='modal-title'][contains(text(),'Select New Incident Type')]' display<br/>
-Step >> Verify 'Group' display on page <br/>
-Step >> Click on Group dropdown <br/>
-Step >> Verify 'Datafix' display on page <br/>
-Step >> Verify 'Machines' display on page <br/>
-Step >> Select Group as Responsible Gambling<br/>
-Step >> Verify 'Enforced Exclusion' display on page <br/>
-Step >> Verify 'Affordability' display on page <br/>
-Step >> Verify 'Customer Under Monitoring' display on page <br/>
-Step >> Verify 'Digital Account Limits' display on page <br/>
-Step >> Verify 'Self Exclusion' display on page <br/>
-Step >> Verify 'Problem Gambling Reinstatement Request' display on page <br/>
-Step >> Select Group as Responsible Gambling<br/>
-Step >> Click on Ok button<br/>
-Step >> Verify Incident header display on page <br/>
-Step >> Verify 'Associated Incidents'<br/>
-Step >> Verify 'Audit'<br/>
-Step >> Verify 'Evidence'<br/>
-Step >> Verify 'Incident Number' display on page <br/>
-Step >> Verify 'Actual Date / Time' display on page <br/>
-Step >> Verify 'Gaming Date' display on page <br/>
-Step >> Verify 'Category' display on page <br/>
-Step >> Verify 'Status' display on page <br/>
-Step >> Verify 'Date Closed' display on page <br/>
-Step >> Click on Casino dropdown <br/>
-Step >> Select Casino as '_Maidenhead (FF NT7)'<br/>
-Step >> Verify 'Details' display on page <br/>
-Step >> Verify 'Notes' display on page <br/>
-Step >> Enter notes  <br/>
-Step >> Verify 'User' display on page <br/>
-Step >> Verify 'Participants' display on page <br/>
-Step >> Verify participant table headers  <br/>
-Step >> Verify content dispaly in table against column <br/>
-Step >> Click on Save <br/>
-Step >> Verify 'This record has been saved successfully' display  <br/>
-Step >> Click on Ok button<br/>
+Step >> Click on transaction Tab<br/>
+Step >> Click on bally Tickets Issued Tab<br/>
+Step >> Enter Machine Number<br/>
 </div>
 </td>
-<td></td>
-<td>140</td>
-<td>com.scripts.EDD.TC14242_incidentCreatedAsPositiveAsCustomerUnderMonitoring@7f53fc38</td></tr>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.desktopReception.ballyTickets_PF.navigateToBallyTicketsIssuedTab(ballyTickets_PF.java:96)
+	at com.scripts.desktopReception.ballyTickets.VerifyballyTickets(ballyTickets.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1551106654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1551106654'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.generic.Utilities.addAssertTakeScreenShot(Utilities.java:383)
+	at com.generic.Utilities.logReporter(Utilities.java:307)
+	at com.pageFactory.desktopReception.ballyTickets_PF.navigateToBallyTicketsIssuedTab(ballyTickets_PF.java:96)
+	at com.scripts.desktopReception.ballyTickets.VerifyballyTickets(ballyTickets.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>186</td>
+<td>com.scripts.desktopReception.ballyTickets@5529522f</td></tr>
 </table><p>
 </body>
 </html>

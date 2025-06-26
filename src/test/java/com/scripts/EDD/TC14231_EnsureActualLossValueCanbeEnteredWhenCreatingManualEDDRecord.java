@@ -46,8 +46,8 @@ public class TC14231_EnsureActualLossValueCanbeEnteredWhenCreatingManualEDDRecor
 		this.setEnviorment();
 		objlogin_PF.login();
 		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		//objCustomerProfile_Suspension.findCustomerByUsingNumber("1955155551");
+		//objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+		objCustomerProfile_Suspension.findCustomerByUsingNumber("1957866533");
 		objCustomerProfile_Suspension.clickOnfindButton();
 		objCustomerProfile_Suspension.navigateToCustomerProfileandSelectTab("Due Diligence");
 		objcustomerProfile_AddViewDueDiligence_PF.createNewDueDiligenceByClickingAddButton();
@@ -55,11 +55,14 @@ public class TC14231_EnsureActualLossValueCanbeEnteredWhenCreatingManualEDDRecor
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason For Creation");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Reason");
 		objCustomerProfile_Suspension.verifyLabelsOnSuspensionScreens("Loss Value");
-		objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation(getObjUtilities().dpString("Reason"));
+		//objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation(getObjUtilities().dpString("Reason"));
+		objcustomerProfile_AddViewDueDiligence_PF.selectReasonForCreation("Periodic Review");
 		objcustomerProfile_AddViewDueDiligence_PF.setReason();
-		objcustomerProfile_AddViewDueDiligence_PF.setLossValue(getObjUtilities().dpString("Loss Value"));
+		//objcustomerProfile_AddViewDueDiligence_PF.setLossValue(getObjUtilities().dpString("Loss Value"));
+		objcustomerProfile_AddViewDueDiligence_PF.setLossValue("1");
 		objcustomerProfile_AddViewDueDiligence_PF.clickOnOk();
-		objcustomerProfile_AddViewDueDiligence_PF.verifyLossValueDisplayedOnEDDRecord(getObjUtilities().dpString("Loss Value"));
+		//objcustomerProfile_AddViewDueDiligence_PF.verifyLossValueDisplayedOnEDDRecord(getObjUtilities().dpString("Loss Value"));
+		objcustomerProfile_AddViewDueDiligence_PF.verifyLossValueDisplayedOnEDDRecord("1");
 	}
 	
 	@AfterMethod

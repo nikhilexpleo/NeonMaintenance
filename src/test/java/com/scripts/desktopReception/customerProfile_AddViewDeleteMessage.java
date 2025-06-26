@@ -27,7 +27,7 @@ public class customerProfile_AddViewDeleteMessage extends BaseTest {
 		//objcustomerProfile_AddViewDeleteMessage_PF.deleteMessage();
 		objcustomerProfile_AddViewDeleteMessage_PF.messageNotAllowedToDelete();
 		//objcustomerProfile_AddViewDeleteMessage_PF.viewMessageDetails();
-	objcustomerProfile_AddViewDeleteMessage_PF.closeTab();
+	//objcustomerProfile_AddViewDeleteMessage_PF.closeTab();
 	//	objlogin_PF.logout();	
 		
 	}

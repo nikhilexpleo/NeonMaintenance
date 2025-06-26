@@ -104,7 +104,7 @@ public class customerProfile_AddViewDueDiligence_PF {
 	//private By okButton=By.xpath("//button[contains(.,'OK')]");
 
 	private By okButton=By.xpath("//button[@data-ig-type='OK']");
-
+	private By fileUploadOkButton=By.xpath("//div[contains(.,'File uploaded')]//following::button[@data-dismiss='modal']");
 	private By customerProfile_DueDiligence_Details_Customer=By.xpath("//div[@id='expanderEDDCustomer_info']//div//div//div//div");
 	private By customerProfile_DueDiligence_Details_DDdETAILS=By.xpath("//div[@id='expanderEDDDetails_info']//div//div");	
 	private By customerProfile_DueDiligence_Details_outcome=By.xpath("//div[@id='expanderEDDOutcome_info']//div//div");
@@ -173,10 +173,10 @@ public class customerProfile_AddViewDueDiligence_PF {
 		verifyOptionsfromResonForCreationDropdown("Change in Customer Behaviour");
 		verifyOptionsfromResonForCreationDropdown("Periodic Review");
 		verifyOptionsfromResonForCreationDropdown("Customer Loss (Manual Record)");
-		//verifyOptionsfromResonForCreationDropdown("Other");
+		verifyOptionsfromResonForCreationDropdown("Other");
 		verifyOptionsfromResonForCreationDropdown("Politically Exposed Person (PEP)");
 		verifyOptionsfromResonForCreationDropdown("Suspicious Activity Report (SAR)");
-		verifyOptionsfromResonForCreationDropdown("Third Party Information / C6");
+		verifyOptionsfromResonForCreationDropdown("Adverse Media / 3rd Party");
 		objUtilities.logReporter("Select reason", objWrapperFunctions.selectDropDownByVisibleText(customerProfile_DueDiligence_SelectReason,reason), false);	
 	}
 
@@ -273,17 +273,22 @@ public class customerProfile_AddViewDueDiligence_PF {
 	public void addFileAsAttachment()
 	{
 		browseFile();
-		clickOnOk();
+		fileUploadOkClick();
+		//clickOnOk();
 	}
 
 	public void browseFile()
 	{
 		try {
-			objUtilities.logReporter("Click on Browse Button ", objWrapperFunctions.click(customerProfile_DueDiligence_BrowseButton), false);
+			//objUtilities.logReporter("Click on Browse Button ", objWrapperFunctions.click(customerProfile_DueDiligence_BrowseButton), false);
 			objPojo.getWaitMethods().sleep(10);
-			Runtime.getRuntime().exec(System.getProperty("user.dir") + "/AutoIt3/attachedImage.exe");
+			//Runtime.getRuntime().exec(System.getProperty("user.dir") + "/AutoIt3/attachedImage.exe");
+			objUtilities.logReporter("Attach Image", 
+					objWrapperFunctions.sendText(customerProfile_DueDiligence_BrowseButton,"C:\\Users\\nkalme\\Eclipse-workspace25\\Rank_Automation_Neon_Maintenance\\src\\test\\resources\\testData\\attachedImage.png"), false);	
+			//customerProfile_DueDiligence_BrowseButton.sendkeys();
+			objPojo.getWaitMethods().sleep(10);
 			clickOnOk();
-		} catch (IOException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -702,4 +707,12 @@ public class customerProfile_AddViewDueDiligence_PF {
 			}
 		}
 	}
+	
+	public void fileUploadOkClick()
+	{
+		objWrapperFunctions.waitForElementPresence(fileUploadOkButton);
+		objWrapperFunctions.waitForElementToBeClickable(fileUploadOkButton);
+		objUtilities.logReporter("Click on Ok button", objWrapperFunctions.click(fileUploadOkButton), false);
+	}
+
 }

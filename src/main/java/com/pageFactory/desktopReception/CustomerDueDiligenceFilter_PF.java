@@ -68,7 +68,7 @@ public class CustomerDueDiligenceFilter_PF {
 			
 	By dueDiligencePage_CurrentState = By.xpath("//label[contains(text(),'Current State')]/following-sibling::p");		
 	By FiltersArrow= By.xpath("//i[@id='FindEnhancedDueDiligence_caret']");
-
+	By dueDiligencePage_DetailsBtn = By.xpath("//button[@class='btn btn-primary btn-secured'][contains(.,'Details')]");
 			
 	public void clickOnDetails()
 	{
@@ -364,6 +364,31 @@ public class CustomerDueDiligenceFilter_PF {
 			objUtilities.logReporter("Click on From Date dropdown", 
 					objWrapperFunctions.click(startDateSelection), false);
 
+		}
+		
+		public void ClickOnDetailsButton()
+		{
+			objPojo.getWaitMethods().sleep(10);
+			objUtilities.logReporter("Click on Details Button ",
+					objWrapperFunctions.clickByScript(dueDiligencePage_DetailsBtn), false);
+		}
+		public void setFilterBtn()
+		{
+			//objUtilities.logReporter("Click on stateFilter dropdown", objWrapperFunctions.selectDropDownByRandomIndex(dueDiligence_StateFilterDropdown,3,1), false);
+			objUtilities.logReporter("Click on stateFilter dropdown", objWrapperFunctions.selectDropDownByIndex(dueDiligence_StateFilterDropdown,1), false);
+			filterValue = objWrapperFunctions.getAttributeValue(dueDiligence_StateFilterDropdown, "value");
+			System.out.println(filterValue);
+			
+			objUtilities.logReporter("Click on casino dropdown", objWrapperFunctions.selectDropDownByIndex(dueDiligence_DateRangeDropDown,6), false);
+			
+			objUtilities.logReporter("Click on casino dropdown", objWrapperFunctions.selectDropDownByIndex(dueDiligence_CasinoFilterDropDown,2), false);
+			//objUtilities.logReporter("Click on casino dropdown", objWrapperFunctions.selectDropDownOption(dueDiligence_CasinoFilterDropDown,"_BALLY","value"), false);
+			//filterCasino = objWrapperFunctions.getAttributeValue(dueDiligence_CasinoFilterDropDown, "value");
+			
+			filterCasino = objWrapperFunctions.getSelectedValueFromDropDown(dueDiligence_CasinoFilterDropDown);
+			System.out.println(filterCasino);	
+			objUtilities.logReporter("Click on filter button", objWrapperFunctions.click(dueDiligence_FilterButton), false);
+			//VerifyResult(dueDiligence_StateFilter,dueDiligence_CasinoFilter);
 		}
 }
 

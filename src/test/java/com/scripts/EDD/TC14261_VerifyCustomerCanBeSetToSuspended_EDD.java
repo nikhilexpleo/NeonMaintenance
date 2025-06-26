@@ -15,6 +15,7 @@ import views.CommonView;
 
 import com.generic.BaseTest;
 import com.pageFactory.EDD.CustomerProfile_Suspension;
+import com.pageFactory.desktopReception.customer_RegisterAndViewDetails_PF;
 import com.pageFactory.desktopReception.login_PF;
 
 public class TC14261_VerifyCustomerCanBeSetToSuspended_EDD extends BaseTest{
@@ -22,20 +23,22 @@ public class TC14261_VerifyCustomerCanBeSetToSuspended_EDD extends BaseTest{
 	private login_PF objlogin_PF;
 	private CustomerProfile_Suspension objCustomerProfile_Suspension ;
 	private CommonView objCommonView;
-
+	private customer_RegisterAndViewDetails_PF objneonReg_PF;
+	
 	public void setEnviorment()
 	{
 		initializeWebEnvironment("Neon");	
 		objCustomerProfile_Suspension = new CustomerProfile_Suspension(this);
 		objCommonView = new CommonView(this);
 		objlogin_PF = new login_PF(this);
+		objneonReg_PF = new customer_RegisterAndViewDetails_PF(this);
 	}
 
-	@DataProvider(name = "TestDataProvider")
-	public Object[][] getDataProvider(Method method, ITestContext context) {
-		Object[][] testData = loadDataProvider(method.getName(), "/CustomerData/EDDCustomerDetails");
-		return testData;
-	}
+//	@DataProvider(name = "TestDataProvider")
+//	public Object[][] getDataProvider(Method method, ITestContext context) {
+//		Object[][] testData = loadDataProvider(method.getName(), "/CustomerData/EDDCustomerDetails");
+//		return testData;
+//	}
 
 	@Title("Test 14261")
 	@Description("Verify a customer can be set to Suspended_EDD")
@@ -46,13 +49,17 @@ public class TC14261_VerifyCustomerCanBeSetToSuspended_EDD extends BaseTest{
 		this.setEnviorment();
 		this.setEnviorment();
 		objlogin_PF.login();
-		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
-		objCustomerProfile_Suspension.clickOnfindButton();
-		objCommonView.setSuspension(getObjUtilities().dpString("Suspension Type"));
-		objCommonView.verifyFieldsOnSuspensionScreen();
-		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
-		objCustomerProfile_Suspension.closeTab();
+		
+		//This test case is not applicable now date-18/06/2025
+	
+		
+//		objCustomerProfile_Suspension.navigateToCustomerTab();
+//		objCustomerProfile_Suspension.findCustomerByUsingNumber(getObjUtilities().dpString("CustomerNumber"));
+//		objCustomerProfile_Suspension.clickOnfindButton();
+//		objCommonView.setSuspension(getObjUtilities().dpString("Suspension Type"));
+//		objCommonView.verifyFieldsOnSuspensionScreen();
+//		objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
+//		objCustomerProfile_Suspension.closeTab();
 	}
 	
 	@AfterMethod

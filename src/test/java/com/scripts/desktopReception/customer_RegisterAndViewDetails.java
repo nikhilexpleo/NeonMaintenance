@@ -14,7 +14,7 @@ public class customer_RegisterAndViewDetails extends BaseTest
 	private login_PF objlogin_PF;
 	
 		//@Test(priority = 0,invocationCount =2)
-	@Test
+	@Test(priority = 1)
 	public void RegisterAndViewCustomerDetails()
 	{
 		initializeWebEnvironment("Neon");

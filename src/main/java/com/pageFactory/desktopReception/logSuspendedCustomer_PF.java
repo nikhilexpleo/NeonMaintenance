@@ -58,11 +58,12 @@ public class logSuspendedCustomer_PF
 	System.out.println("No of visitors in the Casino =" +visitor);
 	objUtilities.logReporter("Enter CustomerNumber", objWrapperFunctions.setText(findInputBox, "1955149730"), false);
 	objWrapperFunctions.pressTabBtn(findInputBox);
+	Thread.sleep(2000);
 	objUtilities.logReporter("Click on ok tab", objWrapperFunctions.click(okButton), false);
 	message=objWrapperFunctions.getText(text);
 	System.out.println("Warning message is dispalyed that :" +message);
 	Thread.sleep(2000);
-	objWrapperFunctions.pressEnterBtn(yesButton);
+	objWrapperFunctions.pressEnterBtn(okButton);
 	user=objWrapperFunctions.getText(infoMsg);
 	System.out.println("Receptionist received Message  :"+user);	
 	System.out.println(" Verify No of visitors in the Casino remains as before =" +visitor);

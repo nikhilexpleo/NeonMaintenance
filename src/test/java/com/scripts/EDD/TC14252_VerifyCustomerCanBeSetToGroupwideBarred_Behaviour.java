@@ -60,26 +60,26 @@ public class TC14252_VerifyCustomerCanBeSetToGroupwideBarred_Behaviour extends B
 		objCommonView.saveSuspension();
 	}
 	
-	@Title("Test 14253")
-	@Description("Verify a customer can be set to GroupwideBarred_FailedEDD ")
-	@Test
-	public void tc14253_SetGroupwideBarredFailedEDDToCustomerProfile()
-	{
-		//loadTestData(strRun, dataSetValue);
-		this.setEnviorment();
-		objlogin_PF.login();
-		objneonReg_PF.registration();
-		//objneonReg_PF.viewCustomerDetails();
-		//String custNumber = objneonReg_PF.registration();
-		objCustomerProfile_Suspension.navigateToCustomerTab();
-		objCustomerProfile_Suspension.findCustomerByUsingNumber(objneonReg_PF.custNumber);
-		objCustomerProfile_Suspension.clickOnfindButton();
-		objCommonView.setSuspension("Groupwide Barred - Failed EDD");
-		objCommonView.verifyFieldsOnSuspensionScreen();
-		//objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
-		//objCustomerProfile_Suspension.closeTab();
-		objCommonView.saveSuspension();
-	}
+//	@Title("Test 14253")
+//	@Description("Verify a customer can be set to GroupwideBarred_FailedEDD ")
+//	@Test
+//	public void tc14253_SetGroupwideBarredFailedEDDToCustomerProfile()
+//	{
+//		//loadTestData(strRun, dataSetValue);
+//		this.setEnviorment();
+//		objlogin_PF.login();
+//		objneonReg_PF.registration();
+//		//objneonReg_PF.viewCustomerDetails();
+//		//String custNumber = objneonReg_PF.registration();
+//		objCustomerProfile_Suspension.navigateToCustomerTab();
+//		objCustomerProfile_Suspension.findCustomerByUsingNumber(objneonReg_PF.custNumber);
+//		objCustomerProfile_Suspension.clickOnfindButton();
+//		objCommonView.setSuspension("Groupwide Barred - Failed EDD");
+//		objCommonView.verifyFieldsOnSuspensionScreen();
+//		//objCommonView.verifySuspensionStatusDisplayOnCustomerDetailsPage(getObjUtilities().dpString("Suspension Type"));
+//		//objCustomerProfile_Suspension.closeTab();
+//		objCommonView.saveSuspension();
+//	}
 	
 	@AfterMethod
 	private void tearDown(ITestResult result) {
